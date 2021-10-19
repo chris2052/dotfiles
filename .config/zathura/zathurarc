@@ -1,0 +1,24 @@
+# zoom
+set adjust-open "best-fit"
+
+set smooth-scroll "true"
+set scroll-page-aware "true"
+
+set statusbar-h-padding 0
+set statusbar-v-padding 0
+set page-padding 1
+
+set selection-clipboard clipbaord
+
+set window-height 1080
+set window-width 1920 
+set guioptions none
+
+# keymaps
+map i recolor
+map j navigate next
+map k navigate previous
+map J scroll down
+map K scroll up
+map <C-8> feedkeys ":set first-page-column 1:2 <Return>"
+map <C-7> feedkeys ":set first-page-column 1:1 <Return>"
