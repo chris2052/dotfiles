@@ -26,8 +26,14 @@ set updatetime=50
 set shortmess+=c
 
 call plug#begin('~/.vim/plugged')
-Plug 'gruvbox-community/gruvbox'
+    Plug 'gruvbox-community/gruvbox'
+    Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
 call plug#end()
+
+" vim Airline settings
+let g:airline_powerline_fonts = 1
+let g:airline_theme='base16_gruvbox_dark_hard'
 
 colorscheme gruvbox
 " set background dark
