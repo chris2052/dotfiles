@@ -110,10 +110,29 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# exa instead of classic ls command
 alias la='exa -al --color=always --group-directories-first'
 alias ls='exa'
+
+# neovim instead of vim 
 alias vim='nvim'
+
+# git bare repo to store dotfiles
 alias dotfiles='/usr/bin/git --git-dir=/home/chris/dotfiles --work-tree=/home/chris'
+
+# git shortcuts (c) Derek Tyler, DT
+alias addup='git add -u'
+alias addall='git add .'
+alias branch='git branch'
+alias checkout='git checkout'
+alias clone='git clone'
+alias commit='git commit -m'
+alias fetch='git fetch'
+alias pull='git pull origin'
+alias push='git push origin'
+alias stat='git status'  # 'status' is protected name so using 'stat' instead
+alias tag='git tag'
+alias newtag='git tag -a'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
