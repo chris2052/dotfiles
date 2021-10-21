@@ -9,8 +9,6 @@ set page-padding 1
 
 set selection-clipboard clipbaord
 
-window-title-page "true"
-
 set window-height 1080
 set window-width 1920 
 set guioptions none
@@ -20,6 +18,7 @@ set guioptions none
 # navigation
 map j navigate next
 map k navigate previous
+
 map J scroll down
 map K scroll up
 map H scroll left
@@ -27,7 +26,7 @@ map L scroll right
 # zoom 
 map = zoom in
 map - zoom out
-map <C-3> best-fit
+map <C-0> best-fit
 # keymapd like sumatrepdf
 map <C-8> feedkeys ":set first-page-column 1:2 <Return>"
 map <C-7> feedkeys ":set first-page-column 1:1 <Return>"
