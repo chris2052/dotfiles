@@ -33,3 +33,4 @@ map <C-7> feedkeys ":set first-page-column 1:1 <Return>"
 map <C-6> toggle_page_mode
 # others
 map i recolor
+map <Button3> pan
