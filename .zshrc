@@ -9,7 +9,7 @@ fi
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/chris/.oh-my-zsh"
+export ZSH="/Users/christophernies/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -118,7 +118,7 @@ alias ls='exa'
 alias vim='nvim'
 
 # git bare repo to store dotfiles
-alias dotfiles='/usr/bin/git --git-dir=/home/chris/dotfiles --work-tree=/home/chris'
+alias dotfiles='/usr/bin/git --git-dir=/Users/christophernies/dotfiles --work-tree=/Users/christophernies'
 
 # git shortcuts (c) Derek Tyler, DT
 alias addup='git add -u'
