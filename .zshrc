@@ -117,6 +117,9 @@ alias ls='exa'
 # neovim instead of vim 
 alias vim='nvim'
 
+# matlab 
+alias matlab='/usr/local/MATLAB/R2021b/bin/matlab -nodesktop'
+
 # git bare repo to store dotfiles
 alias dotfiles='/usr/bin/git --git-dir=/home/chris/dotfiles --work-tree=/home/chris'
 
