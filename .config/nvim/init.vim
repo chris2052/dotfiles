@@ -29,6 +29,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'gruvbox-community/gruvbox'
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
+    Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
 call plug#end()
 
 " vim Airline settings
