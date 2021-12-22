@@ -117,6 +117,9 @@ alias ls='exa'
 # neovim instead of vim 
 alias vim='nvim'
 
+# launch ranger
+alias rr='ranger'
+
 # git bare repo to store dotfiles
 alias dotfiles='/usr/bin/git --git-dir=/home/chris/dotfiles --work-tree=/home/chris'
 
@@ -133,6 +136,9 @@ alias push='git push origin'
 alias stat='git status'  # 'status' is protected name so using 'stat' instead
 alias tag='git tag'
 alias newtag='git tag -a'
+
+# inkscape to LaTeX
+alias inktex='inkscape --export-area-page --export-type="pdf" --export-latex'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
