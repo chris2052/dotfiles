@@ -211,5 +211,8 @@
           ]
         }
     ],
-    "git.autofetch": true
+    "git.autofetch": true,
+    "files.associations": {
+      "*.pdf_tex": "tex"
+    }
 }
