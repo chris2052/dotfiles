@@ -123,10 +123,10 @@
        gradientdrag="1">
       <eventcontext
          id="rect"
-         style="fill:blue;"
-         usecurrent="1"
-         width="585.827"
-         height="226.772" />
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.99999874;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         usecurrent="0"
+         width="79.3701"
+         height="41.5748" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -158,10 +158,13 @@
       </eventcontext>
       <eventcontext
          id="arc"
-         style="fill:red;"
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.99999874;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
          end="0"
          start="0"
-         usecurrent="1" />
+         usecurrent="0"
+         rx="18.8976"
+         ry="18.8976"
+         arc_type="0" />
       <eventcontext
          id="star"
          magnitude="5"
@@ -180,7 +183,7 @@
          id="pencil"
          tolerance="4.0"
          selcue="1"
-         style="stroke-width:1px;"
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.99999874px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
          usecurrent="0"
          average_all_sketches="1"
          pressure="0" />
@@ -188,7 +191,7 @@
          id="pen"
          mode="drag"
          selcue="1"
-         style="stroke-width:1px;"
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.99999874;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
          usecurrent="0" />
     </group>
     <eventcontext
@@ -311,7 +314,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="px"
+       unit="mm"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -320,8 +323,9 @@
        font_sample="AaBbCcIiPpQq12369$€¢?.;/()"
        show_sample_in_list="1"
        use_svg2="1"
-       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;"
-       selcue="1" />
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.9999998px;line-height:1.25;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:0.99999899;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       selcue="1"
+       align_mode="0" />
     <eventcontext
        id="nodes"
        selcue="1"
@@ -562,7 +566,7 @@
     <group
        id="preferences"
        state="1"
-       page="47" />
+       page="11" />
     <group
        id="gradienteditor" />
     <group
@@ -601,7 +605,8 @@
        ask="1"
        ask_svg="1"
        link="link"
-       scale="optimizeSpeed" />
+       scale="auto"
+       import_mode_svg="include" />
     <group
        id="debug"
        redirect="0" />
@@ -803,13 +808,13 @@
        value="2" />
     <group
        id="transform"
-       stroke="1"
+       stroke="0"
        rectcorners="1"
        pattern="1"
        gradient="1" />
     <group
        id="dash"
-       scale="1" />
+       scale="0" />
     <group
        id="kbselection"
        inlayer="1"
@@ -933,7 +938,7 @@
      id="extensions" />
   <group
      id="desktop"
-     style="stroke-width:0.75590551;fill:none;stroke:#000000">
+     style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke:#0000ff;font-size:16px">
     <group
        width="640"
        height="480"
