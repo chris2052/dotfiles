@@ -1,0 +1,25 @@
+// Gmsh Option File
+//
+// This file contains configuration options (preferences) that
+// are loaded each time Gmsh is launched. You can create this
+// file by hand, or let Gmsh generate it for you (with
+// 'File->Save Default Options'). This file can also be
+// automatically saved every time you quit Gmsh if the option
+// 'General.SaveOptions' is set.
+//
+General.TextEditor = "code '%s'"; // System command to launch a text editor
+General.BoundingBoxSize = 5.099019748932154; // Overall bounding box size (read-only)
+Geometry.CurveSelectWidth = 5; // Display width of selected curves (in pixels)
+Geometry.CurveWidth = 3; // Display width of lines (in pixels)
+Geometry.LabelType = 1; // Type of entity label (0: description, 1: elementary entity tag, 2: physical group tag, 3: elementary name, 4: physical name)
+Geometry.Light = 0; // Enable lighting for the geometry
+Geometry.LightTwoSide = 0; // Light both sides of surfaces (leads to slower rendering)
+Geometry.PointSelectSize = 10; // Display size of selected points (in pixels)
+Geometry.PointSize = 8; // Display size of points (in pixels)
+Geometry.Surfaces = 1; // Display geometry surfaces?
+Geometry.Color.Points = {255,0,255}; // Normal geometry point color
+Geometry.Color.Curves = {0,255,255}; // Normal geometry curve color
+Mesh.Algorithm = 8; // 2D mesh algorithm (1: MeshAdapt, 2: Automatic, 3: Initial mesh only, 5: Delaunay, 6: Frontal-Delaunay, 7: BAMG, 8: Frontal-Delaunay for Quads, 9: Packing of Parallelograms)
+Mesh.Nodes = 1; // Display mesh nodes?
+Mesh.RecombinationAlgorithm = 3; // Mesh recombination algorithm (0: simple, 1: blossom, 2: simple full-quad, 3: blossom full-quad)
+Mesh.RecombineAll = 1; // Apply recombination algorithm to all surfaces, ignoring per-surface spec
