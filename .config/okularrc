@@ -1,0 +1,45 @@
+DisplayPort-2 DisplayPort-3 Window-Maximized 1920x1080=true
+DisplayPort-2 DisplayPort-3 XPosition 1920x1080=0
+DisplayPort-2 DisplayPort-3 YPosition 1920x1080=53
+DisplayPort-3 DisplayPort-2 Window-Maximized 1920x1080=true
+State=AAAA/wAAAAD9AAAAAAAABuoAAAPrAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAAAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgMAAAAA/////wAAAAAAAAAAAAAAAQAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAEAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIDAAAAAP////8AAAAAAAAAAA==
+
+[Desktop Entry]
+FullScreen=false
+
+[MainWindow]
+DisplayPort-2 DisplayPort-3 Height 1920x1080=1080
+DisplayPort-2 DisplayPort-3 Width 1920x1080=1920
+DisplayPort-2 DisplayPort-3 Window-Maximized 1920x1080=true
+DisplayPort-2 DisplayPort-3 XPosition 1920x1080=0
+DisplayPort-2 DisplayPort-3 YPosition 1920x1080=21
+DisplayPort-3 DisplayPort-2 Height 1920x1080=1027
+DisplayPort-3 DisplayPort-2 Width 1920x1080=1920
+DisplayPort-3 DisplayPort-2 Window-Maximized 1920x1080=true
+DisplayPort-3 DisplayPort-2 XPosition 1920x1080=1920
+DisplayPort-3 DisplayPort-2 YPosition 1920x1080=53
+State=AAAA/wAAAAD9AAAAAAAABuoAAAPrAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAAAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgMAAAAA/////wAAAAAAAAAAAAAAAQAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAEAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIDAAAAAP////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+
+[MainWindow][Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
+[MainWindow][Toolbar quickAnnotationToolBar]
+IconSize=22
+
+[Recent Files]
+File1[$e]=$HOME/Documents/MATLAB/femlab/matlab_fem.pdf
+File2[$e]=$HOME/Documents/GitHub/studienarbeitTex/03_literatur/paper/Veres et al. - 2013 - Complex band structures of two dimensional phononi.pdf
+File3[$e]=$HOME/Documents/GitHub/studienarbeitTex/03_literatur/paper/Diaz et al. - 2005 - Design of band-gap grid structures. Struct Multidi.pdf
+Name1[$e]=matlab_fem.pdf
+Name2[$e]=Veres et al. - 2013 - Complex band structures of two dimensional phononi.pdf
+Name3[$e]=Diaz et al. - 2005 - Design of band-gap grid structures. Struct Multidi.pdf
+
+[Shortcut Schemes]
+Current Scheme=Default
+
+[Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
+[Toolbar quickAnnotationToolBar]
+IconSize=22
