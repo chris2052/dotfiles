@@ -39,7 +39,6 @@
     "code-runner.showExecutionMessage": false,
     "code-runner.runInTerminal": true,
 
-    "latex-workshop.view.pdf.viewer": "browser",
     "ltex.language": "de-DE",
     "ltex.dictionary": {
       "de-DE": [
@@ -80,6 +79,7 @@
     "latex-workshop.latex.autoBuild.run": "never",
     "latex-workshop.hover.preview.scale": 2,
     "latex-workshop.chktex.run": "onType",
+    "latex-workshop.view.pdf.viewer": "browser",
 
     "todo-tree.highlights.defaultHighlight": {
         "icon": "clippy",
@@ -214,5 +214,8 @@
     "git.autofetch": true,
     "files.associations": {
       "*.pdf_tex": "tex"
-    }
+    },
+
+    "matlab.matlabpath": "/usr/local/MATLAB/R2021b/bin/matlab",
+    "matlab.mlintpath": "/usr/local/MATLAB/R2021b/bin/glnxa64/mlint",
 }
