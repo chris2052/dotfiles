@@ -9,7 +9,6 @@ ShowBottomBar=true
 SplitterSizes=153,1611
 
 [PageView]
-MouseMode=TableSelect
 ViewContinuous=false
 
 [Reviews]

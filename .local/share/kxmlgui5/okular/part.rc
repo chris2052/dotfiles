@@ -124,7 +124,7 @@
   <Action name="view_fit_to_page"/>
   <Action name="view_zoom_out"/>
  </ToolBar>
- <ToolBar name="annotationToolBar" iconText="icononly" hidden="true" newline="true" noMerge="1">
+ <ToolBar hidden="true" name="annotationToolBar" iconText="icononly" newline="true" noMerge="1">
   <text translationDomain="okular">Annotation Toolbar</text>
   <Action name="annotation_highlighter"/>
   <Action name="annotation_underline"/>
@@ -150,20 +150,20 @@
   <Action name="annotation_bookmark"/>
  </ToolBar>
  <ActionProperties scheme="Default">
-  <Action name="go_next" shortcut=""/>
-  <Action name="go_previous" shortcut=""/>
-  <Action name="show_leftpanel" priority="0"/>
-  <Action name="annotation_highlighter" icon="tool-highlight-symbolic"/>
-  <Action name="annotation_typewriter" icon="dialog-text-and-font"/>
-  <Action name="annotation_geometrical_shape" icon="account-types-expense"/>
-  <Action name="annotation_inline_note" icon="gtg-note-new"/>
-  <Action name="annotation_settings_font" icon="font-select-symbolic"/>
-  <Action name="mouse_select" shortcut=""/>
-  <Action name="mouse_textselect" shortcut="Ctrl+2"/>
-  <Action name="mouse_zoom" shortcut=""/>
-  <Action name="annotation_arrow" icon="account-types-expense"/>
+  <Action shortcut="" name="go_next"/>
+  <Action shortcut="" name="go_previous"/>
+  <Action priority="0" name="show_leftpanel"/>
+  <Action icon="tool-highlight-symbolic" name="annotation_highlighter"/>
+  <Action icon="dialog-text-and-font" name="annotation_typewriter"/>
+  <Action icon="account-types-expense" name="annotation_geometrical_shape"/>
+  <Action icon="gtg-note-new" name="annotation_inline_note"/>
+  <Action icon="font-select-symbolic" name="annotation_settings_font"/>
+  <Action shortcut="" name="mouse_select"/>
+  <Action shortcut="Ctrl+2" name="mouse_textselect"/>
+  <Action shortcut="" name="mouse_zoom"/>
+  <Action icon="account-types-expense" name="annotation_arrow"/>
  </ActionProperties>
- <ToolBar position="right" name="quickAnnotationToolBar" iconText="icononly" iconSize="32" hidden="true" newline="true">
+ <ToolBar iconSize="32" hidden="true" position="right" name="quickAnnotationToolBar" iconText="icononly" newline="true">
   <text translationDomain="okular">Quick Annotation Toolbar</text>
   <Action name="quick_annotation_action_bar"/>
  </ToolBar>
