@@ -1,6 +1,6 @@
 set adjust-open "best-fit"
 
-set smooth-scroll "true"
+#set smooth-scroll "true"
 set scroll-page-aware "true"
 set scroll-step 200
 
@@ -33,12 +33,12 @@ map L scroll right
 map = zoom in
 map - zoom out
 
-# keymapd like sumatrepdf
+# keymapd like sumatrapdf
 map <C-8> feedkeys ":set first-page-column 1:2 <Return>"
 map <C-7> feedkeys ":set first-page-column 1:1 <Return>"
 map <C-6> toggle_page_mode
 
 # others
+#map <Button1> pan
 map i recolor
-map <Button1> Pan
 map p print
