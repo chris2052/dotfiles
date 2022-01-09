@@ -9,7 +9,9 @@ ShowBottomBar=true
 SplitterSizes=153,1611
 
 [PageView]
+MouseMode=TextSelect
 ViewContinuous=false
+ViewMode=Facing
 
 [Reviews]
 AnnotationContinuousMode=false

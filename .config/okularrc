@@ -31,9 +31,11 @@ IconSize=22
 File1[$e]=$HOME/Documents/MATLAB/femlab/matlab_fem.pdf
 File2[$e]=$HOME/Documents/GitHub/studienarbeitTex/03_literatur/paper/Veres et al. - 2013 - Complex band structures of two dimensional phononi.pdf
 File3[$e]=$HOME/Documents/GitHub/studienarbeitTex/03_literatur/paper/Diaz et al. - 2005 - Design of band-gap grid structures. Struct Multidi.pdf
+File4[$e]=$HOME/Documents/GitHub/studienarbeitTex/dispersion.pdf
 Name1[$e]=matlab_fem.pdf
 Name2[$e]=Veres et al. - 2013 - Complex band structures of two dimensional phononi.pdf
 Name3[$e]=Diaz et al. - 2005 - Design of band-gap grid structures. Struct Multidi.pdf
+Name4[$e]=dispersion.pdf
 
 [Shortcut Schemes]
 Current Scheme=Default
