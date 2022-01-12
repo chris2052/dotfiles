@@ -148,7 +148,7 @@
     "vim.sneak": true,
     "vim.insertModeKeyBindingsNonRecursive": [
       {
-        "before": ["j", "j"],
+        "before": ["j", "k"],
         "after": ["<ESC>"]
       }
     ],
@@ -230,4 +230,10 @@
 
     "matlab.matlabpath": "/usr/local/MATLAB/R2021b/bin/matlab",
     "matlab.mlintpath": "/usr/local/MATLAB/R2021b/bin/glnxa64/mlint",
+    
+    "svgPreview.style": {
+      "html": {
+        "background": "white"
+      }
+    }
 }

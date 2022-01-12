@@ -19,8 +19,12 @@
         "command": "workbench.action.toggleSidebarVisibility"
         },
         {
-        "key": "ctrl+shift+l",
+        "key": "ctrl+alt+l",
         "command": "ltex.checkCurrentDocument"
+        },
+        {
+        "key": "ctrl+alt+k",
+        "command": "ltex.clearAllDiagnostics"
         },
         {
         "key": "ctrl+shift+a",
