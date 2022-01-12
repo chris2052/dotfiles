@@ -125,8 +125,8 @@
          id="rect"
          style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.99999874;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
          usecurrent="0"
-         width="79.3701"
-         height="41.5748" />
+         width="446.022"
+         height="35.0091" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -314,7 +314,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="px"
+       unit="mm"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -583,7 +583,7 @@
     </group>
     <group
        id="save_as"
-       default="org.inkscape.output.svg.inkscape"
+       default="org.inkscape.output.pdf.cairorenderer"
        append_extension="1"
        enable_preview="1"
        path="/home/chris"
@@ -935,10 +935,12 @@
        unitType="2" />
   </group>
   <group
-     id="extensions" />
+     id="extensions"
+     org.inkscape.output.pdf.cairorenderer.PDFversion="PDF-1.5"
+     org.inkscape.output.pdf.cairorenderer.textToPath="paths" />
   <group
      id="desktop"
-     style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke:#0000ff;font-size:16px">
+     style="fill:#ffffff;stroke-linecap:round;stroke-linejoin:round;font-size:16px;stroke-width:1.333">
     <group
        width="640"
        height="480"
@@ -1054,4 +1056,7 @@
      menuIcons_canvas="0"
      menuIcons_layers="0"
      menuIcons_objects="0" />
+  <group
+     id="live_effects"
+     flattening="0" />
 </inkscape>
