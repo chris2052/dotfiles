@@ -140,6 +140,9 @@ alias newtag='git tag -a'
 # inkscape to LaTeX
 alias inktex='inkscape --export-area-page --export-type="pdf" --export-latex'
 
+# matlab
+alias matlabink='LD_PRELOAD=/usr/lib/libfreetype.so.6:/usr/lib/libstdc++.so.6:/usr/lib/libgio-2.0.so:/usr/lib/libglib-2.0.so:/usr/lib/libgmodule-2.0.so:/usr/lib/libgobject-2.0.so:/usr/lib/libgthread-2.0.so matlab -desktop'
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
