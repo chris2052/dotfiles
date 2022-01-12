@@ -8,7 +8,7 @@ set statusbar-h-padding 0
 set statusbar-v-padding 0
 set page-padding 1
 
-set selection-clipboard clipbaord
+set selection-clipboard clipboard
 
 set window-height 1080
 set window-width 1920 
@@ -16,7 +16,7 @@ set guioptions none
 
 # synctex
 set synctex "true"
-set synctex-editor-command "code -g %{input}:%{line}"
+set synctex-editor-command "code -g \"%{input}:%{line}\""
 #set synctex-editor-command "code --reuse-window -g \"%{input}:%{line}\"" 
 
 # keymaps
