@@ -40,11 +40,11 @@
     "code-runner.runInTerminal": true,
 
     "ltex.language": "de-DE",
-    "ltex.dictionary": {
-      "de-DE": [
-          ":/home/chris/Documents/de-science-dictionary.txt"
-          ]
-    },
+    // "ltex.dictionary": {
+    //   "de-DE": [
+    //       ":/home/chris/Documents/de-science-dictionary.txt"
+    //       ]
+    // },
     "ltex.checkFrequency": "manual",
 
     "latex-workshop.latex.clean.subfolder.enabled": true,
