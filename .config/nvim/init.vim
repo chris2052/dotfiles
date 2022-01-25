@@ -25,6 +25,9 @@ set cmdheight=2
 set updatetime=50
 set shortmess+=c
 
+" enable syntax-highlighting
+syntax on
+
 " <leader> to <space>
 let mapleader = "\<Space>"
 
