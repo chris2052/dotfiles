@@ -84,7 +84,7 @@
   // "latex-workshop.view.pdf.external.viewer.command": "zathura",
   // "latex-workshop.view.pdf.external.viewer.args": [
   //     "--synctex-editor-command",
-  //     "code --reuse-window -g \"%{input}:%{line}\"",
+  //     "code -g %{input}:%{line}",
   //     "%PDF%"
   // ],
   // "latex-workshop.view.pdf.external.synctex.command": "zathura",
