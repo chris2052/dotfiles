@@ -25,6 +25,12 @@ set cmdheight=2
 set updatetime=50
 set shortmess+=c
 
+" <leader> to <space>
+let mapleader = "\<Space>"
+
+" set <Esc> key, NO nonblank char after!
+inoremap jk <Esc>
+
 call plug#begin('~/.vim/plugged')
     Plug 'gruvbox-community/gruvbox'
     Plug 'vim-airline/vim-airline'
@@ -36,6 +42,5 @@ call plug#end()
 let g:airline_powerline_fonts = 1
 let g:airline_theme='base16_gruvbox_dark_hard'
 
-colorscheme gruvbox
 " set background dark
-inoremap jj <Esc> 
+colorscheme gruvbox
