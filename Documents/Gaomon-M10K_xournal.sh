@@ -77,6 +77,8 @@ xsetwacom --set "$tabletstylus" RawSample 1 # data pt.s trimmed, default is 4, 1
 # |             |
 # +---+-----+---+
 #     +-----+
+#     | 10  |
+#     +-----+
 #     | 11  |
 #     +-----+
 #     | 12  |
@@ -84,8 +86,6 @@ xsetwacom --set "$tabletstylus" RawSample 1 # data pt.s trimmed, default is 4, 1
 #     | 13  |
 #     +-----+
 #     | 14  |
-#     +-----+
-#     | 15  |
 #     +-----+
 #################################################
 # Xournal++ App
@@ -95,10 +95,10 @@ xsetwacom --set "$tabletpad" Button 3 "key Control_L 4" # Arrow
 xsetwacom --set "$tabletpad" Button 8 "key Control_L 3" # Ellipse
 xsetwacom --set "$tabletpad" Button 9 "key Control_L 2" # Rectangle
 
-xsetwacom --set "$tabletpad" Button 10 "key Control_L Shift_L A" # hand tool
+# xsetwacom --set "$tabletpad" Button 10 "key Control_L Shift_L A" # hand tool
 
-xsetwacom --set "$tabletpad" Button 11 "key Control_L Shift_L H" # Highlighter
-xsetwacom --set "$tabletpad" Button 12 "key Control_L Shift_L G" # select region 
-xsetwacom --set "$tabletpad" Button 13 "key Control_L Shift_L V" # vertical space
-xsetwacom --set "$tabletpad" Button 14 "key Control_L D" # new page after
-xsetwacom --set "$tabletpad" Button 15 "key Control_L Z" # undo
+xsetwacom --set "$tabletpad" Button 10 "key Control_L Shift_L H" # Highlighter
+xsetwacom --set "$tabletpad" Button 11 "key Control_L Shift_L G" # select region 
+xsetwacom --set "$tabletpad" Button 12 "key Control_L Shift_L V" # vertical space
+xsetwacom --set "$tabletpad" Button 13 "key Control_L D" # new page after
+xsetwacom --set "$tabletpad" Button 14 "key Control_L Z" # undo
