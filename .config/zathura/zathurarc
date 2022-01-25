@@ -16,7 +16,7 @@ set guioptions none
 
 # synctex
 set synctex "true"
-set synctex-editor-command "code -g \"%{input}:%{line}\""
+set synctex-editor-command "code -g %{input}:%{line}"
 #set synctex-editor-command "code --reuse-window -g \"%{input}:%{line}\"" 
 
 # keymaps
