@@ -26,6 +26,6 @@
   <!--Action name="file_print" /-->
  </ToolBar>
  <ActionProperties scheme="Default">
-  <Action name="file_open_recent" shortcut="Ctrl+R"/>
+  <Action shortcut="Ctrl+R" name="file_open_recent"/>
  </ActionProperties>
 </gui>

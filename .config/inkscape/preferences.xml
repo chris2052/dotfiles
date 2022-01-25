@@ -125,8 +125,8 @@
          id="rect"
          style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.99999874;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
          usecurrent="0"
-         width="446.022"
-         height="35.0091" />
+         width="585.827"
+         height="264.567" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -162,8 +162,8 @@
          end="0"
          start="0"
          usecurrent="0"
-         rx="18.8976"
-         ry="18.8976"
+         rx="37.7953"
+         ry="37.7953"
          arc_type="0" />
       <eventcontext
          id="star"
@@ -325,7 +325,7 @@
        use_svg2="1"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.9999998px;line-height:1.25;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:0.99999899;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
        selcue="1"
-       align_mode="0" />
+       align_mode="2" />
     <eventcontext
        id="nodes"
        selcue="1"
@@ -566,7 +566,7 @@
     <group
        id="preferences"
        state="1"
-       page="11" />
+       page="47" />
     <group
        id="gradienteditor" />
     <group
@@ -583,10 +583,10 @@
     </group>
     <group
        id="save_as"
-       default="org.inkscape.output.pdf.cairorenderer"
+       default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/home/chris"
+       path="/home/chris/Documents/GitHub/studienarbeitTex/img"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -601,12 +601,13 @@
     <group
        id="import"
        enable_preview="1"
-       path=""
+       path="/home/chris/Documents/GitHub/studienarbeitTex/img/"
        ask="1"
        ask_svg="1"
-       link="link"
+       link="embed"
        scale="auto"
-       import_mode_svg="include" />
+       import_mode_svg="include"
+       forcexdpi="0" />
     <group
        id="debug"
        redirect="0" />
@@ -655,7 +656,8 @@
        add-label-comments="0" />
   </group>
   <group
-     id="options">
+     id="options"
+     onimport="0">
     <group
        id="renderingcache"
        size="512" />
@@ -937,10 +939,11 @@
   <group
      id="extensions"
      org.inkscape.output.pdf.cairorenderer.PDFversion="PDF-1.5"
-     org.inkscape.output.pdf.cairorenderer.textToPath="paths" />
+     org.inkscape.output.pdf.cairorenderer.textToPath="paths"
+     org.inkscape.input.svg.scale="auto" />
   <group
      id="desktop"
-     style="fill:#ffffff;stroke-linecap:round;stroke-linejoin:round;font-size:16px;stroke-width:1.333">
+     style="font-size:16px;stroke-width:0.56692913;text-anchor:end;text-align:end;fill:#7f7f7f;stroke:#ff0000">
     <group
        width="640"
        height="480"

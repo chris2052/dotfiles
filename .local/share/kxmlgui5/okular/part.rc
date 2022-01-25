@@ -4,18 +4,18 @@
  <MenuBar>
   <Menu noMerge="1" name="file">
    <text translationDomain="okular">&amp;File</text>
-   <Action name="get_new_stuff" group="file_open"/>
-   <Action name="import_ps" group="file_open"/>
-   <Action name="file_save" group="file_save"/>
-   <Action name="file_save_as" group="file_save"/>
-   <Action name="file_reload" group="file_save"/>
-   <Action name="file_print" group="file_print"/>
-   <Action name="file_print_preview" group="file_print"/>
-   <Action name="open_containing_folder" group="file_print"/>
-   <Action name="properties" group="file_print"/>
-   <Action name="embedded_files" group="file_print"/>
-   <Action name="file_export_as" group="file_print"/>
-   <Action name="file_share" group="file_print"/>
+   <Action group="file_open" name="get_new_stuff"/>
+   <Action group="file_open" name="import_ps"/>
+   <Action group="file_save" name="file_save"/>
+   <Action group="file_save" name="file_save_as"/>
+   <Action group="file_save" name="file_reload"/>
+   <Action group="file_print" name="file_print"/>
+   <Action group="file_print" name="file_print_preview"/>
+   <Action group="file_print" name="open_containing_folder"/>
+   <Action group="file_print" name="properties"/>
+   <Action group="file_print" name="embedded_files"/>
+   <Action group="file_print" name="file_export_as"/>
+   <Action group="file_print" name="file_share"/>
   </Menu>
   <Menu noMerge="1" name="edit">
    <text translationDomain="okular">&amp;Edit</text>
@@ -96,14 +96,14 @@
   </Menu>
   <Menu noMerge="1" name="settings">
    <text translationDomain="okular">&amp;Settings</text>
-   <Action name="show_leftpanel" group="show_merge"/>
-   <Action name="show_bottombar" group="show_merge"/>
-   <Action name="options_configure_generators" group="configure_merge"/>
-   <Action name="options_configure" group="configure_merge"/>
+   <Action group="show_merge" name="show_leftpanel"/>
+   <Action group="show_merge" name="show_bottombar"/>
+   <Action group="configure_merge" name="options_configure_generators"/>
+   <Action group="configure_merge" name="options_configure"/>
   </Menu>
   <Menu noMerge="1" name="help">
    <text translationDomain="okular">&amp;Help</text>
-   <Action name="help_about_backend" group="about_merge"/>
+   <Action group="about_merge" name="help_about_backend"/>
   </Menu>
  </MenuBar>
  <ToolBar noMerge="1" name="mainToolBar">
@@ -115,7 +115,7 @@
   <Action name="mouse_select"/>
   <Action name="mouse_tableselect"/>
   <Action name="bookmark_add"/>
-  <Action name="view_orientation_rotate_ccw"/>
+  <Action name="view_orientation_rotate_cw"/>
   <Spacer name="spacer_0"/>
   <Action name="color_mode_inverted"/>
   <Action name="color_mode_paper"/>
@@ -124,7 +124,7 @@
   <Action name="view_fit_to_page"/>
   <Action name="view_zoom_out"/>
  </ToolBar>
- <ToolBar noMerge="1" newline="true" name="annotationToolBar" hidden="true" iconText="icononly">
+ <ToolBar hidden="true" noMerge="1" iconText="icononly" name="annotationToolBar" newline="true">
   <text translationDomain="okular">Annotation Toolbar</text>
   <Action name="annotation_highlighter"/>
   <Action name="annotation_underline"/>
@@ -163,8 +163,9 @@
   <Action name="mouse_zoom" shortcut=""/>
   <Action icon="account-types-expense" name="annotation_arrow"/>
   <Action name="view_render_mode_facing" shortcut="D"/>
+  <Action name="view_continuous" shortcut="C"/>
  </ActionProperties>
- <ToolBar iconSize="32" position="right" newline="true" name="quickAnnotationToolBar" hidden="true" iconText="icononly">
+ <ToolBar hidden="true" position="right" iconText="icononly" name="quickAnnotationToolBar" iconSize="32" newline="true">
   <text translationDomain="okular">Quick Annotation Toolbar</text>
   <Action name="quick_annotation_action_bar"/>
  </ToolBar>
