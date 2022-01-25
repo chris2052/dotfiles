@@ -1,239 +1,232 @@
 {
-    "editor.fontSize": 18,
-    "editor.wordWrap": "bounded",
-    "editor.wordWrapColumn": 140,
-    "editor.fontFamily": "Cascadia Code",
-    "editor.fontLigatures": true,
-    "editor.lineNumbers": "relative",
-    "editor.cursorSurroundingLines": 8,
-    "editor.cursorBlinking": "solid",
-    "editor.cursorStyle": "block",
-    "editor.tabSize": 4,
-    "editor.insertSpaces": false,
-    "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+  "editor.fontSize": 18,
+  "editor.wordWrap": "bounded",
+  "editor.wordWrapColumn": 140,
+  "editor.fontFamily": "Cascadia Code",
+  "editor.fontLigatures": true,
+  "editor.lineNumbers": "relative",
+  "editor.cursorSurroundingLines": 8,
+  "editor.cursorBlinking": "solid",
+  "editor.cursorStyle": "block",
+  "editor.tabSize": 4,
+  "editor.insertSpaces": false,
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
 
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.editor.scrollToSwitchTabs": true,
-    "workbench.settings.editor": "json",
-    "workbench.settings.useSplitJSON": true,
-    "workbench.settings.openDefaultSettings": true,
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.colorCustomizations": {},
-    "workbench.colorTheme": "Gruvbox Dark Hard",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.scrollToSwitchTabs": true,
+  "workbench.settings.editor": "json",
+  "workbench.settings.useSplitJSON": true,
+  "workbench.settings.openDefaultSettings": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorCustomizations": {},
+  "workbench.colorTheme": "Gruvbox Dark Hard",
 
-    "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font",
-    "terminal.integrated.fontSize": 14,
-    "terminal.integrated.cursorStyle": "block",
-    "terminal.integrated.cursorBlinking": false,
+  "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.cursorStyle": "block",
+  "terminal.integrated.cursorBlinking": false,
 
-    "debug.console.fontFamily": "CaskaydiaCove Nerd Font",
-    "debug.console.fontSize": 15,
+  "debug.console.fontFamily": "CaskaydiaCove Nerd Font",
+  "debug.console.fontSize": 15,
 
-    "files.autoSave": "onFocusChange",
-    "files.autoSaveDelay": 60000,
+  "files.autoSave": "onFocusChange",
+  "files.autoSaveDelay": 60000,
 
-    "code-runner.executorMap": {
-        "python": "$pythonPath -u $fullFileName",
+  "code-runner.executorMap": {
+    "python": "$pythonPath -u $fullFileName",
+  },
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.showExecutionMessage": false,
+  "code-runner.runInTerminal": true,
+
+  "ltex.language": "de-DE",
+  // "ltex.dictionary": {
+  //   "de-DE": [
+  //       ":/home/chris/Documents/de-science-dictionary.txt"
+  //       ]
+  // },
+  "ltex.checkFrequency": "manual",
+
+  "latex-workshop.latex.clean.subfolder.enabled": true,
+  "latex-workshop.latex.clean.fileTypes": [
+    "*.aux",
+    "*.bbl",
+    "*.blg",
+    "*.idx",
+    "*.ind",
+    "*.lof",
+    "*.lot",
+    "*.out",
+    "*.toc",
+    "*.acn",
+    "*.acr",
+    "*.alg",
+    "*.glg",
+    "*.glo",
+    "*.gls",
+    "*.fls",
+    "*.log",
+    "*.fdb_latexmk",
+    "*.snm",
+    "*.synctex(busy)",
+    "*.synctex.gz(busy)",
+    "*.nav",
+    "*.gz",
+    "*.bcf",
+    "*.xml",
+    "*.log"
+  ],
+  "latex-workshop.latex.autoBuild.run": "never",
+  "latex-workshop.hover.preview.scale": 2,
+  "latex-workshop.chktex.run": "onType",
+  "latex-workshop.view.pdf.viewer": "browser",
+  // "latex-workshop.view.pdf.viewer": "external",
+  // "latex-workshop.view.pdf.external.viewer.command": "zathura",
+  // "latex-workshop.view.pdf.external.viewer.args": [
+  //     "--synctex-editor-command",
+  //     "code --reuse-window -g \"%{input}:%{line}\"",
+  //     "%PDF%"
+  // ],
+  // "latex-workshop.view.pdf.external.synctex.command": "zathura",
+  // "latex-workshop.view.pdf.external.synctex.args": [
+  //     "--synctex-forward=%LINE%:0:%TEX%",
+  //     "%PDF%"
+  // ],
+
+  "todo-tree.highlights.defaultHighlight": {
+    "icon": "clippy",
+    "type": "line",
+    "foreground": "#000000",
+    "background": "#808080",
+  },
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "iconColour": "#72a8ff7e",
+      "foreground": "#000000",
+      "background": "#70d6ff48",
     },
-    "code-runner.clearPreviousOutput": true,
-    "code-runner.showExecutionMessage": false,
-    "code-runner.runInTerminal": true,
-
-    "ltex.language": "de-DE",
-    // "ltex.dictionary": {
-    //   "de-DE": [
-    //       ":/home/chris/Documents/de-science-dictionary.txt"
-    //       ]
-    // },
-    "ltex.checkFrequency": "manual",
-
-    "latex-workshop.latex.clean.subfolder.enabled": true,
-    "latex-workshop.latex.clean.fileTypes": [
-        "*.aux",
-        "*.bbl",
-        "*.blg",
-        "*.idx",
-        "*.ind",
-        "*.lof",
-        "*.lot",
-        "*.out",
-        "*.toc",
-        "*.acn",
-        "*.acr",
-        "*.alg",
-        "*.glg",
-        "*.glo",
-        "*.gls",
-        "*.fls",
-        "*.log",
-        "*.fdb_latexmk",
-        "*.snm",
-        "*.synctex(busy)",
-        "*.synctex.gz(busy)",
-        "*.nav",
-        "*.gz",
-        "*.bcf",
-        "*.xml",
-        "*.log"
-    ],
-    "latex-workshop.latex.autoBuild.run": "never",
-    "latex-workshop.hover.preview.scale": 2,
-    "latex-workshop.chktex.run": "onType",
-    "latex-workshop.view.pdf.viewer": "browser",
-    // "latex-workshop.view.pdf.viewer": "external",
-    // "latex-workshop.view.pdf.external.viewer.command": "zathura",
-    // "latex-workshop.view.pdf.external.viewer.args": [
-    //     "--synctex-editor-command",
-    //     "code --reuse-window -g \"%{input}:%{line}\"",
-    //     "%PDF%"
-    // ],
-    // "latex-workshop.view.pdf.external.synctex.command": "zathura",
-    // "latex-workshop.view.pdf.external.synctex.args": [
-    //     "--synctex-forward=%LINE%:0:%TEX%",
-    //     "%PDF%"
-    // ],
-
-    "todo-tree.highlights.defaultHighlight": {
-        "icon": "clippy",
-        "type": "text",
-        "foreground": "red",
-        "background": "white",
-        "opacity": 50,
-        "iconColour": "green"
+    "FIXME": {
+      "icon": "alert",
+      "iconColour": "#e8f80080",
+      "background": "#e8f80080",
     },
-    "todo-tree.highlights.customHighlight": {
-        "TODO": {
-            "icon": "calendar",
-            "iconColour": "cyan",
-            "type": "whole-line",
-            "foreground": "black",
-            "background": "cyan"
-        },
-        "FIXME": {
-            "type": "whole-line",
-            "foreground": "black",
-            "background": "yellow",
-            "iconColour": "yellow"
-        },
-        "COMPLETE": {
-            "type": "whole-line",
-            "icon": "verified",
-            "iconColour": "green",
-            "foreground": "white",
-            "background": "green"
-        },
-        "BUG": {
-            "type": "whole-line",
-            "iconColour":"red",
-            "icon": "megaphone",
-            "foreground": "white",
-            "background": "red"
-        }
+    "COMPLETE": {
+      "icon": "verified",
+      "iconColour": "#00f80046",
+      "background": "#00f80044",
     },
-    "todo-tree.general.tags": [
-        "XXX",
-        "TODO",
-        "HACK",
-        "FIXME",
-        "BUG",
-        "COMPLETE"
-    ],
-    "todo-tree.regex.regex": "((%|//|#|<!--|;|/\\*|^)\\s*($TAGS)|^\\s*- \\[ \\])",
-    
-    "vim.disableExtension": true,
-    "vim.enableNeovim": true,
-    "vim.neovimPath": "/usr/bin/nvim",
-    "vim.leader": "<Space>",
-    "vim.easymotion": true,
-    "vim.sneak": true,
-    "vim.insertModeKeyBindingsNonRecursive": [
-      {
-        "before": ["j", "k"],
-        "after": ["<ESC>"]
-      }
-    ],
-    "vim.normalModeKeyBindingsNonRecursive": [
-        {
-          "before": ["J"],
-          "after": ["5", "j"]
-        },
-        {
-          "before": ["K"],
-          "after": ["5", "k"]
-        },
-        {
-          "before": ["<Leader>", "j"],
-          "after": ["J"]
-        },
-        // splits
-        {
-          "before": ["<C-h>"],
-          "after": ["<C-w>", "h"]
-        },
-        {
-          "before": ["<C-j>"],
-          "after": ["<C-w>", "j"]
-        },
-        {
-          "before": ["<C-k>"],
-          "after": ["<C-w>", "k"]
-        },
-        {
-          "before": ["<C-l>"],
-          "after": ["<C-w>", "l"]
-        },
-        // tabs
-        {
-          "before": ["<Leader>", "t", "t"],
-          "commands": [":tabnew"]
-        },
-        {
-          "before": ["<Leader>", "t", "n"],
-          "commands": [":tabnext"]
-        },
-        {
-          "before": ["<Leader>", "t", "p"],
-          "commands": [":tabprev"]
-        },
-        {
-          "before": ["<Leader>", "t", "o"],
-          "commands": [":tabo"]
-        },
-        {
-          "before": ["<Leader>", "/"],
-          "commands": [":noh"]
-        },
-        // vscode commands
-        {
-          "before": ["leader", "w"],
-          "commands": [
-              "workbench.action.files.save",
-          ]
-        },
-        {
-          "before": ["<Leader>", "p"],
-          "commands": [
-                "workbench.action.showCommands",
-          ]
-        },
-        {
-          "before": ["<Leader>", "o"],
-          "commands": [
-              "workbench.action.gotoSymbol",
-          ]
-        }
-    ],
-    "git.autofetch": true,
-    "files.associations": {
-      "*.pdf_tex": "tex"
-    },
-
-    "matlab.matlabpath": "/usr/local/MATLAB/R2021b/bin/matlab",
-    "matlab.mlintpath": "/usr/local/MATLAB/R2021b/bin/glnxa64/mlint",
-    
-    "svgPreview.style": {
-      "html": {
-        "background": "white"
-      }
+    "BUG": {
+      "icon": "megaphone",
+      "iconColour": "#f8000080",
+      "background": "#f8000080",
+      "foreground": "#ffffff",
     }
+  },
+  "todo-tree.general.tags": [
+      "XXX",
+      "TODO",
+      "HACK",
+      "FIXME",
+      "BUG",
+      "COMPLETE"
+  ],
+  "todo-tree.regex.regex": "((%|//|#|<!--|;|/\\*|^)\\s*($TAGS)|^\\s*- \\[ \\])",
+  
+  "vim.disableExtension": true,
+  "vim.enableNeovim": true,
+  "vim.neovimPath": "/usr/bin/nvim",
+  "vim.leader": "<Space>",
+  "vim.easymotion": true,
+  "vim.sneak": true,
+  "vim.insertModeKeyBindingsNonRecursive": [
+    {
+      "before": ["j", "k"],
+      "after": ["<ESC>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["J"],
+      "after": ["5", "j"]
+    },
+    {
+      "before": ["K"],
+      "after": ["5", "k"]
+    },
+    {
+      "before": ["<Leader>", "j"],
+      "after": ["J"]
+    },
+    // splits
+    {
+      "before": ["<C-h>"],
+      "after": ["<C-w>", "h"]
+    },
+    {
+      "before": ["<C-j>"],
+      "after": ["<C-w>", "j"]
+    },
+    {
+      "before": ["<C-k>"],
+      "after": ["<C-w>", "k"]
+    },
+    {
+      "before": ["<C-l>"],
+      "after": ["<C-w>", "l"]
+    },
+    // tabs
+    {
+      "before": ["<Leader>", "t", "t"],
+      "commands": [":tabnew"]
+    },
+    {
+      "before": ["<Leader>", "t", "n"],
+      "commands": [":tabnext"]
+    },
+    {
+      "before": ["<Leader>", "t", "p"],
+      "commands": [":tabprev"]
+    },
+    {
+      "before": ["<Leader>", "t", "o"],
+      "commands": [":tabo"]
+    },
+    {
+      "before": ["<Leader>", "/"],
+      "commands": [":noh"]
+    },
+    // vscode commands
+    {
+      "before": ["leader", "w"],
+      "commands": [
+          "workbench.action.files.save",
+      ]
+    },
+    {
+      "before": ["<Leader>", "p"],
+      "commands": [
+            "workbench.action.showCommands",
+      ]
+    },
+    {
+      "before": ["<Leader>", "o"],
+      "commands": [
+          "workbench.action.gotoSymbol",
+      ]
+    }
+  ],
+  "git.autofetch": true,
+  "files.associations": {
+    "*.pdf_tex": "tex"
+  },
+
+  "matlab.matlabpath": "/usr/local/MATLAB/R2021b/bin/matlab",
+  "matlab.mlintpath": "/usr/local/MATLAB/R2021b/bin/glnxa64/mlint",
+  
+  "svgPreview.style": {
+    "html": {
+      "background": "white"
+    }
+  },
+  "explorer.confirmDragAndDrop": false
 }
