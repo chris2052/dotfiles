@@ -101,9 +101,8 @@
   },
   "todo-tree.highlights.customHighlight": {
     "TODO": {
-      "iconColour": "#72a8ff7e",
-      "foreground": "#000000",
-      "background": "#70d6ff48",
+      "iconColour": "#72fff87e",
+      "background": "#72fff87e",
     },
     "FIXME": {
       "icon": "alert",
