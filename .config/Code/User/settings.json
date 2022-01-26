@@ -14,6 +14,7 @@
 
   "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.scrollToSwitchTabs": true,
+  "workbench.editor.focusRecentEditorAfterClose": false,
   "workbench.settings.editor": "json",
   "workbench.settings.useSplitJSON": true,
   "workbench.settings.openDefaultSettings": true,

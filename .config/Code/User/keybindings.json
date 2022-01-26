@@ -29,5 +29,13 @@
         {
         "key": "ctrl+shift+a",
         "command": "editor.action.sortLinesAscending"
+        },
+        {
+        "key": "ctrl+tab",
+        "command": "workbench.action.nextEditorInGroup"
+        },
+        {
+        "key": "ctrl+shift+tab",
+        "command": "workbench.action.previousEditorInGroup"
         }
 ]
