@@ -29,6 +29,7 @@ IconSize=22
 
 [Recent Files]
 File1[$e]=$HOME/Documents/MATLAB/femlab/matlab_fem.pdf
+File10[$e]=$HOME/Downloads/ranger.md
 File2[$e]=$HOME/Documents/GitHub/studienarbeitTex/dispersion.pdf
 File3[$e]=$HOME/Desktop/LaTeX/documents/Beispiele/latex-vorlage-diplom-bachelor-masterarbeiten-master/README.md
 File4[$e]=$HOME/Zotero/locate/CrossRef Lookup.ico
@@ -38,6 +39,7 @@ File7[$e]=$HOME/Documents/GitHub/studienarbeitTex/03_literatur/books/Phononic Cr
 File8[$e]=$HOME/new.pdf
 File9[$e]=$HOME/outputpdf.pdf
 Name1[$e]=matlab_fem.pdf
+Name10[$e]=ranger.md
 Name2[$e]=dispersion.pdf
 Name3[$e]=README.md
 Name4[$e]=CrossRef Lookup.ico

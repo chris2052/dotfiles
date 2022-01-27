@@ -601,11 +601,11 @@
     <group
        id="import"
        enable_preview="1"
-       path="/home/chris/Documents/GitHub/studienarbeitTex/img/"
+       path="/home/chris/Documents/MATLAB/unitcell/DispersionCurves/"
        ask="1"
        ask_svg="1"
        link="embed"
-       scale="auto"
+       scale="optimizeSpeed"
        import_mode_svg="include"
        forcexdpi="0" />
     <group
@@ -940,7 +940,8 @@
      id="extensions"
      org.inkscape.output.pdf.cairorenderer.PDFversion="PDF-1.5"
      org.inkscape.output.pdf.cairorenderer.textToPath="paths"
-     org.inkscape.input.svg.scale="auto" />
+     org.inkscape.input.svg.scale="auto"
+     org.inkscape.input.gdkpixbuf.png.scale="optimizeSpeed" />
   <group
      id="desktop"
      style="font-size:16px;stroke-width:0.56692913;text-anchor:end;text-align:end;fill:#808080;stroke:#ff0000">
