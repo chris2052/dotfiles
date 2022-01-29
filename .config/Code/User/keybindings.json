@@ -27,6 +27,10 @@
         "command": "ltex.clearAllDiagnostics"
         },
         {
+        "key": "ctrl+alt+m",
+        "command": "markdown.showPreviewToSide"
+        },
+        {
         "key": "ctrl+shift+a",
         "command": "editor.action.sortLinesAscending"
         },
