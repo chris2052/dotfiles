@@ -39,6 +39,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
     Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+    Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 call plug#end()
 
 " vim Airline settings
