@@ -1,0 +1,11 @@
+{
+	"$schema": "https://joplinapp.org/schema/settings.json",
+	"locale": "en_US",
+	"api.token": "c7f16073a5898b1322882d870fe9517d1f9d4d8e76c8b8f224d00a51093ebfc3eee4ae1de8d3838cdc0d31720a2b7ca6aa361bea49beb3cd52a2dad1a624db02",
+	"markdown.plugin.softbreaks": false,
+	"markdown.plugin.typographer": false,
+	"sync.target": 6,
+    "sync.target.6.path": "https://uni-siegen.sciebo.de/remote.php/dav/files/g031728%40uni-siegen.de/others/joplin",
+    "sync.target.6.username": "g031728@uni-siegen.de",
+    "sync.target.6.password": "Ijntgiomc!"
+}
