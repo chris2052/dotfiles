@@ -11,8 +11,6 @@
   "editor.tabSize": 4,
   "editor.insertSpaces": false,
   "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
-
-  "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.scrollToSwitchTabs": true,
   "workbench.editor.focusRecentEditorAfterClose": false,
   "workbench.settings.editor": "json",
@@ -21,6 +19,7 @@
   "workbench.startupEditor": "newUntitledFile",
   "workbench.colorCustomizations": {},
   "workbench.colorTheme": "Gruvbox Dark Hard",
+  "workbench.iconTheme": "material-icon-theme",
 
   "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font",
   "terminal.integrated.fontSize": 14,
@@ -32,7 +31,17 @@
 
   "files.autoSave": "onFocusChange",
   "files.autoSaveDelay": 60000,
+  "files.associations": {
+    "*.pdf_tex": "tex"
+  },
 
+  // others
+  "explorer.confirmDragAndDrop": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.autofetch": true,
+  
+  // extension settings
+  // =======================================================
   "code-runner.executorMap": {
     "python": "$pythonPath -u $fullFileName",
   },
@@ -215,10 +224,6 @@
       ]
     }
   ],
-  "git.autofetch": true,
-  "files.associations": {
-    "*.pdf_tex": "tex"
-  },
 
   "matlab.matlabpath": "/usr/local/MATLAB/R2021b/bin/matlab",
   "matlab.mlintpath": "/usr/local/MATLAB/R2021b/bin/glnxa64/mlint",
@@ -228,5 +233,6 @@
       "background": "white"
     }
   },
-  "explorer.confirmDragAndDrop": false
+
+  "joplin.token": "7b90374b45b23ef3963f3ea57a63bbba064478eb56c578618ae1dcbdac815c02a801c61be9b50e185b87206cd8767bbe4dce56955b6b52a91a3ab0da925a8d2d"
 }
