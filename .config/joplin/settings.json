@@ -5,7 +5,6 @@
 	"markdown.plugin.softbreaks": false,
 	"markdown.plugin.typographer": false,
 	"sync.target": 6,
-    "sync.6.path": "https://uni-siegen.sciebo.de/remote.php/dav/files/g031728@uni-siegen.de/others/joplin",
-   	"sync.6.username": "g031728@uni-siegen.de",
-    "sync.6.password": "Ijntgiomc!"
+	"sync.6.path": "https://uni-siegen.sciebo.de/remote.php/dav/files/g031728@uni-siegen.de/others/joplin",
+	"sync.6.username": "g031728@uni-siegen.de"
 }
