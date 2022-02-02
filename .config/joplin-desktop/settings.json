@@ -10,12 +10,12 @@
 		"children": [
 			{
 				"key": "sideBar",
-				"width": 250,
+				"width": 180,
 				"visible": true
 			},
 			{
 				"key": "noteList",
-				"width": 250,
+				"width": 196,
 				"visible": true
 			},
 			{
@@ -42,6 +42,11 @@
 	"style.editor.fontSize": 18,
 	"themeAutoDetect": false,
 	"editor.keyboardMode": "vim",
-	"notes.perFolderSortOrders": {},
+	"notes.perFolderSortOrders": {
+		"833dd23dbd45490191f72738b804892d$field": "user_updated_time",
+		"833dd23dbd45490191f72738b804892d$reverse": true,
+		"5b6d5c46a9f843c898110a77708ffda7$field": "user_updated_time",
+		"5b6d5c46a9f843c898110a77708ffda7$reverse": true
+	},
 	"editor": "/bin/code"
 }
