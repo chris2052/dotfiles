@@ -41,5 +41,9 @@
         {
         "key": "ctrl+shift+tab",
         "command": "workbench.action.previousEditorInGroup"
+        },
+        {
+        "key": "alt+tab",
+        "command": "workbench.action.focusNextGroup"
         }
 ]
