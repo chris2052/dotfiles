@@ -1,0 +1,47 @@
+{
+	"$schema": "https://joplinapp.org/schema/settings.json",
+	"locale": "en_US",
+	"api.token": "7b90374b45b23ef3963f3ea57a63bbba064478eb56c578618ae1dcbdac815c02a801c61be9b50e185b87206cd8767bbe4dce56955b6b52a91a3ab0da925a8d2d",
+	"markdown.plugin.softbreaks": false,
+	"markdown.plugin.typographer": false,
+	"spellChecker.language": "en-US",
+	"ui.layout": {
+		"key": "root",
+		"children": [
+			{
+				"key": "sideBar",
+				"width": 250,
+				"visible": true
+			},
+			{
+				"key": "noteList",
+				"width": 250,
+				"visible": true
+			},
+			{
+				"key": "editor",
+				"visible": true
+			}
+		],
+		"visible": true
+	},
+	"noteVisiblePanes": [
+		"editor"
+	],
+	"sync.target": 6,
+	"sync.6.path": "https://uni-siegen.sciebo.de/remote.php/dav/files/g031728@uni-siegen.de/others/joplin",
+	"sync.6.username": "g031728@uni-siegen.de",
+	"editor.codeView": true,
+	"theme": 2,
+	"style.editor.fontFamily": "Cascadia Code",
+	"style.editor.monospaceFontFamily": "Cascadia Code",
+	"style.editor.contentMaxWidth": 0,
+	"showTrayIcon": false,
+	"markdown.plugin.mark": true,
+	"clipperServer.autoStart": true,
+	"style.editor.fontSize": 18,
+	"themeAutoDetect": false,
+	"editor.keyboardMode": "vim",
+	"notes.perFolderSortOrders": {},
+	"editor": "/bin/code"
+}
