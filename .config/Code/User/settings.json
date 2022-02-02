@@ -37,8 +37,7 @@
 
   // others
   "explorer.confirmDragAndDrop": false,
-  "security.workspace.trust.untrustedFiles": "open",
-  "git.autofetch": true,
+  "security.workspace.trust.enabled": false,
   
   // extension settings
   // =======================================================
