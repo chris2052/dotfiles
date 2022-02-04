@@ -184,12 +184,16 @@
     },
     // tabs
     {
-      "before": ["<Leader>", "t", "t"],
+      "before": ["<Leader>", "t", "n"],
       "commands": [":tabnew"]
     },
     {
-      "before": ["<Leader>", "t", "n"],
+      "before": ["<Leader>", "t", "t"],
       "commands": [":tabnext"]
+    },
+    {
+      "before": ["<Leader>", "q"],
+      "commands": [":q"]
     },
     {
       "before": ["<Leader>", "t", "p"],
@@ -233,5 +237,6 @@
     }
   },
 
-  "joplin.token": "7b90374b45b23ef3963f3ea57a63bbba064478eb56c578618ae1dcbdac815c02a801c61be9b50e185b87206cd8767bbe4dce56955b6b52a91a3ab0da925a8d2d"
+  "joplin.token": "7b90374b45b23ef3963f3ea57a63bbba064478eb56c578618ae1dcbdac815c02a801c61be9b50e185b87206cd8767bbe4dce56955b6b52a91a3ab0da925a8d2d",
+  "joplin.programProfilePath": "",
 }
