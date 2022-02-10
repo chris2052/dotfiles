@@ -26,8 +26,7 @@
 		"visible": true
 	},
 	"noteVisiblePanes": [
-		"editor",
-		"viewer"
+		"editor"
 	],
 	"sync.target": 6,
 	"sync.6.path": "https://uni-siegen.sciebo.de/remote.php/dav/files/g031728@uni-siegen.de/others/joplin",
@@ -42,12 +41,13 @@
 	"clipperServer.autoStart": true,
 	"style.editor.fontSize": 18,
 	"themeAutoDetect": false,
-	"editor.keyboardMode": "vim",
+	"editor.keyboardMode": "",
 	"notes.perFolderSortOrders": {
 		"833dd23dbd45490191f72738b804892d$field": "user_updated_time",
 		"833dd23dbd45490191f72738b804892d$reverse": true,
 		"5b6d5c46a9f843c898110a77708ffda7$field": "user_updated_time",
 		"5b6d5c46a9f843c898110a77708ffda7$reverse": true
 	},
-	"editor": "/bin/code"
+	"editor": "/bin/code",
+	"windowContentZoomFactor": 100
 }
