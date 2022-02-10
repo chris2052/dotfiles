@@ -49,11 +49,11 @@
   "code-runner.runInTerminal": true,
 
   "ltex.language": "de-DE",
-  // "ltex.dictionary": {
-  //   "de-DE": [
-  //       ":/home/chris/Documents/de-science-dictionary.txt"
-  //       ]
-  // },
+  "ltex.dictionary": {
+    "de-DE": [
+        ":~/sciebo/documents/latex/de-science-dictionary.txt"
+        ]
+  },
   "ltex.checkFrequency": "manual",
 
   "latex-workshop.latex.clean.subfolder.enabled": true,
@@ -207,6 +207,10 @@
       "before": ["<Leader>", "/"],
       "commands": [":noh"]
     },
+    {
+      "before": ["<C-w>",],
+      "after" : [":", "w", "q", "!", "<enter>"]
+    },
     // vscode commands
     {
       "before": ["leader", "w"],
@@ -239,4 +243,5 @@
 
   "joplin.token": "7b90374b45b23ef3963f3ea57a63bbba064478eb56c578618ae1dcbdac815c02a801c61be9b50e185b87206cd8767bbe4dce56955b6b52a91a3ab0da925a8d2d",
   "joplin.programProfilePath": "",
+  "git.suggestSmartCommit": false,
 }
