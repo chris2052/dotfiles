@@ -13,7 +13,6 @@ ShowBottomBar=true
 SplitterSizes=195,1565
 
 [PageView]
-MouseMode=TextSelect
 ViewContinuous=false
 
 [Reviews]

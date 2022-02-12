@@ -26,7 +26,8 @@
 		"visible": true
 	},
 	"noteVisiblePanes": [
-		"editor"
+		"editor",
+		"viewer"
 	],
 	"sync.target": 6,
 	"sync.6.path": "https://uni-siegen.sciebo.de/remote.php/dav/files/g031728@uni-siegen.de/others/joplin",
