@@ -2,17 +2,17 @@ configuration{
 	show-icons: 				false;
 }
 * {
-    background-color:           #303030;
+    background-color:           #12100f;
     border-color:               #282c34;
-    text-color:                 #bbc2cf;
+    text-color:                 #9a8a6f;
     height:                     20px;
     font:                       "CaskaydiaCove Nerd Font Medium 9";
-    prompt-font:                "CaskaydiaCove Nerd Font Medium 10";
+    prompt-font:                "CaskaydiaCove Nerd Font Medium 9";
 	show-icons: 				false;
-    prompt-background:          #51b0ef81;
+    prompt-background:          #458588;
     prompt-foreground:          #2e2c2c;
     prompt-padding:             2px;
-    selected-normal-background: #ae403e8f;
+    selected-normal-background: #cc241d;
     selected-normal-foreground: #ffffffec;
 }
 #window {
