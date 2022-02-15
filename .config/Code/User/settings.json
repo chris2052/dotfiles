@@ -17,7 +17,6 @@
   "workbench.settings.useSplitJSON": true,
   "workbench.settings.openDefaultSettings": true,
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.colorCustomizations": {},
   "workbench.colorTheme": "Gruvbox Dark Hard",
   "workbench.iconTheme": "material-icon-theme",
 
@@ -152,6 +151,16 @@
       "after": ["<ESC>"]
     }
   ],
+  "vim.operatorPendingModeKeyBindings": [
+    {
+        "before": ["L"],
+        "after": ["$"]
+    },
+    {
+        "before": ["H"],
+        "after": ["^"]
+    }
+  ],
   "vim.normalModeKeyBindingsNonRecursive": [
     {
       "before": ["J"],
@@ -231,6 +240,18 @@
       ]
     }
   ],
+  "vim.statusBarColorControl": false,
+  "vim.statusBarColors.normal": ["#989900", "#000"],
+  "vim.statusBarColors.insert": ["#418588", "#000"],
+  "vim.statusBarColors.visual": ["#b26086", "#000"],
+  "vim.statusBarColors.visualline": ["#b26086", "#000"],
+  "vim.statusBarColors.visualblock": ["#b26086", "#000"],
+  "vim.statusBarColors.replace": "#ce220e",
+  "vim.statusBarColors.commandlineinprogress": "#418588",
+  "vim.statusBarColors.searchinprogressmode": "#418588",
+  "vim.statusBarColors.easymotionmode": "#418588",
+  "vim.statusBarColors.easymotioninputmode": "#418588",
+  "vim.statusBarColors.surroundinputmode": "#418588",
 
   "matlab.matlabpath": "/usr/local/MATLAB/R2021b/bin/matlab",
   "matlab.mlintpath": "/usr/local/MATLAB/R2021b/bin/glnxa64/mlint",
@@ -246,4 +267,5 @@
   "git.suggestSmartCommit": false,
   "hediet.vscode-drawio.codeLinkActivated": false,
   "gitlens.hovers.currentLine.over": "line",
+
 }
