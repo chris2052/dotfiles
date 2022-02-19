@@ -44,8 +44,8 @@
 	"themeAutoDetect": false,
 	"editor.keyboardMode": "",
 	"notes.perFolderSortOrders": {
-		"833dd23dbd45490191f72738b804892d$field": "user_updated_time",
-		"833dd23dbd45490191f72738b804892d$reverse": true,
+		"833dd23dbd45490191f72738b804892d$field": "title",
+		"833dd23dbd45490191f72738b804892d$reverse": false,
 		"5b6d5c46a9f843c898110a77708ffda7$field": "title",
 		"5b6d5c46a9f843c898110a77708ffda7$reverse": false
 	},
