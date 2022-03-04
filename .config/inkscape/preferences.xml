@@ -125,8 +125,8 @@
          id="rect"
          style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.99999874;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
          usecurrent="0"
-         width="681.105"
-         height="192.833" />
+         width="468.661"
+         height="264.567" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -159,12 +159,12 @@
       <eventcontext
          id="arc"
          style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.99999874;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
-         end="152.05"
-         start="26.4306"
+         end="0"
+         start="0"
          usecurrent="0"
-         rx="92.3945"
-         ry="30.2811"
-         arc_type="1" />
+         rx="3.77953"
+         ry="3.77953"
+         arc_type="0" />
       <eventcontext
          id="star"
          magnitude="5"
@@ -323,9 +323,9 @@
        font_sample="AaBbCcIiPpQq12369$€¢?.;/()"
        show_sample_in_list="1"
        use_svg2="1"
-       style="font-size:14.66666667px;line-height:1.25;font-family:sans-serif;text-decoration-color:#000000;fill:#000000;stroke-width:0.99999899;-inkscape-stroke:none;stop-color:#000000"
+       style="font-size:14.66666667px;line-height:1.25;font-family:sans-serif;text-decoration-color:#000000;fill:#000000;stroke-width:0.99999899;-inkscape-stroke:none;stop-color:#000000;text-anchor:middle;text-align:center"
        selcue="1"
-       align_mode="0" />
+       align_mode="1" />
     <eventcontext
        id="nodes"
        selcue="1"
@@ -341,8 +341,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="0"
-       y="0"
+       x="184.869"
+       y="175.641"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -391,7 +391,8 @@
     <eventcontext
        id="select"
        selcue="1"
-       gradientdrag="0" />
+       gradientdrag="0"
+       touch_box="0" />
     <eventcontext
        id="connector"
        style="fill:none;fill-rule:evenodd;stroke:black;stroke-opacity:1;stroke-linejoin:miter;stroke-width:1px;stroke-linecap:butt;"
@@ -566,7 +567,7 @@
     <group
        id="preferences"
        state="1"
-       page="28" />
+       page="47" />
     <group
        id="gradienteditor" />
     <group
@@ -577,16 +578,18 @@
        append_extension="1"
        path="">
       <group
-         id="exportarea" />
+         id="exportarea"
+         value="selection" />
       <group
-         id="defaultxdpi" />
+         id="defaultxdpi"
+         value="300" />
     </group>
     <group
        id="save_as"
-       default="org.inkscape.output.svg.inkscape"
+       default="org.inkscape.output.pdf.cairorenderer"
        append_extension="1"
        enable_preview="1"
-       path="/home/chris/Desktop/bs1_klausurrep_ws-2021_latex/img"
+       path="/home/chris/Downloads"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -601,7 +604,7 @@
     <group
        id="import"
        enable_preview="1"
-       path="/home/chris/Documents/GitHub/studienarbeitTex/img/"
+       path="/home/chris/Downloads/"
        ask="1"
        ask_svg="1"
        link="embed"
@@ -646,6 +649,9 @@
        id="colorpickerwindow" />
     <group
        id="undo-history" />
+    <group
+       id="selectors"
+       panedpos="705" />
   </group>
   <group
      id="printing">
@@ -939,17 +945,17 @@
   <group
      id="extensions"
      org.inkscape.output.pdf.cairorenderer.PDFversion="PDF-1.5"
-     org.inkscape.output.pdf.cairorenderer.textToPath="LaTeX"
+     org.inkscape.output.pdf.cairorenderer.textToPath="embed"
      org.inkscape.input.svg.scale="auto"
      org.inkscape.input.gdkpixbuf.png.scale="optimizeSpeed" />
   <group
      id="desktop"
-     style="font-size:12px;stroke-width:0.62362205;fill:#bfbfbf;-inkscape-font-specification:SansSerif;font-family:SansSerif;stroke-dasharray:3.77952765, 3.77952765">
+     style="font-size:16px;stroke-width:0.75590551;fill:none;-inkscape-font-specification:Arial;font-family:Arial;text-anchor:middle;text-align:center">
     <group
-       width="640"
-       height="480"
-       x="0"
-       y="0"
+       width="1475"
+       height="892"
+       x="2076"
+       y="154"
        maximized="1"
        fullscreen="0"
        id="geometry" />
