@@ -390,7 +390,7 @@
 
 ## The directory to use for notebooks and kernels.
 #  Default: ''
-c.NotebookApp.notebook_dir = '/home/chris/Documents'
+#  c.NotebookApp.notebook_dir = '/home/chris'
 
 ## Whether to open in a browser after starting.
 #                          The specific browser used is platform dependent and
