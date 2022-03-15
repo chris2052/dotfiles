@@ -34,6 +34,40 @@ let mapleader = "\<Space>"
 " set <Esc> key, NO nonblank char after!
 inoremap jk <Esc>
 
+" === mappings like VSCode ===
+" faster scrolling on standard keys 
+nnoremap J 5gj 
+nnoremap K 5gk
+
+nnoremap L $
+nnoremap H ^
+
+nnoremap <leader>j J
+nnoremap <leader>k K
+
+" splits
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+set splitbelow
+set splitright
+
+" tabs
+nnoremap <leader>tn :tabnew<CR>
+nnoremap <leader>tt :tabnext<CR>
+nnoremap <leader>tp :tabprev<CR>
+
+nnoremap <leader>1 1gt
+nnoremap <leader>2 2gt
+nnoremap <leader>3 3gt
+nnoremap <leader>4 4gt
+nnoremap <leader>5 5gt
+
+" nnoremap <leader>/ :noh
+nnoremap <leader>q :wq<CR>
+
 call plug#begin('~/.vim/plugged')
     Plug 'gruvbox-community/gruvbox'
     Plug 'vim-airline/vim-airline'
