@@ -44,7 +44,7 @@
     "python": "$pythonPath -u $fullFileName",
   },
   "python.condaPath": "$HOME/miniconda3/bin/conda",
-  "code-runner.clearPreviousOutput": true,
+  "code-runner.clearPreviousOutput": false,
   "code-runner.showExecutionMessage": false,
   "code-runner.runInTerminal": true,
 
