@@ -125,8 +125,8 @@
          id="rect"
          style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.99999874;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
          usecurrent="0"
-         width="468.661"
-         height="264.567" />
+         width="132.283"
+         height="170.079" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -586,10 +586,10 @@
     </group>
     <group
        id="save_as"
-       default="org.inkscape.output.pdf.cairorenderer"
+       default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/home/chris/Downloads"
+       path="/home/chris/Baustatik/bs1/05_klausuren/2021ws/bs1_2021ws_klausur_latex/img"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -604,7 +604,7 @@
     <group
        id="import"
        enable_preview="1"
-       path="/home/chris/Downloads/"
+       path="/home/chris/sciebo/Uni/Baustatik/Lehrstuhl Baustatik/BS/bs1/05_klausuren/2021ws/bs1_2021ws_klausur_latex/img/"
        ask="1"
        ask_svg="1"
        link="embed"
@@ -950,7 +950,7 @@
      org.inkscape.input.gdkpixbuf.png.scale="optimizeSpeed" />
   <group
      id="desktop"
-     style="font-size:16px;stroke-width:0.75590551;fill:none;-inkscape-font-specification:Arial;font-family:Arial;text-anchor:middle;text-align:center">
+     style="font-size:16px;stroke-width:0.75590551;fill:#ffffff;-inkscape-font-specification:Arial;font-family:Arial;text-anchor:middle;text-align:center;stroke:#ff0000">
     <group
        width="1475"
        height="892"

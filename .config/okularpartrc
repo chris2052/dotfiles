@@ -10,10 +10,7 @@ ShellOpenFileInTabs=true
 
 [Main View]
 ShowBottomBar=true
-SplitterSizes=177,1583
-
-[PageView]
-MouseMode=TextSelect
+SplitterSizes=198,1562
 
 [Reviews]
 AnnotationContinuousMode=false
