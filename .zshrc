@@ -155,7 +155,7 @@ alias unidown='nmcli connection down uni'
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-neofetch
+neofetch #--kitty --source ~/Pictures/dt-wallpapers --image_size 300px
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -170,3 +170,4 @@ else
     fi
 fi
 unset __conda_setup
+
