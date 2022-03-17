@@ -10,44 +10,45 @@
 		"children": [
 			{
 				"key": "sideBar",
-				"width": 200,
-				"visible": true
+				"visible": true,
+				"width": 246
 			},
 			{
 				"key": "noteList",
-				"width": 200,
-				"visible": true
+				"visible": true,
+				"width": 231
 			},
 			{
-				"key": "tempContainer-oAmBsLNskupw8o2Wu0q9nl",
+				"key": "tempContainer-5Ob9WVdv1IfGDr0yX5oQSg",
 				"children": [
-					{
-						"key": "plugin-view-joplin.plugin.note.tabs-note.tabs.panel",
-						"context": {
-							"pluginId": "joplin.plugin.note.tabs"
-						},
-						"visible": true,
-						"height": 40
-					},
 					{
 						"key": "editor",
 						"visible": true
 					}
 				],
-				"visible": true
+				"visible": true,
+				"width": 1111
 			},
 			{
-				"key": "tempContainer-b2fJz4Pb34TcZ1WiB9XB4I",
+				"key": "tempContainer-R9nXd9TMqb4KEVlzZ3V7Ji",
 				"children": [
 					{
 						"key": "plugin-view-ylc395.noteLinkSystem-panel",
 						"context": {
 							"pluginId": "ylc395.noteLinkSystem"
 						},
-						"visible": false
+						"visible": true,
+						"height": 328
+					},
+					{
+						"key": "plugin-view-io.treymo.LinkGraph-note-graph-view",
+						"context": {
+							"pluginId": "io.treymo.LinkGraph"
+						},
+						"visible": true
 					}
 				],
-				"visible": false
+				"visible": true
 			}
 		],
 		"visible": true
@@ -58,15 +59,15 @@
 	"sync.target": 6,
 	"sync.6.path": "https://uni-siegen.sciebo.de/remote.php/dav/files/g031728@uni-siegen.de/others/joplin",
 	"sync.6.username": "g031728@uni-siegen.de",
-	"editor.codeView": false,
+	"editor.codeView": true,
 	"theme": 2,
 	"style.editor.fontFamily": "Cascadia Code",
 	"style.editor.monospaceFontFamily": "Cascadia Code",
-	"style.editor.contentMaxWidth": 0,
+	"style.editor.contentMaxWidth": 800,
 	"showTrayIcon": true,
-	"markdown.plugin.mark": true,
+	"markdown.plugin.mark": false,
 	"clipperServer.autoStart": true,
-	"style.editor.fontSize": 30,
+	"style.editor.fontSize": 18,
 	"themeAutoDetect": false,
 	"editor.keyboardMode": "",
 	"notes.perFolderSortOrders": {
@@ -85,5 +86,17 @@
 		"order": false
 	},
 	"notes.sortOrder.field": "title",
-	"spellChecker.enabled": false
+	"spellChecker.enabled": false,
+	"layoutButtonSequence": 1,
+	"showNoteCounts": true,
+	"uncompletedTodosOnTop": true,
+	"showCompletedTodos": true,
+	"markdown.plugin.linkify": false,
+	"markdown.plugin.katex": false,
+	"markdown.plugin.mermaid": false,
+	"markdown.plugin.audioPlayer": false,
+	"markdown.plugin.videoPlayer": false,
+	"markdown.plugin.pdfViewer": false,
+	"markdown.plugin.footnote": false,
+	"markdown.plugin.toc": false
 }
