@@ -36,7 +36,7 @@ inoremap jk <Esc>
 
 " === mappings like VSCode ===
 " faster scrolling on standard keys 
-nnoremap J 5gj 
+nnoremap J 5gj
 nnoremap K 5gk
 
 nnoremap L $
