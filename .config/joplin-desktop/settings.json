@@ -38,7 +38,7 @@
 							"pluginId": "ylc395.noteLinkSystem"
 						},
 						"visible": true,
-						"height": 328
+						"height": 506
 					},
 					{
 						"key": "plugin-view-io.treymo.LinkGraph-note-graph-view",
@@ -54,7 +54,7 @@
 		"visible": true
 	},
 	"noteVisiblePanes": [
-		"editor"
+		"viewer"
 	],
 	"sync.target": 6,
 	"sync.6.path": "https://uni-siegen.sciebo.de/remote.php/dav/files/g031728@uni-siegen.de/others/joplin",
