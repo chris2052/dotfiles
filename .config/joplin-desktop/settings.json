@@ -26,29 +26,12 @@
 						"visible": true
 					}
 				],
-				"visible": true,
-				"width": 1111
+				"visible": true
 			},
 			{
 				"key": "tempContainer-R9nXd9TMqb4KEVlzZ3V7Ji",
-				"children": [
-					{
-						"key": "plugin-view-ylc395.noteLinkSystem-panel",
-						"context": {
-							"pluginId": "ylc395.noteLinkSystem"
-						},
-						"visible": true,
-						"height": 506
-					},
-					{
-						"key": "plugin-view-io.treymo.LinkGraph-note-graph-view",
-						"context": {
-							"pluginId": "io.treymo.LinkGraph"
-						},
-						"visible": true
-					}
-				],
-				"visible": true
+				"children": [],
+				"visible": false
 			}
 		],
 		"visible": true
