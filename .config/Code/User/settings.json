@@ -118,7 +118,7 @@
       "iconColour": "#e8f80080",
       "background": "#e8f80080",
     },
-    "COMPLETE": {
+    "COMPL": {
       "icon": "verified",
       "iconColour": "#00f80046",
       "background": "#00f80044",
@@ -136,7 +136,7 @@
       "HACK",
       "FIXME",
       "BUG",
-      "COMPLETE"
+      "COMPL"
   ],
   "todo-tree.regex.regex": "((%|//|#|<!--|;|/\\*|^)\\s*($TAGS)|^\\s*- \\[ \\])",
   

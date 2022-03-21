@@ -89,5 +89,12 @@
 		"\\textcolor{$1}{$2}"
 	],
 	"description": "Insert Color"
+	},
+
+	"Begin Equation": {
+	"prefix": "BEQ",
+	"body": [
+		"\\begin{equation}\n\t\\label{eq:${1:<eqlabel>}}\n\t$0\n\\end{equation}"
+	]
 	}
 }
