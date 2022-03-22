@@ -161,7 +161,7 @@ neofetch #--kitty --source ~/Pictures/dt-wallpapers --image_size 300px
 unameOut="$(uname -s)"
 case "${unameOut}" in 
     Linux*) __conda_setup="$('/home/chris/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)";;
-    Darwin*) __conda_setup="$('/Users/chris/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)";;
+    Darwin*) __conda_setup="$('/Users/christophernies/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)";;
 esac
 eval "$__conda_setup"
 
