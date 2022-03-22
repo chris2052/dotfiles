@@ -125,8 +125,8 @@ alias vim='nvim'
 alias rr='ranger'
 
 # git bare repo to store dotfiles
-alias dotfiles='/usr/bin/git --git-dir=/home/chris/dotfiles --work-tree=/home/chris'
-alias dots='/usr/bin/git --git-dir=/home/chris/.dotfiles --work-tree=/home/chris'
+alias dotfiles='/usr/bin/git --git-dir=/home/chris/dotfiles --work-tree=$HOME'
+alias dots='/usr/bin/git --git-dir=/home/chris/.dotfiles --work-tree=$HOME'
 
 # git shortcuts (c) Derek Tyler, DT
 alias addup='git add -u'
