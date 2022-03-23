@@ -1,0 +1,7 @@
+[user]
+	email = chris-nies@hotmail.de
+	name = Christopher Nies
+[init]
+	defaultBranch = main
+[credential]
+	helper = store
