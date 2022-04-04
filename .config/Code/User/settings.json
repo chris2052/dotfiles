@@ -163,6 +163,15 @@
     }
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
+    //to ommit linewraps
+    {
+      "before": ["j"],
+      "after": ["g", "j"]
+    },
+    {
+      "before": ["k"],
+      "after": ["g", "k"]
+    },
     {
       "before": ["J"],
       "after": ["5", "j"]
