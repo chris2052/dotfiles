@@ -174,11 +174,11 @@
     },
     {
       "before": ["J"],
-      "after": ["5", "j"]
+      "after": ["5", "g", "j"]
     },
     {
       "before": ["K"],
-      "after": ["5", "k"]
+      "after": ["5", "g", "k"]
     },
     {
       "before": ["<Leader>", "j"],
