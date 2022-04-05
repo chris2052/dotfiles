@@ -209,7 +209,7 @@
        usetilt="0"
        keep_selected="1"
        abs_width="1"
-       unit="mm">
+       unit="pt">
       <group
          id="preset">
         <group
@@ -314,7 +314,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="mm"
+       unit="pt"
        show_bbox="1" />
     <eventcontext
        id="text"
