@@ -90,6 +90,13 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+# https://johnnydecimal.com
+cjdfunction() {
+	pushd ~/sciebo/*/*/${1}* # ~/Dropbox is my root folder, change to suit yours.
+}
+
+export cjdfunction
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -117,6 +124,9 @@ source $ZSH/oh-my-zsh.sh
 # exa instead of classic ls command
 alias la='exa -al --color=always --group-directories-first'
 alias ls='exa'
+
+# jonny-decimal
+alias cjd='cjdfunction' # Or any other alias you prefer.
 
 # neovim instead of vim 
 alias vim='nvim'
