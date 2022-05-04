@@ -156,6 +156,7 @@ libgsf
 libopenraw
 librecad
 libreoffice-still
+libselinux
 libva-intel-driver
 libva-mesa-driver
 libva-vdpau-driver
@@ -338,7 +339,6 @@ vi
 viewnior
 vim
 visual-studio-code-bin
-vivaldi
 vlc
 vulkan-amdgpu-pro
 vulkan-intel
