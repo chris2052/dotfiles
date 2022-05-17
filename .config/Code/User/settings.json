@@ -24,6 +24,7 @@
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.cursorStyle": "block",
   "terminal.integrated.cursorBlinking": false,
+  "terminal.integrated.gpuAcceleration": "canvas",
 
   "debug.console.fontFamily": "CaskaydiaCove Nerd Font",
   "debug.console.fontSize": 15,
