@@ -208,8 +208,8 @@
        usepressure="1"
        usetilt="0"
        keep_selected="1"
-       abs_width="1"
-       unit="pt">
+       abs_width="0"
+       unit="px">
       <group
          id="preset">
         <group
@@ -314,7 +314,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="pt"
+       unit="px"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -950,7 +950,7 @@
      org.inkscape.input.gdkpixbuf.png.scale="optimizeSpeed" />
   <group
      id="desktop"
-     style="font-size:16px;stroke-width:0.75590551;fill:#bfbfbf;-inkscape-font-specification:Arial;font-family:Arial;text-anchor:middle;text-align:center">
+     style="font-size:14.66666667px;stroke-width:0.75590551;fill:#bfbfbf;-inkscape-font-specification:Arial;font-family:Arial;text-anchor:middle;text-align:center">
     <group
        width="1475"
        height="892"
