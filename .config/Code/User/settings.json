@@ -1,5 +1,5 @@
 {
-  "editor.fontSize": 18,
+  "editor.fontSize": 16,
   "editor.wordWrap": "bounded",
   "editor.wordWrapColumn": 140,
   "editor.fontFamily": "Cascadia Code",
@@ -27,7 +27,7 @@
   "terminal.integrated.gpuAcceleration": "canvas",
 
   "debug.console.fontFamily": "CaskaydiaCove Nerd Font",
-  "debug.console.fontSize": 15,
+  "debug.console.fontSize": 12,
 
   "files.autoSave": "onFocusChange",
   "files.autoSaveDelay": 60000,
@@ -52,7 +52,7 @@
   "ltex.language": "de-DE",
   "ltex.dictionary": {
     "de-DE": [
-        ":~/sciebo/documents/latex/de-science-dictionary.txt"
+        ":~/sciebo/30 programming/34 latex/de-science-dictionary.txt"
         ]
   },
   "ltex.checkFrequency": "manual",
