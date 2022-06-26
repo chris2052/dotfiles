@@ -132,6 +132,7 @@ iptables
 iputils
 ipw2100-fw
 ipw2200-fw
+java17-openjfx
 jdk8-openjdk
 jfsutils
 joplin-appimage
@@ -141,6 +142,7 @@ keepassxc
 keepassxc-cryptomator
 kernel-alive
 kitty
+kvantum-theme-matcha
 less
 lf
 lib32-libcups
@@ -152,6 +154,7 @@ lib32-mesa-vdpau
 lib32-vulkan-intel
 lib32-vulkan-radeon
 libdvdcss
+liberica-jdk-11-full-bin
 libgsf
 libopenraw
 librecad
@@ -271,12 +274,13 @@ psmisc
 pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
-pycharm-community-edition
 qopenvpn
+qt5-styleplugins
 ranger
 redshift
 reiserfsprogs
 rofi
+rofi-keepassxc
 rofimoji
 rsync
 s-nail
