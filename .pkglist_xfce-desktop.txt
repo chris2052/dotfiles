@@ -332,6 +332,8 @@ ttf-indic-otf
 ttf-liberation
 ttf-ms-fonts
 tumbler
+tuxguitar
+tuxguitar-common
 udiskie
 udisks2
 unace

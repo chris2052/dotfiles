@@ -1,5 +1,6 @@
 {
 	"$schema": "https://joplinapp.org/schema/settings.json",
+	"richTextBannerDismissed": true,
 	"locale": "en_US",
 	"api.token": "7b90374b45b23ef3963f3ea57a63bbba064478eb56c578618ae1dcbdac815c02a801c61be9b50e185b87206cd8767bbe4dce56955b6b52a91a3ab0da925a8d2d",
 	"markdown.plugin.softbreaks": false,
