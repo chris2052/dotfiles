@@ -29,7 +29,7 @@
 "insert pdf_tex": {
 	"prefix": "svg",
 	"body": [
-		"\\def\\svgwidth{width=$1\\textwidth}",
+		"% \\def\\svgwidth{$1\\textwidth}",
 		"\\input{$2}"
 	],
 	"description": "Insert pdf_tex"
