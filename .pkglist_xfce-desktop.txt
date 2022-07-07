@@ -37,7 +37,6 @@ conky-manager
 coreutils
 cpupower
 cronie
-cryptomator-bin
 cryptsetup
 cura
 dbus-x11
@@ -139,7 +138,6 @@ joplin-appimage
 jre8-openjdk
 jre8-openjdk-headless
 keepassxc
-keepassxc-cryptomator
 kernel-alive
 kitty
 kvantum-theme-matcha
@@ -333,7 +331,6 @@ ttf-liberation
 ttf-ms-fonts
 tumbler
 tuxguitar
-tuxguitar-common
 udiskie
 udisks2
 unace

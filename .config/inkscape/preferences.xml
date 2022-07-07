@@ -314,7 +314,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="mm"
+       unit="px"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -341,8 +341,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="377.952752125984"
-       y="151.181102362205"
+       x="165.97870633125"
+       y="582.405001059351"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -601,7 +601,7 @@
     </group>
     <group
        id="save_as"
-       default="org.inkscape.output.pdf.cairorenderer"
+       default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
        path="/home/chris/Documents/GitHub/studienarbeit2Tex/img"
@@ -621,7 +621,7 @@
        enable_preview="1"
        path="/home/chris/sciebo/Uni/Baustatik/Lehrstuhl Baustatik/BS/bs1/05_klausuren/2021ws/bs1_2021ws_klausur_latex/img/"
        ask="1"
-       ask_svg="1"
+       ask_svg="0"
        link="embed"
        scale="auto"
        import_mode_svg="include"
@@ -717,7 +717,7 @@
        value="12" />
     <group
        id="cursortolerance"
-       value="8.0" />
+       value="8" />
     <group
        id="dragtolerance"
        value="4.0" />
@@ -978,7 +978,8 @@
      org.inkscape.output.pdf.cairorenderer.PDFversion="PDF-1.5"
      org.inkscape.output.pdf.cairorenderer.textToPath="LaTeX"
      org.inkscape.input.svg.scale="auto"
-     org.inkscape.input.gdkpixbuf.png.scale="optimizeSpeed" />
+     org.inkscape.input.gdkpixbuf.png.scale="optimizeSpeed"
+     org.inkscape.input.svg.do_not_ask="1" />
   <group
      id="desktop"
      style="font-size:14.66666667px;stroke-width:0.75590551;fill:none;-inkscape-font-specification:Arial;font-family:Arial;text-anchor:middle;text-align:center">
