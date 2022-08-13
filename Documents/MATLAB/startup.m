@@ -6,5 +6,5 @@ rmpath(genpath('/home/chris/Documents/MATLAB/unitcell/minimal-example-main/'));
 rmpath(genpath('/home/chris/Documents/MATLAB/unitcell/tests/'));
 rmpath(genpath('/home/chris/Documents/MATLAB/ferreira_matlab/'));
 
-cd ~/Documents/MATLAB/unitcell/
+cd ~/Documents/MATLAB/unitcell/ComplexBandstructure
 clear fullpath
