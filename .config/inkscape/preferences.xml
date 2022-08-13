@@ -125,8 +125,8 @@
          id="rect"
          style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.99999874;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
          usecurrent="0"
-         width="41.5748031496062"
-         height="18.8976377952757" />
+         width="245.669291338582"
+         height="151.181102362205" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -162,8 +162,8 @@
          end="0"
          start="0"
          usecurrent="0"
-         rx="37.7953"
-         ry="37.7953"
+         rx="3.50925445556641"
+         ry="3.50925445556641"
          arc_type="0" />
       <eventcontext
          id="star"
@@ -323,7 +323,7 @@
        font_sample="AaBbCcIiPpQq12369$€¢?.;/()"
        show_sample_in_list="1"
        use_svg2="1"
-       style="font-size:14.66666667px;line-height:1.25;font-family:sans-serif;text-decoration-color:#000000;fill:#000000;stroke-width:0.99999899;-inkscape-stroke:none;stop-color:#000000;text-anchor:middle;text-align:center"
+       style="font-size:14.66666667px;line-height:1.25;font-family:arial;text-decoration-color:#000000;fill:#000000;stroke-width:0.99999899;-inkscape-stroke:none;stop-color:#000000;-inkscape-font-specification:arial;text-anchor:middle;text-align:center"
        selcue="1"
        align_mode="1" />
     <eventcontext
@@ -341,8 +341,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="165.97870633125"
-       y="582.405001059351"
+       x="123.106103502234"
+       y="103.59320640564"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -575,7 +575,7 @@
     <group
        id="preferences"
        state="1"
-       page="47" />
+       page="27" />
     <group
        id="gradienteditor" />
     <group
@@ -597,14 +597,14 @@
          value="layer" />
       <group
          id="defaultdpi"
-         value="200" />
+         value="600" />
     </group>
     <group
        id="save_as"
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/home/chris/Documents/GitHub/studienarbeit2Tex/img"
+       path="/home/chris/Documents/GitHub/gamm22/img"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -623,7 +623,7 @@
        ask="1"
        ask_svg="0"
        link="embed"
-       scale="auto"
+       scale="optimizeSpeed"
        import_mode_svg="include"
        forcexdpi="0" />
     <group
@@ -930,7 +930,7 @@
        no_emphasize_when_zoomedout="0">
       <group
          id="xy"
-         units="px"
+         units="mm"
          origin_x="0.0"
          origin_y="0.0"
          spacing_x="1.0"
@@ -966,9 +966,10 @@
        unitType="2" />
     <group
        id="snapping"
-       snap-global-toggle="1"
+       snap-global-toggle="0"
        snap-bbox="1"
-       snap-grid="1" />
+       snap-grid="1"
+       snap-object-midpoint="1" />
   </group>
   <group
      id="extensions"
@@ -976,17 +977,18 @@
      org.inkscape.output.png.inkscape.png_compression="6"
      org.inkscape.output.png.inkscape.png_antialias="2"
      org.inkscape.output.pdf.cairorenderer.PDFversion="PDF-1.5"
-     org.inkscape.output.pdf.cairorenderer.textToPath="LaTeX"
+     org.inkscape.output.pdf.cairorenderer.textToPath="paths"
      org.inkscape.input.svg.scale="auto"
      org.inkscape.input.gdkpixbuf.png.scale="optimizeSpeed"
-     org.inkscape.input.svg.do_not_ask="1" />
+     org.inkscape.input.svg.do_not_ask="1"
+     org.inkscape.input.eps.autorotate="None" />
   <group
      id="desktop"
-     style="font-size:14.66666667px;stroke-width:0.75590551;fill:none;-inkscape-font-specification:Arial;font-family:Arial;text-anchor:middle;text-align:center">
+     style="font-size:13.33333333px;fill:#ff0000;-inkscape-font-specification:'Cascadia Code';font-family:'Cascadia Code';fill-rule:evenodd;stroke-dasharray:3.77952756, 3.77952756;stroke-linejoin:round;stroke-linecap:round;stroke:#ff0000;stroke-width:1.0015748;text-anchor:middle;text-align:center">
     <group
        width="1920"
        height="1027"
-       x="1920"
+       x="0"
        y="21"
        maximized="1"
        fullscreen="0"
@@ -1118,4 +1120,10 @@
     <group
        id="visibility" />
   </group>
+  <group
+     id="color_scales"
+     wheel_vis_hsl="1" />
+  <group
+     id="gradient-edit"
+     stoplist="1" />
 </inkscape>
