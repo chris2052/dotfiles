@@ -20,6 +20,8 @@
   "workbench.colorTheme": "Gruvbox Dark Hard",
   "workbench.iconTheme": "material-icon-theme",
 
+  "window.confirmBeforeClose": "always",
+
   "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font",
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.cursorStyle": "block",
@@ -281,6 +283,9 @@
     "jsdelivr.com",
     "unpkg.com"
   ],
+  "extensions.ignoreRecommendations": true,
+  "gitlens.codeLens.enabled": false,
   "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.enabled": false,
 
 }
