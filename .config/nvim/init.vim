@@ -67,6 +67,7 @@ nnoremap <leader>5 5gt
 
 " nnoremap <leader>/ :noh
 nnoremap <leader>q :wq<CR>
+nnoremap <leader>w :w<CR>
 
 call plug#begin('~/.vim/plugged')
     Plug 'gruvbox-community/gruvbox'
