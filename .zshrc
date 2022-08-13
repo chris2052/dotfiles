@@ -155,9 +155,6 @@ alias newtag='git tag -a'
 # inkscape to LaTeX
 alias inktex='inkscape --export-area-page --export-type="pdf" --export-latex'
 
-# matlab
-alias matlabink='LD_PRELOAD=/usr/lib/libfreetype.so.6:/usr/lib/libstdc++.so.6:/usr/lib/libgio-2.0.so:/usr/lib/libglib-2.0.so:/usr/lib/libgmodule-2.0.so:/usr/lib/libgobject-2.0.so:/usr/lib/libgthread-2.0.so matlab -desktop'
-
 # connect to uni-vpn (ovpn)
 alias uniup='nmcli connection up uni'
 alias unidown='nmcli connection down uni'
