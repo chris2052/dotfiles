@@ -623,7 +623,7 @@
        ask="1"
        ask_svg="0"
        link="embed"
-       scale="optimizeSpeed"
+       scale="optimizeQuality"
        import_mode_svg="include"
        forcexdpi="0" />
     <group
@@ -979,7 +979,7 @@
      org.inkscape.output.pdf.cairorenderer.PDFversion="PDF-1.5"
      org.inkscape.output.pdf.cairorenderer.textToPath="paths"
      org.inkscape.input.svg.scale="auto"
-     org.inkscape.input.gdkpixbuf.png.scale="optimizeSpeed"
+     org.inkscape.input.gdkpixbuf.png.scale="optimizeQuality"
      org.inkscape.input.svg.do_not_ask="1"
      org.inkscape.input.eps.autorotate="None" />
   <group
@@ -990,7 +990,7 @@
        height="1027"
        x="1920"
        y="21"
-       maximized="1"
+       maximized="0"
        fullscreen="0"
        id="geometry" />
     <group
