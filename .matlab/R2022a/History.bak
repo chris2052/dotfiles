@@ -1,0 +1,1762 @@
+<?xml version="1.0" encoding="utf-8"?>
+<history>
+<session>
+<command time_stamp="17eaf3150be">%-- 31.01.2022 09:12:32 --%</command>
+<command execution_time="77">ChangeInterpreter(gcf, 'none')</command>
+<command execution_time="503842" repeat="3">dispersion</command>
+<command execution_time="56" repeat="2">plotBandgaps(bandgaps, 'x', grey, modifier)</command>
+<command execution_time="19">test = nan;</command>
+<command execution_time="19">test &gt; 0</command>
+<command execution_time="17">test &lt; 0</command>
+<command execution_time="15">isnan(test)</command>
+<command execution_time="13">~isnan(test)</command>
+<command execution_time="53">plotBandgaps(bandgaps, 'x', grey, modifier)</command>
+<command execution_time="64">ChangeInterpreter(gcf, 'none')</command>
+<command execution_time="25" repeat="2">plotDimensions(gca, gcf, 15, 7, .8, 90)</command>
+<command execution_time="14">plotDimensions(gca, gcf, 15, 8, .8, 90)</command>
+<command execution_time="38">xtickformat('%.2f')</command>
+<command execution_time="14">xtickformat('%.1f')</command>
+<command execution_time="140">plotBandgaps(bandgaps, 'Skalierungsfaktor $\gamma$', grey, modifier)</command>
+<command execution_time="56">ChangeInterpreter(gcf, 'none')</command>
+<command execution_time="26">xtickformat('%.1f')</command>
+<command execution_time="16">xtickformat('%.0f')</command>
+<command execution_time="29">xtickformat('%.1f')</command>
+<command execution_time="195" repeat="4">plotBandgaps(bandgaps, 'Skalierungsfaktor $\gamma$', grey, modifier)</command>
+<command execution_time="42">modifier</command>
+<command execution_time="34">modifier'</command>
+<command execution_time="165">plotBandgaps(bandgaps, 'Skalierungsfaktor $\gamma$', grey, modifier)</command>
+<command error="true" execution_time="162">get(gcf, 'xticklabels')</command>
+<command execution_time="42">get(gca, 'xticklabels')</command>
+<command execution_time="72">plotTickDelta(gca, 'x', 5)</command>
+<command execution_time="73">plotTickDelta(gca, 'x', 1)</command>
+<command execution_time="180" repeat="2">plotBandgaps(bandgaps, 'Skalierungsfaktor $\gamma$', grey, modifier)</command>
+<command execution_time="68" repeat="2">plotTickDelta(gca, 'x', 5)</command>
+<command execution_time="174">plotBandgaps(bandgaps, 'Skalierungsfaktor $\gamma$', grey, modifier)</command>
+<command execution_time="57">plotTickDelta(gca, 'x', 4)</command>
+<command execution_time="179">plotBandgaps(bandgaps, 'Skalierungsfaktor $\gamma$', grey, modifier)</command>
+<command execution_time="65">plotTickDelta(gca, 'x', 5)</command>
+<command execution_time="72">plotDimensions(gca, gcf, 15, 8, 1)</command>
+<command execution_time="51">plotDimensions(gca, gcf, 15, 9, 1)</command>
+<command execution_time="49">plotDimensions(gca, gcf, 15, 9, .7)</command>
+<command execution_time="51">plotDimensions(gca, gcf, 15, 9, .75)</command>
+<command error="true" execution_time="91">get(gca, 'xtickformat')</command>
+<command error="true" execution_time="94">get(gcf, 'xtickformat')</command>
+<command execution_time="169">plotBandgaps(bandgaps, 'Skalierungsfaktor $\gamma$', grey, modifier)</command>
+<command execution_time="61">plotDimensions(gca, gcf, 15, 9, .75)</command>
+<command execution_time="56">plotTickDelta(gca, 'x', 5)</command>
+<command execution_time="189" repeat="7">plotBandgaps(bandgaps, 'Skalierungsfaktor $\gamma$', grey, modifier)</command>
+<command execution_time="35">get(gca, 'XTickLabel')</command>
+<command execution_time="71">xtickformat('%.1f')</command>
+<command execution_time="44">get(gca, 'XTickLabel')</command>
+<command execution_time="42">mod = num2str(modifier, '%.1f')</command>
+<command execution_time="23">mod = num2str(modifier, '%.2f')</command>
+<command execution_time="20">mod = num2str(modifier, '%.1f')</command>
+<command error="true" execution_time="89">mod = cellstr(modifier, '%.1f')</command>
+<command execution_time="46">modifier'</command>
+<command execution_time="37">round(modifier, 1)</command>
+<command execution_time="38">round(modifier, 2)</command>
+<command execution_time="49">compose('%.1f', modifier)</command>
+<command execution_time="181">plotBandgaps(bandgaps, 'Skalierungsfaktor $\gamma$', grey, modifier)</command>
+<command execution_time="63">plotTickDelta(gca, 'x', 5)</command>
+<command execution_time="66">plotDimensions(gca, gcf, 15, 9, .75)</command>
+<command execution_time="63">plotStretch(gca, gcf, 1.05, 1)</command>
+<command execution_time="1886">Plot2LaTeX(gcf, 'scale_silicon-steel')</command>
+<command execution_time="588723" repeat="2">dispersion</command>
+<command execution_time="172" repeat="2">plotBandgaps(bandgaps, 'Skalierungsfaktor $\gamma$', grey, modifier)</command>
+<command execution_time="496088" repeat="2">dispersion</command>
+<command execution_time="179">plotBandgaps(bandgaps, 'Skalierungsfaktor $\gamma$', grey, modifier)</command>
+<command execution_time="570704">dispersion</command>
+<command execution_time="166" repeat="2">plotBandgaps(bandgaps, 'Skalierungsfaktor $\gamma$', grey, modifier)</command>
+</session>
+<session>
+<command time_stamp="17ed8c57ae3">%-- 08.02.2022 10:58:48 --%</command>
+<command execution_time="84">ChangeInterpreter(gcf, 'latex')</command>
+<command execution_time="54">plotDimensions(gca, gcf, 10, 10, .9)</command>
+<command execution_time="32">plotDimensions(gca, gcf, 8, 8, .8)</command>
+<command execution_time="35">plotDimensions(gca, gcf, 10, 8, .8)</command>
+<command execution_time="20">ylim([-.2,2])</command>
+<command execution_time="16">ylim([-.2,1.5])</command>
+<command execution_time="15">ylim([-.2,1.4])</command>
+<command execution_time="33">ylim([-.2,1.2])</command>
+<command execution_time="17">ylim([-.2,1.1])</command>
+<command execution_time="72">ChangeInterpreter(gcf, 'none')</command>
+<command execution_time="29">plotDimensions(gca, gcf, 8, 7, .8)</command>
+<command execution_time="45" repeat="2">plotDimensions(gca, gcf, 8, 6, .8)</command>
+<command execution_time="64">ChangeInterpreter(gcf, 'none')</command>
+<command execution_time="48">plotDimensions(gca, gcf, 8, 6, .8)</command>
+<command execution_time="67">ChangeInterpreter(gcf, 'none')</command>
+<command execution_time="1809">Plot2LaTeX(gcf, 'lagrange2order')</command>
+<command execution_time="4576">Plot2LaTeX(gcf, 'lagrangeN6')</command>
+<command execution_time="62">box off</command>
+<command execution_time="42">box on</command>
+<command execution_time="51">box off</command>
+<command execution_time="40">axis off</command>
+<command execution_time="1068">export_fig test.png -transparent</command>
+<command execution_time="4378">export_fig('-update')</command>
+<command execution_time="1506">export_fig test.png -m2 -transparent</command>
+<command execution_time="833">export_fig test.png -m3 -transparent</command>
+<command execution_time="546">export_fig test.png -m2 -transparent</command>
+<command execution_time="57">plotDimensions(gca, gcf, 8, 6, .8)</command>
+<command execution_time="683">export_fig test.png -m2 -transparent</command>
+<command execution_time="1242">export_fig test.png -m5 -transparent</command>
+<command execution_time="1042">export_fig test.png -transparent</command>
+<command execution_time="1486">export_fig test.png -m10 -transparent</command>
+<command execution_time="41">plotDimensions(gca, gcf, 8, 6, .8)</command>
+<command execution_time="72">ChangeInterpreter(gcf, 'none')</command>
+<command error="true" execution_time="180">Plot2LaTeX(gcf, 'testtest', 'Renderer', 'opengl')</command>
+<command execution_time="4411">Plot2LaTeX(gcf, 'testtest', 'Renderer')</command>
+<command execution_time="107">set(gcf, 'Renderer', 'opengl')</command>
+<command execution_time="3824">Plot2LaTeX(gcf, 'testtest', 'Renderer')</command>
+</session>
+<session>
+<command time_stamp="17edd6b500e">%-- 09.02.2022 08:38:25 --%</command>
+<command execution_time="51">box off</command>
+<command execution_time="48">axis off</command>
+<command execution_time="43">title off</command>
+<command execution_time="20">title " "</command>
+<command execution_time="30" repeat="2">title ' '</command>
+<command error="true" execution_time="220">plotDimensions(10, 10, 1)</command>
+<command execution_time="32" repeat="2">plotDimensions(gca, gcf, 10, 10, 1)</command>
+<command error="true" execution_time="185">comsolUnitcell</command>
+<command execution_time="2805">startcomsol</command>
+<command execution_time="47873">comsolUnitcell</command>
+<command execution_time="7388" repeat="7">dispersion</command>
+<command execution_time="35">plotDimensions(gca,gcf, 8,8,.9)</command>
+<command error="true" execution_time="246">Plot2LaTeX(gca, 'mesh')</command>
+<command execution_time="1244">Plot2LaTeX(gcf, 'mesh')</command>
+<command execution_time="19">plotDimensions(gca, gcf, 8, 7, .8);</command>
+<command execution_time="1089">Plot2LaTeX(gcf, 'comsolmatlab')</command>
+<command execution_time="20">plotDimensions(gca, gcf, 8, 7, .8);</command>
+<command execution_time="31">title ' '</command>
+<command execution_time="16">grid minor</command>
+<command execution_time="20">grid off</command>
+<command execution_time="1124">Plot2LaTeX(gcf, 'comsoldisp')</command>
+<command execution_time="834">Plot2LaTeX(gcf, 'comsoldispmatlab')</command>
+<command execution_time="20">plotDimensions(gca, gcf, 8, 7, .8);</command>
+<command execution_time="920">Plot2LaTeX(gcf, 'comsoldispmatlab')</command>
+<command execution_time="34">plotDimensions(gca, gcf, 8, 7, .8);</command>
+<command execution_time="731">Plot2LaTeX(gcf, 'comsoldispmatlab')</command>
+</session>
+<session>
+<command time_stamp="17ee300da7c">%-- 10.02.2022 10:39:51 --%</command>
+<command execution_time="13659" repeat="10">dispersion</command>
+<command execution_time="37" repeat="3">plotDimensions(gca, gcf, 5, 4, .8);</command>
+<command execution_time="1855">Plot2LaTeX(gcf, 'rad16mm_silicon-wolfram')</command>
+<command execution_time="854">Plot2LaTeX(gcf, 'rad20mm_silicon-steel')</command>
+<command execution_time="859">Plot2LaTeX(gcf, 'rad38mm_silicon-concrete')</command>
+<command execution_time="913" repeat="2">Plot2LaTeX(gcf, 'rad16mm_silicon-wolfram')</command>
+<command execution_time="759">Plot2LaTeX(gcf, 'rad20mm_silicon-steel')</command>
+<command execution_time="700">Plot2LaTeX(gcf, 'rad38mm_silicon-concrete')</command>
+<command execution_time="700">Plot2LaTeX(gcf, 'rad16mm_silicon-wolfram')</command>
+<command execution_time="735">Plot2LaTeX(gcf, 'rad20mm_silicon-steel')</command>
+<command execution_time="703">Plot2LaTeX(gcf, 'rad38mm_silicon-concrete')</command>
+<command execution_time="679" repeat="2">Plot2LaTeX(gcf, 'rad16mm_silicon-wolfram')</command>
+<command execution_time="716">Plot2LaTeX(gcf, 'rad20mm_silicon-steel')</command>
+<command execution_time="688">Plot2LaTeX(gcf, 'rad38mm_silicon-concrete')</command>
+</session>
+<session>
+<command time_stamp="17ee88f152e">%-- 11.02.2022 12:33:18 --%</command>
+<command execution_time="81">IntFunc(1,1)</command>
+<command execution_time="949">simplify(IntFunc(1,1))</command>
+<command execution_time="53">IntFunc(1,1)</command>
+<command execution_time="34">IntMass(1,1)</command>
+<command execution_time="96">pretty(IntMass(1,1))</command>
+<command execution_time="35">IntMass(1,1)</command>
+</session>
+<session>
+<command time_stamp="17ef238d8ae">%-- 13.02.2022 09:35:19 --%</command>
+<command execution_time="195">gca</command>
+<command error="true" execution_time="218">xtick(2:end)</command>
+<command error="true" execution_time="77">xtick([2:end])</command>
+<command error="true" execution_time="157">axis([0.2,inf, inf , inf])</command>
+<command execution_time="32">axis([0.2,3, 0 , 1000])</command>
+<command execution_time="35">axis([1,10, 0 , 1000])</command>
+<command execution_time="53">axis([1,inf, 0 , 1000])</command>
+<command execution_time="40">axis([1,inf, 0 , inf])</command>
+<command execution_time="36">axis([2,inf, 0 , inf])</command>
+<command execution_time="34">axis([2,1000 0 , inf])</command>
+<command execution_time="36">axis([2,inf, 0 , 1000])</command>
+<command execution_time="32" repeat="2">axis([0,inf, 0 , 1000])</command>
+<command execution_time="31">plotTickDelta(gca, 'x', 5)</command>
+<command execution_time="52">plotDimensions(gca, gcf, 8, 6, .8)</command>
+<command execution_time="29">plotDimensions(gca, gcf, 8, 6, .7)</command>
+<command execution_time="28">plotDimensions(gca, gcf, 8, 6, .65)</command>
+<command execution_time="56">plotDimensions(gca, gcf, 10, 8, .65)</command>
+<command execution_time="33">plotDimensions(gca, gcf, 10, 8, .7)</command>
+<command execution_time="27">plotDimensions(gca, gcf, 10, 8, .75)</command>
+<command execution_time="73" repeat="2">plotDimensions(gca, gcf, 10, 8, .7)</command>
+<command execution_time="25">plotTickDelta(gca, 'x', 5)</command>
+<command execution_time="40">axis([0,inf, 0 , 1000])</command>
+<command execution_time="41">plotDimensions(gca, gcf, 10, 8, .7)</command>
+<command execution_time="26" repeat="2">plotTickDelta(gca, 'x', 5)</command>
+<command execution_time="26" repeat="2">plotDimensions(gca, gcf, 10, 8, .7)</command>
+<command execution_time="26" repeat="2">plotDimensions(gca, gcf, 10, 8, .75)</command>
+<command execution_time="23">plotDimensions(gca, gcf, 10, 8, .75, 45)</command>
+<command execution_time="27" repeat="2">plotDimensions(gca, gcf, 10, 8, .75, 90)</command>
+<command execution_time="26">plotStretch(gca, gcf, 1, .8)</command>
+<command error="true" execution_time="75">plotStretch(gca, gcf, 1, 1,1)</command>
+<command execution_time="24">plotStretch(gca, gcf, 1, 1.1)</command>
+<command execution_time="24">plotStretch(gca, gcf, 1, .9)</command>
+<command execution_time="56">plotOverlapFigures(1,2)</command>
+<command execution_time="43">plotOverlapFigures(2,1)</command>
+<command execution_time="45">plotOverlapFigures(1,2)</command>
+</session>
+<session>
+<command time_stamp="17efc53d892">%-- 15.02.2022 08:41:00 --%</command>
+<command execution_time="20854" repeat="3">dispersion</command>
+<command execution_time="23">get(gcf, 'ylim')</command>
+<command execution_time="18">load('material.mat')</command>
+<command execution_time="5">load('material.mat', 'material')</command>
+</session>
+<session>
+<command time_stamp="17efdd877bc">%-- 15.02.2022 15:45:29 --%</command>
+<command execution_time="16">10^(2.4)</command>
+<command execution_time="7">10^(6.4)</command>
+<command execution_time="7556" repeat="2">dispersion</command>
+<command execution_time="10">plotDimensions(gca, gcf, 7, 6, .7);</command>
+<command execution_time="7">plotDimensions(gca, gcf, 7, 6, .8);</command>
+<command execution_time="15">plotDimensions(gca, gcf, 7, 7, .8);</command>
+<command execution_time="13">plotDimensions(gca, gcf, 7, 7, .7);</command>
+<command execution_time="10">plotDimensions(gca, gcf, 7, 7, .75);</command>
+<command execution_time="10">plotDimensions(gca, gcf, 7, 7, .7);</command>
+<command execution_time="7412">dispersion</command>
+<command execution_time="8">plotFigSize(gca, gcf)</command>
+<command execution_time="1357">Plot2LaTeX(gcf, 'E_silicon-wolfram2')</command>
+<command execution_time="757">Plot2LaTeX(gcf, 'E_silicon-wolfram10e9')</command>
+<command execution_time="726">Plot2LaTeX(gcf, 'E_silicon-wolfram10e6-4')</command>
+<command execution_time="13">plotDimensions(gca, gcf, 8, 7, .7);</command>
+<command execution_time="9">plotDimensions(gca, gcf, 8, 8, .7);</command>
+<command execution_time="9">plotDimensions(gca, gcf, 8, 8, .75);</command>
+<command execution_time="748">Plot2LaTeX(gcf, 'E_silicon-wolfram10e6-4')</command>
+<command execution_time="17">plotDimensions(gca, gcf, 8, 8, .75);</command>
+<command execution_time="854">Plot2LaTeX(gcf, 'E_silicon-wolfram10e9')</command>
+<command execution_time="7160" repeat="4">dispersion</command>
+<command execution_time="667">Plot2LaTeX(gcf, 'rho_silicon-steel-15000')</command>
+<command execution_time="674">Plot2LaTeX(gcf, 'rho_silicon-steel-3500')</command>
+<command execution_time="687">Plot2LaTeX(gcf, 'rho_silicon-steel')</command>
+</session>
+<session>
+<command time_stamp="17f0161eecb">%-- 16.02.2022 08:14:30 --%</command>
+<command execution_time="29">10^(6.4)</command>
+<command execution_time="3076" repeat="23">dispersion</command>
+<command execution_time="19">4e11</command>
+<command execution_time="3520" repeat="30">dispersion</command>
+<command execution_time="32">a = gca;</command>
+<command execution_time="11">a.XRuler.TickLabelGapOffset = -45;</command>
+<command execution_time="10">a.XRuler.TickLabelGapOffset = 5;</command>
+<command execution_time="3">a.XRuler.TickLabelGapOffset = 1;</command>
+<command execution_time="10">a.XRuler.TickLabelGapOffset = 2;</command>
+<command execution_time="10">a.XRuler.TickLabelGapOffset = 2.5;</command>
+<command execution_time="12">a.XRuler.TickLabelGapOffset = 3;</command>
+<command execution_time="12">a.YRuler.TickLabelGapOffset = 3;</command>
+<command execution_time="18">plotOffset(gca, 0)</command>
+<command execution_time="13">plotOffset(gca, 1)</command>
+<command execution_time="13">plotOffset(gca, 2)</command>
+<command execution_time="14">plotOffset(gca, 5, 0)</command>
+<command execution_time="21">plotOffset(gca, 10)</command>
+<command execution_time="15">plotOffset(gca, 0)</command>
+<command execution_time="17">plotOffset(gca, -10)</command>
+<command execution_time="16">plotOffset(gca, 0)</command>
+<command execution_time="17">plotOffset(gca, -15)</command>
+<command execution_time="17">plotOffset(gca, 0)</command>
+<command execution_time="134434" repeat="2">dispersion</command>
+<command execution_time="163">plotBandgaps(bandgaps, 'Querkontraktionszahl $\nu$ [-]', grey, modifier)</command>
+<command execution_time="2659" repeat="25">dispersion</command>
+<command execution_time="128230">dispersionParamStudy</command>
+<command execution_time="132">plotBandgaps(bandgaps, 'Querkontraktionszahl $\nu$ [-]', grey, modifier)</command>
+<command execution_time="123113">dispersionParamStudy</command>
+<command execution_time="141">plotBandgaps(bandgaps, 'Querkontraktionszahl $\nu$ [-]', grey, modifier)</command>
+<command execution_time="16">plotTickDelta(gca, 'x', 5)</command>
+<command execution_time="12">plotTickDelta(gca, 'x', 10)</command>
+<command execution_time="18">plotFigSize(gca,gcf)</command>
+<command execution_time="32" repeat="2">plotFigSize(gca, gcf)</command>
+<command execution_time="23">plotDimensions(gca, gcf, 10, 8, .8)</command>
+<command execution_time="17">plotDimensions(gca, gcf, 10, 8, .7)</command>
+<command execution_time="22">plotDimensions(gca, gcf, 12, 9, .7)</command>
+<command execution_time="42" repeat="2">plotDimensions(gca, gcf, 12, 9, .75)</command>
+<command execution_time="39">plotTickDelta(gca, 'x', 10)</command>
+<command execution_time="54">plotOverlapFigures(2,1)</command>
+<command execution_time="82">plotOverlapFigures(1,2)</command>
+<command execution_time="2104">Plot2LaTeX(gcf, 'nu')</command>
+<command execution_time="28">a = gca;</command>
+<command error="true" execution_time="128">grid log</command>
+<command execution_time="55">set(gca, 'XScale', 'log')</command>
+<command execution_time="3779" repeat="16">dispersion</command>
+<command execution_time="32" repeat="2">plotFigSize(gca,gcf)</command>
+<command execution_time="2726">Plot2LaTeX(gcf, 'scale_silicon-steel')</command>
+</session>
+<session>
+<command time_stamp="17f06ab3dc6">%-- 17.02.2022 08:52:40 --%</command>
+<command execution_time="3077" repeat="2">dispersion</command>
+<command execution_time="16">plotOffset(gca, 2)</command>
+<command execution_time="24">load('material.mat')</command>
+<command execution_time="3719" repeat="8">dispersion</command>
+<command execution_time="81935">dispersionParamStudy</command>
+<command execution_time="170">plotBandgaps(bandgaps, 'test', grey, modifier)</command>
+<command execution_time="137">plotBandgaps(bandgaps, 'test', grey, modifier*100)</command>
+<command execution_time="148">plotBandgaps(bandgaps, 'Breite der Umrandung\,[mm]', grey, modifier*100-300)</command>
+<command execution_time="139">plotBandgaps(bandgaps, 'Breite der Umrandung\,[mm]', grey, modifier*100)</command>
+<command execution_time="151">plotBandgaps(bandgaps, 'Breite der Umrandung\,[mm]', grey, modifier*100-3)</command>
+<command execution_time="85">plotBandgaps(bandgaps, 'Breite der Umrandung\,[mm]', grey, modifier*10-3)</command>
+<command execution_time="154">plotBandgaps(bandgaps, 'Breite der Umrandung\,[mm]', grey, modifier*10-0.3)</command>
+<command execution_time="155">plotBandgaps(bandgaps, 'Breite der Umrandung\,[mm]', grey, modifier*1000)</command>
+<command execution_time="146">plotBandgaps(bandgaps, 'Breite der Umrandung\,[mm]', grey, modifier*1000-30)</command>
+<command execution_time="121">plotBandgaps(bandgaps, 'Breite der Umrandung [mm]', grey, modifier*1000-30)</command>
+<command execution_time="21">plotDimensions(gca, gcf, 10, 7, .7)</command>
+<command execution_time="23">plotDimensions(gca, gcf, 12, 8, .7)</command>
+<command execution_time="23">plotDimensions(gca, gcf, 12, 8, .75)</command>
+<command execution_time="25">plotDimensions(gca, gcf, 11, 8, .75)</command>
+<command execution_time="28">plotDimensions(gca, gcf, 11, 9, .75)</command>
+<command execution_time="27">plotTickDelta(gca, 'x', 5)</command>
+<command execution_time="27">plotOffset(gca, 2)</command>
+<command execution_time="1428">Plot2LaTeX(gcf, 'bound')</command>
+<command execution_time="2769" repeat="5">dispersion</command>
+<command execution_time="20">plotOffset(gca, 2)</command>
+<command execution_time="7304" repeat="24">dispersion</command>
+</session>
+<session>
+<command time_stamp="17f1b74a942">%-- 21.02.2022 09:45:05 --%</command>
+<command execution_time="4590" repeat="3">dispersion</command>
+<command execution_time="1568">Plot2LaTeX(gcf, 'bound_concrete-steel-0')</command>
+<command execution_time="778">Plot2LaTeX(gcf, 'bound_concrete-steel-40')</command>
+<command execution_time="788">Plot2LaTeX(gcf, 'bound_concrete-steel-30-0')</command>
+<command execution_time="740">Plot2LaTeX(gcf, 'bound_concrete-steel-30-10')</command>
+<command execution_time="903">Plot2LaTeX(gcf, 'bound_concrete-steel-0')</command>
+<command execution_time="661">Plot2LaTeX(gcf, 'bound_concrete-steel-30-0')</command>
+<command execution_time="702">Plot2LaTeX(gcf, 'bound_concrete-steel-30-10')</command>
+<command execution_time="704">Plot2LaTeX(gcf, 'bound_concrete-steel-30-0')</command>
+<command execution_time="688">Plot2LaTeX(gcf, 'bound_concrete-steel-30-10')</command>
+<command execution_time="35">plotDimensions(gca, gcf, 7,7,1)</command>
+<command execution_time="28">axis off</command>
+<command error="true" execution_time="220">axes off</command>
+<command execution_time="17">axis off</command>
+<command execution_time="32">title off</command>
+<command execution_time="21">title ''</command>
+<command execution_time="40">plotDimensions(gca, gcf, 7,7,1)</command>
+<command execution_time="39">axis off</command>
+<command execution_time="45">title ''</command>
+<command execution_time="1088">export_fig test.png -m2</command>
+<command execution_time="3550" repeat="3">dispersion</command>
+<command error="true" execution_time="127">tile ''</command>
+<command execution_time="23">title ''</command>
+<command execution_time="660">export_fig matlab.png -m2</command>
+</session>
+<session>
+<command time_stamp="17f2588bbc2">%-- 23.02.2022 08:43:12 --%</command>
+<command execution_time="9311">dispersion</command>
+<command execution_time="50">axis off</command>
+<command execution_time="34">title ''</command>
+<command execution_time="3443">Plot2LaTeX(gcf, 'legend')</command>
+<command execution_time="3002">dispersion</command>
+<command execution_time="843">Plot2LaTeX(gcf, 'nu_silicon-wolfram-outer-0')</command>
+<command execution_time="890">Plot2LaTeX(gcf, 'nu_silicon-wolfram')</command>
+</session>
+<session>
+<command time_stamp="17f2ae66319">%-- 24.02.2022 09:43:36 --%</command>
+<command execution_time="3872" repeat="4">dispersion</command>
+<command execution_time="83353" repeat="2">dispersionParamStudy</command>
+<command execution_time="197">plotBandgaps(bandgaps, 'test', grey, modifier)</command>
+<command execution_time="181">plotBandgaps(bandgaps, 'test', grey, modifier*100-31)</command>
+<command execution_time="142">plotBandgaps(bandgaps, 'test', grey, modifier*1000-30)</command>
+<command execution_time="17">plotTickDelta(gca, 'x', 5)</command>
+<command execution_time="66">plotOverlapFigures(2,1)</command>
+<command execution_time="2882">Plot2LaTeX(gcf, 'bound_steel-vs-wolfram')</command>
+<command error="true" execution_time="5383">dispersionParamStudy</command>
+<command execution_time="3715" repeat="19">dispersion</command>
+<command execution_time="23">plotDimensions(gca, gcf, 10, 10, .7)</command>
+<command execution_time="21">plotDimensions(gca, gcf, 8, 8, .7)</command>
+<command execution_time="24">plotDimensions(gca, gcf, 8, 8, .75)</command>
+<command execution_time="923">Plot2LaTeX(gcf, 'opt')</command>
+<command execution_time="1855">Plot2LaTeX(gcf, 'legend_opt')</command>
+<command execution_time="1518">export_fig 'test.png' -m2</command>
+<command execution_time="42">title ' '</command>
+<command execution_time="2621">export_fig -m3 'test.png'</command>
+<command execution_time="560" repeat="2">export_fig -m2 'test.png'</command>
+<command error="true" execution_time="203">plotDimensions(gcf, gca, 7,7, .7)</command>
+<command execution_time="28">plotDimensions(gca, gcf, 7, 7, .7)</command>
+<command execution_time="748">Plot2LaTeX(gcf, 'opt_dispersion')</command>
+</session>
+<session>
+<command time_stamp="17f311e0bfe">%-- 25.02.2022 14:42:07 --%</command>
+<command execution_time="10871">dispersion</command>
+<command execution_time="16" repeat="2">title ' '</command>
+<command error="true" execution_time="255">export_fig -2 '3eig423-5Hz.png'</command>
+<command execution_time="1839">export_fig -m2 '3eig423-5Hz.png'</command>
+<command execution_time="9">title ' '</command>
+<command execution_time="918">export_fig -m2 '4eig2557-2Hz.png'</command>
+<command execution_time="6383">dispersion</command>
+<command execution_time="9">title ' '</command>
+<command execution_time="946">export_fig -m2 'bound10_M2eig212-8Hz.png'</command>
+<command execution_time="4588" repeat="3">dispersion</command>
+<command execution_time="11">title ' '</command>
+<command execution_time="1221">export_fig -m2 'bound0_M3eig4427-7Hz.png'</command>
+</session>
+<session>
+<command time_stamp="17f358f422c">%-- 26.02.2022 11:24:15 --%</command>
+<command execution_time="6447" repeat="13">dispersion</command>
+<command execution_time="1383">Plot2LaTeX(gcf, 'noBandgap')</command>
+<command execution_time="4623">dispersion</command>
+<command execution_time="750">Plot2LaTeX(gcf, 'BandgapYes')</command>
+<command execution_time="6375">dispersion</command>
+<command execution_time="735">Plot2LaTeX(gcf, 'BandgapNo')</command>
+</session>
+<session>
+<command time_stamp="17f749f3376">%-- 10.03.2022 17:17:45 --%</command>
+<command execution_time="279" repeat="2">boxplot(bs1auswertung2021ws)</command>
+<command execution_time="260" repeat="2">boxplot(bs1auswertung2021ws, 'PlotStyle', 'compact')</command>
+<command execution_time="251">boxplot(bs1auswertung2021ws, 'BoxStyle', 'filled')</command>
+<command execution_time="249">boxplot(bs1auswertung2021ws, 'BoxStyle', 'outline')</command>
+<command execution_time="267">boxchart(bs1auswertung2021ws)</command>
+<command execution_time="88">boxchart(bs1auswertung2021ws')</command>
+<command execution_time="76">boxchart(bs1auswertung2021ws)</command>
+<command execution_time="24">xlabel('Aufgabe')</command>
+<command execution_time="15">ylabel('Punkte')</command>
+<command execution_time="16">title('Klausur Baustatik 1 WS2021')</command>
+<command execution_time="1611">export_fig -m2 test.png</command>
+<command error="true" execution_time="276">export_fit('-update')</command>
+<command execution_time="1857">export_fig('-update')</command>
+<command execution_time="1217">export_fig -m2 test.png</command>
+<command execution_time="15">set(gcf, 'Color', 'w')</command>
+<command execution_time="503">export_fig -m2 test.png</command>
+<command execution_time="173">export_fig  test1.png</command>
+</session>
+<session>
+<command time_stamp="17f7840843e">%-- 11.03.2022 10:12:48 --%</command>
+<command execution_time="1573">boxchart(bs1auswertung2021ws)</command>
+<command execution_time="1299">export_fig -m2 punkteverteilung.png</command>
+</session>
+<session>
+<command time_stamp="17f88b0d66d">%-- 14.03.2022 14:49:25 --%</command>
+<command execution_time="9">addpath(genpath('msim_root'));</command>
+<command execution_time="8">msim_root = pwd;</command>
+<command execution_time="8">addpath(genpath('msim_root'));</command>
+<command execution_time="5">dom.Geometry = 'Polygon';</command>
+<command batch="1">dom.X = [0 0 5000 5000 0 nan];</command>
+<command batch="1" execution_time="6">dom.Y = [0 5000 5000 0 0 nan];</command>
+<command batch="2">riv.Geometry = 'Line';</command>
+<command batch="2">riv.X = [2500 5000 nan];</command>
+<command batch="2" execution_time="8">riv.Y = [5000 2500 nan];</command>
+<command batch="3">riv.DistMin = 50;</command>
+<command batch="3">riv.DistMax = 500;</command>
+<command batch="3">riv.LcMin = 50;</command>
+<command batch="3" execution_time="7">riv.LcMax = 500;</command>
+<command batch="4">wells(1,1).Geometry = 'Point';</command>
+<command batch="4">wells(1,1).X = 844;</command>
+<command batch="4">wells(1,1).Y = 1177;</command>
+<command batch="4">wells(1,1).DistMin = 5;</command>
+<command batch="4">wells(1,1).DistMax = 500;</command>
+<command batch="4">wells(1,1).LcMin = 5;</command>
+<command batch="4">wells(1,1).LcMax = 200;</command>
+<command batch="4">wells(2,1).Geometry = 'Point';</command>
+<command batch="4">wells(2,1).X = 2356;</command>
+<command batch="4">wells(2,1).Y = 2829;</command>
+<command batch="4">wells(2,1).DistMin = 5;</command>
+<command batch="4">wells(2,1).DistMax = 500;</command>
+<command batch="4">wells(2,1).LcMin = 5;</command>
+<command batch="4" execution_time="20">wells(2,1).LcMax = 200;</command>
+<command error="true" execution_time="381">simple_dom = CSGobj_v2(2,1,10,10,1);%Dim,Npoly,Nline,Npoints,usertol</command>
+<command execution_time="24">genpath(msim_root)</command>
+<command execution_time="84">addpath(genpath(msim_root));</command>
+<command execution_time="40">simple_dom = CSGobj_v2(2,1,10,10,1);%Dim,Npoly,Nline,Npoints,usertol</command>
+<command execution_time="353">simple_dom=simple_dom.readshapefile(dom);</command>
+<command execution_time="23">simple_dom=simple_dom.readshapefile(riv);</command>
+<command execution_time="13">simple_dom=simple_dom.readshapefile(wells);</command>
+<command execution_time="1266">axis([-10 5010 -10 5010])</command>
+<command execution_time="90">simple_dom.plotCSGobj</command>
+<command execution_time="11">meshopt=msim_mesh_options;</command>
+<command batch="5">meshopt.lc_gen = 200; % size of maximum element</command>
+<command batch="5">meshopt.embed_points = 1; % we want to embed the points into the mesh</command>
+<command batch="5" execution_time="7">meshopt.embed_lines = 1; % we want to embed the lines into the mesh</command>
+<command execution_time="17">meshopt</command>
+<command execution_time="25">simple_dom.writegeo('simple_example',meshopt);</command>
+<command execution_time="13">gmsh_path='/usr/bin/gmsh';</command>
+<command execution_time="424">simple_dom.runGmsh('simple_example', gmsh_path, [])</command>
+<command execution_time="70123">simple_dom.showGmsh('simple_example', gmsh_path, 'msh')</command>
+<command batch="6">tic;</command>
+<command batch="6">[p MSH]=read_2D_Gmsh('simple_example', 0, 0);</command>
+<command batch="6" execution_time="137">toc</command>
+<command batch="7" error="true">tic;</command>
+<command batch="7" error="true">[p MSH]=read_2D_Gmsh('simple_example', [], 1);</command>
+<command batch="7" error="true" execution_time="246">toc</command>
+<command error="true" execution_time="85">triplot(MSH(3,1).elem(1,1).id, p(:,1), p(:,2))</command>
+<command execution_time="9">meshopt</command>
+<command execution_time="15">simple_dom.writegeo('simple_example',meshopt);</command>
+<command execution_time="214" repeat="2">simple_dom.runGmsh('simple_example',gmsh_path,[])</command>
+<command execution_time="9">meshopt</command>
+<command execution_time="20">simple_dom.writegeo('simple_example', meshopt);</command>
+<command execution_time="161">simple_dom.runGmsh('simple_example', gmsh_path, [])</command>
+<command execution_time="3996">simple_dom.showGmsh('simple_example',gmsh_path, 'msh');</command>
+<command batch="8">tic;</command>
+<command batch="8">[p MSH]=read_2D_Gmsh('simple_example', 0, 0);</command>
+<command batch="8" execution_time="28">toc</command>
+<command batch="9" error="true">tic;</command>
+<command batch="9" error="true">[p MSH]=read_2D_Gmsh('simple_example', [], 1);</command>
+<command batch="9" error="true" execution_time="77">toc</command>
+<command execution_time="96">triplot(MSH(3,1).elem(1,1).id, p(:,1), p(:,2))</command>
+<command execution_time="31">axis equal</command>
+<command error="true" execution_time="138">border off</command>
+<command execution_time="16">grid off</command>
+<command execution_time="15">axis off</command>
+</session>
+<session>
+<command time_stamp="17fd07fd9e6">%-- 28.03.2022 14:28:34 --%</command>
+<command execution_time="165">cd ~/sciebo/</command>
+<command error="true" execution_time="3007">la</command>
+<command execution_time="262">ls -la</command>
+<command execution_time="1482" repeat="2">Streuebenen</command>
+<command execution_time="9">pi</command>
+</session>
+<session>
+<command time_stamp="18040d45d47">%-- 19.04.2022 09:58:21 --%</command>
+<command execution_time="360" repeat="10">dispersion</command>
+<command error="true" execution_time="95" repeat="2">createMeshUnitcell</command>
+<command execution_time="388">dispersion</command>
+<command execution_time="12">corseNoFill</command>
+<command execution_time="1995" repeat="3">dispersion</command>
+</session>
+<session>
+<command time_stamp="1804ac9de67">%-- 21.04.2022 08:23:05 --%</command>
+<command execution_time="246">help tril</command>
+<command execution_time="178">help trih</command>
+<command error="true" execution_time="66">triu</command>
+<command execution_time="152">help triu</command>
+<command execution_time="21">n1</command>
+<command execution_time="16">n2</command>
+<command execution_time="13">T1</command>
+<command error="true" execution_time="79">dim(T1)</command>
+<command error="true" execution_time="9">size(T1</command>
+<command execution_time="39" repeat="2">size(T1)</command>
+<command execution_time="86">d([1 2 3 5 6 7 8 9], [1 2 3 5 6 7 8 9])</command>
+</session>
+<session>
+<command time_stamp="18075bf450a">%-- 29.04.2022 16:35:11 --%</command>
+<command execution_time="112">cd /home/chris/sciebo/ComplexBandstructure/</command>
+<command execution_time="2739">startcomsol</command>
+</session>
+<session>
+<command time_stamp="18079acbcd2">%-- 30.04.2022 10:53:25 --%</command>
+<command execution_time="2644">startcomsol</command>
+<command execution_time="153">cd /home/chris/sciebo/ComplexBandstructure/</command>
+</session>
+<session>
+<command time_stamp="18083922d13">%-- 02.05.2022 09:00:37 --%</command>
+<command execution_time="261">cd /usr/local/MATLAB/R2021b/</command>
+<command error="true" execution_time="158">la</command>
+<command execution_time="45">ls -la</command>
+<command error="true" execution_time="163">sudo ./install</command>
+</session>
+<session>
+<command time_stamp="18083c333dd">%-- 02.05.2022 09:54:10 --%</command>
+<command execution_time="2643">startcomsol</command>
+<command execution_time="69">max(info.elements.quad.dofs)</command>
+<command execution_time="18">test = [info.nodes.coords', zeros(size(InitialNodes,1),1)]</command>
+<command execution_time="27">test==InitialNodes</command>
+<command execution_time="20">i</command>
+<command execution_time="21">j</command>
+<command execution_time="22">max(((PBC0(:,4)-PBC0(:,1)).^2+(PBC0(:,5)-PBC0(:,2)).^2+(PBC0(:,6)-PBC0(:,3)).^2).^(0.5))</command>
+<command error="true" execution_time="17">(PBC0(:,4)-PBC0(:,1)).^2+(PBC0(:,5)-PBC0(:,2)).^2+(PBC0(:,6)-PBC0(:,3)).^2)</command>
+<command execution_time="24">(PBC0(:,4)-PBC0(:,1)).^2+(PBC0(:,5)-PBC0(:,2)).^2+(PBC0(:,6)-PBC0(:,3)).^2</command>
+<command execution_time="21">sqrt(ans)</command>
+<command error="true" execution_time="359">ceil(1e-4/mindDist)+1</command>
+<command execution_time="20">ceil(1e-4/0.1)+1</command>
+<command execution_time="28">ceil(0.1/1e-4)+1</command>
+<command execution_time="24">(0.1:dOmegC:OmegC+0.1)/(2*pi)</command>
+</session>
+<session>
+<command time_stamp="180888f359f">%-- 03.05.2022 08:15:28 --%</command>
+<command execution_time="2855">startcomsol</command>
+<command execution_time="49">IndexPBC3D</command>
+<command execution_time="69">repmat(Idx0,di,1)</command>
+<command execution_time="73">unique(Idx0,'stable');</command>
+<command execution_time="66">unique(Idx0,'sorted');</command>
+<command execution_time="58" repeat="2">reshape(repmat(Idx0,di,1)*di-repmat(fliplr([0:di-1])',1,size(Idx0,1)),[],1)';</command>
+<command execution_time="62">reshape(repmat(Idx0,di,1)*di-repmat(fliplr([0:di-1])',1,size(Idx0,1)),[],1)'</command>
+<command error="true" execution_time="35">repmat(Idx0,di,1)*di-repmat(fliplr([0:di-1])'</command>
+<command execution_time="69">repmat(Idx0,di,1)*di</command>
+<command execution_time="42">repmat(fliplr([0:di-1])',1,size(Idx0,1))</command>
+<command execution_time="59">repmat(Idx0,di,1)*di-repmat(fliplr([0:di-1])',1,size(Idx0,1))</command>
+<command execution_time="66">unique(IdxPBCOut)</command>
+<command error="true" execution_time="218">d78*theta+d56'</command>
+<command execution_time="63">d78'*theta+d56'</command>
+</session>
+<session>
+<command time_stamp="1808e7644cd">%-- 04.05.2022 11:45:57 --%</command>
+<command execution_time="165">d58+d78</command>
+<command error="true" execution_time="295">d58+d78'</command>
+<command execution_time="37" repeat="2">CoefficientMatricesPBCrect</command>
+<command execution_time="2838">startcomsol</command>
+</session>
+<session>
+<command time_stamp="1809849eac0">%-- 06.05.2022 09:33:43 --%</command>
+<command execution_time="3101" repeat="9">dispersionQUAD</command>
+<command execution_time="11891" repeat="2">ComplBandStructQUAD</command>
+<command execution_time="23">load('material.mat')</command>
+<command execution_time="8122" repeat="13">ComplBandStructQUAD</command>
+<command execution_time="19" repeat="2">load model_information.mat</command>
+<command execution_time="7457" repeat="6">ComplBandStructQUAD</command>
+<command execution_time="3475">dispersionQUAD</command>
+<command execution_time="18402" repeat="2">ComplBandStructQUAD</command>
+<command execution_time="9">clc</command>
+<command execution_time="5315">dispersionQUAD</command>
+<command error="true" execution_time="120">InitialNodes(1,4)</command>
+<command execution_time="697">ComplBandStructQUAD</command>
+</session>
+<session>
+<command time_stamp="180a4b446d5">%-- 08.05.2022 19:25:20 --%</command>
+<command execution_time="14">load material.mat</command>
+<command execution_time="10" repeat="2">material(mat,:);</command>
+<command execution_time="5147" repeat="5">dispersionQUAD</command>
+<command execution_time="7235" repeat="10">ComplBandStructQUAD</command>
+<command execution_time="6384">dispersionQUAD</command>
+<command execution_time="7468" repeat="4">ComplBandStructQUAD</command>
+</session>
+<session>
+<command time_stamp="180a77999a9">%-- 09.05.2022 08:20:06 --%</command>
+<command execution_time="28692" repeat="28">ComplBandStructQUAD</command>
+<command execution_time="29">max(fBand)</command>
+<command execution_time="22">real(max(max(fBand)))</command>
+<command batch="10">x=14.5613;</command>
+<command batch="10" execution_time="53">xRound = ceil(x/10)*10;</command>
+<command execution_time="22">xRound</command>
+<command execution_time="35">maxf = ceil(real(max(max(fBand))/10))*10;</command>
+<command execution_time="18">maxf</command>
+<command error="true" execution_time="122">OmegaC/nOmegC</command>
+<command execution_time="43">OmegC/50</command>
+<command execution_time="21">round(ans)</command>
+<command error="true" execution_time="84">OmegaC/nOmegC</command>
+<command execution_time="43" repeat="2">OmegC/nOmegC</command>
+<command execution_time="17316" repeat="4">ComplBandStructQUAD</command>
+<command execution_time="16">maxf/150</command>
+<command execution_time="18">round(ans)</command>
+<command execution_time="21842" repeat="2">ComplBandStructQUAD</command>
+<command execution_time="15">maxf</command>
+<command error="true" execution_time="15185" repeat="2">ComplBandStructQUAD</command>
+<command execution_time="11">maxf</command>
+<command execution_time="15">dOmegC</command>
+<command error="true" execution_time="13744" repeat="2">ComplBandStructQUAD</command>
+<command execution_time="12">maxf</command>
+<command error="true" execution_time="756" repeat="3">ComplBandStructQUAD</command>
+<command execution_time="3158">startcomsol</command>
+<command error="true" execution_time="63198">ComplBandStructQUAD</command>
+<command execution_time="563">mphmesh(model)</command>
+<command error="true" execution_time="14840" repeat="2">ComplBandStructQUAD</command>
+<command execution_time="23">(OmegC+0.1)/(2*pi)</command>
+<command execution_time="150">ComplBandStructQUAD</command>
+<command execution_time="262">ChangeInterpreter(gcf, 'none')</command>
+<command execution_time="23">clc</command>
+<command execution_time="8158" repeat="2">Plot2LaTeX(gcf, 'testcompplot')</command>
+</session>
+<session>
+<command time_stamp="180a9113b4e">%-- 09.05.2022 15:45:20 --%</command>
+<command execution_time="17309" repeat="2">ComplBandStructQUAD</command>
+<command execution_time="31">PRekxSCGX(round(PRekxSCGX,3)&gt;0&amp;round(PRekxSCGX,3)~=round(pi,3))/pi</command>
+<command error="true" execution_time="18">round(PRekxSCGX,3)~=round(pi,3))/pi</command>
+<command execution_time="2930">startcomsol</command>
+<command error="true" execution_time="22033" repeat="2">ComplBandStructQUAD</command>
+<command execution_time="34">test = PRekxSCXM(round(PRekxSCXM,3)&gt;0&amp;round(PRekxSCXM,3)~=round(pi,3));</command>
+<command error="true" execution_time="138">test1 = omegSCXM(round(PRekxSCXM,3)&gt;0&amp;round(PRekxSCXM,3)~=round(pi,3));</command>
+<command execution_time="73">round(PRekxSCXM,3)~=round(pi,3)</command>
+<command execution_time="25">round(PRekxSCXM,3)~=round(pi,3);</command>
+<command execution_time="24">test2 = round(PRekxSCXM,3)~=round(pi,3);</command>
+<command error="true" execution_time="139">find(test2, 0)</command>
+<command execution_time="36">sum(test2, 'all')</command>
+<command execution_time="27">size(test2)</command>
+<command execution_time="24">124*151</command>
+<command error="true" execution_time="28">test3 = omegSCXM(round(PRekxSCXM,3)&gt;0;</command>
+<command error="true" execution_time="195">test3 = omegSCXM(round(PRekxSCXM,3)&gt;0);</command>
+<command error="true" execution_time="90">test4 = omegSCXM(round(PRekxSCXM,3));</command>
+<command error="true" execution_time="19243" repeat="4">ComplBandStructQUAD</command>
+<command execution_time="18">test5 = omegeTest/(2*pi);</command>
+<command error="true" execution_time="22789" repeat="4">ComplBandStructQUAD</command>
+<command execution_time="63">OmegC/dOmegC</command>
+<command execution_time="23">ceil(OmegC/dOmegC)</command>
+<command execution_time="21640">ComplBandStructQUAD</command>
+<command execution_time="76">ceil(OmegC/dOmegC)</command>
+<command execution_time="60">OmegC/dOmegC</command>
+<command execution_time="30">OmegC</command>
+<command execution_time="66">OmegC/(2*pi)</command>
+<command error="true" execution_time="241">fmax</command>
+<command error="true" execution_time="22037" repeat="4">ComplBandStructQUAD</command>
+<command execution_time="68">(0.1:dOmegC:(ceil(OmegC/dOmegC)+1)*dOmegC + 0.1)/(2*pi);</command>
+<command execution_time="21702" repeat="2">ComplBandStructQUAD</command>
+</session>
+<session>
+<command time_stamp="180b1bf7170">%-- 11.05.2022 08:12:35 --%</command>
+<command execution_time="3678" repeat="4">ComplBandStructQUAD</command>
+<command execution_time="9606">Plot2LaTeX(gcf, 'compltest')</command>
+<command execution_time="23">ceil(RImkxSCGX);</command>
+<command execution_time="19">round(RImkxSCGX);</command>
+<command execution_time="18486" repeat="5">ComplBandStructQUAD</command>
+</session>
+<session>
+<command time_stamp="180b77ca2fc">%-- 12.05.2022 10:57:20 --%</command>
+<command execution_time="93">cd(matlabroot)</command>
+</session>
+<session>
+<command time_stamp="180b79e341a">%-- 12.05.2022 11:34:00 --%</command>
+<command error="true" execution_time="10153" repeat="3">ComplBandStructQUAD</command>
+<command error="true" execution_time="60">plotDimensions</command>
+<command error="true" execution_time="55">plotDimensions(gca, gcf)</command>
+<command execution_time="15">plotFigSize(gca, gcf)</command>
+<command execution_time="34660" repeat="2">ComplBandStructQUAD</command>
+<command execution_time="2608">Plot2LaTeX(gcf, 'comptest')</command>
+<command execution_time="10" repeat="3">plotFigSize(gca, gcf)</command>
+<command execution_time="26533">ComplBandStructQUAD</command>
+<command error="true" execution_time="64">testcell = cell{kxSCGXRe, kxSCGXIm, kxSCGXCom, kxSCXMRe, kxSCXMIm, kxSCXMCom, kxSCMGRe, kxSCMGIm, kxSCMGCom};</command>
+<command error="true" execution_time="64">testcell = cell(kxSCGXRe, kxSCGXIm, kxSCGXCom, kxSCXMRe, kxSCXMIm, kxSCXMCom, kxSCMGRe, kxSCMGIm, kxSCMGCom);</command>
+<command error="true" execution_time="57">testcell = cell{kxSCGXRe, kxSCGXIm, kxSCGXCom};</command>
+<command execution_time="9">testcell = {kxSCGXRe, kxSCGXIm, kxSCGXCom};</command>
+<command execution_time="13">testcell = {kxSCGXRe, kxSCGXIm, kxSCGXCom, kxSCXMRe, kxSCXMIm, kxSCXMCom, kxSCMGRe, kxSCMGIm, kxSCMGCom};</command>
+<command batch="11">kxSC = {kxSCGXRe, kxSCGXIm, kxSCGXCom, kxSCXMRe, kxSCXMIm, kxSCXMCom, kxSCMGRe, ...</command>
+<command batch="11" execution_time="28">kxSCMGIm, kxSCMGCom};</command>
+<command execution_time="89">kxSC{1}</command>
+<command execution_time="11" repeat="2">clc</command>
+<command execution_time="27585">ComplBandStructQUAD</command>
+</session>
+<session>
+<command time_stamp="180bca3607f">%-- 13.05.2022 10:57:45 --%</command>
+<command execution_time="2512">startcomsol</command>
+<command execution_time="870">ComplBandStructQUAD</command>
+<command error="true" execution_time="5695">getTrans('BandGapRecUnitCell2_Transmission.mph', l1, l2, rOut, matProp)</command>
+<command error="true" execution_time="50878">tab = getTrans('BandGapRecUnitCell2_Transmission.mph', l1, l2, rOut, matProp);</command>
+<command execution_time="19">com.comsol.model.util.ModelUtil.showProgress(true)</command>
+<command batch="12">tab = getTrans('BandGapRecUnitCell2_Transmission.mph', l1, l2, rOut, matProp);</command>
+</session>
+<session>
+<command time_stamp="180bcaffff0">%-- 13.05.2022 11:11:33 --%</command>
+<command execution_time="2755">startcomsol</command>
+<command execution_time="7">import com.comsol.model.util.*</command>
+<command execution_time="27">ModelUtil.showProgress(true)</command>
+<command error="true" execution_time="3407">tab = getTrans('BandGapRecUnitCell2_Transmission.mph', l1, l2, rOut, matProp);</command>
+<command execution_time="579">ComplBandStructQUAD</command>
+<command error="true" execution_time="1010" repeat="2">tab = getTrans('BandGapRecUnitCell2_Transmission.mph', l1, l2, rOut, matProp);</command>
+<command execution_time="11">matProp(1,1)</command>
+<command batch="13">[matProp(1,1)</command>
+<command batch="13">[matProp(1,1), '[Pa]']</command>
+<command execution_time="7">['matProp(1,1)', '[Pa]']</command>
+<command execution_time="13">string(matProp(1,1))</command>
+<command error="true" execution_time="10">[string(matProp(1,1)), '[Pa]')</command>
+<command execution_time="12">[string(matProp(1,1)), '[Pa]']</command>
+<command error="true" execution_time="17">[string(matProp(1,1))'[Pa]']</command>
+<command execution_time="9">string(matProp(1,1)),'[Pa]'</command>
+<command error="true" execution_time="9">string(matProp(1,1))'[Pa]'</command>
+<command error="true" execution_time="11">string(matProp(1,1)) '[Pa]'</command>
+<command execution_time="11">string(matProp(1,1)) + '[Pa]'</command>
+<command error="true" execution_time="711" repeat="2">tab = getTrans('BandGapRecUnitCell2_Transmission.mph', l1, l2, rOut, matProp);</command>
+<command batch="14">tab = getTrans('BandGapRecUnitCell2_Transmission.mph', l1, l2, rOut, 16000, matProp);</command>
+</session>
+<session>
+<command time_stamp="180bcd2c2b6">%-- 13.05.2022 11:49:31 --%</command>
+<command execution_time="560">ComplBandStructQUAD</command>
+<command execution_time="9">string(matProp(1,1)) + '[Pa]'</command>
+<command error="true" execution_time="193">L1</command>
+<command execution_time="10">l1</command>
+<command execution_time="12">l1+'[Pa]'</command>
+<command error="true" execution_time="186">num2str(l1)+'[Pa]'</command>
+<command execution_time="9">string(l1)</command>
+<command execution_time="11">string(l1)+'[Pa]'</command>
+<command execution_time="2476">startcomsol</command>
+<command error="true" execution_time="364">test = getTrans('BandGapRecUnitCell2_Transmission.mph', l1, l2, rOut, maxf, matProp)</command>
+<command execution_time="57709">test = getTrans('BandGapRecUnitCell2_Transmission.mph', l1, l2, rOut, 16000, matProp)</command>
+<command execution_time="1339">plot(test(:,2), test(:,1))</command>
+<command error="true" execution_time="28237">ComplBandStructQUAD</command>
+<command execution_time="3370">test = getTrans('BandGapRecUnitCell2_Transmission.mph', l1, l2, rOut, maxf, matProp)</command>
+<command execution_time="3357">test = getTrans('BandGapRecUnitCell2_Transmission.mph', l1, l2, rOut, maxf, matProp);</command>
+<command execution_time="33">plot(test(:,2), test(:,1))</command>
+<command execution_time="5226" repeat="4">test = getTrans('BandGapRecUnitCell2_Transmission.mph', l1, l2, rOut, maxf, matProp);</command>
+<command execution_time="16">fprintf('E1', '%d[m]', 'Density of Material 1', l1)</command>
+<command error="true" execution_time="775">test = getTrans('BandGapRecUnitCell2_Transmission.mph', l1, l2, rOut);</command>
+<command execution_time="75325" repeat="2">test = getTrans('BandGapRecUnitCell2_Transmission.mph', l1, l2, rOut, 16000, matProp);</command>
+<command error="true" execution_time="79">plot(transData(:,2), transData(:,1))</command>
+<command execution_time="62">plot(test(:,2), test(:,1))</command>
+<command execution_time="95798">test = getTrans('BandGapRecUnitCell2_Transmission.mph', l1, l2, rOut, 16000, matProp);</command>
+<command error="true" execution_time="95520" repeat="2">[transData, meandisp] = getTrans('BandGapRecUnitCell2_Transmission.mph', l1, l2, rOut, 16000, matProp);</command>
+<command error="true" execution_time="87865" repeat="2">[transData, plotting] = getTrans('BandGapRecUnitCell2_Transmission.mph', l1, l2, rOut, 16000, matProp);</command>
+<command execution_time="84856">transData = getTrans('BandGapRecUnitCell2_Transmission.mph', l1, l2, rOut, 16000, matProp);</command>
+<command error="true" execution_time="27500">ComplBandStructQUAD</command>
+<command execution_time="21">import</command>
+<command execution_time="11">load '~/Downloads/Untitled.txt'</command>
+<command execution_time="10">load '~/Downloads/Untitled.dat'</command>
+<command execution_time="10">load '~/Downloads/Untitled.txt'</command>
+<command execution_time="66">plot(Untitled(:, 2), Untitled(:, 1))</command>
+<command execution_time="24">gcf</command>
+<command execution_time="60">figure</command>
+<command execution_time="80">plot(Untitled(:, 2), Untitled(:, 1))</command>
+<command execution_time="10">load '~'/Downloads/Untitled.txt</command>
+<command execution_time="39">plot(Untitled(:, 2), Untitled(:, 1))</command>
+<command execution_time="25">grid on</command>
+<command execution_time="8">ylabel = [];</command>
+<command execution_time="21">set(gca, 'yticklabel', [])</command>
+<command execution_time="61">figure</command>
+<command execution_time="80">plot(Untitled(:, 2), Untitled(:, 1))</command>
+<command execution_time="22">grid on</command>
+<command execution_time="20">set(gca, 'yticklabel', [])</command>
+<command execution_time="83" repeat="3">getTrans(Untitled)</command>
+<command execution_time="21">grid on</command>
+<command execution_time="122" repeat="3">getTrans(Untitled)</command>
+</session>
+<session>
+<command time_stamp="180cbac72e2">%-- 16.05.2022 09:01:58 --%</command>
+<command execution_time="68402">ComplBandStruct</command>
+<command execution_time="883">close all</command>
+</session>
+<session>
+<command time_stamp="180cc8c0957">%-- 16.05.2022 13:06:11 --%</command>
+<command execution_time="30114">ComplBandStruct</command>
+<command execution_time="2875" repeat="2">Plot2LaTeX(gcf, 'realBand')</command>
+<command execution_time="9">plotFigSize(gca, gcf)</command>
+<command execution_time="2058">Plot2LaTeX(gcf, 'complGX')</command>
+<command execution_time="1502">Plot2LaTeX(gcf, 'complXM')</command>
+<command execution_time="2725">Plot2LaTeX(gcf, 'complMG')</command>
+</session>
+<session>
+<command time_stamp="180ccfaf444">%-- 16.05.2022 15:07:20 --%</command>
+<command error="true" execution_time="22514">ComplBandStruct</command>
+</session>
+<session>
+<command time_stamp="180cd012e70">%-- 16.05.2022 15:14:08 --%</command>
+<command error="true" execution_time="3475">ComplBandStruct</command>
+</session>
+<session>
+<command time_stamp="180cd02f945">%-- 16.05.2022 15:16:06 --%</command>
+<command execution_time="27110">ComplBandStruct</command>
+<command execution_time="3656">Plot2LaTeX(gcf, 'realPlotDisp')</command>
+<command execution_time="18962">ComplBandStruct</command>
+<command execution_time="2702" repeat="3">Plot2LaTeX(gcf, 'realPlotDisp')</command>
+<command execution_time="9">plotOffset(gca, -5, -5)</command>
+<command execution_time="10">plotOffset(gca, 10, 10)</command>
+<command execution_time="7">plotOffset(gca, 3, 3)</command>
+<command execution_time="8">plotOffset(gca, 1, 1)</command>
+<command execution_time="15">plotOffset(gca, 1)</command>
+<command execution_time="3011">Plot2LaTeX(gcf, 'realPlotDisp')</command>
+<command execution_time="21">plotOffset(gca, 1)</command>
+<command execution_time="35" repeat="2">plotOffset(gca, 2)</command>
+<command execution_time="2813">Plot2LaTeX(gcf, 'realPlotDisp')</command>
+<command execution_time="40" repeat="2">plotOffset(gca, 4)</command>
+<command execution_time="2783" repeat="2">Plot2LaTeX(gcf, 'realPlotDisp')</command>
+</session>
+<session>
+<command time_stamp="180cd32430e">%-- 16.05.2022 16:07:45 --%</command>
+<command execution_time="51240">ComplBandStruct</command>
+<command execution_time="2550" repeat="8">Plot2LaTeX(gcf, 'realPlotDisp')</command>
+</session>
+<session>
+<command time_stamp="180d0b3cfda">%-- 17.05.2022 08:28:07 --%</command>
+<command execution_time="38266" repeat="3">ComplBandStruct</command>
+<command execution_time="1716" repeat="12">Plot2LaTeX(gcf, 'realPlotDisp')</command>
+<command execution_time="2931" repeat="2">Plot2LaTeX2(gcf, 'realPlotDisp')</command>
+<command execution_time="10" repeat="2">clc</command>
+<command execution_time="2939">Plot2LaTeX2(gcf, 'realPlotDisp')</command>
+<command execution_time="4589" repeat="4">Plot2LaTeX(gcf, 'realPlotDisp')</command>
+<command execution_time="10">plotOffset(gca, 2)</command>
+<command execution_time="9">plotOffset(gca, 3)</command>
+<command execution_time="9">plotOffset(gca, 4)</command>
+<command execution_time="12">plotOffset(gca, 0)</command>
+<command execution_time="11">plotOffset(gca, 2)</command>
+<command execution_time="4799" repeat="2">Plot2LaTeX(gcf, 'realPlotDisp')</command>
+</session>
+<session>
+<command time_stamp="180db273e36">%-- 19.05.2022 09:10:24 --%</command>
+<command execution_time="2563" repeat="2">dispersionQUAD</command>
+<command execution_time="9">numel((0:deltaKx:pi)')</command>
+<command execution_time="7">Mptick = ans + numel(deltaKy:deltaKy:pi);</command>
+<command execution_time="7">Mptick = ans + numel(deltaKy:deltaKy:pi)</command>
+<command execution_time="1912" repeat="3">dispersionQUAD</command>
+<command error="true" execution_time="2818" repeat="10">ComplBandStruct</command>
+<command execution_time="20">ceil(OmegC/dOmegC)+1</command>
+<command error="true" execution_time="2900">ComplBandStruct</command>
+<command execution_time="9">dOmegC = round(maxf/800) * 2*pi;</command>
+<command execution_time="36">ceil(OmegC/dOmegC)+1</command>
+<command execution_time="11">dOmegC = round(maxf/500) * 2*pi;</command>
+<command execution_time="15">ceil(OmegC/dOmegC)+1</command>
+<command execution_time="21">dOmegC = round(maxf/987) * 2*pi;</command>
+<command execution_time="17">ceil(OmegC/dOmegC)+1</command>
+<command execution_time="10">dOmegC = round(maxf/987) * 2*pi</command>
+<command execution_time="12">dOmegC = round(maxf/500) * 2*pi</command>
+<command execution_time="9">dOmegC = round(maxf/1000) * 2*pi</command>
+<command execution_time="10" repeat="2">dOmegC = (maxf/1000) * 2*pi</command>
+<command execution_time="15">ceil(OmegC/dOmegC)+1</command>
+<command execution_time="6">dOmegC = (maxf/1000) * 2*pi</command>
+<command execution_time="15">ceil(OmegC/dOmegC)+1</command>
+<command execution_time="9">dOmegC = (maxf/500) * 2*pi</command>
+<command execution_time="17">ceil(OmegC/dOmegC)+1</command>
+<command execution_time="70629">ComplBandStruct</command>
+<command execution_time="22">ceil(real(max(max(fBand))/10))*10</command>
+<command execution_time="12">round(maxf/500) * 2*pi</command>
+<command execution_time="15">round(maxf/1000) * 2*pi</command>
+<command execution_time="18">maxf/1000</command>
+<command execution_time="13">round((maxf/500) * 2*pi)</command>
+<command execution_time="15">round((maxf/1000) * 2*pi)</command>
+<command execution_time="15">round((maxf/10000) * 2*pi)</command>
+<command execution_time="14">round((maxf/5000) * 2*pi)</command>
+<command execution_time="15">round((maxf/1000) * 2*pi)</command>
+<command execution_time="15">maxf</command>
+<command execution_time="40445" repeat="3">ComplBandStruct</command>
+<command execution_time="651" repeat="2">dispersionQUAD</command>
+<command execution_time="37">numel(lMGamma:lMGamma:pi)</command>
+<command execution_time="16">sqrt(deltaKy + deltaKx)</command>
+<command execution_time="69">numel(lMGamma:lMGamma:pi)</command>
+<command execution_time="35">numel(lMGamma:lMGamma:2*pi)</command>
+<command error="true" execution_time="242">sqrt(Xptick^2 + Mptickx^2)</command>
+<command execution_time="37">sqrt(Xptick^2 + Mptick^2)</command>
+<command execution_time="39">numel(lMGamma:lMGamma:3*pi)</command>
+<command error="true" execution_time="26">Mptick + round(sqrt(Xptick^2 + Mptick^2)</command>
+<command execution_time="70">Mptick + round(sqrt(Xptick^2 + Mptick^2))</command>
+<command execution_time="35">round(sqrt(Xptick^2 + Mptick^2))</command>
+<command execution_time="48">0:lMGamma:pi;</command>
+<command execution_time="37">0:lMGamma:2*pi;</command>
+<command error="true" execution_time="2669" repeat="2">ComplBandStruct</command>
+<command execution_time="94">close all</command>
+<command execution_time="929">clear all</command>
+<command execution_time="3765" repeat="3">ComplBandStruct</command>
+<command execution_time="41">plotDimensions(gca, gcf, 10, 8, .8, 0)</command>
+<command execution_time="29">plotDimensions(gca, gcf, 15, 9, .8, 0)</command>
+<command execution_time="32">plotDimensions(gca, gcf, 15, 9, .7, 0)</command>
+<command execution_time="33">plotDimensions(gca, gcf, 15, 12, .7, 0)</command>
+<command execution_time="36">plotDimensions(gca, gcf, 18, 12, .7, 0)</command>
+<command execution_time="27">plotDimensions(gca, gcf, 18, 12, .8, 0)</command>
+<command execution_time="54883">ComplBandStruct</command>
+</session>
+<session>
+<command time_stamp="180dc1f1b14">%-- 19.05.2022 13:41:08 --%</command>
+<command execution_time="74470">ComplBandStruct</command>
+<command execution_time="7">figCompl = gcf;</command>
+<command execution_time="7">figReal = gcf;</command>
+<command execution_time="25">plotOverlapFigures(figReal, figCompl)</command>
+</session>
+<session>
+<command time_stamp="180e0a0b405">%-- 20.05.2022 10:41:10 --%</command>
+<command execution_time="75581">ComplBandStruct</command>
+<command execution_time="11">omegSCGX = repmat((0.1:dOmegC:(ceil(OmegC/dOmegC))*dOmegC + 0.1)/(2*pi),size(kxSC{1},1),1);</command>
+<command error="true" execution_time="311">test = omegSCGX(round(PRekxSCGX,3)&gt;0&amp;round(PRekxSCGX,3)~=round(pi,3));</command>
+<command execution_time="8">PRekxSCGX = real(kxSC{1});</command>
+<command execution_time="18">test = omegSCGX(round(PRekxSCGX,3)&gt;0&amp;round(PRekxSCGX,3)~=round(pi,3));</command>
+<command execution_time="15">x = PRekxSCGX(round(PRekxSCGX,3)&gt;0&amp;round(PRekxSCGX,3)~=round(pi,3))/pi;</command>
+<command execution_time="9">y = test;</command>
+<command execution_time="39">plot(x,y)</command>
+<command execution_time="17">plot(x,y, 'o')</command>
+<command batch="15">PRekxSCGX = real(kxSC{1});</command>
+<command batch="15">PRekxSCXM = real(kxSC{4});</command>
+<command batch="15">PRekxSCMG = real(kxSC{7});</command>
+<command batch="15">PRekySCGY = real(kySC{1});</command>
+<command batch="15">PRekySCYM = real(kySC{4});</command>
+<command batch="15">CRekxSCGX = real(kxSC{3});</command>
+<command batch="15">CRekxSCXM = real(kxSC{6});</command>
+<command batch="15">CRekxSCMG = real(kxSC{9});</command>
+<command batch="15">CRekySCGY = real(kySC{3});</command>
+<command batch="15">CRekySCYM = real(kySC{6});</command>
+<command batch="15">omegSCGX = repmat((0.1:dOmegC:(ceil(OmegC/dOmegC))*dOmegC + 0.1)/(2*pi),size(kxSC{1},1),1);</command>
+<command batch="15">omegSCXM = repmat((0.1:dOmegC:(ceil(OmegC/dOmegC))*dOmegC + 0.1)/(2*pi),size(kxSC{4},1),1);</command>
+<command batch="15">omegSCMG = repmat((0.1:dOmegC:(ceil(OmegC/dOmegC))*dOmegC + 0.1)/(2*pi),size(kxSC{7},1),1);</command>
+<command batch="15">omegSCGY = repmat((0.1:dOmegC:(ceil(OmegC/dOmegC))*dOmegC + 0.1)/(2*pi),size(kySC{1},1),1);</command>
+<command batch="15" execution_time="37">omegSCYM = repmat((0.1:dOmegC:(ceil(OmegC/dOmegC))*dOmegC + 0.1)/(2*pi),size(kySC{4},1),1);</command>
+<command execution_time="13">x = PRekySCGY(round(PRekySCGY,3)&gt;0&amp;round(PRekySCGY,3)~=round(pi,3))/pi+3;</command>
+<command execution_time="51">y = omegSCGY(round(PRekySCGY,3)&gt;0&amp;round(PRekySCGY,3)~=round(pi,3));</command>
+<command execution_time="93">figure</command>
+<command execution_time="26">plot(x,y,'o')</command>
+<command execution_time="23">x = PRekySCGY(round(PRekySCGY,3)&gt;0&amp;round(PRekySCGY,3)~=round(pi,3))/pi;</command>
+<command execution_time="17">plot(x,y,'o')</command>
+<command execution_time="241">plot(PRekySCGY, omegSCGY,'o')</command>
+<command execution_time="294">plot(PRekySCYM, omegSCYM, 'o')</command>
+<command execution_time="54">figure</command>
+<command execution_time="65">plot(kxy0, fBand)</command>
+<command execution_time="15">Xptick = numel((0:deltaKx:pi)');</command>
+<command execution_time="14">x = (1:Xptick)/Xptick;</command>
+<command error="true" execution_time="37">x2 = 1:(Mptick-Xptick))/Mptick;</command>
+<command error="true" execution_time="126">x2 = (1:(Mptick-Xptick))/Mptick;</command>
+<command batch="16">x2 = (1:(Xptick-Xptick))/Xptick;Xptick = numel((0:deltaKx:pi)');</command>
+<command batch="16" execution_time="10">Mptick = Xptick + numel(deltaKy:deltaKy:pi);</command>
+<command execution_time="19">x2 = (1:(Xptick-Xptick))/Xptick;Xptick = numel((0:deltaKx:pi)');</command>
+<command execution_time="14">x2 = (1:(Xptick-Xptick))/Xptick;</command>
+<command execution_time="14">x2 = (1:(Mptick-Xptick))/Mptick;</command>
+<command execution_time="10">x2 = (1:(Mptick-Xptick))/(Mptick-Xptick);</command>
+<command execution_time="10">x2 = (1:(Mptick-Xptick))/(Mptick-Xptick) + 1;</command>
+<command execution_time="17">kxy0_norm = [(1:Xptick)/Xptick, (1:(Mptick-Xptick))/(Mptick-Xptick) + 1];</command>
+<command execution_time="12">Mptick = numel(kxy0);</command>
+<command batch="17" error="true">kxy0_norm = [(1:Xptick)/Xptick, (1:(Mptick-Xptick))/(Mptick-Xptick) + 1, ...</command>
+<command batch="17" error="true">(1:(Gptick - Mptick))/(Gptick - Mptick) + 2, ...</command>
+<command batch="17" error="true">(1:(Yptick - Gptick))/(Yptick - Gptick) + 3, ...</command>
+<command batch="17" error="true" execution_time="163">(1:(Mptick - Yptick))/(Mptick - Yptick) + 4];</command>
+<command batch="18">Gptick = Mptick + numel(deltaKxy:deltaKxy:pi);</command>
+<command batch="18">Yptick = Gptick + numel(deltaKy:deltaKy:pi);</command>
+<command batch="18" execution_time="13">Mptick = numel(kxy0);</command>
+<command batch="19">kxy0_norm = [(1:Xptick)/Xptick, (1:(Mptick-Xptick))/(Mptick-Xptick) + 1, ...</command>
+<command batch="19">(1:(Gptick - Mptick))/(Gptick - Mptick) + 2, ...</command>
+<command batch="19">(1:(Yptick - Gptick))/(Yptick - Gptick) + 3, ...</command>
+<command batch="19" execution_time="14">(1:(Mptick - Yptick))/(Mptick - Yptick) + 4];</command>
+<command batch="20" error="true">kxy0_norm = [(1:Xptick)/Xptick, (1:(Mptick-Xptick))/(Mptick-Xptick) + 1, ...</command>
+<command batch="20" error="true">(1:(Gptick - Mptick))/(Gptick - Mptick) + 2, ...</command>
+<command batch="20" error="true">(1:(Yptick - Gptick))/(Yptick - Gptick) + 3, ...</command>
+<command batch="20" error="true" execution_time="109">(1:(Mptick2 - Yptick))/(Mptick2 - Yptick) + 4];</command>
+<command batch="21">kxy0_norm = [(1:Xptick)/Xptick, (1:(Mptick-Xptick))/(Mptick-Xptick) + 1, ...</command>
+<command batch="21">(1:(Gptick - Mptick))/(Gptick - Mptick) + 2, ...</command>
+<command batch="21">(1:(Yptick - Gptick))/(Yptick - Gptick) + 3, ...</command>
+<command batch="21" execution_time="17">(1:(Mptick - Yptick))/(Mptick - Yptick) + 4];</command>
+<command batch="22">kxy0_norm = [(1:Xptick)/Xptick, (1:(Mptick-Xptick))/(Mptick-Xptick) + 1, ...</command>
+<command batch="22">(1:(Gptick - Mptick))/(Gptick - Mptick) + 2, ...</command>
+<command batch="22">(1:(Yptick - Gptick))/(Yptick - Gptick) + 3, ...</command>
+<command batch="22" execution_time="14">(1:(Mptick2 - Yptick))/(Mptick2 - Yptick) + 4];</command>
+<command execution_time="43" repeat="2">Mptick</command>
+<command execution_time="12" repeat="2">Gptick</command>
+<command execution_time="10">Yptick</command>
+<command execution_time="9">Mptick2</command>
+<command batch="23">kxy0_norm = [</command>
+<command batch="23">(1:Xptick)/Xptick, ...</command>
+<command batch="23">(1:(Mptick-Xptick))/(Mptick-Xptick) + 1, ...</command>
+<command batch="23">(1:(Gptick - Mptick))/(Gptick - Mptick) + 2, ...</command>
+<command batch="23">(1:(Yptick - Gptick))/(Yptick - Gptick) + 3, ...</command>
+<command batch="23" execution_time="8">(1:(Mptick2 - Yptick))/(Mptick2 - Yptick) + 4];</command>
+<command execution_time="49">figure</command>
+<command execution_time="28">plot(kxy0_norm, fBand, 'k');</command>
+<command execution_time="8">norm = gcf;</command>
+<command execution_time="9">img = gcf;</command>
+<command execution_time="36">plotOverlapFigures(img, norm)</command>
+<command execution_time="47">figure</command>
+<command execution_time="25">plot(kxy0_norm, fBand, 'k');</command>
+</session>
+<session>
+<command time_stamp="180e26d8e5c">%-- 20.05.2022 19:04:32 --%</command>
+<command execution_time="6643">ComplBandStruct</command>
+<command execution_time="10">clc</command>
+<command execution_time="50898" repeat="2">ComplBandStruct</command>
+<command execution_time="54">plotOverlapFigures(NormalizedFig, ComplRealFig)</command>
+<command error="true" execution_time="27468" repeat="2">ComplBandStruct</command>
+<command execution_time="45">plotOverlapFigures(NormalizedFig, ComplRealFig)</command>
+<command execution_time="42278">ComplBandStruct</command>
+</session>
+<session>
+<command time_stamp="180e6aba245">%-- 21.05.2022 14:50:50 --%</command>
+<command execution_time="74348">ComplBandStruct</command>
+<command execution_time="29">plotOverlapFigures(NormalizedFig, ComplRealFig)</command>
+<command execution_time="21958" repeat="5">ComplBandStruct</command>
+<command execution_time="29">plotOverlapFigures(NormalizedFig, ComplRealFig)</command>
+</session>
+<session>
+<command time_stamp="180f5848e60">%-- 24.05.2022 12:02:27 --%</command>
+<command error="true" execution_time="243">load MaterialList_Isotropic.txt</command>
+<command execution_time="8">MaterialListIsotropic(1,1)</command>
+<command execution_time="11">MaterialListIsotropic{1,1}</command>
+<command execution_time="12">MaterialListIsotropic{1,2}</command>
+<command execution_time="9">clc</command>
+<command execution_time="7" repeat="2">clear</command>
+<command error="true" execution_time="181">find([materials{:,1}] == 'concrete')</command>
+<command execution_time="10">materials{:,1}</command>
+<command error="true" execution_time="79">find([materials{:,1}] == 'Concrete')</command>
+<command error="true" execution_time="56">find(contains(materials, 'Concrete'))</command>
+<command error="true" execution_time="57">contains(materials, 'Concrete')</command>
+<command error="true" execution_time="57">contains(materials{:,1}, 'Concrete')</command>
+<command execution_time="7">strcmp(materials, 'bla')</command>
+<command execution_time="7">strcmp(materials, 'Concrete')</command>
+<command execution_time="7">find(ans)</command>
+<command execution_time="8">'test'</command>
+<command execution_time="8">"test"</command>
+<command execution_time="11" repeat="2">size(matNames)</command>
+<command batch="24">materials = importMatFile('MaterialList_Isotropic.txt');</command>
+<command batch="24" execution_time="86">matNames = {'Concrete', 'Steel'};</command>
+<command batch="25" repeat="2">for n = 1:size(matNames, 2)</command>
+<command batch="25">test = zeros(size(matNames, 2));</command>
+<command batch="25">test(1, n) = find(strcmp(materials, matNames{1,1}));</command>
+<command batch="25" execution_time="11">end</command>
+<command execution_time="13">test = zeros(size(matNames, 2));</command>
+<command execution_time="13">test = zeros(size(matNames, 2), 1);</command>
+<command batch="26" repeat="2">for n = 1:size(matNames, 2)</command>
+<command batch="26">test = zeros(1, size(matNames, 2));</command>
+<command batch="26">test(1, n) = find(strcmp(materials, matNames{1,1}));</command>
+<command batch="26" execution_time="13">end</command>
+<command batch="27" repeat="2">for n = 1:size(matNames, 2)</command>
+<command batch="27">test(1, n) = find(strcmp(materials, matNames{1,1}));</command>
+<command batch="27" execution_time="14">end</command>
+<command batch="28">for n = 1:size(matNames, 2)</command>
+<command batch="28">test(1, n) = find(strcmp(materials, matNames{n}));</command>
+<command batch="28" execution_time="36">end</command>
+<command batch="29">for n = 1:size(matNames, 2)</command>
+<command batch="29">mat(1, n) = find(strcmp(materials, matNames{n}));</command>
+<command batch="29" execution_time="13">end</command>
+<command execution_time="11">cell2mat(matProp)</command>
+<command execution_time="53332" repeat="7">ComplBandStruct</command>
+<command execution_time="4494" repeat="2">DispersionCalculator</command>
+</session>
+<session>
+<command time_stamp="180f6974d31">%-- 24.05.2022 17:02:32 --%</command>
+<command execution_time="6805">DispersionCalculator</command>
+<command error="true" execution_time="388" repeat="17">ComplBandStruct</command>
+<command execution_time="25">materials = importMatFile('MaterialList_Isotropic');</command>
+<command execution_time="56518">ComplBandStruct</command>
+<command execution_time="26" repeat="2">materials = importMatFile('MaterialList_Isotropic');</command>
+<command execution_time="2677" repeat="14">ComplBandStruct</command>
+</session>
+<session>
+<command time_stamp="18113f5cc08">%-- 30.05.2022 09:54:45 --%</command>
+<command execution_time="2243" repeat="23">ComplBandStruct</command>
+</session>
+<session>
+<command time_stamp="1818fbc7fba">%-- 23.06.2022 10:45:04 --%</command>
+<command error="true" execution_time="926" repeat="12">ComplBandStruct</command>
+<command execution_time="30">ones(1, 2)</command>
+<command execution_time="16">size(matNames)</command>
+<command execution_time="24243" repeat="2">ComplBandStruct</command>
+<command execution_time="24">round(maxf/500)</command>
+<command execution_time="76630" repeat="17">ComplBandStruct</command>
+</session>
+<session>
+<command time_stamp="181c99d9ba4">%-- 04.07.2022 16:29:18 --%</command>
+<command execution_time="197">mediumRect</command>
+<command execution_time="50" repeat="8">ComplBandStruct</command>
+<command execution_time="13202" repeat="3">dispersion</command>
+</session>
+<session>
+<command time_stamp="181cd015264">%-- 05.07.2022 08:17:05 --%</command>
+<command execution_time="17089" repeat="2">dispersion</command>
+<command execution_time="31" repeat="2">load('material.mat')</command>
+<command execution_time="1150">ComplBandStruct</command>
+<command execution_time="412">dispersion</command>
+<command error="true" execution_time="45995" repeat="5">ComplBandStruct</command>
+</session>
+<session>
+<command time_stamp="181cd12d36b">%-- 05.07.2022 08:36:12 --%</command>
+<command error="true" execution_time="38315" repeat="20">ComplBandStruct</command>
+<command execution_time="40">clc</command>
+<command execution_time="44">size([0.1:dOmegC:OmegC+0.1]/(2*pi))</command>
+<command execution_time="77">size(imag(kxSC{2}))</command>
+<command execution_time="30" repeat="3">clc</command>
+</session>
+<session>
+<command time_stamp="181d31196cd">%-- 06.07.2022 12:32:34 --%</command>
+<command execution_time="52158" repeat="2">ComplBandStruct</command>
+<command execution_time="38">clc</command>
+<command execution_time="10054">Plot2LaTeX(gcf, 'testplot')</command>
+<command execution_time="397">startup</command>
+<command execution_time="8251">Plot2LaTeX(gcf, 'testplot')</command>
+<command execution_time="87663">ComplBandStruct</command>
+<command execution_time="37">clc</command>
+<command execution_time="2839">Plot2LaTeX(gcf, 'test')</command>
+<command error="true" execution_time="900" repeat="4">ComplBandStruct</command>
+<command execution_time="17">clc</command>
+<command execution_time="42013" repeat="4">ComplBandStruct</command>
+<command execution_time="39">clc</command>
+<command execution_time="35967">ComplBandStruct</command>
+<command execution_time="10440">Plot2LaTeX(gcf, 'realAndImg')</command>
+<command execution_time="4909" repeat="4">Plot2LaTeX(gcf, 'test')</command>
+<command execution_time="38069">ComplBandStruct</command>
+<command execution_time="8242">Plot2LaTeX(gcf, 'realAndImg')</command>
+<command execution_time="4866" repeat="2">Plot2LaTeX(gcf, 'test')</command>
+</session>
+<session>
+<command time_stamp="181d8395329">%-- 07.07.2022 12:34:04 --%</command>
+<command execution_time="37569" repeat="2">ComplBandStruct</command>
+<command execution_time="5923">Plot2LaTeX(gcf, 'smallFont')</command>
+<command execution_time="6">ax = gca;</command>
+<command execution_time="6">ax.YAxis.Exponent = 3;</command>
+<command execution_time="41">ax.YAxis.ExponentMode</command>
+<command execution_time="13">ax.YAxis.ExponentMode = 'auto';</command>
+<command execution_time="12">ax.YAxis.ExponentMode = 'manual';</command>
+<command execution_time="25">ax.YAxis.Exponent = 3;</command>
+<command execution_time="4855" repeat="2">Plot2LaTeX(gcf, 'smallFont')</command>
+<command execution_time="3150" repeat="12">Plot2LaTeX(gcf, 'smallFontnew')</command>
+<command execution_time="30" repeat="2">plotDispersionComplAll</command>
+<command execution_time="67397" repeat="2">ComplBandStruct</command>
+<command execution_time="54">test = (0.1:dOmegC:(ceil(OmegC/dOmegC))*dOmegC + 0.1)/(2*pi);</command>
+<command error="true" execution_time="35">fBandMax(indBand(bgi)</command>
+<command execution_time="66">fBandMax(indBand(bgi))</command>
+<command execution_time="36">fBandMin(indBand(bgi))</command>
+<command execution_time="28">fBandMin(indBand(1)) - fBandMax(indBand(1))</command>
+<command error="true" execution_time="250">fBandMin(indBand(1)) - fBandDelta1</command>
+<command execution_time="39">fBandMin(indBand(1))</command>
+<command execution_time="126">plot(PImkxSCGX, (0.1:dOmegC:(ceil(OmegC/dOmegC))*dOmegC + 0.1)/(2*pi),'-ok','MarkerSize',MarkerSize1,'MarkerFaceColor',DRed,'MarkerEdgeColor',DRed,'LineStyle','none');</command>
+<command execution_time="21">test = find(PImkxSCGX &gt; fBandDeltaM);</command>
+<command execution_time="23">test = find(freq &gt; fBandDeltaM);</command>
+<command execution_time="21">test = test(1)</command>
+<command execution_time="127">plot(ComplBandImAx, PImkxSCGX(95), freq(95), 'ok')</command>
+<command execution_time="46">PImkxSCGX(95)</command>
+<command execution_time="85">plot(ComplBandImAx, PImkxSCGX(:, freqMid), freq(freqMid), 'ok')</command>
+<command execution_time="19">plot(ComplBandImAx, PImkxSCGX(freqMid), freq(freqMid), 'ok')</command>
+<command error="true" execution_time="198" repeat="2">plot(ComplBandImAx, PImkxSCGX(:, freqMid), freq(freqMid), 'ok')</command>
+<command execution_time="26">a = find(mids &gt; 0);</command>
+<command error="true" execution_time="175">a = z(find(mids &gt; 0));</command>
+<command execution_time="18">a = Z(find(mids &gt; 0));</command>
+<command execution_time="18">a = mids(find(mids &gt; 0));</command>
+<command error="true" execution_time="102">a = mids(find(mids &gt; 0 &amp;&amp; mids &lt; 3));</command>
+<command execution_time="26">a = mids(find(mids &gt; 0));</command>
+<command execution_time="23">a = mids(find(a &lt; 3))</command>
+<command execution_time="29">a</command>
+<command execution_time="19">a = mids(find(mids &gt; 0));</command>
+<command execution_time="17">a</command>
+<command execution_time="17">a = mids(find(a &lt; 3));</command>
+<command execution_time="21">a = mids(find(mids &gt; 0));</command>
+<command execution_time="60">find(a &lt; 3)</command>
+<command execution_time="40">min(mids)</command>
+<command execution_time="20">ind = find(mids &gt; 0);</command>
+<command execution_time="35">mids(ind)</command>
+<command error="true" execution_time="28">find(mids =&gt; 0)</command>
+<command execution_time="13">find(mids &gt;= 0)</command>
+<command execution_time="21">ind = find(mids &gt;= 0);</command>
+<command execution_time="39">mids(ind)</command>
+<command execution_time="32">ind</command>
+<command execution_time="38">min(mids(ind))</command>
+</session>
+<session>
+<command time_stamp="181ed4bcc5b">%-- 11.07.2022 14:46:17 --%</command>
+<command execution_time="4404" repeat="11">ComplBandStructParamStudy</command>
+<command execution_time="26">1:ceil(OmegC / dOmegC) + 1, ParaComp</command>
+<command execution_time="7">ceil(OmegC / dOmegC) + 1</command>
+<command execution_time="12">idxComp = 487</command>
+<command execution_time="14">dOmegC * (idxComp - 1) + 0.1</command>
+<command execution_time="23">clc</command>
+<command execution_time="4149">ComplBandStructParamStudy</command>
+<command batch="30" error="true">ComplBandStruct</command>
+<command batch="30" error="true" execution_time="112234">clc</command>
+</session>
+<session>
+<command time_stamp="181ed7fa3f8">%-- 11.07.2022 15:42:54 --%</command>
+<command execution_time="3798">ComplBandStruct</command>
+<command execution_time="5136">ComplBandStructParamStudy</command>
+<command error="true" execution_time="137">plotBandgaps(bandgaps, 'test', k, 0.05)</command>
+<command execution_time="220">plotBandgaps(bandgaps, 'test', 'k', 0.05)</command>
+<command execution_time="152">plotBandgaps(bandgaps, 'test', [.7, .7, .7], 0.05)</command>
+<command error="true" execution_time="84" repeat="2">plotBandgaps(bandgaps, 'test', [.7, .7, .7], modifier)</command>
+<command execution_time="173">plotBandgaps(bandgaps, 'test', modifier)</command>
+<command execution_time="50690" repeat="2">ComplBandStructParamStudy</command>
+<command execution_time="1065">ComplRealFigAll = plotDispersionComplAllRect(kxSC, kySC, OmegC, dOmegC, maxf, fBand);</command>
+<command execution_time="799" repeat="2">ComplRealFigAll = plotDispersionComplAll(kxSC, OmegC, dOmegC, maxf, fBand);</command>
+<command error="true" execution_time="1730554" repeat="7">ComplBandStructParamStudy</command>
+<command execution_time="7" repeat="2">clc</command>
+<command execution_time="9">plotTickDelta(gca, 'x', 5)</command>
+<command execution_time="8">plotTickDelta(gca, 'x', 6)</command>
+<command execution_time="7">plotTickDelta(gca, 'x', 2)</command>
+<command execution_time="13" repeat="2">plotTickDelta(gca, 'x', 5, 1)</command>
+</session>
+<session>
+<command time_stamp="181f335fa11">%-- 12.07.2022 18:20:10 --%</command>
+<command execution_time="1887936">ComplBandStructParamStudy</command>
+<command execution_time="24">clc</command>
+<command error="true" execution_time="349">gcf = master;</command>
+<command execution_time="11">master = gcf;</command>
+<command execution_time="14">sub = gcf;</command>
+<command execution_time="57">plotOverlapFigures(master, sub)</command>
+<command error="true" execution_time="176">plotTickDelta(gca, x, 5, 1)</command>
+<command execution_time="130">plotTickDelta(gca, 'x', 5, 1)</command>
+<command execution_time="29">gca = master;</command>
+<command execution_time="38">gca = sub;</command>
+<command error="true" execution_time="142">plotOverlapFigures(master, sub)</command>
+<command execution_time="16">master = gca;</command>
+<command execution_time="23">sub = gca;</command>
+<command error="true" execution_time="142">plotOverlapFigures(master, sub)</command>
+<command execution_time="13">clear sub master gca</command>
+<command execution_time="21">master = gca;</command>
+<command execution_time="19">sub = gca;</command>
+<command error="true" execution_time="152">plotOverlapFigures(master, sub)</command>
+<command execution_time="19">master = gcf;</command>
+<command execution_time="18">sub = gcf;</command>
+<command execution_time="83">plotOverlapFigures(master, sub)</command>
+<command execution_time="43">plotTickDelta(gca, 'x', 5, 1)</command>
+<command execution_time="52">plotDimensions(gca, gcf, 6, 5, .8)</command>
+<command execution_time="44">plotDimensions(gca, gcf, 8, 6, .8)</command>
+<command execution_time="41">plotDimensions(gca, gcf, 8, 6, .7)</command>
+<command execution_time="46">plotDimensions(gca, gcf, 10, 8, .6)</command>
+<command execution_time="45">plotDimensions(gca, gcf, 10, 8, .6, 90)</command>
+<command execution_time="44">grid off</command>
+<command execution_time="50">grid on</command>
+<command execution_time="37">plotDimensions(gca, gcf, 10, 8, .6)</command>
+</session>
+<session>
+<command time_stamp="181f77f3cbc">%-- 13.07.2022 14:18:40 --%</command>
+<command execution_time="9474" repeat="6">ComplBandStruct</command>
+<command error="true" execution_time="137">plot(transmissionComsol)</command>
+<command error="true" execution_time="151">plot(transmissionComsol.txt)</command>
+<command execution_time="19">load('transmissionComsol.txt')</command>
+<command execution_time="119">plot(transmissionComsol)</command>
+<command execution_time="81">plot(transmissionComsol(:, 1), transmissionComsol(:, 2))</command>
+<command execution_time="34">plot(transmissionComsol(:, 2), transmissionComsol(:, 1))</command>
+<command execution_time="89252">ComplBandStruct</command>
+<command error="true" execution_time="365">plot(transmissionComsol(:, 2), transmissionComsol(:, 1))</command>
+<command execution_time="30">load('transmissionComsol.txt')</command>
+<command execution_time="154">plot(transmissionComsol(:, 2), transmissionComsol(:, 1))</command>
+<command execution_time="91">figure</command>
+<command execution_time="60">plot(transmissionComsol(:, 2), transmissionComsol(:, 1))</command>
+<command execution_time="49">load('transmissionComsol.txt')</command>
+<command execution_time="89" repeat="3">plot(transmissionComsol(:, 2), transmissionComsol(:, 1))</command>
+<command execution_time="46">maxf</command>
+<command execution_time="34">grid on</command>
+<command execution_time="31">ylim = maxf</command>
+<command error="true" execution_time="232">set(gca, ylim, maxf)</command>
+<command error="true" execution_time="88">set(gca, ylim, [0, maxf])</command>
+<command error="true" execution_time="326">set(gca, Ylim, [0, maxf])</command>
+<command error="true" execution_time="96">set(gca, ylim, [0, maxf])</command>
+<command error="true" execution_time="126">set(gca, ylim, maxf)</command>
+<command error="true" execution_time="126">set(gca, Ylim, maxf)</command>
+<command error="true" execution_time="93">set(gca, ylim, maxf)</command>
+<command execution_time="62">grid off</command>
+<command error="true" execution_time="128">plotOffset(2)</command>
+<command execution_time="36">plotOffset(gca, 2)</command>
+<command execution_time="37">plotFigSize(gca, gcf)</command>
+<command execution_time="16971">Plot2LaTeX(gcf, 'validation')</command>
+<command execution_time="85">load('transmissionComsol.txt')</command>
+<command execution_time="320">plot(transmissionComsol(:, 2), transmissionComsol(:, 1))</command>
+<command error="true" execution_time="950">Plot2LaTeX(gcf, 'validationComsol')</command>
+</session>
+<session>
+<command time_stamp="181fbb11561">%-- 14.07.2022 09:51:36 --%</command>
+<command execution_time="28">load transmissionComsol.txt</command>
+<command execution_time="162">plot(transmissionComsol(:, 2), transmissionComsol(:, 1))</command>
+<command execution_time="27567">ComplBandStruct</command>
+<command execution_time="27">load transmissionComsol.txt</command>
+<command execution_time="135">plot(transmissionComsol(:, 2), transmissionComsol(:, 1))</command>
+<command execution_time="33">ylim([0, maxf])</command>
+<command execution_time="2413" repeat="2">Plot2LaTeX(gcf, "validationComsol2")</command>
+<command execution_time="99">plot(transmissionComsol(:, 2), transmissionComsol(:, 1))</command>
+<command execution_time="2772077">ComplBandStructParamStudy</command>
+<command execution_time="60509">ComplBandStruct</command>
+<command execution_time="47">clc</command>
+<command execution_time="2783757" repeat="2">ComplBandStructParamStudy</command>
+<command execution_time="92248">ComplBandStruct</command>
+</session>
+<session>
+<command time_stamp="181fd3390f4">%-- 14.07.2022 16:53:44 --%</command>
+<command execution_time="339914" repeat="3">ComplBandStruct</command>
+<command error="true" execution_time="45405">ComplBandStructParamStudy</command>
+<command execution_time="7">test = imag(kySC{1});</command>
+<command batch="31" execution_time="2367769" repeat="2">ComplBandStructParamStudy</command>
+</session>
+<session>
+<command time_stamp="181fdc54993">%-- 14.07.2022 19:32:54 --%</command>
+<command execution_time="2553310">ComplBandStructParamStudy</command>
+<command execution_time="12">clc</command>
+<command execution_time="6" repeat="2">master = gcf;</command>
+<command execution_time="6">sub = gcf;</command>
+<command execution_time="20">plotOverlapFigures(master, sub)</command>
+<command execution_time="43">master = gcf;</command>
+<command execution_time="20">sub = gcf;</command>
+<command execution_time="53">plotOverlapFigures(master, sub)</command>
+</session>
+<session>
+<command time_stamp="1821b2c8f9e">%-- 20.07.2022 12:34:41 --%</command>
+<command execution_time="57586" repeat="2">ComplBandStruct</command>
+</session>
+<session>
+<command time_stamp="1821fd3bef4">%-- 21.07.2022 10:15:47 --%</command>
+<command execution_time="61999" repeat="2">ComplBandStruct</command>
+<command execution_time="3586">Plot2LaTeX(gcf, 'validierungGX')</command>
+</session>
+<session>
+<command time_stamp="182252be673">%-- 22.07.2022 11:10:10 --%</command>
+<command error="true" execution_time="68303">ComplBandStruct</command>
+<command batch="32">matNames = {</command>
+<command batch="32">'Plexiglass',</command>
+<command batch="32">'Silicon',</command>
+<command batch="32" execution_time="23">'Wolfram'};</command>
+<command execution_time="23323" repeat="8">ComplBandStruct</command>
+<command execution_time="157">help plotOverlapFigures</command>
+<command execution_time="66">plotOverlapFigures(1, 6)</command>
+<command execution_time="66" repeat="3">plotOverlapFigures(6,4)</command>
+<command execution_time="31">plotDimensions(gca, gcf, 1, 1, 1, 0)</command>
+<command execution_time="87">plotOverlapFigures(4,5)</command>
+<command execution_time="2672" repeat="2">Plot2LaTeX(gcf, 'explain-compl-bands_10x10-silicon_8-wolfram_noCoating_1')</command>
+<command execution_time="3737">Plot2LaTeX(gcf, 'explain-compl-bands_10x10-silicon_8-wolfram_noCoating_gx')</command>
+<command execution_time="3802">Plot2LaTeX(gcf, 'explain-compl-bands_10x10-silicon_8-wolfram_noCoating_xm')</command>
+<command execution_time="6533">Plot2LaTeX(gcf, 'explain-compl-bands_10x10-silicon_8-wolfram_noCoating_mg')</command>
+<command execution_time="44">plotDimensions(gca, gcf, 1, 1, 1, 0)</command>
+<command error="true" execution_time="128" repeat="2">plotOverlapFigures(1.2)</command>
+<command execution_time="97">plotOverlapFigures(1,2)</command>
+<command execution_time="2388">Plot2LaTeX(gcf, 'explain-compl-bands_10x10-silicon_8-wolfram_noCoating_1')</command>
+</session>
+<session>
+<command time_stamp="18239852b74">%-- 26.07.2022 10:00:05 --%</command>
+<command execution_time="24" repeat="2">plotFigSize(gca, gcf)</command>
+<command execution_time="55">plotDimensions(gca, gcf, 8, 6, .8)</command>
+<command execution_time="38">plotDimensions(gca, gcf, 10, 8, .8, 90)</command>
+<command execution_time="36">plotDimensions(gca, gcf, 10, 8, .7, 90)</command>
+<command execution_time="35">plotDimensions(gca, gcf, 12, 9, .7, 90)</command>
+<command execution_time="3149">Plot2LaTeX(gcf, 'bg_vary_tCoating-rubber-vs-silicon_10x10_dInclusion-8-cm')</command>
+<command execution_time="41947" repeat="3">ComplBandStruct</command>
+<command execution_time="18">plotFigSize(gca, gcf)</command>
+<command execution_time="1885">Plot2LaTeX(gcf, 'minImg_vary_tCoating-rubber-vs-silicon_10x10_dInclusion-8-cm')</command>
+<command execution_time="11364">Plot2LaTeX(gcf, 'minImg_tCoating_056cm-rubber-vs-silicon_10x10_dInclusion-8-cm')</command>
+<command execution_time="97185" repeat="4">ComplBandStruct</command>
+<command execution_time="21605" repeat="2">Plot2LaTeX(gcf, 'test')</command>
+<command execution_time="137">plotOverlapFigures(1, 2)</command>
+<command error="true" execution_time="177">plotFigSize(gcf, gca)</command>
+<command execution_time="23">plotFigSize(gca, gcf)</command>
+<command execution_time="49">plotTickDelta(gca, 'x', 4, 1)</command>
+<command execution_time="2084">Plot2LaTeX(gcf, 'minImag_vary_len1-vs-l2_dInclusion-9-6-cm_tCoating-1-mm_plexi-silicon-wolfram')</command>
+</session>
+<session>
+<command time_stamp="1823e94f1ea">%-- 27.07.2022 09:35:25 --%</command>
+<command execution_time="100890" repeat="2">ComplBandStruct</command>
+</session>
+<session>
+<command time_stamp="1823f25e993">%-- 27.07.2022 12:13:45 --%</command>
+<command execution_time="134266">ComplBandStruct</command>
+<command execution_time="17">dOmegC/pi</command>
+<command error="true" execution_time="42">dOmegC/2pi</command>
+<command execution_time="30">dOmegC/2*pi</command>
+<command execution_time="14">dOmegC/(2*pi)</command>
+</session>
+<session>
+<command time_stamp="1823f3a89bd">%-- 27.07.2022 12:36:17 --%</command>
+<command execution_time="13">now</command>
+<command execution_time="180">datetime(now,'ConvertFrom','datenum')</command>
+<command execution_time="32">datestr(now)</command>
+<command execution_time="1666">plot(rand(5,5))</command>
+<command execution_time="743">exportgraphics(gca,'LinePlot.jpg')</command>
+<command execution_time="810">export_fig 'test.jpg' -nocrop</command>
+<command execution_time="1641">export_fig('-update')</command>
+<command execution_time="529">export_fig 'test.jpg' -nocrop -transparent</command>
+<command execution_time="286">export_fig 'test.png' -nocrop -transparent</command>
+<command execution_time="24">fname = datestr(now);</command>
+<command execution_time="8">fname</command>
+<command error="true" execution_time="297">fname + '.png'</command>
+<command execution_time="7">format = '.png'</command>
+<command error="true" execution_time="130">fname + format</command>
+<command execution_time="11">join(fname, format)</command>
+<command execution_time="16">dt = datestr(now,'mmmm dd, yyyy HH:MM:SS.FFF AM')</command>
+<command execution_time="10">dt = datestr(now,'mm dd, yyyy HH:MM:SS.FFF AM')</command>
+<command execution_time="11">dt = datestr(now,'yyyy-mm-dd-HH-MM-SS')</command>
+<command execution_time="11">dt = datestr(now,'yyyy-mm-dd_HH-MM-SS')</command>
+<command execution_time="12">dt = datestr(now,'yyyy-mm-dd_HHMMSS')</command>
+<command execution_time="8">[dt, '.png']</command>
+<command execution_time="229" repeat="2">untitled</command>
+<command execution_time="117186">ComplBandStruct</command>
+<command execution_time="19">clear dt</command>
+<command error="true" execution_time="27881">ComplBandStruct</command>
+<command execution_time="27">clc</command>
+<command execution_time="261">scatter(1:20,rand(20,1));</command>
+<command execution_time="907" repeat="3">untitled2</command>
+<command execution_time="40">clc</command>
+<command execution_time="336">startup</command>
+<command execution_time="27">!git status</command>
+<command execution_time="706">!git fetch</command>
+<command execution_time="433">!git pull</command>
+</session>
+<session>
+<command time_stamp="182492cd246">%-- 29.07.2022 10:57:30 --%</command>
+<command execution_time="100607">ComplBandStruct</command>
+<command execution_time="14303">Plot2LaTeX(gcf, 'l1-10cm_l2-20cm')</command>
+<command execution_time="88115">ComplBandStruct</command>
+<command execution_time="19977">Plot2LaTeX(gcf, 'l1-20cm_l2-10cm')</command>
+<command execution_time="87425">ComplBandStruct</command>
+<command execution_time="20301">Plot2LaTeX(gcf, 'l1-10cm_l2-20cm')</command>
+<command execution_time="36932">ComplBandStruct</command>
+<command execution_time="9916">Plot2LaTeX(gcf, 'minImg_tCoating_056cm-silicon_10x10_dInclusion-8-cm')</command>
+<command execution_time="1962">Plot2LaTeX(gcf, 'bg_vary_tCoating-rubber-vs-silicon_10x10_dInclusion-8-cm')</command>
+<command execution_time="1565">Plot2LaTeX(gcf, 'minImg_vary_tCoating-rubber-vs-silicon_10x10_dInclusion-8-cm')</command>
+</session>
+<session>
+<command time_stamp="1825f26ff8e">%-- 02.08.2022 17:22:48 --%</command>
+<command execution_time="2423">appdesigner</command>
+<command execution_time="51614">ComplBandStruct</command>
+<command execution_time="6">test = ['opt1', 'opt2'];</command>
+<command execution_time="7">test(1)</command>
+<command execution_time="7">test(2)</command>
+<command execution_time="10">test = ['opt1'; 'opt2'];</command>
+<command execution_time="8">test(1)</command>
+<command execution_time="6">test(6)</command>
+<command execution_time="8">test(4)</command>
+<command execution_time="12">test(2)</command>
+<command execution_time="7">test = {'opt1' 'opt2'};</command>
+<command execution_time="15">test(1)</command>
+<command error="true" execution_time="229">test(1) == 'opt1'</command>
+<command error="true" execution_time="79">type definedAndVariableNumInputs</command>
+<command execution_time="10">type mediumRect.geo</command>
+<command execution_time="11">type app.mlapp</command>
+<command execution_time="12">j</command>
+<command execution_time="7">i</command>
+<command execution_time="9">ceil(OmegC/dOmegC)</command>
+<command execution_time="7">type ceil</command>
+<command error="true" execution_time="166">man ceil</command>
+<command execution_time="16">mean ceil</command>
+<command error="true" execution_time="80">ceil</command>
+<command execution_time="8">(OmegC/dOmegC)</command>
+<command execution_time="7">ceil(4.0001)</command>
+<command execution_time="8">ceil(4.0000000001)</command>
+<command execution_time="8">ceil(4.00000000000000001)</command>
+<command execution_time="8">ceil(4.000000000000001)</command>
+<command execution_time="8">ceil(4.0000000000000001)</command>
+<command execution_time="15">ceil(4.00000000000000001)</command>
+<command execution_time="7">ceil(4.000000000000000001)</command>
+<command execution_time="17">ceil(4.0000000000000000001)</command>
+<command execution_time="5">ceil(4.00000000000000000001)</command>
+<command execution_time="7">ceil(4.000000000000000000001)</command>
+<command execution_time="7">ceil(4.0000000000000000000001)</command>
+<command execution_time="8">ceil(4.000000000000000000000)</command>
+<command execution_time="8">ceil(4.000000000000000001)</command>
+<command execution_time="6">ceil(4.00000000000000001)</command>
+<command execution_time="9">ceil(4.0000000000000001)</command>
+<command execution_time="7">ceil(4.000000000000001)</command>
+</session>
+<session>
+<command time_stamp="1826280e85e">%-- 03.08.2022 08:59:52 --%</command>
+<command execution_time="45950">ComplBandStruct</command>
+<command execution_time="27">clc</command>
+<command execution_time="4926" repeat="3">ComplBandStruct</command>
+<command execution_time="21">tic</command>
+<command execution_time="24">toc</command>
+<command execution_time="59490" repeat="5">ComplBandStruct</command>
+</session>
+<session>
+<command time_stamp="1826842dbbd">%-- 04.08.2022 11:49:48 --%</command>
+<command execution_time="375621" repeat="13">ComplBandStruct</command>
+</session>
+<session>
+<command time_stamp="1826d4a4039">%-- 05.08.2022 11:15:59 --%</command>
+<command execution_time="34">load transmissionComsolBest.txt</command>
+<command execution_time="1339">plot(transmissionComsolBest(:,2), transmissionComsolBest(:, 1))</command>
+<command execution_time="53">plot(transmissionComsolBest(:,2), transmissionComsolBest(:, 1), 'k')</command>
+<command execution_time="2075">ComplBandStruct</command>
+<command execution_time="100">plot([1, 2, 3], [1, 2, 3], '.', 'MarkerSize', 5, 'MarkerFaceColor', 'k')</command>
+<command execution_time="45">plot([1, 2, 3], [1, 2, 3], '.', 'MarkerSize', 10, 'MarkerFaceColor', 'k')</command>
+<command execution_time="34">plot([1, 2, 3], [1, 2, 3], 'o', 'MarkerSize', 10, 'MarkerFaceColor', 'k')</command>
+<command execution_time="35">plot([1, 2, 3], [1, 2, 3], 'o', 'MarkerSize', 10)</command>
+<command execution_time="23">test1 = 'test';</command>
+<command execution_time="30">test1 == 'test'</command>
+<command execution_time="83">plot([1, 2, 3], [1, 2, 3], [3,4,5], [3,4,5],'o', 'MarkerSize', 10)</command>
+<command execution_time="19">clc</command>
+<command execution_time="29">dt = datestr(now,'yyyy-mm-dd_HHMMSS');clc</command>
+<command execution_time="19">answer</command>
+<command execution_time="21">answer{1}</command>
+<command execution_time="981">export_fig test</command>
+<command execution_time="2436">saveas(gcf, 'test.png');</command>
+<command execution_time="2553">export_fig test3.png -m2.5</command>
+<command execution_time="2663" repeat="2">export_fig test3.png -m2.5 -transparent</command>
+<command execution_time="2612">export_fig test3.png -m2.5 -native</command>
+<command execution_time="88">cd ..</command>
+<command execution_time="25">load transmissionComsolBest.txt</command>
+<command execution_time="83">plot(transmissionComsolBest(:,2), transmissionComsolBest(:, 1))</command>
+<command execution_time="13">clc</command>
+<command execution_time="93">plot(transmissionComsolBest(:,2), transmissionComsolBest(:, 1), 'k')</command>
+<command execution_time="13">ax = gca;</command>
+<command error="true" execution_time="152">ax.YLim = 8680;</command>
+<command execution_time="46">ax.YLim = [0, 8680]</command>
+<command execution_time="15">ax.XLim = [-75, 0];</command>
+<command execution_time="128">plot(transmissionComsolBest(:,2), transmissionComsolBest(:, 1), 'k')</command>
+<command error="true" execution_time="129">ax.YLim = [0, 8680]</command>
+<command execution_time="32">ax = gca;</command>
+<command execution_time="34" repeat="2">ax.YLim = [0, 8680]</command>
+<command execution_time="20">ax.XLim = [-75, 0];</command>
+</session>
+<session>
+<command time_stamp="182837f9c6f">%-- 09.08.2022 18:45:55 --%</command>
+<command execution_time="3299" repeat="41">ComplBandStruct</command>
+<command execution_time="9">modifier = -1:-1:325;</command>
+<command execution_time="11">modifier = -1:-1:325</command>
+<command execution_time="10">modifier = -1:-1:-325</command>
+<command execution_time="8">kx = 0</command>
+<command error="true" execution_time="199">kx{1}</command>
+<command execution_time="728614">ComplBandStructParamStudy</command>
+<command execution_time="4737" repeat="4">ComplBandStruct</command>
+<command execution_time="322481">ComplBandStructParamStudy</command>
+<command error="true" execution_time="4752">ComplBandStruct</command>
+<command execution_time="8">counter = 2;</command>
+<command error="true" execution_time="202891" repeat="2">ComplBandStructParamStudy</command>
+<command error="true" execution_time="9">^modifier(counter)&gt;</command>
+<command execution_time="8">modifier</command>
+<command execution_time="10">counter</command>
+<command execution_time="7">modifier(counter)</command>
+<command execution_time="7">10^modifier(counter)</command>
+<command execution_time="121360" repeat="3">ComplBandStructParamStudy</command>
+<command execution_time="10">plotTickDelta(gca, 'x', 4)</command>
+<command execution_time="8">plotTickDelta(gca, 'x', 4, 1)</command>
+</session>
+<session>
+<command time_stamp="1828683f99b">%-- 10.08.2022 08:49:32 --%</command>
+<command execution_time="21838" repeat="5">ComplBandStruct</command>
+<command execution_time="33">plotDimensions(gca, gcf, 7, 7, .7)</command>
+<command execution_time="4526" repeat="2">ComplBandStruct</command>
+<command execution_time="17">plotDimensions(gca, gcf, 7, 7, .7)</command>
+<command execution_time="15">ax = gca;</command>
+<command execution_time="19">ax.YAxis.Exponent=3;</command>
+<command execution_time="20">ax.YAxis.Exponent=0;</command>
+<command execution_time="30059">ComplBandStruct</command>
+<command execution_time="30">plotDimensions(gca, gcf, 7, 7, .7)</command>
+<command execution_time="18519" repeat="18">ComplBandStruct</command>
+</session>
+<session>
+<command time_stamp="1828c07885c">%-- 11.08.2022 10:31:20 --%</command>
+<command execution_time="98626" repeat="7">ComplBandStruct</command>
+<command execution_time="21">clc</command>
+<command execution_time="36">a = 3j + 5;</command>
+<command execution_time="15">a</command>
+<command execution_time="14">imag(a)</command>
+<command execution_time="15">real(a)</command>
+<command error="true" execution_time="33">abs(imag(a) &gt;= 0</command>
+<command execution_time="48">abs(imag(a)) &gt;= 0</command>
+<command execution_time="20">a</command>
+<command execution_time="18">abs(imag(a))</command>
+</session>
+<session>
+<command time_stamp="1828cfef23e">%-- 11.08.2022 15:01:35 --%</command>
+<command error="true" execution_time="104" repeat="2">load ~/Downloads/quads9NEW.geo</command>
+<command error="true" execution_time="103">load ~/Downloads/quads9NEW.m</command>
+<command error="true" execution_time="50">~/Downloads/quads9NEW.m</command>
+<command execution_time="554">help evalin</command>
+<command execution_time="66">quads9NEW</command>
+<command execution_time="22">clc</command>
+<command execution_time="6640" repeat="5">ComplBandStruct</command>
+<command error="true" execution_time="4382" repeat="4">ComplBandStructParamStudy</command>
+<command error="true" execution_time="1615">ComplBandStruct</command>
+<command execution_time="117213">ComplBandStructParamStudy</command>
+<command error="true" execution_time="100" repeat="4">plotTickDelta(gca, 'x', 5, 4)</command>
+<command execution_time="168759" repeat="3">ComplBandStructParamStudy</command>
+<command error="true" execution_time="138" repeat="2">plotTickDelta(gca, 'x', 5, 4)</command>
+<command execution_time="167533" repeat="2">ComplBandStructParamStudy</command>
+<command execution_time="39">plotTickDelta(gca, 'x', 5, 4)</command>
+<command execution_time="186">plotBandgaps(bandgaps, 'Ummantelung $a$ [cm]', modifier)</command>
+<command execution_time="45">plotTickDelta(gca, 'x', 5, 4)</command>
+<command execution_time="160">plotBandgaps(bandgaps, 'Ummantelung $a$ [cm]', modifier)</command>
+<command execution_time="46">plotTickDelta(gca, 'x', 5, 4)</command>
+<command execution_time="70">size(tick)</command>
+<command execution_time="66">size(tick,2)</command>
+<command execution_time="41">start:delta:size(tick,2);</command>
+<command execution_time="14">start:delta:size(tick,2)</command>
+<command execution_time="31">start:delta:size(tick)</command>
+<command execution_time="42">start:delta:size(tick, 2)</command>
+<command execution_time="26">newTick = start:delta:size(tick, 2)</command>
+<command execution_time="70">(start:delta:size(tick,1))'</command>
+<command execution_time="69">label(newTick);</command>
+<command execution_time="43">label(newTick)</command>
+<command execution_time="43">label(3)</command>
+<command execution_time="156917">ComplBandStructParamStudy</command>
+</session>
+<session>
+<command time_stamp="1828d9b2bc1">%-- 11.08.2022 17:52:13 --%</command>
+<command execution_time="2949171">ComplBandStructParamStudy</command>
+<command execution_time="154">help getBandgapsCompl</command>
+</session>
+<session>
+<command time_stamp="182913670fa">%-- 12.08.2022 10:40:40 --%</command>
+<command execution_time="57933" repeat="7">ComplBandStruct</command>
+<command execution_time="140544" repeat="2">ComplBandStructParamStudy</command>
+<command error="true" execution_time="284">plotBandgaps(bandgaps, 'Radius $r$ [cm]', modifier)</command>
+<command error="true" execution_time="213">plotMinImag(minImag, 'Radius $r$ [cm]', modifier)</command>
+<command error="true" execution_time="2530543">ComplBandStructParamStudy</command>
+<command error="true" execution_time="229">plotBandgaps(bandgaps, 'Radius $r$ [cm]', modifier)</command>
+<command error="true" execution_time="194">plotMinImag(minImag, 'Radius $r$ [cm]', modifier)</command>
+<command execution_time="18" repeat="2">clc</command>
+<command execution_time="2837" repeat="11">ComplBandStruct</command>
+<command error="true" execution_time="138">gca = ax;</command>
+<command execution_time="16">ax = gca;</command>
+<command execution_time="14">set(ax, 'XLim', [0.1, 3])</command>
+<command execution_time="14">set(ax, 'XLim', [0.1, 30])</command>
+</session>
+<session>
+<command time_stamp="18292ce7d2b">%-- 12.08.2022 18:06:22 --%</command>
+<command execution_time="3903" repeat="5">ComplBandStruct</command>
+<command execution_time="25">h = findobj(gca, 'Type', 'line')</command>
+<command execution_time="20">set(gca, 'XLim', [0, 30])</command>
+<command execution_time="11">bg = gca;</command>
+<command execution_time="9">imag = gca;</command>
+<command execution_time="15">set(imag, 'XLim', [0, 30])</command>
+<command execution_time="14">h = findobj(imag, 'Type', 'line')</command>
+<command execution_time="12">xval = get(h, 'XData');</command>
+<command execution_time="8">yval = get(h, 'YData');</command>
+<command execution_time="146">yyaxis right</command>
+<command execution_time="35">plot(xval, yval)</command>
+<command error="true" execution_time="81">imag.YLim = [0 1.2];</command>
+<command execution_time="9">imag = gca;</command>
+<command execution_time="18">imag</command>
+<command execution_time="18">imag.YLim = [0, 1.2]</command>
+<command execution_time="18">imag.YLim = [0, 1.5]</command>
+<command execution_time="17">imag.YLim = [0, 1.2]</command>
+<command execution_time="18">imag.YLim = [0, 1]</command>
+<command error="true" execution_time="67">imag.YAxisLocation = 'left';</command>
+<command execution_time="17">yyaxis left</command>
+<command execution_time="17">imag</command>
+<command execution_time="11">imag.YLim = [0 2500];</command>
+<command execution_time="18">yyaxis right</command>
+<command execution_time="15">imag.YLim = [0, 1.5]</command>
+<command execution_time="15">imag.YLim = [0, 1.2]</command>
+<command execution_time="15">imag.YLim = [0, 1]</command>
+<command execution_time="184">colororder({'b', 'b'})</command>
+<command error="true" execution_time="73">imag.ColorOrder = {'b', 'b'}</command>
+<command error="true" execution_time="88">imag.ColorOrder = ({'b', 'b'})</command>
+<command error="true" execution_time="57">imag.ColorOrder = 1</command>
+<command error="true" execution_time="60">imag.ColorOrder = .5</command>
+<command execution_time="16">imag.ColorOrder = [0 0 0]</command>
+<command execution_time="22">plotTickDelta(imag, 'x', 5, 1)</command>
+<command execution_time="17">plotTickDelta(gca, 'x', 4, 1)</command>
+<command execution_time="16">plotTickDelta(gca, 'x', 5)</command>
+<command execution_time="728">export_fig test -nocrop -transparent</command>
+<command execution_time="2090">export_fig test.pdf -nocrop -transparent</command>
+<command error="true" execution_time="126">exportgraphics(gcf,filename,'BackgroundColor','none','ContentType','vector')</command>
+<command error="true" execution_time="85">exportgraphics(gcf,'file','BackgroundColor','none','ContentType','vector')</command>
+<command error="true" execution_time="3024">exportgraphics(gcf,'file.pdf','BackgroundColor','none','ContentType','vector')</command>
+<command error="true" execution_time="67">exportgraphics(gcf,'file.svg','BackgroundColor','none','ContentType','vector')</command>
+<command execution_time="318" repeat="2">exportgraphics(gcf,'file.eps','BackgroundColor','none','ContentType','vector')</command>
+<command execution_time="9">imag = gca;</command>
+<command execution_time="18">yyaxis right</command>
+<command execution_time="26">imag.YLim = [0, 1.5]</command>
+<command execution_time="27">imag.YLim = [0, 1.25]</command>
+<command error="true" execution_time="58">imag.YLabel = '$\Im(\mathbf{k}(f_{BG, Mf}))$'</command>
+<command error="true" execution_time="58">imag.YLabel = 'test'</command>
+<command execution_time="17">imag.YLabel</command>
+<command execution_time="40">imag.YLabel.String = 'test'</command>
+<command execution_time="39">imag.YLabel.String = '$\Im(\mathbf{k})'</command>
+<command execution_time="39">imag.YLabel.String = '$\Im(\mathbf{k})$'</command>
+<command execution_time="25">imag.YColor = 'black'</command>
+<command execution_time="17">set(findall(imag,'type','axes'),'fontSize', 10)</command>
+<command execution_time="277">export_fig help</command>
+<command execution_time="440">help export_fig</command>
+<command execution_time="595">export_fig test1.png -transparent -nocrop -m2</command>
+<command execution_time="1391" repeat="28">ComplBandStruct</command>
+</session>
+<session>
+<command time_stamp="1829644cd2f">%-- 13.08.2022 10:14:28 --%</command>
+<command execution_time="29368">ComplBandStruct</command>
+<command execution_time="15">plotDimensions(gca, gcf, 7, 7, .7)</command>
+<command execution_time="18462" repeat="8">ComplBandStruct</command>
+</session>
+<session>
+<command time_stamp="1829841c234">%-- 13.08.2022 19:30:23 --%</command>
+<command execution_time="2758">export_fig test12.png -nocrop -transparent -m10</command>
+</session>
+<session>
+<command time_stamp="1829c50e274">%-- 14.08.2022 14:25:23 --%</command>
+<command execution_time="51115" repeat="3">ComplBandStruct</command>
+</session>
+<session>
+<command time_stamp="182ca0c3a6e">%-- 23.08.2022 11:32:55 --%</command>
+<command execution_time="335835" repeat="2">ComplBandStruct</command>
+</session>
+<session>
+<command time_stamp="182cf188da7">%-- 24.08.2022 11:04:29 --%</command>
+<command execution_time="4102">ComplBandStruct</command>
+<command error="true" execution_time="352">ChangeInterpreter(ComplBandFig, 'latex')</command>
+<command execution_time="56">ChangeInterpreter(gcf, 'latex')</command>
+<command execution_time="26">set(findall(gcf,'type','axes'),'fontSize', 11)</command>
+<command execution_time="27">plotTickDelta(gca, 'x', 4)</command>
+<command execution_time="7">plotTickDelta(gca, 'x', 4, 1)</command>
+<command execution_time="25">plotDimensions(gca, gcf, 10, 8, .7, 0)</command>
+<command execution_time="10" repeat="2">plotTickDelta(gca, 'x', 2, 1)</command>
+<command execution_time="14">plotDimensions(gca, gcf, 10, 8, .7, 0)</command>
+<command execution_time="44">ChangeInterpreter(gcf, 'latex')</command>
+<command execution_time="21">plotDimensions(gca, gcf, 10, 8, .8)</command>
+<command execution_time="17">plotDimensions(gca, gcf, 10, 8, .7)</command>
+<command execution_time="24">plotDimensions(gca, gcf, 10, 7, .7)</command>
+<command execution_time="22">ax = gca;</command>
+<command execution_time="14">ax</command>
+<command error="true" execution_time="85">ax.TickLabels</command>
+<command execution_time="13">ax = gca;</command>
+<command error="true" execution_time="85">ax.TickLabels</command>
+<command execution_time="17">AxeObj = findall(gcf,'Type','Axes')</command>
+<command execution_time="9">img = gcf;</command>
+<command execution_time="17">AxeObj = findall(img,'Type','Axes')</command>
+<command error="true" execution_time="141">figexport</command>
+<command execution_time="1474">export_fig bg_vary_tCoating-silicon_matrix-plexiglas-10x10_dInclusion-wolfram_rOut-9-6-cm_firstBG.png -m5</command>
+<command execution_time="743">export_fig bg_vary_tCoating-silicon_matrix-plexiglas-10x10_dInclusion-wolfram_rOut-9-6-cm_firstBG.png -m5 -transparent -nocrop</command>
+<command execution_time="1935">export_fig bg_vary_tCoating-silicon_matrix-plexiglas-10x10_dInclusion-wolfram_rOut-9-6-cm_firstBG.pdf -transparent -nocrop</command>
+<command error="true" execution_time="3015">exportgraphics(gcf, 'bg_vary_tCoating-silicon_matrix-plexiglas-10x10_dInclusion-wolfram_rOut-9-6-cm_firstBGTEST.pdf')</command>
+<command execution_time="60">ChangeInterpreter(gcf, 'none')</command>
+<command error="true" execution_time="1529">exportgraphics(gcf, 'bg_vary_tCoating-silicon_matrix-plexiglas-10x10_dInclusion-wolfram_rOut-9-6-cm_firstBGTEST.pdf')</command>
+<command execution_time="53">ChangeInterpreter(gcf, 'latex')</command>
+</session>
+<session>
+<command time_stamp="182d01f0e3a">%-- 24.08.2022 15:51:12 --%</command>
+<command execution_time="86049" repeat="7">ComplBandStruct</command>
+<command execution_time="75">ChangeInterpreter(gcf, 'latex')</command>
+<command execution_time="67">set(findall(gcf,'type','axes'),'fontSize', 11)</command>
+<command execution_time="74">ChangeInterpreter(gcf, 'latex')</command>
+<command execution_time="58">plotDimensions(gca, gcf, 10, 8, .7)</command>
+<command execution_time="45" repeat="2">plotDimensions(gca, gcf, 10, 6, .7)</command>
+<command execution_time="55">set(findall(gcf,'type','axes'),'fontSize', 11)</command>
+<command execution_time="48" repeat="2">plotDimensions(gca, gcf, 10, 7, .7)</command>
+</session>
+</history>

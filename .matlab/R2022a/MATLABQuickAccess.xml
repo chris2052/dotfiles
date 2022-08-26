@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quick_access_configuration>
+   <tool display_condition="always" section_id="environment" tab_id="home" tool_id="settings" toolset_id="home_toolset"/>
+   <tool common="true" display_condition="always" section_id="common_section" tab_id="common_tab" tool_id="undo" toolset_id="common_tools"/>
+   <tool common="true" display_condition="always" section_id="common_section" tab_id="common_tab" tool_id="redo" toolset_id="common_tools"/>
+   <tool display_condition="always" section_id="run_section" tab_id="editor" tool_id="split_run" toolset_id="editor_toolset"/>
+   <tool display_condition="always" section_id="run_section" tab_id="editor" tool_id="run" toolset_id="liveeditor_toolset"/>
+   <tool common="true" display_condition="always" section_id="run_section" tab_id="editor" tool_id="continue" toolset_id="liveeditor_toolset"/>
+   <tool common="true" display_condition="always" section_id="run_section" tab_id="editor" tool_id="exit_debug" toolset_id="liveeditor_toolset"/>
+   <tool common="true" display_condition="always" section_id="run_section" tab_id="editor" tool_id="pause_execution" toolset_id="editor_toolset"/>
+   <tool common="true" display_condition="always" section_id="run_section" tab_id="editor" tool_id="step" toolset_id="liveeditor_toolset"/>
+   <tool display_condition="always" section_id="section" tab_id="editor" tool_id="run_section_advance" toolset_id="editor_toolset"/>
+   <separator/>
+   <tool display_condition="always" section_id="code" tab_id="home" tool_id="clear_example" toolset_id="user_favorite_commands_toolset">
+      <ancestor tool_id="favorite_commands" toolset_id="favorite_commands_toolset"/>
+      <ancestor tool_id="favorite_commands_gallery" toolset_id="favorite_commands_toolset"/>
+   </tool>
+   <tool display_condition="always" section_id="code" tab_id="home" tool_id="67a9638f-85cb-455e-9ced-080a57c56910" toolset_id="user_favorite_commands_toolset">
+      <ancestor tool_id="favorite_commands" toolset_id="favorite_commands_toolset"/>
+      <ancestor tool_id="favorite_commands_gallery" toolset_id="favorite_commands_toolset"/>
+   </tool>
+   <separator/>
+   <tool display_condition="always" section_id="code" tab_id="home" tool_id="2f89edf7-cbaa-48c9-8a84-9879dc31a93f" toolset_id="user_favorite_commands_toolset">
+      <ancestor tool_id="favorite_commands" toolset_id="favorite_commands_toolset"/>
+      <ancestor tool_id="favorite_commands_gallery" toolset_id="favorite_commands_toolset"/>
+   </tool>
+   <tool display_condition="always" section_id="code" tab_id="home" tool_id="276787a3-dd9a-448d-b996-4622b81bf94c" toolset_id="user_favorite_commands_toolset">
+      <ancestor tool_id="favorite_commands" toolset_id="favorite_commands_toolset"/>
+      <ancestor tool_id="favorite_commands_gallery" toolset_id="favorite_commands_toolset"/>
+   </tool>
+   <tool display_condition="always" section_id="code" tab_id="home" tool_id="177e4a27-0f2d-4c20-800e-082fb07f2bb5" toolset_id="user_favorite_commands_toolset">
+      <ancestor tool_id="favorite_commands" toolset_id="favorite_commands_toolset"/>
+      <ancestor tool_id="favorite_commands_gallery" toolset_id="favorite_commands_toolset"/>
+   </tool>
+   <tool display_condition="always" section_id="code" tab_id="home" tool_id="fa382569-f9b5-4125-9e69-d91807e550d6" toolset_id="user_favorite_commands_toolset">
+      <ancestor tool_id="favorite_commands" toolset_id="favorite_commands_toolset"/>
+      <ancestor tool_id="favorite_commands_gallery" toolset_id="favorite_commands_toolset"/>
+   </tool>
+   <separator/>
+   <tool display_condition="always" section_id="code" tab_id="home" tool_id="2ab59960-6eb9-4835-86dd-3cf8dca3b623" toolset_id="user_favorite_commands_toolset">
+      <ancestor tool_id="favorite_commands" toolset_id="favorite_commands_toolset"/>
+      <ancestor tool_id="favorite_commands_gallery" toolset_id="favorite_commands_toolset"/>
+   </tool>
+</quick_access_configuration>

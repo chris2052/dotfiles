@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<toolset id="favorite_commands_toolset" template="true">
+   <tool id="favorite_commands_gallery" quick_access_eligible="false" toolset_id="favorite_commands_toolset" type="gallery">
+      <child_tool id="default_category" toolset_id="favorite_commands_toolset"/>
+      <child_tool id="examples" toolset_id="user_favorite_commands_toolset"/>
+   </tool>
+   <tool id="default_category" quick_access_eligible="false" toolset_id="favorite_commands_toolset" type="group">
+      <child_tool id="2ab59960-6eb9-4835-86dd-3cf8dca3b623" toolset_id="user_favorite_commands_toolset"/>
+      <child_tool id="67a9638f-85cb-455e-9ced-080a57c56910" toolset_id="user_favorite_commands_toolset"/>
+      <child_tool id="2f89edf7-cbaa-48c9-8a84-9879dc31a93f" toolset_id="user_favorite_commands_toolset"/>
+      <child_tool id="276787a3-dd9a-448d-b996-4622b81bf94c" toolset_id="user_favorite_commands_toolset"/>
+      <child_tool id="177e4a27-0f2d-4c20-800e-082fb07f2bb5" toolset_id="user_favorite_commands_toolset"/>
+      <child_tool id="fa382569-f9b5-4125-9e69-d91807e550d6" toolset_id="user_favorite_commands_toolset"/>
+   </tool>
+   <toolset id="user_favorite_commands_toolset" template="true">
+      <tool id="goto_user_example" toolset_id="user_favorite_commands_toolset"/>
+      <tool id="clear_example" toolset_id="user_favorite_commands_toolset"/>
+      <tool id="177e4a27-0f2d-4c20-800e-082fb07f2bb5" toolset_id="user_favorite_commands_toolset"/>
+      <tool id="examples" quick_access_eligible="false" toolset_id="user_favorite_commands_toolset" type="group">
+         <child_tool id="about_example" toolset_id="user_favorite_commands_toolset"/>
+         <child_tool id="clear_example" toolset_id="user_favorite_commands_toolset"/>
+         <child_tool id="goto_user_example" toolset_id="user_favorite_commands_toolset"/>
+         <child_tool id="logo_example" toolset_id="user_favorite_commands_toolset"/>
+      </tool>
+      <tool id="2ab59960-6eb9-4835-86dd-3cf8dca3b623" toolset_id="user_favorite_commands_toolset"/>
+      <tool id="276787a3-dd9a-448d-b996-4622b81bf94c" toolset_id="user_favorite_commands_toolset"/>
+      <tool id="2f89edf7-cbaa-48c9-8a84-9879dc31a93f" toolset_id="user_favorite_commands_toolset"/>
+      <tool id="67a9638f-85cb-455e-9ced-080a57c56910" toolset_id="user_favorite_commands_toolset"/>
+      <tool id="fa382569-f9b5-4125-9e69-d91807e550d6" toolset_id="user_favorite_commands_toolset"/>
+      <tool id="logo_example" toolset_id="user_favorite_commands_toolset"/>
+      <tool id="about_example" toolset_id="user_favorite_commands_toolset"/>
+   </toolset>
+</toolset>

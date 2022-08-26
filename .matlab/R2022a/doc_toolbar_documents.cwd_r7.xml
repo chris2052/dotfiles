@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ToolBar>
+   <Visible>
+      <Key>context.back</Key>
+      <Key>context.forward</Key>
+      <Key>context.up</Key>
+      <Key>cdToMatlabDrive</Key>
+      <Key>cwd.browse</Key>
+      <Key>cwd.address</Key>
+   </Visible>
+   <Hidden>
+      <Key>context.run</Key>
+      <Key>newfolder</Key>
+      <Key>reports.mlint</Key>
+      <Key>reports.todo</Key>
+      <Key>reports.help</Key>
+      <Key>reports.contents</Key>
+      <Key>reports.depen</Key>
+      <Key>reports.cov</Key>
+   </Hidden>
+</ToolBar>

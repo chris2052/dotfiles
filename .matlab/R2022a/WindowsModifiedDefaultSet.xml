@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomKeySet derivedfrom="Windows" modifieddefault="true">
+   <Context id="Global">
+      <Action id="comment">
+         <Stroke code="VK_R" ctrl="on"/>
+         <Stroke code="VK_SLASH" ctrl="on"/>
+      </Action>
+      <Action id="uncomment">
+         <Stroke code="VK_T" ctrl="on"/>
+         <Stroke alt="on" code="VK_SLASH" ctrl="on"/>
+         <Stroke code="VK_SLASH" ctrl="on" meta="on"/>
+      </Action>
+   </Context>
+</CustomKeySet>

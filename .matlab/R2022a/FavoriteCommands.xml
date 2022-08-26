@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<toolset id="user_favorite_commands_toolset" template="false">
+   <tool id="goto_user_example" label="Go to User Folder" toolset_id="user_favorite_commands_toolset">
+      <callback>% Change MATLAB® current folder to the first folder on the search path
+cd(userpath);</callback>
+      <icon name="favorite_command"/>
+   </tool>
+   <tool id="clear_example" label="Clear Variables &amp; Commands" toolset_id="user_favorite_commands_toolset">
+      <callback>% Remove all variables from the current MATLAB® workspace
+clear;
+
+% Clear all input and output from the MATLAB® Command Window
+clc;</callback>
+      <icon name="favorite_command_C"/>
+   </tool>
+   <tool id="examples" label="Examples" toolset_id="user_favorite_commands_toolset" type="group">
+      <icon name="favorite_category"/>
+      <child_tool id="about_example" toolset_id="user_favorite_commands_toolset"/>
+      <child_tool id="clear_example" toolset_id="user_favorite_commands_toolset"/>
+      <child_tool id="goto_user_example" toolset_id="user_favorite_commands_toolset"/>
+      <child_tool id="logo_example" toolset_id="user_favorite_commands_toolset"/>
+      <parent_tool id="favorite_commands_gallery" toolset_id="favorite_commands_toolset"/>
+   </tool>
+   <tool id="177e4a27-0f2d-4c20-800e-082fb07f2bb5" toolset_id="user_favorite_commands_toolset">
+      <callback>% save high resolution png with latex fonts
+
+changeInterpreter(gcf, 'latex')
+
+</callback>
+      <icon name="favorite_command_P"/>
+      <parent_tool id="default_category" toolset_id="favorite_commands_toolset"/>
+   </tool>
+   <tool id="2ab59960-6eb9-4835-86dd-3cf8dca3b623" label="Run single Line" toolset_id="user_favorite_commands_toolset">
+      <callback>currentEditor = matlab.desktop.editor.getActive;
+originalSelection = currentEditor.Selection;
+assert(originalSelection(1)==originalSelection(3));%Check that multiple lines are not selected
+currentEditor.Selection = [originalSelection(1) 1 originalSelection(1) Inf];%Select the whole line
+eval(currentEditor.SelectedText);%Run the whole line
+currentEditor.Selection = originalSelection;%Reset selection to original state
+clear currentEditor originalselection</callback>
+      <icon name="favorite_command"/>
+      <parent_tool id="default_category" toolset_id="favorite_commands_toolset"/>
+   </tool>
+   <tool id="276787a3-dd9a-448d-b996-4622b81bf94c" toolset_id="user_favorite_commands_toolset">
+      <callback>% create *.pdf_tex (Inkscape)
+
+dt = datestr(now,'yyyy-mm-dd_HHMMSS');
+
+prompt = {'Enter filename:'};
+dlgtitle = 'Saving figure as *.pdf_tex (Inkscape)';
+dims = [1 80];
+definput = {dt};
+answer = inputdlg(prompt,dlgtitle,dims,definput);
+
+Plot2LaTeX(gcf, answer{1})
+
+clear dt prompt dlgtitle dims definput answer</callback>
+      <icon name="favorite_command_L"/>
+      <parent_tool id="default_category" toolset_id="favorite_commands_toolset"/>
+   </tool>
+   <tool id="2f89edf7-cbaa-48c9-8a84-9879dc31a93f" label="save figure" toolset_id="user_favorite_commands_toolset">
+      <callback>% save *.png of current figure
+dt = datestr(now,'yyyy-mm-dd_HHMMSS');
+export_fig([dt, '.png'], '-nocrop')
+clear dt</callback>
+      <icon name="favorite_command_F"/>
+      <parent_tool id="default_category" toolset_id="favorite_commands_toolset"/>
+   </tool>
+   <tool id="67a9638f-85cb-455e-9ced-080a57c56910" label="close all windows" toolset_id="user_favorite_commands_toolset">
+      <callback>close all</callback>
+      <icon name="favorite_command_A"/>
+      <parent_tool id="default_category" toolset_id="favorite_commands_toolset"/>
+   </tool>
+   <tool id="fa382569-f9b5-4125-9e69-d91807e550d6" label="FontSize" toolset_id="user_favorite_commands_toolset">
+      <callback>% set all fonts to size 11
+set(findall(gcf,'type','axes'),'fontSize', 11)</callback>
+      <icon name="favorite_command_S"/>
+      <parent_tool id="default_category" toolset_id="favorite_commands_toolset"/>
+   </tool>
+   <tool id="logo_example" label="MATLAB® Logo" toolset_id="user_favorite_commands_toolset">
+      <callback>% Create a figure and display the MATLAB® logo
+logo;
+
+% Update figure so it is visible during animation
+drawnow;
+
+% Rotate the MATLAB® logo
+[az,el] = view;
+for step = 1:360
+   % Set new position of viewer
+   view(az + step, el);
+   % Stop MATLAB execution temporarily to slow down animation
+   pause(0.005);
+end</callback>
+      <icon name="matlab_command"/>
+   </tool>
+   <tool id="about_example" label="About Favorite Commands" toolset_id="user_favorite_commands_toolset">
+      <callback>% Display help documentation for Favorite Commands
+helpview([docroot '/mapfiles/matlab_env.map'], 'matlab_favorites');</callback>
+      <icon name="help_command"/>
+   </tool>
+</toolset>

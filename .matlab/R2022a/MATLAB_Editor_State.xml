@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Editor version="1.0">
+   <File absPath="/home/chris/Documents/MATLAB/unitcell/ComplexBandstructure" lastWrittenTime="1661516396140" name="ComplBandStruct.m">
+      <CodeFolds version="1.0">
+         <FoldType name="for">
+            <Fold endOffset="7489" startOffset="6363" state="collapsed"/>
+         </FoldType>
+      </CodeFolds>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB/unitcell/ComplexBandstructure" lastWrittenTime="1661349236352" name="ComplBandStructParamStudy.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB/unitcell/ComplexBandstructure" lastWrittenTime="1661250108482" name="plotDispersionComplAll.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB/unitcell/DispersionCurves" lastWrittenTime="1660325327685" name="plotBandgaps.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB/unitcell/ComplexBandstructure" lastWrittenTime="1660298868411" name="plotMinImag.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB/plotFunctions" lastWrittenTime="1660227134159" name="plotTickDelta.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB/unitcell/ComplexBandstructure" lastWrittenTime="1660212727594" name="plotDispersionComplAllRect.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB/unitcell/DispersionCurves" lastWrittenTime="1660065353762" name="getBandgaps.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB/unitcell/ComplexBandstructure" lastWrittenTime="1660065280102" name="getBandgapsCompl.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB/unitcell/ComplexBandstructure" lastWrittenTime="1659694371261" name="plotDispersionCompl2.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB/unitcell/ComplexBandstructure" lastWrittenTime="1659694311324" name="plotDispersionComplRect2.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB/unitcell/ComplexBandstructure" lastWrittenTime="1659516193301" name="dispersionCalc.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB/unitcell/ComplexBandstructure" lastWrittenTime="1659454360603" name="app.mlapp">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB/plotFunctions" lastWrittenTime="1658943537460" name="plotStretch.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB/plotFunctions" lastWrittenTime="1658943514330" name="plotDimensions.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB/unitcell/ComplexBandstructure" lastWrittenTime="1658933999909" name="untitled2.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB/unitcell/ComplexBandstructure" lastWrittenTime="1658919382685" name="untitled.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB/unitcell/ComplexBandstructure" lastWrittenTime="1658495276988" name="plotDispersionNormalized.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB/unitcell/ComplexBandstructure" lastWrittenTime="1658486927647" name="plotDispersionComplReal.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB" lastWrittenTime="1658481600413" name="startup.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB/unitcell/DispersionCurves" lastWrittenTime="1657791421091" name="createLog.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB/unitcell/DispersionCurves" lastWrittenTime="1657558750945" name="plotTickDelta.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB/unitcell/ComplexBandstructure" lastWrittenTime="1657114953497" name="plotDispersionCompl.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB" lastWrittenTime="1657105666406" name="Plot2LaTeX.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB/unitcell/DispersionCurves" lastWrittenTime="1657002099131" name="dispersion.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB/unitcell/DispersionCurves" lastWrittenTime="1653388766219" name="Element2D.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB/unitcell/DispersionCurves" lastWrittenTime="1653386969016" name="importMatFile.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB/unitcell/ComplexBandstructure" lastWrittenTime="1653138226588" name="CoefficientMatricesPBCrect.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB/unitcell/ComplexBandstructure" lastWrittenTime="1653067787171" name="plotDispersionComplRealRect.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB/unitcell/DispersionCurves" lastWrittenTime="1653067760343" name="plotDispersion.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB/unitcell/ComplexBandstructure" lastWrittenTime="1653038106072" name="plotDispersionComplRect.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB/unitcell/DispersionCurves" lastWrittenTime="1652956118488" name="dispersionQUAD.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB/unitcell/ComplexBandstructure" lastWrittenTime="1652777309354" name="plotDispersionComplRealY.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB/unitcell/ComplexBandstructure" lastWrittenTime="1652776962682" name="plotDispersionComplY.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB" lastWrittenTime="1652774889944" name="Plot2Latex2.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB/unitcell/ComplexBandstructure" lastWrittenTime="1652453253144" name="getTrans.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB/unitcell/ComplexBandstructure" lastWrittenTime="1652449713627" name="ComplBandStructQUAD.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB/unitcell/DispersionCurves" lastWrittenTime="1651836040073" name="IndexPBC3D.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB/unitcell/ComplexBandstructure" lastWrittenTime="1651834993090" name="IndexPBC3D.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB/unitcell/ComplexBandstructure" lastWrittenTime="1651665421838" name="CoefficientMatricesPBCrecUC.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/20 uni/23 research/23.01 studienarbeit/ComplexBandstructure" lastWrittenTime="1651585895023" name="CoefficientMatricesPBCrecUC.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/20 uni/23 research/23.01 studienarbeit/ComplexBandstructure" lastWrittenTime="1651585741293" name="CoefficientMatricesPBCrect.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/ComplexBandstructure" lastWrittenTime="1651310605842" name="CoefficientMatricesPBCrecUC.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo" lastWrittenTime="1648470645542" name="Streuebenen.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB/unitcell/DispersionCurves" lastWrittenTime="1645693179231" name="dispersionParamStudy.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB/unitcell/DispersionCurves" lastWrittenTime="1645010657913" name="dispersionParamStudy">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB/unitcell/DispersionCurves" lastWrittenTime="1645007850778" name="plotOffset.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB/Plot2LaTeX_v1d3" lastWrittenTime="1644490020479" name="Plot2LaTeX.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB/unitcell/comsol" lastWrittenTime="1644397280002" name="comsolUnitcell.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB/unitcell/DispersionCurves" lastWrittenTime="1643616545450" name="JacobianQuad.m">
+      <CodeFolds version="1.0"/>
+   </File>
+</Editor>
