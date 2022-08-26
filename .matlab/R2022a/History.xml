@@ -1762,5 +1762,11 @@
 <session>
 <command time_stamp="182da18170d">%-- 26.08.2022 14:19:48 --%</command>
 <command execution_time="22">prefdir</command>
+<command error="true" execution_time="90">export_fig(gcf, '-transparent', ','-update')</command>
+<command execution_time="501">export_fig(gcf, '-transparent', '-nocrop')</command>
+<command execution_time="6">clc</command>
+<command execution_time="45">ax = gca;</command>
+<command execution_time="18">ax.XAxis.Exponent = 0;</command>
+<command execution_time="17">ax.YAxis.Exponent = 0;</command>
 </session>
 </history>

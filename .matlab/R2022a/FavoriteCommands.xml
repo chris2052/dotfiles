@@ -52,6 +52,9 @@ dims = [1 80];
 definput = {dt};
 answer = inputdlg(prompt,dlgtitle,dims,definput);
 
+% save as *png to check quality and backup (or including in epub document, ...)
+export_fig(gcf, '-transparent', '-nocrop', answer{1})
+% save as *pdf_tex for LaTeX (and *.svg for manual manipulations)
 Plot2LaTeX(gcf, answer{1})
 
 clear dt prompt dlgtitle dims definput answer</callback>
