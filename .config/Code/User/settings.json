@@ -1,7 +1,7 @@
 {
   "editor.fontSize": 16,
   "editor.wordWrap": "bounded",
-  "editor.wordWrapColumn": 140,
+  "editor.wordWrapColumn": 110,
   "editor.fontFamily": "Cascadia Code",
   "editor.fontLigatures": true,
   "editor.lineNumbers": "relative",
@@ -19,6 +19,8 @@
   "workbench.startupEditor": "newUntitledFile",
   "workbench.colorTheme": "Gruvbox Dark Hard",
   "workbench.iconTheme": "material-icon-theme",
+
+  "explorer.sortOrder": "type",
 
   "window.confirmBeforeClose": "always",
 
@@ -383,11 +385,11 @@
     },
     // tabs
     {
-      "before": ["<Leader>", "t", "n"],
+      "before": ["<Leader>", "t", "t"],
       "commands": [":tabnew"]
     },
     {
-      "before": ["<Leader>", "t", "t"],
+      "before": ["<Leader>", "t", "n"],
       "commands": [":tabnext"]
     },
     {
