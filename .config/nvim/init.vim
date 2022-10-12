@@ -19,7 +19,7 @@ set termguicolors
 set scrolloff=8
 set noshowmode
 set completeopt=menuone,noinsert,noselect
-set colorcolumn=80
+set colorcolumn=100
 set signcolumn=yes
 set cmdheight=2
 set updatetime=50
@@ -64,6 +64,12 @@ nnoremap <leader>2 2gt
 nnoremap <leader>3 3gt
 nnoremap <leader>4 4gt
 nnoremap <leader>5 5gt
+
+" copy to system clipboard
+noremap <Leader>y "+y
+noremap <Leader>p "+p
+noremap <Leader>Y "*y
+noremap <Leader>P "*p
 
 " nnoremap <leader>/ :noh
 nnoremap <leader>q :wq<CR>
