@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<!DOCTYPE gui>
-<gui name="okular_part" version="51">
+<!DOCTYPE gui SYSTEM 'kpartgui.dtd'>
+<gui name="okular_part" version="52">
  <MenuBar>
-  <Menu noMerge="1" name="file">
-   <text translationDomain="okular">&amp;File</text>
+  <Menu name="file">
+   <text>&amp;File</text>
    <Action name="get_new_stuff" group="file_open"/>
    <Action name="import_ps" group="file_open"/>
    <Action name="file_save" group="file_save"/>
@@ -17,8 +17,8 @@
    <Action name="file_export_as" group="file_print"/>
    <Action name="file_share" group="file_print"/>
   </Menu>
-  <Menu noMerge="1" name="edit">
-   <text translationDomain="okular">&amp;Edit</text>
+  <Menu name="edit">
+   <text>&amp;Edit</text>
    <Action name="edit_undo"/>
    <Action name="edit_redo"/>
    <Separator/>
@@ -31,8 +31,8 @@
    <Action name="edit_find_next"/>
    <Action name="edit_find_prev"/>
   </Menu>
-  <Menu noMerge="1" name="view">
-   <text translationDomain="okular">&amp;View</text>
+  <Menu name="view">
+   <text>&amp;View</text>
    <Action name="presentation"/>
    <Separator/>
    <Action name="view_zoom_in"/>
@@ -44,8 +44,8 @@
    <Separator/>
    <Action name="view_render_mode"/>
    <Separator/>
-   <Menu noMerge="1" name="view_orientation">
-    <text translationDomain="okular">&amp;Orientation</text>
+   <Menu name="view_orientation">
+    <text>&amp;Orientation</text>
     <Action name="view_orientation_rotate_ccw"/>
     <Action name="view_orientation_rotate_cw"/>
     <Action name="view_orientation_original"/>
@@ -54,8 +54,8 @@
    <Separator/>
    <Action name="view_toggle_forms"/>
   </Menu>
-  <Menu noMerge="1" name="go">
-   <text translationDomain="okular">&amp;Go</text>
+  <Menu name="go">
+   <text>&amp;Go</text>
    <Action name="go_previous"/>
    <Action name="go_next"/>
    <Separator/>
@@ -67,8 +67,8 @@
    <Separator/>
    <Action name="go_goto_page"/>
   </Menu>
-  <Menu noMerge="1" name="bookmarks">
-   <text translationDomain="okular">&amp;Bookmarks</text>
+  <Menu name="bookmarks">
+   <text>&amp;Bookmarks</text>
    <Action name="bookmark_add"/>
    <Action name="rename_bookmark"/>
    <Action name="previous_bookmark"/>
@@ -76,8 +76,8 @@
    <Separator/>
    <ActionList name="bookmarks_currentdocument"/>
   </Menu>
-  <Menu noMerge="1" name="tools">
-   <text translationDomain="okular">&amp;Tools</text>
+  <Menu name="tools">
+   <text>&amp;Tools</text>
    <Action name="mouse_drag"/>
    <Action name="mouse_zoom"/>
    <Action name="mouse_select"/>
@@ -94,38 +94,24 @@
    <Action name="speak_stop_all"/>
    <Action name="speak_pause_resume"/>
   </Menu>
-  <Menu noMerge="1" name="settings">
-   <text translationDomain="okular">&amp;Settings</text>
+  <Menu name="settings">
+   <text>&amp;Settings</text>
+   <Action name="colorscheme_menu" group="show_merge"/>
    <Action name="show_leftpanel" group="show_merge"/>
    <Action name="show_bottombar" group="show_merge"/>
    <Action name="options_configure_generators" group="configure_merge"/>
    <Action name="options_configure" group="configure_merge"/>
   </Menu>
-  <Menu noMerge="1" name="help">
-   <text translationDomain="okular">&amp;Help</text>
+  <Menu name="help">
+   <text>&amp;Help</text>
    <Action name="help_about_backend" group="about_merge"/>
   </Menu>
  </MenuBar>
- <ToolBar noMerge="1" name="mainToolBar">
-  <text translationDomain="okular">Main Toolbar</text>
-  <Action name="show_leftpanel"/>
-  <Separator name="separator_0"/>
-  <Action name="mouse_drag"/>
-  <Action name="mouse_textselect"/>
-  <Action name="mouse_select"/>
-  <Action name="mouse_tableselect"/>
-  <Action name="bookmark_add"/>
-  <Action name="view_orientation_rotate_cw"/>
-  <Spacer name="spacer_0"/>
-  <Action name="color_mode_inverted"/>
-  <Action name="color_mode_paper"/>
-  <Action name="color_mode_recolor"/>
-  <Separator name="separator_1"/>
-  <Action name="view_zoom_in"/>
-  <Action name="view_fit_to_page"/>
-  <Action name="view_zoom_out"/>
+ <ToolBar newline="true" name="quickAnnotationToolBar" position="right" hidden="true" iconSize="32" iconText="icononly">
+  <text translationDomain="okular">Quick Annotation Toolbar</text>
+  <Action name="quick_annotation_action_bar"/>
  </ToolBar>
- <ToolBar noMerge="1" name="annotationToolBar" newline="true" hidden="true" iconText="icononly">
+ <ToolBar newline="true" name="annotationToolBar" noMerge="1" hidden="true" iconText="icononly">
   <text translationDomain="okular">Annotation Toolbar</text>
   <Action name="annotation_highlighter"/>
   <Action name="annotation_underline"/>
@@ -150,25 +136,40 @@
   <Separator name="separator_1"/>
   <Action name="annotation_bookmark"/>
  </ToolBar>
+ <ToolBar name="mainToolBar" noMerge="1">
+  <text translationDomain="okular">Main Toolbar</text>
+  <Action name="show_leftpanel"/>
+  <Separator name="separator_0"/>
+  <Action name="mouse_drag"/>
+  <Action name="mouse_textselect"/>
+  <Action name="mouse_select"/>
+  <Action name="mouse_tableselect"/>
+  <Action name="bookmark_add"/>
+  <Action name="view_orientation_rotate_cw"/>
+  <Spacer name="spacer_0"/>
+  <Action name="color_mode_inverted"/>
+  <Action name="color_mode_paper"/>
+  <Action name="color_mode_recolor"/>
+  <Separator name="separator_1"/>
+  <Action name="view_zoom_in"/>
+  <Action name="view_fit_to_page"/>
+  <Action name="view_zoom_out"/>
+ </ToolBar>
  <ActionProperties scheme="Default">
-  <Action name="go_next" shortcut=""/>
-  <Action name="go_previous" shortcut=""/>
-  <Action priority="0" name="show_leftpanel"/>
-  <Action name="annotation_highlighter" icon="tool-highlight-symbolic"/>
-  <Action name="annotation_typewriter" icon="dialog-text-and-font"/>
+  <Action name="annotation_arrow" icon="account-types-expense"/>
   <Action name="annotation_geometrical_shape" icon="account-types-expense"/>
+  <Action name="annotation_highlighter" icon="tool-highlight-symbolic"/>
   <Action name="annotation_inline_note" icon="gtg-note-new"/>
   <Action name="annotation_settings_font" icon="font-select-symbolic"/>
-  <Action name="mouse_select" shortcut=""/>
-  <Action name="mouse_textselect" shortcut="Ctrl+2"/>
-  <Action name="mouse_zoom" shortcut=""/>
-  <Action name="annotation_arrow" icon="account-types-expense"/>
-  <Action name="view_render_mode_facing" shortcut="D"/>
-  <Action name="view_continuous" shortcut="C"/>
-  <Action name="view_render_mode_single" shortcut="S"/>
+  <Action name="annotation_typewriter" icon="dialog-text-and-font"/>
+  <Action shortcut="" name="go_next"/>
+  <Action shortcut="" name="go_previous"/>
+  <Action shortcut="" name="mouse_select"/>
+  <Action shortcut="Ctrl+2" name="mouse_textselect"/>
+  <Action shortcut="" name="mouse_zoom"/>
+  <Action name="show_leftpanel" priority="0"/>
+  <Action shortcut="C" name="view_continuous"/>
+  <Action shortcut="D" name="view_render_mode_facing"/>
+  <Action shortcut="S" name="view_render_mode_single"/>
  </ActionProperties>
- <ToolBar name="quickAnnotationToolBar" newline="true" position="right" hidden="true" iconText="icononly" iconSize="32">
-  <text translationDomain="okular">Quick Annotation Toolbar</text>
-  <Action name="quick_annotation_action_bar"/>
- </ToolBar>
 </gui>

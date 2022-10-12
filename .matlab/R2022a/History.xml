@@ -1769,4 +1769,1070 @@
 <command execution_time="18">ax.XAxis.Exponent = 0;</command>
 <command execution_time="17">ax.YAxis.Exponent = 0;</command>
 </session>
+<session>
+<command time_stamp="1831c2743a7">%-- 08.09.2022 10:11:19 --%</command>
+<command execution_time="2682" repeat="15">ComplBandStruct</command>
+</session>
+<session>
+<command time_stamp="18337040f48">%-- 13.09.2022 15:22:36 --%</command>
+<command execution_time="644" repeat="5">dispersion</command>
+</session>
+<session>
+<command time_stamp="1833a9ffddb">%-- 14.09.2022 08:11:47 --%</command>
+<command execution_time="100">cd ..</command>
+<command error="true" execution_time="47">..</command>
+<command execution_time="81">cd ..</command>
+<command execution_time="41">mkdir hexUnitCell</command>
+<command execution_time="138">cd hexUnitCell/</command>
+<command error="true" execution_time="294">touch main.m</command>
+<command execution_time="22">hex</command>
+<command execution_time="58">path</command>
+<command error="true" execution_time="28">rmpath(genpath('/home/chris/Documents/MATLAB')</command>
+<command execution_time="527">rmpath(genpath('/home/chris/Documents/MATLAB'))</command>
+<command execution_time="5">clc</command>
+<command execution_time="497">startup</command>
+<command error="true" execution_time="223" repeat="30">main</command>
+<command error="true" execution_time="1502" repeat="2">Cell2Vec</command>
+<command error="true" execution_time="503" repeat="4">main</command>
+<command execution_time="15">clc</command>
+<command error="true" execution_time="267">main</command>
+<command execution_time="96" repeat="6">test</command>
+<command error="true" execution_time="435" repeat="3">main</command>
+<command error="true" execution_time="83">test = cell(numelements);</command>
+<command error="true" execution_time="58">test = cell(numelements,1);</command>
+<command execution_time="24">test = cell(numEl);</command>
+<command execution_time="20">test = cell(numEl,1);</command>
+<command execution_time="20">test = cell(1,numEl);</command>
+<command execution_time="428" repeat="3">main</command>
+<command execution_time="28">sqrt(3)</command>
+<command execution_time="214" repeat="5">main</command>
+<command execution_time="23">BasisVec=[PBC0(2:2:end,1)-PBC0(1:2:end,1),PBC0(2:2:end,2)-PBC0(1:2:end,2),PBC0(2:2:end,3)-PBC0(1:2:end,3)];</command>
+<command execution_time="44">PBC0(2:2:end,1)-PBC0(1:2:end,1)</command>
+<command execution_time="32">PBC0(2:2:end,1)</command>
+<command execution_time="7447" repeat="2">main</command>
+<command execution_time="31">zeros(numel(0:deltaKx:pi), 1);</command>
+<command batch="33">ky0 = [zeros(numel(0:deltaKx:pi), 1); (deltaKy:deltaKy:pi)'; ...</command>
+<command batch="33" execution_time="19">(pi - deltaKxy:-deltaKxy:0)'];</command>
+<command execution_time="34">ky0</command>
+<command execution_time="279">plot(kx0, ky0)</command>
+<command execution_time="36">size(fBand)</command>
+<command execution_time="19">size(kxy0)</command>
+<command execution_time="100">plot(kxy0, fBand)</command>
+<command execution_time="60">plot(kxy0, abs(fBand), '-k')</command>
+<command execution_time="12">t = ones(numel(deltaKy:deltaKy:pi), 1) * pi;</command>
+<command execution_time="21">t</command>
+<command execution_time="12">numel(deltaKy:deltaKy:pi)</command>
+<command execution_time="29">numel(deltaKx:deltaKx:pi)</command>
+<command execution_time="30">numel(0:deltaKx:4/(3*pi))</command>
+<command execution_time="14">numel(0:deltaKx:(4/(3*pi)))</command>
+<command error="true" execution_time="19">numel(0:deltaKx:(4/3)*pi))</command>
+<command execution_time="31">numel(0:deltaKx:(4/3)*pi)</command>
+<command execution_time="11">z =linspace((4/3)*pi, pi, numel(pi:deltaKxy:(4/3)*pi));</command>
+<command batch="34" error="true">kx0 = [</command>
+<command batch="34" error="true">(0:deltaKx:(4/3)*pi)'; % GK</command>
+<command batch="34" error="true">linspace((4/3)*pi, pi, numel(pi:deltaKxy:(4/3)*pi)) %KM</command>
+<command batch="34" error="true">linspace(pi, 0, numel(pi:deltaKxy:0)) %MG</command>
+<command batch="34" error="true" execution_time="104">];</command>
+<command batch="35">kx0 = [</command>
+<command batch="35">(0:deltaKx:(4/3)*pi)'; % GK</command>
+<command batch="35">linspace((4/3)*pi, pi, numel(pi:deltaKxy:(4/3)*pi))'; %KM</command>
+<command batch="35">linspace(pi, 0, numel(pi:deltaKxy:0))' %MG</command>
+<command batch="35" execution_time="32">];</command>
+<command execution_time="50">linspace(pi, 0, numel(pi:deltaKxy:0))'</command>
+<command execution_time="19">linspace((4/3)*pi, pi, numel(pi:deltaKxy:(4/3)*pi))'</command>
+<command execution_time="15">linspace(pi, 0, numel(0:deltaKxy:pi))'</command>
+<command execution_time="486">dispersion</command>
+</session>
+<session>
+<command time_stamp="18341127419">%-- 15.09.2022 14:14:32 --%</command>
+<command batch="36" error="true">kx0 = [</command>
+<command batch="36" error="true">(0:deltaK:(4/3)*pi)'; % GK</command>
+<command batch="36" error="true">linspace((4/3)*pi, pi/3, numel(pi:deltaK:(4/3)*pi))'; % KM</command>
+<command batch="36" error="true">linspace(pi, 0, numel(0:deltaK:pi))' % MG</command>
+<command batch="36" error="true">];</command>
+<command batch="36" error="true">ky0 = [</command>
+<command batch="36" error="true">zeros(numel(0:deltaK:(4/3)*pi), 1)'; % GK</command>
+<command batch="36" error="true">(deltaKy:deltaKy:pi)'; % KM</command>
+<command batch="36" error="true">(pi - deltaKxy:-deltaKxy:0)' % MG</command>
+<command batch="36" error="true" execution_time="368">];</command>
+<command batch="37" error="true">ky0 = [</command>
+<command batch="37" error="true">zeros(numel(0:deltaK:(4/3)*pi), 1)'; % GK</command>
+<command batch="37" error="true">(deltaK:deltaK:pi)'; % KM</command>
+<command batch="37" error="true">(pi - deltaKxy0:-deltaKxy0:0)' % MG</command>
+<command batch="37" error="true" execution_time="149">];</command>
+<command batch="38" error="true">kx0 = [</command>
+<command batch="38" error="true">(0:deltaK:(4/3)*pi)'; % GK</command>
+<command batch="38" error="true">linspace((4/3)*pi, pi/3, numel(pi:deltaK:(4/3)*pi))'; % KM</command>
+<command batch="38" error="true">linspace(pi, 0, numel(0:deltaK:pi))' % MG</command>
+<command batch="38" error="true">];</command>
+<command batch="38" error="true">ky0 = [</command>
+<command batch="38" error="true">zeros(numel(0:deltaK:(4/3)*pi), 1)'; % GK</command>
+<command batch="38" error="true">(deltaKxy:deltaKxy:pi)'; % KM</command>
+<command batch="38" error="true">(pi - deltaKxy:-deltaKxy:0)' % MG</command>
+<command batch="38" error="true" execution_time="192">];</command>
+<command batch="39">ky0 = [</command>
+<command batch="39">zeros(numel(0:deltaK:(4/3)*pi), 1)'; % GK</command>
+<command batch="39">(deltaKxy0:deltaKxy0:pi)'; % KM</command>
+<command batch="39">(pi - deltaKxy0:-deltaKxy0:0)' % MG</command>
+<command batch="39" execution_time="32">];</command>
+<command execution_time="34">zeros(numel(0:deltaKxy0:(4/3)*pi), 1)';</command>
+<command batch="40" error="true">kx0 = [</command>
+<command batch="40" error="true">(0:deltaK:(4/3)*pi)'; % GK</command>
+<command batch="40" error="true">linspace((4/3)*pi, pi/3, numel(pi:deltaK:(4/3)*pi))'; % KM</command>
+<command batch="40" error="true">linspace(pi, 0, numel(0:deltaK:pi))' % MG</command>
+<command batch="40" error="true">];</command>
+<command batch="40" error="true">ky0 = [</command>
+<command batch="40" error="true">zeros(numel(0:deltaK:(4/3)*pi), 1)'; % GK</command>
+<command batch="40" error="true">(deltaKxy:deltaK:pi)'; % KM</command>
+<command batch="40" error="true">(pi - deltaK:-deltaK:0)' % MG</command>
+<command batch="40" error="true" execution_time="119">];</command>
+<command batch="41" error="true" repeat="3">kx0 = [</command>
+<command batch="41" error="true">(0:deltaK:(4/3)*pi)'; % GK</command>
+<command batch="41" error="true">linspace((4/3)*pi, pi/3, numel(pi:deltaK:(4/3)*pi))'; % KM</command>
+<command batch="41" error="true">linspace(pi, 0, numel(0:deltaK:pi))' % MG</command>
+<command batch="41" error="true">];</command>
+<command batch="41" error="true">ky0 = [</command>
+<command batch="41" error="true">zeros(numel(0:deltaK:(4/3)*pi), 1)'; % GK</command>
+<command batch="41" error="true">(deltaK:deltaK:pi)'; % KM</command>
+<command batch="41" error="true">(pi - deltaK:-deltaK:0)' % MG</command>
+<command batch="41" error="true" execution_time="94">];</command>
+<command batch="42">kx0 = [</command>
+<command batch="42">(0:deltaK:(4/3)*pi)'; % GK</command>
+<command batch="42">linspace((4/3)*pi, pi/3, numel(pi:deltaK:(4/3)*pi))'; % KM</command>
+<command batch="42">linspace(pi, 0, numel(0:deltaK:pi))' % MG</command>
+<command batch="42">];</command>
+<command batch="42">ky0 = [</command>
+<command batch="42">zeros(numel(0:deltaK:(4/3)*pi), 1); % GK</command>
+<command batch="42">(deltaK:deltaK:pi)'; % KM</command>
+<command batch="42">(pi - deltaK:-deltaK:0)' % MG</command>
+<command batch="42" execution_time="35">];</command>
+<command batch="43">kx0 = [</command>
+<command batch="43">(0:deltaK:(4/3)*pi)'; % GK</command>
+<command batch="43">%     linspace((4/3)*pi, pi/3, numel(pi:deltaK:(4/3)*pi))'; % KM</command>
+<command batch="43">%     linspace(pi, 0, numel(0:deltaK:pi))' % MG</command>
+<command batch="43">];</command>
+<command batch="43">ky0 = [</command>
+<command batch="43">zeros(numel(0:deltaK:(4/3)*pi), 1); % GK</command>
+<command batch="43">%     (deltaK:deltaK:pi)'; % KM</command>
+<command batch="43">%     (pi - deltaK:-deltaK:0)' % MG</command>
+<command batch="43" execution_time="29">];</command>
+<command batch="44">kx0 = [</command>
+<command batch="44">(0:deltaK:(4/3)*pi)'; % GK</command>
+<command batch="44">linspace((4/3)*pi, pi/3, numel(pi:deltaK:(4/3)*pi))'; % KM</command>
+<command batch="44">%     linspace(pi, 0, numel(0:deltaK:pi))' % MG</command>
+<command batch="44">];</command>
+<command batch="44">ky0 = [</command>
+<command batch="44">zeros(numel(0:deltaK:(4/3)*pi), 1); % GK</command>
+<command batch="44">(deltaK:deltaK:pi)'; % KM</command>
+<command batch="44">%     (pi - deltaK:-deltaK:0)' % MG</command>
+<command batch="44" execution_time="27">];</command>
+<command execution_time="29">(pi/sqrt(3):deltaK:0)'</command>
+<command execution_time="26">(pi/sqrt(3):-deltaK:0)'</command>
+<command execution_time="13">linspace((4/3)*pi, pi/3, numel(pi:deltaK:(4/3)*pi))'</command>
+<command execution_time="12">(0:deltaK:pi/sqrt(3))'</command>
+<command execution_time="10">clc</command>
+<command batch="45">kx0 = [</command>
+<command batch="45">linspace(0, (4/3)*pi, deltaKxy0)'; % GK</command>
+<command batch="45">linspace((4/3)*pi, pi, deltaKxy0)'; % KM</command>
+<command batch="45">linspace(pi, 0, deltaKxy0)' % MG</command>
+<command batch="45">];</command>
+<command batch="45">ky0 = [</command>
+<command batch="45">zeros(deltaKxy0, 1); % GK</command>
+<command batch="45">linspace(0, pi/sqrt(3), deltaKxy0)'; % KM</command>
+<command batch="45">linspace(pi/sqrt(3), 0, deltaKxy0)'</command>
+<command batch="45">%     (pi - deltaK:-deltaK:0)' % MG</command>
+<command batch="45" execution_time="22">];</command>
+<command execution_time="1592">plot(kx0, ky0)</command>
+<command error="true" execution_time="109">plot(kx0, ky0, 'axis', 'equal')</command>
+<command execution_time="126">plot(kx0, ky0)</command>
+<command error="true" execution_time="96">set(gca, 'axis', 'equal')</command>
+<command execution_time="80">axis equal</command>
+<command execution_time="7188">main</command>
+<command error="true" execution_time="124">size(fband)</command>
+<command execution_time="20">size(fBand)</command>
+<command error="true" execution_time="124">plot(fband, 1:150)</command>
+<command execution_time="70">plot(fBand, 1:150)</command>
+<command execution_time="100">plot(1:150, fBand)</command>
+<command execution_time="62">plot(kx0, ky0)</command>
+<command error="true" execution_time="144">plot(fband, kxy0)</command>
+<command execution_time="52">plot(fBand, kxy0)</command>
+<command execution_time="44">plot(kxy0, fBand)</command>
+<command execution_time="6965">main</command>
+<command execution_time="59">plot(kxy0, fBand)</command>
+<command execution_time="6085">main</command>
+<command execution_time="124" repeat="2">plot(kxy0, real(fBand))</command>
+<command execution_time="29">plot(PBC0(1,:))</command>
+<command execution_time="15">omega2</command>
+<command execution_time="495" repeat="2">startcomsol</command>
+<command execution_time="6316">model = mphload('Hexagonal_dispersion.mph')</command>
+<command error="true" execution_time="257">model.sol1.runAll</command>
+<command error="true" execution_time="162">model.sol.runAll</command>
+<command error="true" execution_time="3404">model.sol.run</command>
+<command execution_time="36">model</command>
+<command execution_time="152">model.sol</command>
+<command execution_time="83">model.study</command>
+<command error="true" execution_time="144">model.study.run</command>
+<command error="true" execution_time="448">mphplot(model, 1)</command>
+<command error="true" execution_time="130">model.study.run</command>
+<command execution_time="7161">mphnavigator</command>
+<command execution_time="18362">str = mphmatrix(model, 'sol1', 'out', {'Kc','Ec','K','E'});</command>
+<command execution_time="86">omega2 = eigs(KsysComsol, MsysComsol, 10, 'smallestabs');</command>
+<command execution_time="39">omega2</command>
+<command execution_time="80">omega2a = eigs(Ksys, Msys, 10, 'smallestabs');</command>
+<command execution_time="77">omega2a = eigs(Ksys, Msys, 10, 'smallestabs')</command>
+<command error="true" execution_time="73">mphstart</command>
+<command execution_time="4">clc</command>
+<command execution_time="6802">main</command>
+<command execution_time="129" repeat="2">plot(kxy0, fBand)</command>
+<command execution_time="6123">main</command>
+<command execution_time="9">clc</command>
+<command execution_time="47">clearvars -except Ksys Msys</command>
+<command execution_time="334">startcomsol</command>
+<command error="true" execution_time="49">test = mphmatrix(model, 'sol2', 'out');</command>
+<command error="true" execution_time="19">test = mphmatrix(model, 'sol2', 'out' 'Ec');</command>
+<command error="true" execution_time="245">test = mphmatrix(model, 'sol2', 'out', 'Ec');</command>
+<command execution_time="20099">test = mphmatrix(model, 'sol1', 'out', 'Ec');</command>
+<command execution_time="14000">Kc = mphmatrix(model, 'sol1', 'out', {'Kc'})</command>
+<command execution_time="25">Kc = str.Kc;</command>
+<command execution_time="28">Mc = str.Ec;</command>
+<command execution_time="86">omega2Com = eigs(Kc, Mc, 10, 'smallestabs');</command>
+<command execution_time="67">omega2Com = eigs(Kc, Mc, 10, 'smallestabs')</command>
+<command execution_time="72">omega2Com2 = eigs(KsysComsol, MsysComsol, 10, 'smallestabs')</command>
+<command execution_time="79">omega2 = eigs(Ksys, Msys, 10, 'smallestabs')</command>
+<command execution_time="28">fCom2 = real(sqrt(omega2Com2) / (2 * pi));</command>
+<command execution_time="28">fCom2 = real(sqrt(omega2Com2) / (2 * pi))</command>
+<command execution_time="6536">main</command>
+<command execution_time="28">clearvars -except Ksys Msys</command>
+<command execution_time="14165">test</command>
+<command execution_time="67">omega2 = eigs(KsysComsol, MsysComsol, 10, 'smallestabs');</command>
+<command execution_time="129" repeat="7">ComplBandStruct</command>
+<command batch="46">omega2 = eigs(Ksys, Msys, 10, 'smallestabs');</command>
+<command batch="46">f = real(sqrt(omega2) / (2 * pi));</command>
+<command batch="46" execution_time="361">disp(f);</command>
+<command execution_time="763">ComplBandStruct</command>
+<command batch="47">omega2 = eigs(Ksys, Msys, 10, 'smallestabs');</command>
+<command batch="47">f = real(sqrt(omega2) / (2 * pi));</command>
+<command batch="47" execution_time="92">disp(f);</command>
+<command execution_time="51">clearvars -except Ksys Msys</command>
+<command execution_time="31263">test</command>
+<command batch="48">omega2Comsol = eigs(KsysComsol, MsysComsol, 10, 'smallestabs');</command>
+<command batch="48">fComsol = real(sqrt(omega2Comsol) / (2 * pi));</command>
+<command batch="48" execution_time="68">disp(fComsol);</command>
+<command execution_time="677">ComplBandStruct</command>
+<command batch="49">omega2 = eigs(Ksys, Msys, 10, 'smallestabs');</command>
+<command batch="49">f = real(sqrt(omega2) / (2 * pi));</command>
+<command batch="49" execution_time="60">disp(f);</command>
+<command execution_time="1058" repeat="4">mainHex</command>
+<command execution_time="28343">test</command>
+<command execution_time="699" repeat="4">mainHex</command>
+<command execution_time="28201">test</command>
+</session>
+<session>
+<command time_stamp="183451df788">%-- 16.09.2022 09:05:35 --%</command>
+<command execution_time="2324">startcomsol</command>
+<command execution_time="16431" repeat="5">test</command>
+<command execution_time="1251">plot(kxy0, fBand)</command>
+<command execution_time="16392">test</command>
+<command execution_time="37" repeat="2">plot(kxy0, fBand)</command>
+<command execution_time="24772" repeat="2">mainHex</command>
+<command execution_time="98" repeat="2">plot(kxy0, fBand)</command>
+<command execution_time="27630" repeat="2">test</command>
+<command execution_time="57">plot(kxy0, fBand)</command>
+<command execution_time="26456">mainHex</command>
+<command batch="50" error="true">kx0 = [</command>
+<command batch="50" error="true">linspace(0, pi, deltaKxy0)'; % GK</command>
+<command batch="50" error="true">linspace(pi, (4/3)*pi, deltaKxy0)'; % KM</command>
+<command batch="50" error="true">linspace((4/3)*pi, 0, deltaKxy0)' % MG</command>
+<command batch="50" error="true">];</command>
+<command batch="50" error="true">ky0 = [</command>
+<command batch="50" error="true">linspace(0, -pi/sqrt(3), deltaKxy0)'; % KM</command>
+<command batch="50" error="true">linspace(-pi/sqrt(3), 0, deltaKxy0)';</command>
+<command batch="50" error="true">zeros(deltaKxy0, 1) % GK</command>
+<command batch="50" error="true">%     (pi - deltaK:-deltaK:0)' % MG</command>
+<command batch="50" error="true" execution_time="128">];</command>
+<command execution_time="8">deltaKxy0 = 50</command>
+<command batch="51">kx0 = [</command>
+<command batch="51">linspace(0, pi, deltaKxy0)'; % GK</command>
+<command batch="51">linspace(pi, (4/3)*pi, deltaKxy0)'; % KM</command>
+<command batch="51">linspace((4/3)*pi, 0, deltaKxy0)' % MG</command>
+<command batch="51">];</command>
+<command batch="51">ky0 = [</command>
+<command batch="51">linspace(0, -pi/sqrt(3), deltaKxy0)'; % KM</command>
+<command batch="51">linspace(-pi/sqrt(3), 0, deltaKxy0)';</command>
+<command batch="51">zeros(deltaKxy0, 1) % GK</command>
+<command batch="51">%     (pi - deltaK:-deltaK:0)' % MG</command>
+<command batch="51" execution_time="10">];</command>
+<command execution_time="14">plot(kx0, ky0)</command>
+<command execution_time="24661">mainHex</command>
+<command execution_time="27275">test</command>
+<command execution_time="19719" repeat="3">mainHex</command>
+<command execution_time="28019">test</command>
+<command execution_time="1516" repeat="5">mainHex</command>
+<command execution_time="27242" repeat="3">ValidationQuads9</command>
+<command execution_time="23699" repeat="2">ValidationHex</command>
+<command execution_time="43">figure</command>
+<command execution_time="20">plot(kx0, ky0)</command>
+<command execution_time="15753" repeat="5">mainHex</command>
+<command execution_time="6">clc</command>
+<command execution_time="22514">ValidationHex</command>
+<command error="true" execution_time="19411" repeat="2">mainHex</command>
+<command execution_time="59" repeat="2">plot(kx0, ky0)</command>
+<command error="true" execution_time="168">mainQuads9</command>
+<command execution_time="27929">ValidationQuads9</command>
+<command execution_time="1581">mainQuads9</command>
+<command execution_time="235" repeat="4">mainHex</command>
+<command execution_time="305">help reshape</command>
+<command error="true" execution_time="97">SIdxPBCOut=unique(sort(reshape(OutputIdx,[],1)));</command>
+<command execution_time="7">SIdxPBCOut=unique(sort(reshape(IdxPBCOut,[],1)));</command>
+<command execution_time="7">reshape(IdxPBCOut,[],1)</command>
+<command execution_time="6">A = 1:10;</command>
+<command execution_time="6">reshape(A, 5,2)</command>
+<command error="true" execution_time="60">reshape(A, [[],2])</command>
+<command execution_time="7">reshape(A, [], 2)</command>
+<command error="true" execution_time="56">reshape(A, [], 4)</command>
+<command error="true" execution_time="56">reshape(A, [], 3)</command>
+<command execution_time="7">reshape(A, [], 2)</command>
+<command execution_time="7">reshape(A, [], 5)</command>
+<command error="true" execution_time="55">reshape(A, [], [])</command>
+<command execution_time="8">clc</command>
+<command execution_time="1097">mainHex</command>
+<command execution_time="22782">ValidationHex</command>
+<command execution_time="4388" repeat="3">mainHex</command>
+<command execution_time="51">figure</command>
+<command execution_time="20">plot(kx0, ky0)</command>
+<command execution_time="17">axis equal</command>
+<command execution_time="4190">mainHex</command>
+<command batch="52">PBC0hex = [</command>
+<command batch="52">0, -a/sqrt(3), 0, -a/2, -(a/2)*(sqrt(3)/3), 0;</command>
+<command batch="52">a/2, (a/2)*(sqrt(3)/3), 0, 0, a/sqrt(3), 0;</command>
+<command batch="52">-a/2, -(a/2)*(sqrt(3)/3), 0, -a/2, (a/2)*(sqrt(3)/3), 0;</command>
+<command batch="52">a/2, -(a/2)*(sqrt(3)/3), 0, a/2, (a/2)*(sqrt(3)/3), 0;</command>
+<command batch="52">-a/2, (a/2)*(sqrt(3)/3), 0, 0, a/sqrt(3), 0;</command>
+<command batch="52">0, -a/sqrt(3), 0, a/2, -(a/2)*(sqrt(3)/3), 0</command>
+<command batch="52" execution_time="12">];</command>
+<command error="true" execution_time="15">PBC0hex(10</command>
+<command execution_time="14">PBC0hex(10)</command>
+<command execution_time="12">PBC0hex(2)</command>
+<command execution_time="13">PBC0hex(3)</command>
+<command execution_time="63">plot(PBC0hex(:,1), PBC0hex(:,2))</command>
+<command error="true" execution_time="57">axes equal</command>
+<command execution_time="16">axis equal</command>
+</session>
+<session>
+<command time_stamp="18354c6b019">%-- 19.09.2022 10:04:11 --%</command>
+<command execution_time="4623" repeat="2">mainHex</command>
+<command execution_time="2283">startcomsol</command>
+<command execution_time="46289">ValidationHex</command>
+<command execution_time="11">kSteps = 50;</command>
+<command batch="53">nBand = 6;</command>
+<command batch="53">kSteps = 50;</command>
+<command batch="53">deltaK = pi/kSteps;</command>
+<command batch="53">% G-M-K</command>
+<command batch="53">kx0 = [</command>
+<command batch="53">linspace(0, pi, kSteps)'; % GK</command>
+<command batch="53">linspace(pi, (4/3)*pi, kSteps)'; % KM</command>
+<command batch="53">linspace((4/3)*pi, 0, kSteps)' % MG</command>
+<command batch="53">];</command>
+<command batch="53">ky0 = [</command>
+<command batch="53">linspace(0, -pi/sqrt(3), kSteps)'; % KM</command>
+<command batch="53">linspace(-pi/sqrt(3), 0, kSteps)';</command>
+<command batch="53">zeros(kSteps, 1) % GK</command>
+<command batch="53" execution_time="43">];</command>
+<command execution_time="184">plot(kx0, ky0)</command>
+<command execution_time="53">axis equal</command>
+<command execution_time="5525" repeat="2">mainHex</command>
+<command execution_time="32">grid on</command>
+<command execution_time="32092">ValidationHex</command>
+<command execution_time="17">grid on</command>
+<command execution_time="23">load Untitled.txt</command>
+<command execution_time="60">plot(Untitled(:,1), Untitled(:, 2))</command>
+<command execution_time="22">load Untitled.txt</command>
+<command execution_time="37">plot(Untitled)</command>
+<command error="true" execution_time="312">plot(Untitled, -k)</command>
+<command execution_time="38">plot(Untitled, '-k')</command>
+<command batch="54" error="true">dispFig = figure;</command>
+<command batch="54" error="true">dispAx = axes(dispFig);</command>
+<command batch="54" error="true">plot(dispAx, kxy0, fBand, '-k');</command>
+<command batch="54" error="true" execution_time="250">plot(dispAx, kxy0, ComsolDispersion, '-r')</command>
+<command batch="55">dispFig = figure;</command>
+<command batch="55">dispAx = axes(dispFig);</command>
+<command batch="55">plot(dispAx, kxy0, fBand, '-k');</command>
+<command batch="55" execution_time="147">plot(dispAx, ComsolDispersion, '-r')</command>
+<command batch="56" error="true">dispFig = figure;</command>
+<command batch="56" error="true">dispAx = axes(dispFig);</command>
+<command batch="56" error="true" execution_time="202">plot(dispAx, kxy0, fBand, ComsolDispersion, '-k');</command>
+<command batch="57" error="true">dispFig = figure;</command>
+<command batch="57" error="true">dispAx = axes(dispFig);</command>
+<command batch="57" error="true" execution_time="193">plot(dispAx, kxy0, fBand, kxy0, ComsolDispersion, '-k');</command>
+<command batch="58" error="true">dispFig = figure;</command>
+<command batch="58" error="true">dispAx = axes(dispFig);</command>
+<command batch="58" error="true" execution_time="209">plot(dispAx, kxy0, fBand, [1,151], ComsolDispersion, '-k');</command>
+<command batch="59">dispFig = figure;</command>
+<command batch="59">dispAx = axes(dispFig);</command>
+<command batch="59" execution_time="150">plot(dispAx, kxy0, fBand, '-k')</command>
+<command execution_time="41">plot(dispAx, ComsolDispersion, '-r')</command>
+<command batch="60">dispFig = figure;</command>
+<command batch="60">dispAx = axes(dispFig);</command>
+<command batch="60">plot(dispAx, kxy0, fBand, '-k')</command>
+<command batch="60">hold(dispAx, 'on')</command>
+<command batch="60">plot(dispAx, ComsolDispersion, '-r')</command>
+<command batch="60" execution_time="151">hold(dispAx, 'off')</command>
+<command batch="61">dispFig = figure;</command>
+<command batch="61">dispAx = axes(dispFig);</command>
+<command batch="61">dispAx.XLim = [0, 150];</command>
+<command batch="61">plot(dispAx, kxy0, fBand, '-k')</command>
+<command batch="61">hold(dispAx, 'on')</command>
+<command batch="61">plot(dispAx, ComsolDispersion, '-r')</command>
+<command batch="61" execution_time="140">hold(dispAx, 'off')</command>
+<command execution_time="27">clc</command>
+<command execution_time="128196">ValidationHex</command>
+<command execution_time="3592" repeat="5">mainHex</command>
+<command execution_time="130" repeat="2">plot(PBC0hex([1:2:end],1), PBC0hex([1:2:end],2))</command>
+<command execution_time="42" repeat="2">axis equal</command>
+<command execution_time="41">kx0(50)</command>
+<command execution_time="38">kx0(51)</command>
+<command execution_time="60">figure</command>
+<command execution_time="50">plot(kx0, ky0)</command>
+<command execution_time="47">axis equal</command>
+<command execution_time="29">ky0(50)</command>
+<command execution_time="45">plot(kx0, ky0)</command>
+<command execution_time="3653">mainHex</command>
+<command execution_time="36">plot(kx0, ky0)</command>
+<command execution_time="46">axis equal</command>
+<command execution_time="20" repeat="6">plot(kx0, ky0)</command>
+<command execution_time="17">clc</command>
+<command execution_time="535" repeat="2">ComplBandStruct</command>
+<command execution_time="77">max(kx0)</command>
+<command execution_time="33">max(ky0)</command>
+<command execution_time="85">cd ~/sciebo/hexUnitCell/</command>
+<command execution_time="2660">mainHex</command>
+<command execution_time="61" repeat="2">plot(kx0, ky0)</command>
+<command error="true" execution_time="89">min(maxBasisVec_LBRT, maxBasisVec_LMRM, maxBasisVec_LTRB);</command>
+<command error="true" execution_time="25">(maxBasisVec_LBRT, maxBasisVec_LMRM, maxBasisVec_LTRB)</command>
+<command execution_time="37">BasisVec(:, 3)</command>
+<command execution_time="283" repeat="2">mainHex</command>
+<command execution_time="46">-4/3*pi</command>
+</session>
+<session>
+<command time_stamp="18356d777fa">%-- 19.09.2022 19:41:45 --%</command>
+<command execution_time="5454">mainHex</command>
+</session>
+<session>
+<command time_stamp="18359816940">%-- 20.09.2022 08:06:37 --%</command>
+<command execution_time="27">ones(2)</command>
+<command execution_time="14">diag(2,1)</command>
+<command execution_time="14">diag(1,2)</command>
+<command execution_time="13">diag(2)</command>
+<command execution_time="22">eye(2)</command>
+<command execution_time="12">theta = [0, 60, 120, 240, 300];</command>
+<command error="true" execution_time="237">Ttrans = [cos theta, -sin theta; sin theta, cos theta];</command>
+<command error="true" execution_time="94">Ttrans = [cos (theta), -sin (theta); sin (theta), cos (theta)];</command>
+<command execution_time="27">Ttrans = [cos(theta),-sin(theta); sin(theta), cos(theta)];</command>
+<command execution_time="29">cos(60)</command>
+<command execution_time="32">theta = [0, pi/3, 2*pi/3, 4*pi/3, 5*pi/3];</command>
+<command execution_time="43">Ttrans = [cos(theta),-sin(theta); sin(theta), cos(theta)];</command>
+<command error="true" execution_time="98" repeat="2">test</command>
+<command execution_time="13">size(theta, 2)</command>
+<command execution_time="7" repeat="4">test</command>
+<command error="true" execution_time="153">T(:, :, 2)</command>
+<command execution_time="14">TT(:, :, 2)</command>
+<command execution_time="15">test</command>
+<command execution_time="21">TT(:, :, 2)</command>
+<command execution_time="19">length(theta)</command>
+<command execution_time="22">theta = [0, pi/3, 2*pi/3, 4*pi/3, 5*pi/3]';</command>
+<command execution_time="38">length(theta)</command>
+<command execution_time="9" repeat="4">test</command>
+<command error="true" execution_time="173">rows(theta)</command>
+<command execution_time="648">rose(theta)</command>
+<command execution_time="13">height(theta)</command>
+<command execution_time="11">width(theta)</command>
+<command execution_time="3108" repeat="3">mainHex</command>
+<command execution_time="18">j</command>
+<command error="true" execution_time="148">ji</command>
+<command execution_time="20">i</command>
+<command execution_time="13">1i</command>
+<command execution_time="11">2i</command>
+<command execution_time="12">3i</command>
+<command execution_time="11">1i</command>
+<command execution_time="11">i</command>
+<command execution_time="312" repeat="2">mainHex</command>
+<command execution_time="13">numDoF - numredDoF</command>
+<command execution_time="12">reshape(InputIdx, [], 1)</command>
+</session>
+<session>
+<command time_stamp="1835bda9137">%-- 20.09.2022 19:03:14 --%</command>
+<command execution_time="277" repeat="2">mainHex</command>
+<command execution_time="51">plot(msh.POS(:,1), msh.POS(:,2), '.k', 'LineWidth', 2)</command>
+<command execution_time="528" repeat="5">mainHex</command>
+<command execution_time="18">ApplyBlochBC2D</command>
+<command execution_time="277" repeat="3">mainHex</command>
+<command execution_time="324">help find</command>
+<command execution_time="9">z = [1, 1, 1, 2, 3, 4, 4, 4, 5, 6, 6]</command>
+<command execution_time="10">unique(z)</command>
+<command execution_time="469">mainHex</command>
+<command execution_time="7">[SIdxPBCIn, SIdxPBCOut]</command>
+<command execution_time="15" repeat="2">SlaveDofsPBC([SIdxPBCIn, SIdxPBCOut])</command>
+<command execution_time="7">SlaveDofsPBC([SIdxPBCIn; SIdxPBCOut])</command>
+</session>
+<session>
+<command time_stamp="1835eaddbbb">%-- 21.09.2022 08:13:16 --%</command>
+<command execution_time="410" repeat="4">mainQuads9</command>
+<command execution_time="23">z = [2, 43, 5, 4, 4, 4, 4, 5, 2, 2, 45];</command>
+<command execution_time="29">unique(z)</command>
+<command execution_time="431">mainQuads9</command>
+<command execution_time="26">SlaveDofsPBC([InputIdx; OutputIdx])</command>
+<command execution_time="427" repeat="3">mainQuads9</command>
+<command execution_time="17">InOutIdx(~any(InOutIdx))</command>
+<command execution_time="15">z = [1, 3, 5, 2, 54];</command>
+<command execution_time="14">any(z)</command>
+<command execution_time="17">~any(z)</command>
+<command execution_time="14">y = 1;</command>
+<command execution_time="15">any(y)</command>
+<command execution_time="439">mainQuads9</command>
+<command execution_time="18">length(unique(InputIdx))</command>
+<command execution_time="447" repeat="4">mainQuads9</command>
+<command execution_time="27">ismember(InputIdx, OutputIdx)</command>
+<command execution_time="436">mainQuads9</command>
+<command execution_time="28">A = [0 0 3;0 0 3;0 0 3]</command>
+<command execution_time="17">~any(A)</command>
+<command execution_time="442">mainQuads9</command>
+<command execution_time="15">InOutIdx(~any(InOutIdx))</command>
+<command execution_time="13">InOutIdx(~any(InOutIdx, 2), :)</command>
+<command execution_time="12">InOutIdx(any(InOutIdx, 2), :)</command>
+<command execution_time="438">mainQuads9</command>
+<command execution_time="16">InOutIdx(any(InOutIdx'))</command>
+<command execution_time="14">InOutIdx(any(InOutIdx, 2), :)</command>
+<command execution_time="15">InOutIdx(any(InOutIdx, 2))</command>
+<command execution_time="207" repeat="2">mainQuads9</command>
+<command execution_time="14">InputIdx(InOutIdx)</command>
+<command execution_time="14">InputIdx2 == InputIdx</command>
+<command execution_time="11">PBCdiff(OutInIdx, :)</command>
+<command execution_time="11">PBCdiff(InOutIdx, :)</command>
+<command execution_time="495">mainQuads9</command>
+<command execution_time="16">PBCdiff(OutInIdx, :) + PBCdiff(InOutIdx, :)</command>
+<command execution_time="448">mainQuads9</command>
+<command execution_time="17">zeros(4)</command>
+<command execution_time="13">z = zeros(4)</command>
+<command execution_time="12">z([2, 3]) = 1</command>
+<command execution_time="219" repeat="2">mainQuads9</command>
+<command execution_time="231" repeat="2">TESTmainQuads9</command>
+<command error="true" execution_time="80">ApplyBlochBC2D</command>
+<command execution_time="431" repeat="4">TESTmainQuads9</command>
+<command execution_time="11">z = real(LambdaR)</command>
+<command execution_time="416">TESTmainQuads9</command>
+<command execution_time="29">z = real(LambdaR)</command>
+<command execution_time="325" repeat="9">TESTmainQuads9</command>
+<command execution_time="59">plot(nodesCornerX, nodesCornerY)</command>
+<command error="true" execution_time="163">patch(nodesCornerX, nodesCornerY)</command>
+<command execution_time="251">TESTmainQuads9</command>
+<command execution_time="18">lambXVec .* lambYVec</command>
+<command execution_time="144" repeat="3">TESTmainQuads9</command>
+<command execution_time="14">lambXVec .* lambYVec</command>
+<command execution_time="255" repeat="3">TESTmainQuads9</command>
+<command execution_time="51">rest = redSlaveDofs(2:2:end)</command>
+<command execution_time="39">rest = redSlaveDofs(2:2:end)/2</command>
+<command execution_time="31">rest2 = redInputIdx(2:2:end)/2</command>
+<command execution_time="157" repeat="2">TESTmainQuads9</command>
+<command execution_time="52">SlaveDofsPBC(2:2:end)/2</command>
+</session>
+<session>
+<command time_stamp="183646a672d">%-- 22.09.2022 10:57:18 --%</command>
+<command execution_time="2598">TESTmainQuads9</command>
+</session>
+<session>
+<command time_stamp="18369cf61ab">%-- 23.09.2022 12:05:42 --%</command>
+<command execution_time="86">cd ~/Documents/MATLAB/unitcell/ComplexBandstructure/</command>
+<command execution_time="2546" repeat="14">ComplBandStruct</command>
+<command execution_time="30">plotDimensions(gca, gcf, 10, 10, 0.6)</command>
+<command execution_time="68">ChangeInterpreter(gcf, 'latex')</command>
+<command execution_time="2233">Plot2LaTeX(gcf, 'firstBG')</command>
+</session>
+<session>
+<command time_stamp="1836a654b4b">%-- 23.09.2022 14:49:27 --%</command>
+<command execution_time="45" repeat="5">TESTmainQuads9</command>
+<command error="true" execution_time="71" repeat="2">ApplyBlochBC2D</command>
+<command execution_time="151" repeat="12">TESTmainQuads9</command>
+<command execution_time="15">ismember(InputIdx, InputIdx)</command>
+<command execution_time="3">~ismember(InputIdx, InputIdx)</command>
+<command execution_time="10">unique(InputIdx)</command>
+<command execution_time="11">unique(InputIdx, 'stable')</command>
+<command execution_time="7">[v,w] = unique(InputIdx, 'stable');</command>
+<command execution_time="14">[v,w] = unique(InputIdx, 'first');</command>
+<command execution_time="207">test</command>
+<command execution_time="409">TESTmain</command>
+<command execution_time="8">unique(redInputIdx)</command>
+<command execution_time="165" repeat="2">TESTmain</command>
+<command execution_time="6">unique(redInputIdx)</command>
+<command execution_time="205" repeat="2">TESTmain</command>
+<command execution_time="11">unique(redInputIdx)</command>
+<command execution_time="11">unique(redSlaveDofs)</command>
+<command execution_time="10">SIdxPBCIn(2:2:end)/2</command>
+<command execution_time="12">SIdxPBCOut(2:2:end)/2</command>
+<command execution_time="7">SlaveDofsPBC(2:2:end)/2</command>
+<command execution_time="190" repeat="2">TESTmain</command>
+<command execution_time="10">redDoF(2:2:end)/2</command>
+<command execution_time="10">length(ans)</command>
+<command execution_time="7">redInputIdx</command>
+<command execution_time="12">unique(redInputIdx)</command>
+<command execution_time="14">unique(redSlaveDofs)</command>
+<command execution_time="434" repeat="2">TESTmain</command>
+<command execution_time="20">cd ~/Documents/MATLAB/unitcell/</command>
+<command error="true" execution_time="175">la</command>
+<command execution_time="441">ls -la</command>
+<command execution_time="41">cd ComplexBandstructure/</command>
+<command execution_time="551" repeat="12">ComplBandStruct</command>
+<command execution_time="7">SIdxPBCIn(2:2:end)/2</command>
+<command execution_time="13">unique(redInputIdx)</command>
+<command execution_time="7">redDoF(2:2:end)/2</command>
+<command execution_time="23">unique(InputIdx2)</command>
+<command execution_time="9">InputIdx2(2:2:end)/2</command>
+<command execution_time="6">unique(InputIdx2(2:2:end)/2)</command>
+<command execution_time="11">unique(redInputIdx)</command>
+<command error="true" execution_time="26">- `Locb` contains the lowest index in `B` for each value in `A` that is a member of `B`. Values of `0` indicate where `A` is not a member of `B`.</command>
+<command execution_time="13" repeat="2">redDoF(redInputIdx)</command>
+<command execution_time="7">ans(2:2:end)/2</command>
+<command execution_time="7">unique(ans)</command>
+<command execution_time="7">redDoF(redSlaveDofs)</command>
+<command execution_time="10">unique(ans(2:2:end))/2</command>
+<command execution_time="10">clc</command>
+<command error="true" execution_time="194" repeat="2">TESTmain</command>
+</session>
+<session>
+<command time_stamp="1836b02e64a">%-- 23.09.2022 17:41:36 --%</command>
+<command execution_time="451" repeat="2">TESTmain</command>
+<command error="true" execution_time="222">ApplyBlochBC2Dnew</command>
+<command execution_time="802">TESTmain</command>
+<command execution_time="116">cd ~/Documents/MATLAB/</command>
+<command execution_time="660" repeat="2">TESTmain</command>
+</session>
+<session>
+<command time_stamp="1836b05b077">%-- 23.09.2022 17:44:39 --%</command>
+<command execution_time="98" repeat="5">TESTmain</command>
+<command execution_time="8">redDoF(2:2:end)/2</command>
+<command execution_time="8">redDoF(redSlaveDofs)</command>
+<command execution_time="9">unique(ans)</command>
+<command execution_time="183">TESTmain</command>
+<command execution_time="15">ismember(PBCdiff, PBCdiff(:,1))</command>
+<command execution_time="13">ismember(PBCdiff, PBCdiff(1,:))</command>
+<command execution_time="9">[a,b] = ismember(PBCdiff, PBCdiff(1,:))</command>
+<command execution_time="15">a(:,1) == a(:,2)</command>
+<command execution_time="7">z = a&gt;0</command>
+<command execution_time="5">z = a&gt;4</command>
+<command execution_time="7">a(:,1) == a(:,2) &amp; a(:,1)&gt;0</command>
+</session>
+<session>
+<command time_stamp="1836e80d5df">%-- 24.09.2022 09:58:01 --%</command>
+<command execution_time="132" repeat="2">TESTmain</command>
+<command execution_time="13">ismember(PBCdiff(1,:), PBCdiff)</command>
+<command execution_time="9">ismember(PBCdiff(1,:), PBCdiff(:,:))</command>
+<command execution_time="13">[a,b] = ismember(PBCdiff(1,:), PBCdiff)</command>
+<command execution_time="9">PBCdiff(PBCdiff == PBCdiff(1,:))</command>
+<command execution_time="7">find(PBCdiff == PBCdiff(1,:))</command>
+<command execution_time="7">PBCdiff(1,:)</command>
+<command error="true" execution_time="20">find(PBCdiff == PBCdiff(1,1) &amp; PBCdiff == PBCdiff(1,2)))</command>
+<command execution_time="11">find(PBCdiff == PBCdiff(1,1) &amp; PBCdiff == PBCdiff(1,2))</command>
+<command execution_time="8">find(PBCdiff == PBCdiff(1,1) &amp; PBCdiff(1,2))</command>
+<command execution_time="7">PBCdiff(1,2)</command>
+<command execution_time="7">find(PBCdiff == PBCdiff(1,2))</command>
+<command execution_time="8">find(PBCdiff(:,2) == PBCdiff(1,2))</command>
+<command execution_time="8">a = find(PBCdiff(:,2) == PBCdiff(1,2))</command>
+<command execution_time="8">c = find(PBCdiff(:,2) == PBCdiff(end,2))</command>
+<command execution_time="7">clear b</command>
+<command execution_time="8">b = 1:height(PBCdiff)</command>
+<command error="true" execution_time="167">b(a, c) = [];</command>
+<command error="true" execution_time="64">b(a, c) = [ ];</command>
+<command error="true" execution_time="69">b(a, c)</command>
+<command execution_time="7">a</command>
+<command execution_time="8">b</command>
+<command execution_time="7">c</command>
+<command error="true" execution_time="63">b(a', c')</command>
+<command execution_time="14">b(a')</command>
+<command error="true" execution_time="82">b([a', b'])</command>
+<command error="true" execution_time="53">[a', b']</command>
+<command error="true" execution_time="53">[a' b']</command>
+<command execution_time="7">b'</command>
+<command execution_time="7">[a' c']</command>
+<command error="true" execution_time="10">a' b'</command>
+<command error="true" execution_time="10">a' c'</command>
+<command error="true" execution_time="56">b([a', b'])</command>
+<command execution_time="7">b([a', c'])</command>
+<command batch="62">b([a', c']) = [</command>
+<command batch="62" execution_time="20">b([a', c']) = []</command>
+<command execution_time="8">sqrt(3)/2</command>
+<command execution_time="9">sqrt(3)/2*.1</command>
+<command execution_time="8">PBCdiff == ans</command>
+<command execution_time="149">TESTmain</command>
+<command execution_time="9">InputIdx(InOutIdx)</command>
+<command execution_time="97" repeat="2">TESTmain</command>
+<command execution_time="1550">drawingMesh2D(nodes, quads, 'none', '-', 'k');</command>
+<command execution_time="150">TESTmain</command>
+<command error="true" execution_time="150">InOutIdx(OutInIdx)</command>
+<command execution_time="11">InputIdx(OutInIdx)</command>
+<command execution_time="13">InputIdx(InOutIdx)</command>
+<command execution_time="7">InputIdx(redInputIdx)</command>
+<command execution_time="11">redDoF(redInputIdx)</command>
+<command execution_time="9">redDoF(redSlaveDofs)</command>
+<command execution_time="7">z = redDoF(redInputIdx)';</command>
+<command execution_time="9">unique(InputIdx2)</command>
+<command execution_time="7">unique(redInputIdx)</command>
+</session>
+<session>
+<command time_stamp="18378ca9ea4">%-- 26.09.2022 09:54:48 --%</command>
+<command execution_time="778">TESTmain</command>
+<command error="true" execution_time="238">ApplyBlochBC2Dnew</command>
+<command execution_time="189">TESTmain</command>
+<command execution_time="9">lambXVec .* lambYVec</command>
+<command execution_time="14">PBCdiff(:, 1) &gt; 0</command>
+<command execution_time="11">lambXVec(PBCdiff(:, 1) &gt; 0, 1)</command>
+<command execution_time="6">LambdaR(indOutputDof)</command>
+<command execution_time="6">LambdaR(56)</command>
+<command execution_time="163">TESTmain</command>
+<command execution_time="11">unique(InputIdx)</command>
+<command execution_time="8">[a, b] = unique(InputIdx)</command>
+<command error="true" execution_time="22">find(hist(a,unique(InputIdx))&gt;1</command>
+<command execution_time="50">find(hist(a,unique(InputIdx))&gt;1)</command>
+<command execution_time="9">[C,ia,ic] = unique(InputIdx)</command>
+<command execution_time="11">indexToDupes = find(not(ismember(1:numel(InputIdx),ia)))</command>
+<command execution_time="7">PBCdiff(:,2)</command>
+<command execution_time="4">PBCdiff(1,2)</command>
+<command execution_time="7">find(PBCdiff(:,2) == PBCdiff(1,2))</command>
+<command execution_time="44" repeat="11">TESTmain</command>
+<command execution_time="11">length([OutputIdxEdge; OutputIdxPoint])</command>
+<command execution_time="182" repeat="2">TESTmain</command>
+<command error="true" execution_time="97">redDoF(SlaveDofsPBC)</command>
+<command error="true" execution_time="24">SlaveDofsPBC(redDoF_</command>
+<command error="true" execution_time="51">SlaveDofsPBC(redDoF)</command>
+<command execution_time="88" repeat="2">TESTmain</command>
+<command execution_time="6">redDoF(redInputIdx)</command>
+<command execution_time="4">redDoF(redSlaveDofs)</command>
+<command execution_time="82" repeat="4">TESTmain</command>
+<command execution_time="8">redDoF(redInputIdx)</command>
+<command execution_time="11">[aa, bb] = ismember(InputIdxB, InputIdxM)</command>
+<command execution_time="49">TESTmain</command>
+<command execution_time="9">[aa, bb] = ismember(InputIdxB, InputIdxM)</command>
+<command execution_time="7">[aa, bb] = ismember(InputIdxT, InputIdxT)</command>
+<command execution_time="7">[aa, bb] = ismember(InputIdxM, InputIdxT)</command>
+<command execution_time="223">help sub2ind</command>
+<command execution_time="205" repeat="6">TESTmain</command>
+<command error="true" execution_time="104">ApplyBlochBC2DHex</command>
+<command execution_time="53">TESTmain</command>
+</session>
+<session>
+<command time_stamp="1837b0e6697">%-- 26.09.2022 20:28:05 --%</command>
+<command execution_time="68" repeat="3">TESTmain</command>
+</session>
+<session>
+<command time_stamp="1837de43716">%-- 27.09.2022 09:40:52 --%</command>
+<command execution_time="918">TESTmain</command>
+<command execution_time="15">InputIdxCorner =  repmat(InputIdxBPoint, [5,1])</command>
+<command execution_time="10">InputIdxCorner =  repmat(InputIdxBPoint, [5])</command>
+<command execution_time="17">lambXVec = ones(size(indOutputDof, 1), 1)</command>
+<command batch="63">lambXVec(1:height(InputIdxCorner)) = [</command>
+<command batch="63" execution_time="10">lambXl, lambXl, lambXl, lambXl, 1, 1, lambXr, lambXr, lambXr, lambXr];</command>
+<command error="true" execution_time="83" repeat="3">TESTmain</command>
+<command error="true" execution_time="146">lambXVec(height(InputIdxCorner)+1, end)</command>
+<command execution_time="102">TESTmain</command>
+<command execution_time="8">lambXVec(height(InputIdxCorner)+1, end)</command>
+<command execution_time="8">lambXVec(height(InputIdxCorner), end)</command>
+<command execution_time="9">lambXVec(height(InputIdxCorner)+1:end)</command>
+<command execution_time="196">TESTmain</command>
+<command error="true" execution_time="89">repmat(lambXr, size(InputIdxB, 2))</command>
+<command execution_time="196">TESTmain</command>
+<command execution_time="7">repmat(lambXr, size(InputIdxB, 2))</command>
+<command execution_time="194" repeat="2">TESTmain</command>
+<command execution_time="12">repmat(lambXr, size(InputIdxB, 1))</command>
+<command execution_time="7">repmat(lambXr, size(InputIdxB, 1), 1)</command>
+<command execution_time="46">TESTmain</command>
+<command error="true" execution_time="21">height(InputIdxCorner</command>
+<command execution_time="9">TESTmain</command>
+<command execution_time="6">height(InputIdxCorner)</command>
+<command execution_time="174" repeat="9">TESTmain</command>
+<command execution_time="5">real(LambdaR)</command>
+<command execution_time="84">TESTmain</command>
+<command execution_time="9">real(LambdaR)</command>
+<command execution_time="2837" repeat="14">mainHex</command>
+<command execution_time="61" repeat="2">TESTmain</command>
+<command execution_time="10">real(LambdaR)</command>
+<command execution_time="55">TESTmain</command>
+<command execution_time="13">real(LambdaR)</command>
+<command execution_time="7">lambXr^2</command>
+<command execution_time="21">lambXr^3</command>
+<command execution_time="9">real(LambdaR)</command>
+<command execution_time="10">lambYu^4</command>
+<command execution_time="51" repeat="3">TESTmain</command>
+<command execution_time="8">lambXVec .* lambYVec</command>
+<command execution_time="2785" repeat="3">mainHex</command>
+<command error="true" execution_time="58">ApplyBlochBC2DHexTEST</command>
+<command execution_time="139">TESTmain</command>
+<command execution_time="2779" repeat="8">mainHex</command>
+<command execution_time="6">size(kx0, 2)</command>
+<command execution_time="7">size(kx0, 1)</command>
+<command execution_time="74" repeat="4">TESTmain</command>
+<command error="true" execution_time="68" repeat="2">ApplyBlochBC2DHexTEST</command>
+<command execution_time="526" repeat="6">TESTmain</command>
+<command execution_time="2853" repeat="3">mainHex</command>
+<command execution_time="420" repeat="3">TESTmain</command>
+<command execution_time="44" repeat="2">plot(kx0, ky0)</command>
+<command execution_time="50">TESTmain</command>
+<command execution_time="62">plot(kx0, ky0)</command>
+<command execution_time="372">TESTmain</command>
+<command execution_time="7">lambXr = exp(1j*kx * 1/2);</command>
+<command execution_time="17">lambXr = exp(1j*kx * 1/2)</command>
+<command execution_time="12">lambXr = exp(1j*kx)</command>
+<command execution_time="395">TESTmain</command>
+<command execution_time="2448" repeat="6">mainHex</command>
+<command execution_time="2179">mainQuads9</command>
+<command execution_time="2172" repeat="2">mainHex</command>
+<command execution_time="123" repeat="2">TESTmain</command>
+<command execution_time="9">load comsol.txt</command>
+<command execution_time="628" repeat="7">TESTmain</command>
+</session>
+<session>
+<command time_stamp="18382c7369a">%-- 28.09.2022 08:27:17 --%</command>
+<command execution_time="204" repeat="9">TESTmain</command>
+<command error="true" execution_time="84">f</command>
+<command execution_time="193" repeat="2">TESTmain</command>
+<command execution_time="1878">mainQuads9</command>
+<command execution_time="417" repeat="24">TESTmain</command>
+<command execution_time="7">PBCdiff(:,2)</command>
+<command execution_time="7">PBCdiff(:,2)&gt;0</command>
+<command execution_time="7">PBCdiff(:,2)==0</command>
+<command execution_time="10">InputNodes(PBCdiff(:,2)==0)</command>
+<command execution_time="7">zz = InputNodes(PBCdiff(:,2)==0)</command>
+<command execution_time="13">zz([1,2, end-1, end])</command>
+<command execution_time="127" repeat="2">TESTmain</command>
+<command execution_time="14">any(InOutIdx, 2)</command>
+<command execution_time="5">InOutIdx(any(InOutIdx, 2));</command>
+<command execution_time="8">InOutIdx(any(InOutIdx, 2))</command>
+<command execution_time="10">OutInIdx = find(OutInIdx)</command>
+<command execution_time="10">[OutInIdx, InOutIdx] = ismember(InputNodes, OutputNodes, 'rows');</command>
+</session>
+<session>
+<command time_stamp="1838402e8e5">%-- 28.09.2022 14:12:07 --%</command>
+<command execution_time="817">TESTmain</command>
+<command execution_time="10">InOutIdx(any(InOutIdx, 2))</command>
+<command execution_time="12">find(OutInIdx)</command>
+<command execution_time="61" repeat="3">TESTmain</command>
+<command execution_time="6">lambXYVec = lambX.*lambY;</command>
+<command execution_time="7">lambX</command>
+<command execution_time="6">lambXYVec = lambXVec.*lambYVec;</command>
+<command error="true" execution_time="214">ApplyBlochBC2DHexNEW</command>
+<command execution_time="188" repeat="6">TESTmain</command>
+<command execution_time="7">lambXVec .* lambYVec</command>
+<command execution_time="81" repeat="2">TESTmain</command>
+<command execution_time="8">PBCdiff(:, 2) &gt; 1</command>
+<command execution_time="10">PBCdiff(:, 2)</command>
+<command execution_time="8">PBCdiff(:, 2) &gt; 0</command>
+<command execution_time="209">TESTmain</command>
+<command error="true" execution_time="11180">mainHex</command>
+<command execution_time="563">TESTmain</command>
+<command execution_time="488" repeat="17">mainHex</command>
+<command execution_time="23" repeat="2">load comsolFiner.txt</command>
+<command execution_time="24550" repeat="2">mainHex</command>
+<command execution_time="42">plot(kx0, ky0)</command>
+<command execution_time="17">axis equal</command>
+</session>
+<session>
+<command time_stamp="183894d5f50">%-- 29.09.2022 14:51:33 --%</command>
+<command execution_time="10010" repeat="16">mainHex</command>
+</session>
+<session>
+<command time_stamp="1838d02988b">%-- 30.09.2022 08:08:21 --%</command>
+<command execution_time="21249">mainHex</command>
+<command error="true" execution_time="227">ApplyBlochBC2DHex</command>
+<command execution_time="9644" repeat="10">mainHex</command>
+<command execution_time="41">figure</command>
+<command execution_time="30">plot(kx0, ky0)</command>
+<command execution_time="16">axis equal</command>
+<command execution_time="763" repeat="11">mainHex</command>
+<command execution_time="43">figure</command>
+<command execution_time="18">plot(kx0, ky0)</command>
+<command execution_time="13">axis equal</command>
+<command execution_time="24128" repeat="23">mainHex</command>
+</session>
+<session>
+<command time_stamp="1839d71459a">%-- 03.10.2022 12:43:10 --%</command>
+<command execution_time="6718" repeat="27">mainHex</command>
+<command execution_time="75">figure</command>
+<command execution_time="50">plot(kx0, ky0)</command>
+<command execution_time="184">axis equal</command>
+<command execution_time="55">figure</command>
+<command execution_time="38">plot(kx0, ky0)</command>
+<command execution_time="22">axis equal</command>
+<command execution_time="31205">mainHex</command>
+<command batch="64">kx0 = [</command>
+<command batch="64">[0, pi]'; % GM</command>
+<command batch="64">[pi, 4/3*pi]'; % MK</command>
+<command batch="64">[4/3*pi, 0]' % KG</command>
+<command batch="64">];</command>
+<command batch="64">ky0 = [</command>
+<command batch="64">[0, -pi/sqrt(3)]';</command>
+<command batch="64">[-pi/sqrt(3), 0]';</command>
+<command batch="64">[0, 0]'</command>
+<command batch="64" execution_time="20">];</command>
+<command execution_time="559">plot(kx0, ky0)</command>
+<command execution_time="23">axis equal</command>
+<command execution_time="43416">mainHex</command>
+<command batch="65">kx0 = [</command>
+<command batch="65">[0, pi, 4/3*pi, 0]'; % GM</command>
+<command batch="65">];</command>
+<command batch="65">ky0 = [</command>
+<command batch="65">[0, -pi/sqrt(3), 0, 0]';</command>
+<command batch="65">%     [-pi/sqrt(3), 0]';</command>
+<command batch="65">%     [0, 0]'</command>
+<command batch="65" execution_time="11">];</command>
+<command execution_time="30">plot(kx0, ky0)</command>
+<command execution_time="26">axis equal</command>
+<command execution_time="31723" repeat="2">mainHex</command>
+<command execution_time="14">load comsol20.txt</command>
+<command execution_time="10" repeat="2">load comsol20Corse.txt</command>
+<command execution_time="19545">mainHex</command>
+</session>
+<session>
+<command time_stamp="183a6a882ec">%-- 05.10.2022 07:40:05 --%</command>
+<command execution_time="1804">mainHex</command>
+<command execution_time="11">PBCdiff</command>
+<command execution_time="10">unique(PBCdiff)</command>
+<command execution_time="13">unique(PBCdiff, 'rows')</command>
+<command execution_time="12">unique(PBCdiff, 'rows', 'stable')</command>
+<command execution_time="90" repeat="13">mainHex</command>
+<command execution_time="8">kx .* PBCdiff</command>
+<command execution_time="8">exp(1j * kx .* PBCdiff/a)</command>
+<command execution_time="55" repeat="4">mainHex</command>
+<command execution_time="8">redDoF(redInputIdx)</command>
+<command error="true" execution_time="261">unipque(redDoF(redInputIdx))</command>
+<command execution_time="19">unique(redDoF(redInputIdx))</command>
+<command execution_time="73" repeat="2">mainHex</command>
+<command execution_time="11">kx .* PBCdiff(:, 1)</command>
+<command execution_time="7">1j*ans</command>
+<command execution_time="7">exp(ans)</command>
+<command execution_time="21518" repeat="6">mainHex</command>
+<command execution_time="75">plot(kx0, ky0)</command>
+<command execution_time="17">axis equal</command>
+<command execution_time="89" repeat="2">mainHex</command>
+<command execution_time="8">kx .* PBCdiff(:, 1)</command>
+<command execution_time="7">kx * PBCdiff(:, 1)</command>
+<command execution_time="87">mainHex</command>
+<command execution_time="8">lambXVec .* lambYVec</command>
+<command execution_time="6">imag(ans)</command>
+<command execution_time="48">mainHex</command>
+<command execution_time="7">test = lambXVec.^(-1) .* lambYVec.^(-1);</command>
+<command execution_time="7">test([7,8])</command>
+<command execution_time="7">test = lambXVec .* lambYVec;</command>
+<command execution_time="10">test([7,8])</command>
+<command execution_time="11">lambXVec .* lambYVec;</command>
+<command execution_time="6">LambdaR(indOutputDof) = lambXVec .* lambYVec;</command>
+<command execution_time="68">mainHex</command>
+<command execution_time="7">LambdaR(40)</command>
+<command execution_time="204" repeat="3">mainHex</command>
+<command error="true" execution_time="136">ApplyBlochBC2DHex</command>
+<command execution_time="56" repeat="3">mainHex</command>
+<command execution_time="128" repeat="10">TESTmain</command>
+<command execution_time="216" repeat="6">mainHex</command>
+<command error="true" execution_time="167">ApplyBlochBC2DHex</command>
+<command execution_time="10434" repeat="10">mainHex</command>
+<command execution_time="48">figure</command>
+<command execution_time="23">plot(kx0, ky0)</command>
+<command execution_time="15">axis equal</command>
+<command execution_time="195" repeat="5">mainHex</command>
+</session>
+<session>
+<command time_stamp="183b3295bcd">%-- 07.10.2022 17:56:16 --%</command>
+<command error="true" execution_time="293" repeat="18">mainHex</command>
+</session>
+<session>
+<command time_stamp="183b7684a67">%-- 08.10.2022 13:43:29 --%</command>
+<command execution_time="17351" repeat="13">mainHex</command>
+</session>
+<session>
+<command time_stamp="183c0d2d96a">%-- 10.10.2022 09:36:27 --%</command>
+<command execution_time="5657" repeat="4">mainHex</command>
+<command execution_time="185">plotOverlapFigures(2,1)</command>
+<command execution_time="76">plotOverlapFigures(2,3)</command>
+<command execution_time="7">xlim = [0, 150]</command>
+<command execution_time="7">f = gcf;</command>
+<command execution_time="6">fa = gca;</command>
+<command execution_time="25">fa.XLim = [0, 150]</command>
+<command execution_time="20">fa.XLim = [1, 151]</command>
+<command execution_time="12">f</command>
+<command error="true" execution_time="57">get(f, 'Legend')</command>
+<command execution_time="51">get(fa, "Legend")</command>
+<command execution_time="25">legend</command>
+<command execution_time="57">legend('test')</command>
+<command error="true" execution_time="11">legend('Comsol'  'BlochBC2DHex'  'BlochBC2DHexNew')</command>
+<command execution_time="59">legend({'Comsol', 'BlochBC2DHex', 'BlochBC2DHexNew'})</command>
+<command execution_time="97">l1 = legend({'Comsol', 'BlochBC2DHex', 'BlochBC2DHexNew'})</command>
+<command execution_time="335863">mainHex</command>
+<command execution_time="2227">print('1')</command>
+<command execution_time="9">fprintf('1\n')</command>
+<command execution_time="9">fprintf('1')</command>
+<command execution_time="9">fprintf('2')</command>
+<command execution_time="9">fprintf('3')</command>
+<command execution_time="9">disp(4/2)</command>
+<command execution_time="11">disp(kInd/size(kx0,1));</command>
+<command execution_time="9">disp(kInd/size(kx0,1)*100);</command>
+<command error="true" execution_time="61">disp(kInd/size(kx0,1)*100, ' %');</command>
+<command execution_time="10">disp([kInd/size(kx0,1)*100, ' %']);</command>
+<command execution_time="10">disp(kInd/size(kx0,1)*100 + ' %');</command>
+<command execution_time="338364">mainHex</command>
+<command execution_time="36">plotOverlapFigures(1,2)</command>
+<command execution_time="11">h = gca;</command>
+<command execution_time="16">h.XLim = [1, 151]</command>
+<command execution_time="256" repeat="6">mainHex</command>
+<command execution_time="14">real(LambdaR)</command>
+<command execution_time="183">mainHex</command>
+<command execution_time="8">z = real(LambdaR);</command>
+<command execution_time="196">mainHex</command>
+<command execution_time="11">z = real(LambdaR);</command>
+<command execution_time="9">ii = imag(LambdaR);</command>
+<command execution_time="207" repeat="3">mainHex</command>
+<command execution_time="14">load LambdaR.mat</command>
+<command execution_time="22">LambdaRimag == LambdaRimagNEW</command>
+<command execution_time="17">lambX</command>
+<command error="true" execution_time="186">lambX*lambx</command>
+<command execution_time="6">lambX*lambX</command>
+<command error="true" execution_time="71">ApplyBlochBC2DHex</command>
+<command execution_time="196" repeat="8">mainHex</command>
+<command error="true" execution_time="67">ApplyBlochBC2DHex</command>
+<command execution_time="216">mainHex</command>
+<command execution_time="15">xy'</command>
+<command execution_time="3047" repeat="18">mainHex</command>
+<command error="true" execution_time="78">fprint(10)</command>
+<command error="true" execution_time="66">fprintf(10)</command>
+<command execution_time="9">fprintf('10')</command>
+<command execution_time="273" repeat="36">mainHex</command>
+<command error="true" execution_time="10">exp(1j *. [3.7624, 0.7403] *. [0.5, 0.866])</command>
+<command error="true" execution_time="22">exp(1j * [3.7624, 0.7403] *. [0.5, 0.866])</command>
+<command error="true" execution_time="10">exp(1j *. [3.7624; 0.7403] *. [0.5; 0.866])</command>
+<command error="true" execution_time="28">exp(1j * [3.7624; 0.7403] *. [0.5; 0.866])</command>
+<command error="true" execution_time="164">exp(1j * [3.7624; 0.7403] * [0.5; 0.866])</command>
+<command execution_time="18">exp([2, 3, 4])</command>
+<command error="true" execution_time="99">exp([2, 3, 4]' * [3, 5, 6]')</command>
+<command execution_time="23">exp([2, 3, 4]' .* [3, 5, 6]')</command>
+<command execution_time="14">[2, 3, 4]' .* [3, 5, 6]'</command>
+<command execution_time="15">exp(24)</command>
+<command error="true" execution_time="10">exp(1j * ([3.7624, 0.7403] *. [0.5, 0.866]))</command>
+<command error="true" execution_time="11">exp(1j * ([3.7624, 0.7403]' *. [0.5, 0.866]'))</command>
+<command error="true" execution_time="11">[3.7624, 0.7403]' *. [0.5, 0.866]'</command>
+<command execution_time="15">[3.7624, 0.7403]'</command>
+<command execution_time="14">[0.5, 0.866]'</command>
+<command error="true" execution_time="95">[3.7624, 0.7403]' * [0.5, 0.866]'</command>
+<command execution_time="14">[3.7624, 0.7403]' .* [0.5, 0.866]'</command>
+<command execution_time="13">exp(1j * [3.7624; 0.7403] .* [0.5; 0.866])</command>
+<command execution_time="15">ans(1)*ans(2)</command>
+<command execution_time="14">exp(1j * [3.7624; 0.7403] .* [1; 0])</command>
+<command execution_time="15">ans(1)*ans(2)</command>
+<command execution_time="17">exp(1j * [3.7624; 0.7403] .* [0.5; -0.866])</command>
+<command execution_time="14">ans(1)*ans(2)</command>
+<command execution_time="234">mainHex</command>
+<command execution_time="14">PBCout(13, 2)</command>
+<command execution_time="15">PBCout(13, 2)&gt;0</command>
+<command execution_time="14">PBCout(13, 2) == 0</command>
+<command execution_time="11">round(PBCout(13, 2), 5)</command>
+<command execution_time="5279" repeat="11">mainHex</command>
+<command execution_time="14">msh.QUADS9(:, end-1)</command>
+<command execution_time="18">msh.QUADS9</command>
+<command execution_time="16">clc</command>
+<command execution_time="12711" repeat="4">mainHex</command>
+</session>
 </history>

@@ -125,8 +125,8 @@
          id="rect"
          style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.99999874;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
          usecurrent="0"
-         width="340.157466417693"
-         height="264.566921715701" />
+         width="623.622047244098"
+         height="548.031496062991" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -162,8 +162,8 @@
          end="0"
          start="0"
          usecurrent="0"
-         rx="3.77952755905511"
-         ry="3.77952755905511"
+         rx="17.0078750479061"
+         ry="17.0078750479068"
          arc_type="0" />
       <eventcontext
          id="star"
@@ -314,7 +314,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="mm"
+       unit="px"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -984,13 +984,13 @@
      org.inkscape.input.eps.autorotate="None" />
   <group
      id="desktop"
-     style="font-size:13.33333333px;fill:none;-inkscape-font-specification:'Cascadia Code';font-family:'Cascadia Code';fill-rule:evenodd;stroke-dasharray:2.66666667, 2.66666667;stroke-linejoin:round;stroke-linecap:round;stroke-width:1.2;text-anchor:middle;text-align:center;fill-opacity:0.40171528;stroke:#aa0000">
+     style="font-size:13.33333333px;fill:#ffffff;-inkscape-font-specification:'Cascadia Code';font-family:'Cascadia Code';fill-rule:evenodd;stroke-dasharray:1.33333345, 2.6666669;stroke-linejoin:round;stroke-linecap:round;stroke-width:1.33417323;text-anchor:middle;text-align:center;fill-opacity:0.7070114">
     <group
        width="1920"
        height="1027"
        x="1920"
        y="21"
-       maximized="0"
+       maximized="1"
        fullscreen="0"
        id="geometry" />
     <group

@@ -11,11 +11,11 @@ android-tools
 android-udev
 anki-bin
 apparmor
+appimagelauncher
 arc-kde-git
 autoconf
 automake
 avahi
-awesome
 b43-fwcutter
 baobab
 bash-completion
@@ -39,6 +39,7 @@ cronie
 cryptsetup
 cura
 dbus-x11
+debugedit
 device-mapper
 dhclient
 dhcpcd
@@ -71,6 +72,7 @@ findutils
 firefox
 flameshot
 flex
+freecad
 freetype2
 frescobaldi
 galculator-gtk2
@@ -100,6 +102,7 @@ grub
 grub-theme-manjaro
 gruvbox-material-gtk-theme-git
 gruvbox-material-icon-theme-git
+gscan2pdf
 gst-libav
 gst-plugins-bad
 gst-plugins-base
@@ -109,6 +112,7 @@ gtk-engine-murrine
 gtk-engines
 gtkhash-thunar
 gufw
+gummy
 gvfs
 gvfs-afc
 gvfs-gphoto2
@@ -173,12 +177,16 @@ lilypond
 linux-firmware
 linux510
 linux510-broadcom-wl
+linux515
+linux515-broadcom-wl
+linux515-virtualbox-host-modules
 linux54
 linux54-broadcom-wl
 linux54-virtualbox-host-modules
 logrotate
 lsb-release
 lvm2
+lxappearance
 m4
 make
 man-db
@@ -225,7 +233,6 @@ neofetch
 neovim
 nerd-fonts-cascadia-code
 nerd-fonts-roboto-mono
-nerd-fonts-source-code-pro
 network-manager-applet
 networkmanager
 networkmanager-openconnect
@@ -252,6 +259,7 @@ opencl-amd
 openlibm-casio
 openresolv
 openssh
+opentabletdriver
 os-prober
 owncloud-client
 p7zip
@@ -260,7 +268,7 @@ pamac-gtk
 patch
 pavucontrol
 pciutils
-pcmanfm
+pcmanfm-gtk3
 pdfpc
 pdftk
 peek
@@ -279,6 +287,7 @@ pulseaudio-ctl
 pulseaudio-zeroconf
 python-pympress
 qt5-styleplugins
+qtfm
 ranger
 redshift
 reiserfsprogs
@@ -296,9 +305,10 @@ signal-desktop
 smath
 snapd
 snapd-glib
+spacefm
 spectre-meltdown-checker
 spotify
-steam-manjaro
+steam
 sublime-text-4
 sudo
 sysfsutils
@@ -333,6 +343,7 @@ ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
 ttf-ms-fonts
+ttf-sourcecodepro-nerd
 tumbler
 tuxguitar
 udiskie
@@ -423,7 +434,7 @@ xorg-xwininfo
 xournalpp
 xsane
 xsane-gimp
-xscreensaver
+xscreensaver-xmatrix-color
 yay-git
 yelp
 yt-dlp-drop-in

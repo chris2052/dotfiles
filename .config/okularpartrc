@@ -4,14 +4,10 @@ update_info=okular.upd:annotation-toolbar,okular.upd:builtin-annotations
 [Dlg Accessibility]
 RecolorForeground=0,0,0
 
-[Document]
-RenderMode=Recolor
-
 [General]
 ShellOpenFileInTabs=true
 
 [Main View]
-ShowBottomBar=true
 ShowLeftPanel=false
 SplitterSizes=198,1562
 
