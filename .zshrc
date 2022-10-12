@@ -154,10 +154,11 @@ alias newtag='git tag -a'
 
 # inkscape to LaTeX
 alias inktex='inkscape --export-area-page --export-type="pdf" --export-latex'
+alias iinktex='inkscape --export-area-drawing --export-type="pdf" --export-latex'
 
 # connect to uni-vpn (ovpn)
-alias uniup='nmcli connection up uni'
-alias unidown='nmcli connection down uni'
+# alias uniup='nmcli connection up uni'
+# alias unidown='nmcli connection down uni'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
