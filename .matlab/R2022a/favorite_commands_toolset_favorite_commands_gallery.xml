@@ -11,6 +11,7 @@
       <child_tool id="276787a3-dd9a-448d-b996-4622b81bf94c" toolset_id="user_favorite_commands_toolset"/>
       <child_tool id="177e4a27-0f2d-4c20-800e-082fb07f2bb5" toolset_id="user_favorite_commands_toolset"/>
       <child_tool id="fa382569-f9b5-4125-9e69-d91807e550d6" toolset_id="user_favorite_commands_toolset"/>
+      <child_tool id="e9542793-2ff7-4ab9-9531-7a7b0064fd5c" toolset_id="user_favorite_commands_toolset"/>
    </tool>
    <toolset id="user_favorite_commands_toolset" template="true">
       <tool id="goto_user_example" toolset_id="user_favorite_commands_toolset"/>
@@ -26,6 +27,7 @@
       <tool id="276787a3-dd9a-448d-b996-4622b81bf94c" toolset_id="user_favorite_commands_toolset"/>
       <tool id="2f89edf7-cbaa-48c9-8a84-9879dc31a93f" toolset_id="user_favorite_commands_toolset"/>
       <tool id="67a9638f-85cb-455e-9ced-080a57c56910" toolset_id="user_favorite_commands_toolset"/>
+      <tool id="e9542793-2ff7-4ab9-9531-7a7b0064fd5c" toolset_id="user_favorite_commands_toolset"/>
       <tool id="fa382569-f9b5-4125-9e69-d91807e550d6" toolset_id="user_favorite_commands_toolset"/>
       <tool id="logo_example" toolset_id="user_favorite_commands_toolset"/>
       <tool id="about_example" toolset_id="user_favorite_commands_toolset"/>

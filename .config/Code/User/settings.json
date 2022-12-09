@@ -9,6 +9,7 @@
   "editor.cursorBlinking": "solid",
   "editor.cursorStyle": "block",
   "editor.tabSize": 4,
+  "editor.detectIndentation": false
   "editor.insertSpaces": false,
   "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
   "workbench.editor.scrollToSwitchTabs": true,
@@ -39,21 +40,30 @@
     "*.pdf_tex": "tex"
   },
 
-  // others
   "explorer.confirmDragAndDrop": false,
   "security.workspace.trust.enabled": false,
   "update.mode": "none",
-  
-  // extension settings
-  // =======================================================
+
   "code-runner.executorMap": {
     "python": "$pythonPath -u $fullFileName",
   },
   "python.condaPath": "$HOME/miniconda3/bin/conda",
+  "jupyter.widgetScriptSources": [
+    "jsdelivr.com",
+    "unpkg.com"
+  ],
   "code-runner.clearPreviousOutput": false,
   "code-runner.showExecutionMessage": false,
   "code-runner.runInTerminal": true,
-
+  "extensions.ignoreRecommendations": true,
+// ================================================================
+// EXTENSIONS
+// ================================================================
+//
+//
+// -----
+// LaTeX
+// -----
   "ltex.language": "de-DE",
   "ltex.dictionary": {
     "de-DE": [
@@ -283,9 +293,11 @@
       ]
     }
   ],
-
+// ---------
+// todo-tree
+// ---------
   "todo-tree.highlights.defaultHighlight": {
-    "icon": "clippy",
+    "icon": "hourglass",
     "type": "line",
     "foreground": "#000000",
     "background": "#808080",
@@ -322,6 +334,9 @@
   ],
   "todo-tree.regex.regex": "((%|//|#|<!--|;|/\\*|^)\\s*($TAGS)|^\\s*- \\[ \\])",
   
+  // ---
+  // vim
+  // ---
   "vim.disableExtension": true,
   "vim.enableNeovim": true,
   "vim.neovimPath": "/usr/bin/nvim",
@@ -335,6 +350,7 @@
     }
   ],
   "vim.operatorPendingModeKeyBindings": [
+    // does not work, as expected!
     {
         "before": ["L"],
         "after": ["$"]
@@ -366,6 +382,15 @@
       "before": ["<Leader>", "j"],
       "after": ["J"]
     },
+    // jump to begin/end of line
+    {
+      "before": ["L"],
+      "after": ["$"]
+    },
+    {
+        "before": ["H"],
+        "after": ["^"]
+    }
     // splits
     {
       "before": ["<C-h>"],
@@ -445,6 +470,9 @@
   "vim.statusBarColors.easymotioninputmode": "#418588",
   "vim.statusBarColors.surroundinputmode": "#418588",
 
+// ------
+// MATLAB
+// ------
   "matlab.matlabpath": "/usr/local/MATLAB/R2022a/bin/matlab",
   "matlab.mlintpath": "/usr/local/MATLAB/R2022a/bin/glnxa64/mlint",
   
@@ -454,17 +482,26 @@
     }
   },
 
+// ---
+// git
+// ---
   "git.suggestSmartCommit": false,
-  "hediet.vscode-drawio.codeLinkActivated": false,
   "gitlens.hovers.currentLine.over": "line",
   "git.confirmSync": false,
-  "jupyter.widgetScriptSources": [
-    "jsdelivr.com",
-    "unpkg.com"
-  ],
-  "extensions.ignoreRecommendations": true,
   "gitlens.codeLens.enabled": false,
   "gitlens.currentLine.enabled": false,
   "gitlens.hovers.enabled": false,
+
+// ------
+// others
+// ------
+  "hediet.vscode-drawio.codeLinkActivated": false,
+  "rewrap.wholeComment": true,
+  "rewrap.wrappingColumn": 80, 
+  "comment-divider.mainHeaderAlign": "left",
+  "comment-divider.mainHeaderFiller": "=",
+  "comment-divider.shouldLengthIncludeIndent": true,
+  "comment-divider.length": 80,
+  "comment-divider.subheaderAlign": "left",
 
 }

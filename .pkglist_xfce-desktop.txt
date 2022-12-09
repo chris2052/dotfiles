@@ -22,11 +22,13 @@ bash-completion
 biber
 bison
 blender
+blender-benchmark
 blueman
 brave-browser
 brother-mfc-l2700dn
 brscan4
 btrfs-progs
+bwidget
 bzip2
 calibre
 catfish
@@ -39,7 +41,6 @@ cronie
 cryptsetup
 cura
 dbus-x11
-debugedit
 device-mapper
 dhclient
 dhcpcd
@@ -88,6 +89,7 @@ gimp
 glibc
 glmark2
 gmsh
+gnome-disk-utility
 gnome-icon-theme
 gnome-keyring
 gnome-themes-extra
@@ -166,7 +168,6 @@ librecad
 libreoffice-still
 libselinux
 libva-intel-driver
-libva-mesa-driver
 libva-vdpau-driver
 licenses
 light-locker
@@ -214,7 +215,7 @@ mediainfo-gui
 memtest86+
 menulibre
 mesa-demos
-mesa-vdpau
+mesa-git
 meta-group-texlive-most
 mhwd
 mhwd-db
@@ -229,6 +230,7 @@ mousepad
 mtpfs
 mugshot
 nano
+nemo
 neofetch
 neovim
 nerd-fonts-cascadia-code
@@ -334,6 +336,7 @@ tlp
 torbrowser-launcher
 totem
 transcribe
+tree
 ttf-cascadia-code
 ttf-cmu-serif
 ttf-comfortaa
@@ -359,8 +362,6 @@ vim
 visual-studio-code-bin
 vlc
 vulkan-amdgpu-pro
-vulkan-intel
-vulkan-radeon
 w3m
 wallpapers-2018
 wallpapers-juhraya
@@ -373,6 +374,7 @@ wmctrl
 wpa_supplicant
 xautomation
 xbindkeys
+xbindkeys_config-gtk2
 xchm
 xcursor-simpleandsoft
 xcursor-vanilla-dmz-aa
@@ -428,6 +430,7 @@ xiccd
 xorg-mkfontscale
 xorg-server
 xorg-twm
+xorg-xev
 xorg-xinit
 xorg-xkill
 xorg-xwininfo

@@ -19,6 +19,10 @@
       <ancestor tool_id="favorite_commands" toolset_id="favorite_commands_toolset"/>
       <ancestor tool_id="favorite_commands_gallery" toolset_id="favorite_commands_toolset"/>
    </tool>
+   <tool display_condition="always" section_id="code" tab_id="home" tool_id="e9542793-2ff7-4ab9-9531-7a7b0064fd5c" toolset_id="user_favorite_commands_toolset">
+      <ancestor tool_id="favorite_commands" toolset_id="favorite_commands_toolset"/>
+      <ancestor tool_id="favorite_commands_gallery" toolset_id="favorite_commands_toolset"/>
+   </tool>
    <separator/>
    <tool display_condition="always" section_id="code" tab_id="home" tool_id="2f89edf7-cbaa-48c9-8a84-9879dc31a93f" toolset_id="user_favorite_commands_toolset">
       <ancestor tool_id="favorite_commands" toolset_id="favorite_commands_toolset"/>

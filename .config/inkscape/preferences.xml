@@ -125,8 +125,9 @@
          id="rect"
          style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.99999874;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
          usecurrent="0"
-         width="623.622047244098"
-         height="548.031496062991" />
+         width="604.724409448818"
+         height="302.362204724409"
+         ry="0" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -159,12 +160,12 @@
       <eventcontext
          id="arc"
          style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.99999874;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
-         end="0"
-         start="0"
+         end="359.810373476764"
+         start="348.65753227058"
          usecurrent="0"
-         rx="17.0078750479061"
-         ry="17.0078750479068"
-         arc_type="0" />
+         rx="89.1768906170819"
+         ry="91.9665126235866"
+         arc_type="1" />
       <eventcontext
          id="star"
          magnitude="5"
@@ -314,7 +315,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="px"
+       unit="mm"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -341,8 +342,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="198.6585"
-       y="86.24985"
+       x="470.865808215356"
+       y="146.064660320205"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -604,7 +605,7 @@
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/home/chris/Documents/GitHub/studienarbeit2Tex/img"
+       path="/home/chris/Downloads"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -615,11 +616,11 @@
     <group
        id="open"
        enable_preview="1"
-       path="/home/chris/Documents/GitHub/studienarbeitTex/img/" />
+       path="/home/chris/sciebo/masterThesisBooks/" />
     <group
        id="import"
        enable_preview="1"
-       path="/home/chris/sciebo/Uni/Baustatik/Lehrstuhl Baustatik/BS/bs1/05_klausuren/2021ws/bs1_2021ws_klausur_latex/img/"
+       path="/home/chris/sciebo/masterThesis/"
        ask="1"
        ask_svg="0"
        link="embed"
@@ -684,7 +685,8 @@
      rotationlock="1"
      onimport="0"
      dpifixbackup="1"
-     dpiupdatemethod="0">
+     dpiupdatemethod="0"
+     displaymode="2">
     <group
        id="renderingcache"
        size="512" />
@@ -966,7 +968,7 @@
        unitType="2" />
     <group
        id="snapping"
-       snap-global-toggle="1"
+       snap-global-toggle="0"
        snap-bbox="1"
        snap-grid="1"
        snap-object-midpoint="1" />
@@ -984,10 +986,10 @@
      org.inkscape.input.eps.autorotate="None" />
   <group
      id="desktop"
-     style="font-size:13.33333333px;fill:#ffffff;-inkscape-font-specification:'Cascadia Code';font-family:'Cascadia Code';fill-rule:evenodd;stroke-dasharray:1.33333345, 2.6666669;stroke-linejoin:round;stroke-linecap:round;stroke-width:1.33417323;text-anchor:middle;text-align:center;fill-opacity:0.7070114">
+     style="font-size:13.33333333px;fill:none;-inkscape-font-specification:'Cascadia Code';font-family:'Cascadia Code';fill-rule:evenodd;stroke-dasharray:7.55905512, 3.77952756;stroke-linejoin:round;stroke-linecap:round;stroke-width:0.75590551;text-anchor:middle;text-align:center;stroke:#000000">
     <group
        width="1920"
-       height="1027"
+       height="1059"
        x="1920"
        y="21"
        maximized="1"

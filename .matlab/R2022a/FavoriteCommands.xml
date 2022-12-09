@@ -74,6 +74,13 @@ clear dt</callback>
       <icon name="favorite_command_A"/>
       <parent_tool id="default_category" toolset_id="favorite_commands_toolset"/>
    </tool>
+   <tool id="e9542793-2ff7-4ab9-9531-7a7b0064fd5c" label="clearAllBreakPoints" toolset_id="user_favorite_commands_toolset">
+      <callback>% Command summary goes here
+dbclear all
+</callback>
+      <icon name="favorite_command_B"/>
+      <parent_tool id="default_category" toolset_id="favorite_commands_toolset"/>
+   </tool>
    <tool id="fa382569-f9b5-4125-9e69-d91807e550d6" label="FontSize" toolset_id="user_favorite_commands_toolset">
       <callback>% set all fonts to size 11
 set(findall(gcf,'type','axes'),'fontSize', 11)</callback>

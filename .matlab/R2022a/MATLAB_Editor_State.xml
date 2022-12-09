@@ -1,21 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Editor version="1.0">
-   <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1665414833331" name="mainHex.m">
+   <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1669545238056" name="mainHex.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1669544785646" name="mainTransHex.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1669297485927" name="ElementQuadMatrices2DPML.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1669274778196" name="Element2D.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1669230237790" name="mainTransHexNumberingMarius.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1669212818753" name="ElementMatrices2D.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell/mariusFEM" lastWrittenTime="1669211254988" name="ElementMatrices2D.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1669022782069" name="mainTransHexPML.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1668790534764" name="remNodes.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1668778145495" name="mainDispHex.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1668697893114" name="PMLs.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1668696583387" name="pmlINIT.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1668695768334" name="pmlINIT">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell/trans" lastWrittenTime="1668586999402" name="copyCellsHex.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1668525140979" name="plotDispTrans.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1668519462467" name="createHexMesh.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell/trans" lastWrittenTime="1668436259809" name="createHexMeshTransCell.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1668364985401" name="calcCompl.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1668248680339" name="plotDispersionHex.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell/trans" lastWrittenTime="1668242439889" name="mainTransHex.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell/trans" lastWrittenTime="1668241276202" name="Plot2DTransmission.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell/trans" lastWrittenTime="1668187727536" name="SetColorbarTrans.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell/trans" lastWrittenTime="1668180021914" name="copyCells.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell/trans" lastWrittenTime="1668179861945" name="untitled.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell/trans" lastWrittenTime="1668087792643" name="createHexMeshTrans.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell/trans" lastWrittenTime="1668087552219" name="createHexMesh.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell/trans" lastWrittenTime="1668012551654" name="mainTransHexComsol.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell/trans" lastWrittenTime="1668009776828" name="mainTransHexTest.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell/trans" lastWrittenTime="1667987431734" name="ttt.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell/validation" lastWrittenTime="1667894404346" name="ValidationHex.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell/trans" lastWrittenTime="1667850557490" name="test.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell/trans" lastWrittenTime="1667460158466" name="ApplyDirichletBC3D.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/Documents/MATLAB/plotFunctions" lastWrittenTime="1667382514905" name="plotDimensions.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell/trans" lastWrittenTime="1667374309190" name="trans.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell/trans" lastWrittenTime="1666891681393" name="uniqueTest.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell/trans" lastWrittenTime="1666891488671" name="testtest.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1666880249528" name="drawingMesh2D.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1666706679292" name="transEval.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1666704842190" name="trans.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1666679755271" name="ApplyBlochBC2DHex.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1665591497774" name="plotDispersionComplAll.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1665588780556" name="CoefficientMatricesPBChex.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell/tests" lastWrittenTime="1665559009188" name="TESTmain.m">
       <CodeFolds version="1.0"/>
    </File>
    <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1665413957375" name="Plot2DPBCEigenmodes.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1665411525414" name="ApplyBlochBC2DHex.m">
       <CodeFolds version="1.0"/>
    </File>
    <File absPath="/home/chris/sciebo/hexUnitCell/tests" lastWrittenTime="1665407365520" name="ApplyBlochBC2DHexNEW.m">
       <CodeFolds version="1.0"/>
    </File>
    <File absPath="/home/chris/sciebo/hexUnitCell/tests" lastWrittenTime="1664962078573" name="ApplyBlochBC2DMariusQuads.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/sciebo/hexUnitCell/tests" lastWrittenTime="1664962049963" name="TESTmain.m">
       <CodeFolds version="1.0"/>
    </File>
    <File absPath="/home/chris/sciebo/hexUnitCell/tests" lastWrittenTime="1664358084806" name="ApplyBlochBC2Dnew.m">
@@ -28,130 +148,6 @@
       <CodeFolds version="1.0"/>
    </File>
    <File absPath="/home/chris/sciebo/hexUnitCell/tests" lastWrittenTime="1664269092459" name="ApplyBlochBC2DHex.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/Documents/MATLAB/unitcell/ComplexBandstructure" lastWrittenTime="1663945836133" name="ComplBandStruct.m">
-      <CodeFolds version="1.0">
-         <FoldType name="for">
-            <Fold endOffset="10717" startOffset="9591" state="collapsed"/>
-         </FoldType>
-      </CodeFolds>
-   </File>
-   <File absPath="/home/chris/sciebo/hexUnitCell/tests" lastWrittenTime="1663941160005" name="test.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/sciebo/hexUnitCell/tests" lastWrittenTime="1663938014405" name="TESTmainQuads9.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1663937705572" name="drawingMesh2D.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/sciebo/hexUnitCell/tests" lastWrittenTime="1663937558439" name="drawingMesh2D.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/sciebo/hexUnitCell/tests" lastWrittenTime="1663755394112" name="TESTONEquads9MESH.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/sciebo/hexUnitCell/tests" lastWrittenTime="1663754462952" name="ApplyBlochBC2D.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/sciebo/hexUnitCell/tests" lastWrittenTime="1663751243837" name="TESTquads9MESH.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1663749589972" name="ApplyBlochBC2D.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1663749381406" name="mainQuads9.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1663666436156" name="test.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1663666075992" name="test">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/Documents/MATLAB/hexUnitCell" lastWrittenTime="1663591140268" name="mainHex.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1663578837714" name="ValidationHex.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/Documents/MATLAB/hexUnitCell" lastWrittenTime="1663336891097" name="ValidationHex.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/Documents/MATLAB/hexUnitCell" lastWrittenTime="1663331750963" name="mainQuads9.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/Documents/MATLAB/hexUnitCell" lastWrittenTime="1663331427504" name="ValidationQuads9.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/Documents/MATLAB/hexUnitCell" lastWrittenTime="1663323445968" name="ValidationQuads9">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/Documents/MATLAB/hexUnitCell" lastWrittenTime="1663322802427" name="ApplyBlochBC2D.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/Documents/MATLAB/hexUnitCell" lastWrittenTime="1663317309248" name="test.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/Documents/MATLAB/unitcell/DispersionCurves" lastWrittenTime="1663258420645" name="createMeshUnitcell.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/Documents/MATLAB/hexUnitCell" lastWrittenTime="1663255901878" name="main.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/Documents/MATLAB/unitcell/DispersionCurves" lastWrittenTime="1663171049650" name="dispersion.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/Documents/MATLAB/hexUnitCell" lastWrittenTime="1663152385400" name="plotDispersion.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/Documents/MATLAB/hexUnitCell" lastWrittenTime="1663138089399" name="createHexMesh.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/Documents/MATLAB/unitcell/ComplexBandstructure" lastWrittenTime="1661349236352" name="ComplBandStructParamStudy.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/Documents/MATLAB/unitcell/ComplexBandstructure" lastWrittenTime="1661250108482" name="plotDispersionComplAll.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/Documents/MATLAB/unitcell/DispersionCurves" lastWrittenTime="1660325327685" name="plotBandgaps.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/Documents/MATLAB/unitcell/ComplexBandstructure" lastWrittenTime="1660298868411" name="plotMinImag.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/Documents/MATLAB/plotFunctions" lastWrittenTime="1660227134159" name="plotTickDelta.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/Documents/MATLAB/unitcell/ComplexBandstructure" lastWrittenTime="1660212727594" name="plotDispersionComplAllRect.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/Documents/MATLAB/unitcell/DispersionCurves" lastWrittenTime="1660065353762" name="getBandgaps.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/Documents/MATLAB/unitcell/ComplexBandstructure" lastWrittenTime="1660065280102" name="getBandgapsCompl.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/Documents/MATLAB/unitcell/ComplexBandstructure" lastWrittenTime="1659694371261" name="plotDispersionCompl2.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/Documents/MATLAB/unitcell/ComplexBandstructure" lastWrittenTime="1659694311324" name="plotDispersionComplRect2.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/Documents/MATLAB/unitcell/ComplexBandstructure" lastWrittenTime="1659516193301" name="dispersionCalc.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/Documents/MATLAB/unitcell/ComplexBandstructure" lastWrittenTime="1659454360603" name="app.mlapp">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/Documents/MATLAB/plotFunctions" lastWrittenTime="1658943537460" name="plotStretch.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/Documents/MATLAB/plotFunctions" lastWrittenTime="1658943514330" name="plotDimensions.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/Documents/MATLAB/unitcell/ComplexBandstructure" lastWrittenTime="1658933999909" name="untitled2.m">
       <CodeFolds version="1.0"/>
    </File>
 </Editor>

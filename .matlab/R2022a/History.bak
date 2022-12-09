@@ -2744,4 +2744,1517 @@
 <command time_stamp="183b7684a67">%-- 08.10.2022 13:43:29 --%</command>
 <command execution_time="17351" repeat="13">mainHex</command>
 </session>
+<session>
+<command time_stamp="183c0d2d96a">%-- 10.10.2022 09:36:27 --%</command>
+<command execution_time="5657" repeat="4">mainHex</command>
+<command execution_time="185">plotOverlapFigures(2,1)</command>
+<command execution_time="76">plotOverlapFigures(2,3)</command>
+<command execution_time="7">xlim = [0, 150]</command>
+<command execution_time="7">f = gcf;</command>
+<command execution_time="6">fa = gca;</command>
+<command execution_time="25">fa.XLim = [0, 150]</command>
+<command execution_time="20">fa.XLim = [1, 151]</command>
+<command execution_time="12">f</command>
+<command error="true" execution_time="57">get(f, 'Legend')</command>
+<command execution_time="51">get(fa, "Legend")</command>
+<command execution_time="25">legend</command>
+<command execution_time="57">legend('test')</command>
+<command error="true" execution_time="11">legend('Comsol'  'BlochBC2DHex'  'BlochBC2DHexNew')</command>
+<command execution_time="59">legend({'Comsol', 'BlochBC2DHex', 'BlochBC2DHexNew'})</command>
+<command execution_time="97">l1 = legend({'Comsol', 'BlochBC2DHex', 'BlochBC2DHexNew'})</command>
+<command execution_time="335863">mainHex</command>
+<command execution_time="2227">print('1')</command>
+<command execution_time="9">fprintf('1\n')</command>
+<command execution_time="9">fprintf('1')</command>
+<command execution_time="9">fprintf('2')</command>
+<command execution_time="9">fprintf('3')</command>
+<command execution_time="9">disp(4/2)</command>
+<command execution_time="11">disp(kInd/size(kx0,1));</command>
+<command execution_time="9">disp(kInd/size(kx0,1)*100);</command>
+<command error="true" execution_time="61">disp(kInd/size(kx0,1)*100, ' %');</command>
+<command execution_time="10">disp([kInd/size(kx0,1)*100, ' %']);</command>
+<command execution_time="10">disp(kInd/size(kx0,1)*100 + ' %');</command>
+<command execution_time="338364">mainHex</command>
+<command execution_time="36">plotOverlapFigures(1,2)</command>
+<command execution_time="11">h = gca;</command>
+<command execution_time="16">h.XLim = [1, 151]</command>
+<command execution_time="256" repeat="6">mainHex</command>
+<command execution_time="14">real(LambdaR)</command>
+<command execution_time="183">mainHex</command>
+<command execution_time="8">z = real(LambdaR);</command>
+<command execution_time="196">mainHex</command>
+<command execution_time="11">z = real(LambdaR);</command>
+<command execution_time="9">ii = imag(LambdaR);</command>
+<command execution_time="207" repeat="3">mainHex</command>
+<command execution_time="14">load LambdaR.mat</command>
+<command execution_time="22">LambdaRimag == LambdaRimagNEW</command>
+<command execution_time="17">lambX</command>
+<command error="true" execution_time="186">lambX*lambx</command>
+<command execution_time="6">lambX*lambX</command>
+<command error="true" execution_time="71">ApplyBlochBC2DHex</command>
+<command execution_time="196" repeat="8">mainHex</command>
+<command error="true" execution_time="67">ApplyBlochBC2DHex</command>
+<command execution_time="216">mainHex</command>
+<command execution_time="15">xy'</command>
+<command execution_time="3047" repeat="18">mainHex</command>
+<command error="true" execution_time="78">fprint(10)</command>
+<command error="true" execution_time="66">fprintf(10)</command>
+<command execution_time="9">fprintf('10')</command>
+<command execution_time="273" repeat="36">mainHex</command>
+<command error="true" execution_time="10">exp(1j *. [3.7624, 0.7403] *. [0.5, 0.866])</command>
+<command error="true" execution_time="22">exp(1j * [3.7624, 0.7403] *. [0.5, 0.866])</command>
+<command error="true" execution_time="10">exp(1j *. [3.7624; 0.7403] *. [0.5; 0.866])</command>
+<command error="true" execution_time="28">exp(1j * [3.7624; 0.7403] *. [0.5; 0.866])</command>
+<command error="true" execution_time="164">exp(1j * [3.7624; 0.7403] * [0.5; 0.866])</command>
+<command execution_time="18">exp([2, 3, 4])</command>
+<command error="true" execution_time="99">exp([2, 3, 4]' * [3, 5, 6]')</command>
+<command execution_time="23">exp([2, 3, 4]' .* [3, 5, 6]')</command>
+<command execution_time="14">[2, 3, 4]' .* [3, 5, 6]'</command>
+<command execution_time="15">exp(24)</command>
+<command error="true" execution_time="10">exp(1j * ([3.7624, 0.7403] *. [0.5, 0.866]))</command>
+<command error="true" execution_time="11">exp(1j * ([3.7624, 0.7403]' *. [0.5, 0.866]'))</command>
+<command error="true" execution_time="11">[3.7624, 0.7403]' *. [0.5, 0.866]'</command>
+<command execution_time="15">[3.7624, 0.7403]'</command>
+<command execution_time="14">[0.5, 0.866]'</command>
+<command error="true" execution_time="95">[3.7624, 0.7403]' * [0.5, 0.866]'</command>
+<command execution_time="14">[3.7624, 0.7403]' .* [0.5, 0.866]'</command>
+<command execution_time="13">exp(1j * [3.7624; 0.7403] .* [0.5; 0.866])</command>
+<command execution_time="15">ans(1)*ans(2)</command>
+<command execution_time="14">exp(1j * [3.7624; 0.7403] .* [1; 0])</command>
+<command execution_time="15">ans(1)*ans(2)</command>
+<command execution_time="17">exp(1j * [3.7624; 0.7403] .* [0.5; -0.866])</command>
+<command execution_time="14">ans(1)*ans(2)</command>
+<command execution_time="234">mainHex</command>
+<command execution_time="14">PBCout(13, 2)</command>
+<command execution_time="15">PBCout(13, 2)&gt;0</command>
+<command execution_time="14">PBCout(13, 2) == 0</command>
+<command execution_time="11">round(PBCout(13, 2), 5)</command>
+<command execution_time="5279" repeat="11">mainHex</command>
+<command execution_time="14">msh.QUADS9(:, end-1)</command>
+<command execution_time="18">msh.QUADS9</command>
+<command execution_time="16">clc</command>
+<command execution_time="12711" repeat="4">mainHex</command>
+</session>
+<session>
+<command time_stamp="183cad2e045">%-- 12.10.2022 08:12:41 --%</command>
+<command execution_time="788" repeat="7">mainHex</command>
+<command execution_time="154" repeat="6">TESTmain</command>
+<command execution_time="9">IdxPBCIn == IdxPBCCompIn</command>
+<command execution_time="9">ceil(SlaveDofsPBC/dof)</command>
+<command execution_time="7">IdxPBCOut == IdxPBCCompOut</command>
+<command execution_time="7">PBCTrans == PBCCompTrans</command>
+<command execution_time="216" repeat="5">TESTmain</command>
+</session>
+<session>
+<command time_stamp="183cc14d537">%-- 12.10.2022 14:04:21 --%</command>
+<command execution_time="801" repeat="5">mainHex</command>
+<command error="true" execution_time="94">InEb(end-1, end);</command>
+<command execution_time="1007">mainHex</command>
+<command execution_time="7">InEb(end-1, end)</command>
+<command execution_time="7">InEb(end-1)</command>
+<command execution_time="6">InEb(end)</command>
+<command execution_time="9">InEb(end-1, end)</command>
+<command error="true" execution_time="12">InEb[end-1, end]</command>
+<command execution_time="6">[InEb(end-1, end)]</command>
+<command execution_time="6">[InEb(end-1), InEb(end)]</command>
+<command execution_time="4691" repeat="12">mainHex</command>
+</session>
+<session>
+<command time_stamp="183cfed8401">%-- 13.10.2022 07:59:53 --%</command>
+<command execution_time="38217" repeat="3">mainHex</command>
+<command execution_time="86">figure</command>
+<command execution_time="39">plot(kxy0, real(fBand))</command>
+<command batch="66">realDisp = figure;</command>
+<command batch="66">realDispAx = axes(realDisp);</command>
+<command batch="66" execution_time="65">plot(realDispAx, kxy0, real(fBand), '-k')</command>
+<command execution_time="9">exp(3)</command>
+<command execution_time="8">log(ans)</command>
+</session>
+<session>
+<command time_stamp="1840dbafbdd">%-- 25.10.2022 08:01:09 --%</command>
+<command execution_time="2675" repeat="9">mainTransHex</command>
+<command execution_time="7">DBCVecY == 0;</command>
+<command error="true" execution_time="71">count(DBCVecY)</command>
+<command execution_time="127">find(ans)</command>
+<command execution_time="12">find(~ans)</command>
+<command execution_time="8">find(DBCVecZ ~= 0)</command>
+<command execution_time="3162" repeat="4">mainTransHex</command>
+</session>
+<session>
+<command time_stamp="1840f38fcd2">%-- 25.10.2022 14:58:24 --%</command>
+<command execution_time="10091" repeat="6">mainTransHex</command>
+</session>
+<session>
+<command time_stamp="1841373acee">%-- 26.10.2022 10:40:59 --%</command>
+<command execution_time="86" repeat="13">mainTransHex</command>
+<command error="true" execution_time="315">rotx(180)</command>
+<command execution_time="22">mainTransHex</command>
+<command error="true" execution_time="228">test = Rx180.*nodesNext;</command>
+<command execution_time="29" repeat="11">mainTransHex</command>
+<command error="true" execution_time="203">t =msh.QUADS9 + numEl;</command>
+<command execution_time="13">numEl = size(quads, 1);</command>
+<command execution_time="28">t =msh.QUADS9 + numEl;</command>
+<command execution_time="48" repeat="3">mainTransHex</command>
+<command execution_time="23">m = unique(msh.QUADS9(:, end-1));</command>
+<command execution_time="196" repeat="2">mainTransHex</command>
+<command execution_time="24">tt = [repmat(numNodes, 1, 8), 0];</command>
+<command execution_time="15">numElCp = [repmat(numNodes, 1, nodPEle), 0];</command>
+<command execution_time="36" repeat="7">mainTransHex</command>
+</session>
+<session>
+<command time_stamp="184180d45a3">%-- 27.10.2022 08:07:14 --%</command>
+<command execution_time="46" repeat="4">mainTransHex</command>
+<command execution_time="16">min(msh.QUADS9)</command>
+<command execution_time="24">max(msh.QUADS9)</command>
+<command execution_time="12">max(max(msh.QUADS9))</command>
+<command execution_time="15">msh.nbNod</command>
+<command execution_time="335" repeat="9">mainTransHex</command>
+</session>
+<session>
+<command time_stamp="184197475f7">%-- 27.10.2022 14:39:34 --%</command>
+<command execution_time="44" repeat="10">mainTransHex</command>
+<command execution_time="7">max(quadsCorner)</command>
+<command execution_time="46" repeat="2">mainTransHex</command>
+<command execution_time="19">max(quadsCorner)</command>
+<command execution_time="1095" repeat="2">mainTransHex</command>
+<command execution_time="11">max(quadsCorner)</command>
+<command execution_time="326">mainTransHex</command>
+<command execution_time="11">max(quadsCorner)</command>
+<command execution_time="820" repeat="37">mainTransHex</command>
+<command execution_time="21">max(quadsBoundLeft)</command>
+<command execution_time="12">max(max(quadsBoundLeft))</command>
+<command execution_time="16">min(min(quadsBoundLeft))</command>
+<command error="true" execution_time="33">min(min(quadsBoundLeft(:, [1,end-1]))</command>
+<command execution_time="24">min(min(quadsBoundLeft(:, [1,end-1])))</command>
+<command execution_time="13">maxx = max(max(quadsBoundLeft));</command>
+<command execution_time="16">minn = min(min(quadsBoundLeft(:, [1,end-1])));</command>
+<command execution_time="17">maxx - minn</command>
+<command execution_time="59" repeat="15">mainTransHex</command>
+<command execution_time="5" repeat="6">testtest</command>
+<command execution_time="11" repeat="2">uniqueTest</command>
+<command execution_time="52" repeat="2">mainTransHex</command>
+<command execution_time="12">max(max(transQuads))</command>
+<command execution_time="16">min(min(transQuads))</command>
+<command error="true" execution_time="32">min(min(transQuads(1, [1, end-1]))</command>
+<command execution_time="12">min(min(transQuads(1, [1, end-1])))</command>
+<command execution_time="12">min(min(transQuads(:, [1, end-1])))</command>
+<command execution_time="42" repeat="5">mainTransHex</command>
+<command execution_time="13">transQuads(1, [1, end-1])</command>
+<command execution_time="11">transQuads(1, [1:end-1])</command>
+<command execution_time="46" repeat="4">mainTransHex</command>
+</session>
+<session>
+<command time_stamp="18437358e01">%-- 02.11.2022 08:19:27 --%</command>
+<command execution_time="585446" repeat="8">mainTransHex</command>
+<command execution_time="17">find(NodesTrans(:, 2) &gt;= lenY)</command>
+<command execution_time="8">lenY</command>
+<command execution_time="6">lenX</command>
+<command execution_time="12">find(NodesTrans(:, 2) &gt;= lenX)</command>
+<command execution_time="13">find(NodesTrans(:, 1) &gt;= lenX)</command>
+<command error="true" execution_time="66">find(NodesTrans(:, 1) &gt;= lenX &amp;&amp; NodesTrans(:, 1)&lt;= 1)</command>
+<command execution_time="8">a = find(NodesTrans(:, 1) &gt;= lenX);</command>
+<command execution_time="16">aa = find(a(:, 1) &lt;= 1);</command>
+<command error="true" execution_time="10">a = find(NodesTrans(:, 1) &gt;= lenX &amp;&amp; &lt;= 1);</command>
+<command error="true" execution_time="58">a = find(NodesTrans(:, 1) &gt;= lenX &amp;&amp; NodesTrans(:, 1) &lt;= 1);</command>
+<command execution_time="10">a = find(NodesTrans(:, 1) &gt;= lenX &amp; NodesTrans(:, 1) &lt;= 1);</command>
+<command execution_time="9">a = find(NodesTrans(:, 1) &gt;= 0.9 &amp; NodesTrans(:, 1) &lt;= 1);</command>
+<command execution_time="8">a = find(NodesTrans(:, 1) &gt;= lenX &amp; NodesTrans(:, 1) &lt;= 1);</command>
+<command execution_time="13">a = find(NodesTrans(:, 1) &gt;= 0.9 &amp; NodesTrans(:, 1) &lt;= 1);</command>
+<command execution_time="277990" repeat="3">mainTransHex</command>
+<command execution_time="89">plot(AvgDuw)</command>
+<command execution_time="61">semilogy(AvgDuw)</command>
+<command execution_time="342">semilogy(EvalDu)</command>
+<command execution_time="60">semilogy(AvgDuw)</command>
+<command execution_time="63">semilogx(AvgDuw)</command>
+<command execution_time="96">semilogx(AvgDuw')</command>
+<command execution_time="7">xx = 1:size(AvgDuw, 2);</command>
+<command execution_time="60">semilogx(AvgDuw, xx)</command>
+<command execution_time="29">plot(AvgDuw, xx)</command>
+<command execution_time="96">plot(EvalDuw, xx)</command>
+<command execution_time="36">plot(mean(EvalDuw), xx)</command>
+<command error="true" execution_time="441" repeat="45">mainHex</command>
+<command error="true" execution_time="73" repeat="2">load MaterialList_Isotropic.txt</command>
+<command execution_time="52452" repeat="9">mainHex</command>
+<command execution_time="59784" repeat="3">mainTransHex</command>
+<command execution_time="588">plot(1:idxTMax, AvgDuw)</command>
+<command execution_time="63">plot(AvgDuw, 1:idxTMax)</command>
+<command execution_time="16">semilogx(AvgDuw, 1:idxTMax)</command>
+<command execution_time="49684" repeat="3">mainTransHex</command>
+<command execution_time="66" repeat="2">semilogx(AvgDuw, 1:idxTMax)</command>
+<command execution_time="13">aaa = mean(EvalDu);</command>
+<command execution_time="65">semilogx(aaa, 1:idxTMax)</command>
+<command execution_time="14">plot(aaa, 1:idxTMax)</command>
+<command execution_time="439">help mean</command>
+<command execution_time="11">aaa= mean(EvalDuw,1);</command>
+<command execution_time="63">plot(aaa, 1:idxTMax)</command>
+<command execution_time="13">aaa= mean(EvalDuw,2);</command>
+<command execution_time="9">aaa= mean(EvalDuw,1);</command>
+</session>
+<session>
+<command time_stamp="1843c5a7848">%-- 03.11.2022 08:17:53 --%</command>
+<command execution_time="20">a = 0.1;</command>
+<command execution_time="68722">mainTransHex</command>
+<command execution_time="570">plot(AvgDuw)</command>
+<command execution_time="145">semilogy(AvgDuw)</command>
+<command execution_time="53423">mainTransHex</command>
+<command execution_time="15">AvgDuw=mean(EvalDuw,1)*(ExcitAmpX^2+ExcitAmpY^2+ExcitAmpZ^2)^(-0.5);</command>
+<command execution_time="70">figure</command>
+<command execution_time="57">plot(AvgDuw)</command>
+<command execution_time="32">semilogy(AvgDuw)</command>
+<command batch="67">mainTransHex</command>
+<command batch="67" execution_time="224717">AvgDuw=mean(EvalDuw,1)*(ExcitAmpX^2+ExcitAmpY^2+ExcitAmpZ^2)^(-0.5);</command>
+<command execution_time="78">figure</command>
+<command execution_time="57">plot(AvgDuw)</command>
+<command execution_time="46">semilogy(AvgDuw)</command>
+<command execution_time="16383" repeat="3">mainHex</command>
+<command execution_time="42980">mainTransHex</command>
+<command execution_time="25">AvgDuw=mean(EvalDuw,1)*(ExcitAmpX^2+ExcitAmpY^2+ExcitAmpZ^2)^(-0.5);</command>
+<command execution_time="102">figure</command>
+<command execution_time="47">plot(AvgDuw)</command>
+<command execution_time="40">semilogy(AvgDuw)</command>
+<command execution_time="14062" repeat="2">mainHex</command>
+</session>
+<session>
+<command time_stamp="1844179d5b7">%-- 04.11.2022 08:10:14 --%</command>
+<command execution_time="38906">mainHex</command>
+<command execution_time="97909">mainTransHex</command>
+<command execution_time="95" repeat="2">plot(AvgDuw)</command>
+<command execution_time="1939">mainTransHex</command>
+<command execution_time="44">NodesTransRed(:, 2) &gt; 0.34641</command>
+<command execution_time="6">sum(ans)</command>
+<command execution_time="6">sum(NodesTransRed(:, 2) &gt; 0.34)</command>
+<command execution_time="9">sum(NodesTransRed(:, 2) &gt; 0.33)</command>
+<command execution_time="173" repeat="2">plot(AvgDuw)</command>
+<command execution_time="134">plot(10*log10(AvgDuw))</command>
+<command execution_time="2445">mainTransHex</command>
+<command execution_time="78">figure</command>
+<command execution_time="30">plot(10*log10(AvgDuw))</command>
+<command execution_time="9">issymmetric(KTrans)</command>
+<command execution_time="28">issymmetric(round(KTrans, 6))</command>
+<command execution_time="35">issymmetric(round(KTrans, 4))</command>
+<command execution_time="31">issymmetric(round(KTrans, 2))</command>
+<command execution_time="28">issymmetric(round(MTrans, 2))</command>
+<command execution_time="26">issymmetric(round(MTrans, 6))</command>
+<command execution_time="8">test = Elements{1}.K;</command>
+<command execution_time="12">issymmetric(test)</command>
+<command execution_time="10">issymmetric(round(test, 4))</command>
+<command execution_time="13">issymmetric(round(test, 1))</command>
+<command execution_time="10">issymmetric(round(test, 2))</command>
+<command execution_time="7">issymmetric(round(test, 3))</command>
+<command execution_time="7">issymmetric(round(test, 4))</command>
+<command execution_time="32">issymmetric(round(KTrans, 0))</command>
+<command execution_time="6">test = Elements{456}.K;</command>
+<command execution_time="15">issymmetric(round(test, 4))</command>
+<command execution_time="16">issymmetric(round(test, 2))</command>
+<command execution_time="7">issymmetric(round(test, 3))</command>
+<command execution_time="3413">mainTransHex</command>
+<command execution_time="7">QuadsNew = reshape(transQuads', [], 1);</command>
+<command execution_time="15">QuadsNodes = transNodes(QuadsNew);</command>
+<command execution_time="187" repeat="7">mainTransHex</command>
+<command execution_time="15">issymmetric(KTrans)</command>
+<command execution_time="39">issymmetric(round(KTrans, 6))</command>
+<command execution_time="27">issymmetric(round(KTrans, 3))</command>
+<command execution_time="36">issymmetric(round(KTrans, 2))</command>
+<command execution_time="34">issymmetric(round(KTrans,1))</command>
+<command execution_time="21">issymmetric(round(KTrans,0))</command>
+<command execution_time="136569">mainTransHex</command>
+<command execution_time="80">figure</command>
+<command execution_time="62">plot(10*log10(AvgDuw))</command>
+<command execution_time="103957">mainTransHex</command>
+<command execution_time="3160">mainHex</command>
+<command execution_time="8">issymmetric(round(Ksys,0))</command>
+<command execution_time="9">issymmetric(round(Ksys,6))</command>
+<command execution_time="12">issymmetric(round(Ksys,5))</command>
+<command execution_time="10">issymmetric(round(Ksys,4))</command>
+<command execution_time="21">issymmetric(round(Ksys,3))</command>
+<command execution_time="14">issymmetric(round(Ksys,2))</command>
+<command execution_time="10">issymmetric(round(Ksys,1))</command>
+<command execution_time="10">issymmetric(round(Ksys,0))</command>
+<command execution_time="1869">mainHex</command>
+<command execution_time="23">issymmetric(round(Ksys,5))</command>
+<command execution_time="13">issymmetric(round(Ksys,1))</command>
+<command execution_time="16">issymmetric(round(Ksys,0))</command>
+<command execution_time="4962" repeat="2">mainTransHex</command>
+<command execution_time="1573">eigs(KTrans, MTrans, 10)</command>
+<command execution_time="7856" repeat="2">mainTransHex</command>
+<command execution_time="466" repeat="2">startcomsol</command>
+<command execution_time="52106" repeat="5">mainTransHexComsol</command>
+<command execution_time="124">plot(AvgDuw)</command>
+<command execution_time="22">semilogx(AvgDuw)</command>
+<command execution_time="66">semilogy(AvgDuw)</command>
+<command execution_time="19756" repeat="5">mainTransHexComsol</command>
+<command execution_time="76">semilogy(AvgDuw)</command>
+<command execution_time="54">plot(10*log10(AvgDuw))</command>
+<command execution_time="12">issymmetric(KTrans)</command>
+<command execution_time="11">issymmetric(round(KTrans, 4))</command>
+<command execution_time="11">issymmetric(round(KTrans, 2))</command>
+<command execution_time="12">issymmetric(round(KTrans, 1))</command>
+<command execution_time="14">issymmetric(round(KTrans, 0))</command>
+<command execution_time="45061" repeat="8">mainTransHexComsol</command>
+<command batch="68">figure</command>
+<command batch="68" execution_time="62">plot(10*log10(AvgDuw));</command>
+<command execution_time="7348" repeat="2">mainTransHex</command>
+<command execution_time="54">figure</command>
+<command execution_time="200">colormap('rainbow')</command>
+<command execution_time="3367">mainTransHexComsol</command>
+<command execution_time="112" repeat="2">mainTransHex</command>
+</session>
+<session>
+<command time_stamp="184538a827f">%-- 07.11.2022 20:21:37 --%</command>
+<command execution_time="2465">startcomsol</command>
+<command execution_time="4983" repeat="2">mainTransHexComsol</command>
+<command execution_time="8856" repeat="2">mainTransHex</command>
+<command execution_time="12">elementK(3,5)</command>
+<command execution_time="7">round(elementK(3,5), 0)</command>
+<command execution_time="7">round(elementK(5,3), 0)</command>
+<command execution_time="9">issymmetric(elementK)</command>
+<command execution_time="12">issymmetric(round(elementK, 0))</command>
+<command error="true" execution_time="261">issymmetric(round(elementK{1,900}.K, 0))</command>
+<command execution_time="14">issymmetric(round(Elements{1,900}.K, 0))</command>
+<command error="true" execution_time="309">issymmetric(round(Elements{1,:}.K, 0))</command>
+<command execution_time="10">size(Elements, 2)</command>
+<command execution_time="25">test</command>
+<command execution_time="8">sum(log)</command>
+<command execution_time="8">find(log == 0)</command>
+<command execution_time="5">issymmetric(KTrans)</command>
+<command execution_time="16">issymmetric(round(KTrans, 0))</command>
+<command execution_time="4332">mainTransHexComsol</command>
+<command execution_time="11">issymmetric(round(KsysComsol, 0))</command>
+<command execution_time="10">issymmetric(round(KsysComsol, 1))</command>
+<command execution_time="11">issymmetric(round(KsysComsol, 2))</command>
+<command execution_time="11">issymmetric(round(KsysComsol, 0))</command>
+<command execution_time="7748">mainTransHex</command>
+<command error="true" execution_time="156">issymmetric(round(Ksys, 0))</command>
+<command execution_time="35">issymmetric(round(KTrans, 0))</command>
+<command execution_time="32">test</command>
+<command execution_time="6">sum(log)</command>
+<command execution_time="9">find(log == 0)</command>
+<command execution_time="12">Elements{1, 1448}.K</command>
+<command execution_time="7">round(Elements{1, 1448}.K, 0)</command>
+<command execution_time="7">issymmetric(ans)</command>
+<command execution_time="8">kk = round(Elements{1, 1448}.K, 0)</command>
+<command execution_time="10">issymmetric(kk)</command>
+<command execution_time="9">issymmetric(kk, 'skew')</command>
+<command execution_time="8">test</command>
+<command error="true" execution_time="9660" repeat="2">mainTransHexComsol</command>
+<command execution_time="4901">mainTransHex</command>
+<command execution_time="4322">mainTransHexComsol</command>
+</session>
+<session>
+<command time_stamp="1845617fd83">%-- 08.11.2022 08:15:24 --%</command>
+<command execution_time="6080">mainTransHex</command>
+<command error="true" execution_time="276">mainTransHexComsol</command>
+<command execution_time="2829">startcomsol</command>
+<command execution_time="11166">mainTransHexComsol</command>
+<command execution_time="29">mainTransHex</command>
+<command execution_time="2018">drawingMesh2D(transNodes, transQuads, 'none', '-', 'k');</command>
+<command execution_time="102" repeat="2">mainTransHex</command>
+<command execution_time="25">issymmetric(round(KTrans, 0))</command>
+<command execution_time="2964" repeat="2">mainTransHexComsol</command>
+<command execution_time="8527" repeat="2">ValidationHex</command>
+<command execution_time="27038">mainHex</command>
+<command execution_time="6323">ValidationHex</command>
+<command execution_time="578" repeat="2">mainTransHex</command>
+<command execution_time="18">issymmetric(KTrans)</command>
+<command execution_time="16">issymmetric(round(KTrans, 1))</command>
+<command execution_time="336">mainTransHex</command>
+<command execution_time="2992">mainTransHexComsol</command>
+<command execution_time="2569" repeat="8">mainTransHex</command>
+<command execution_time="23">issymmetric(round(KTrans, 0))</command>
+<command execution_time="1958">mainTransHex</command>
+<command execution_time="2543" repeat="2">mainTransHexComsol</command>
+<command execution_time="1754">mainTransHex</command>
+<command execution_time="12">connEle = transQuads(6, 1:nodPEle);</command>
+<command error="true" execution_time="32">reshape(repmat(connEle, dof, 1)</command>
+<command error="true" execution_time="21">reshape(repmat(connEle, dof, 1))repmat(connEle, dof, 1)</command>
+<command execution_time="20">repmat(connEle, dof, 1)</command>
+<command execution_time="20">repmat(connEle, dof, 1) * dof</command>
+<command execution_time="16">repmat((dof - 1:-1:0)', 1, nodPEle)</command>
+<command batch="69">repmat(connEle, dof, 1) * dof ...</command>
+<command batch="69" execution_time="21">- repmat((dof - 1:-1:0)', 1, nodPEle)</command>
+<command execution_time="19">reshape(ans, [], 1)</command>
+<command execution_time="4">ans'</command>
+<command execution_time="16">clc</command>
+<command execution_time="1737" repeat="4">mainTransHex</command>
+<command execution_time="5559">mainTransHexComsol</command>
+<command execution_time="1224" repeat="2">mainTransHex</command>
+<command execution_time="5361">mainTransHexComsol</command>
+<command execution_time="1777" repeat="2">mainTransHex</command>
+<command execution_time="43">mainTransHexTest</command>
+<command execution_time="284">drawingMesh2D(initialNodes, initialQuads, 'none', '-', 'k')</command>
+<command execution_time="15">size(initialNodes, 1)</command>
+<command execution_time="13">size(initialNodes)</command>
+<command execution_time="14">size(initialNodes)*2</command>
+<command execution_time="15">size(initialNodes)*[2;1]</command>
+<command error="true" execution_time="178">size(initialNodes)*[2,1]</command>
+<command execution_time="25">size(initialNodes)*2</command>
+<command execution_time="14">mod(4, 2)</command>
+<command execution_time="8">mod(3, 2)</command>
+<command execution_time="14">mod(1, 2)</command>
+<command execution_time="13">mod(6, 2)</command>
+<command execution_time="13">sqrt(a)/3</command>
+<command execution_time="13">sqrt(a)/2</command>
+<command execution_time="13">sqrt(3)/a</command>
+<command execution_time="5">sqrt(3)*a</command>
+<command execution_time="15">sqrt(3)/2*a</command>
+<command execution_time="39" repeat="12">mainTransHexTest</command>
+<command execution_time="203">plot(transNodes(:, 1), transNodes(:, 2), '.')</command>
+<command execution_time="181">mainTransHexTest</command>
+<command execution_time="141" repeat="2">plot(transNodes(:, 1), transNodes(:, 2), '.')</command>
+<command execution_time="34">mainTransHexTest</command>
+<command execution_time="96">plot(transNodes(:, 1), transNodes(:, 2), '.')</command>
+<command execution_time="64">mainTransHexTest</command>
+<command execution_time="152">plot(transNodes(:, 1), transNodes(:, 2), '.')</command>
+<command execution_time="73">mainTransHexTest</command>
+<command execution_time="137">plot(transNodes(:, 1), transNodes(:, 2), '.')</command>
+<command execution_time="84">mainTransHexTest</command>
+<command execution_time="150">plot(transNodes(:, 1), transNodes(:, 2), '.')</command>
+<command execution_time="69">mainTransHexTest</command>
+<command execution_time="95">plot(transNodes(:, 1), transNodes(:, 2), '.')</command>
+<command execution_time="50" repeat="2">mainTransHexTest</command>
+<command execution_time="134" repeat="2">plot(transNodes(:, 1), transNodes(:, 2), '.')</command>
+<command execution_time="83">mainTransHexTest</command>
+<command execution_time="130">plot(transNodes(:, 1), transNodes(:, 2), '.')</command>
+<command execution_time="36">a*sqrt(3)/2</command>
+<command execution_time="618" repeat="5">mainTransHex</command>
+<command batch="70">zz= [</command>
+<command batch="70">0.0000</command>
+<command batch="70">0.0000</command>
+<command batch="70">0</command>
+<command batch="70">1.9066</command>
+<command batch="70">3.4292</command>
+<command batch="70">3.9468</command>
+<command batch="70">4.1301</command>
+<command batch="70">4.8153</command>
+<command batch="70">4.9726</command>
+<command batch="70" execution_time="16">5.5409]</command>
+<command execution_time="696">mainTransHex</command>
+<command execution_time="19">issymmetric(KTrans)</command>
+<command execution_time="19">issymmetric(round(KTrans, 0))</command>
+<command execution_time="431" repeat="2">mainTransHex</command>
+<command execution_time="5807" repeat="3">mainTransHexComsol</command>
+<command execution_time="1537" repeat="3">mainTransHex</command>
+</session>
+<session>
+<command time_stamp="184583086e1">%-- 08.11.2022 18:01:26 --%</command>
+<command execution_time="334" repeat="5">mainTransHex</command>
+<command execution_time="11">find(NodesTrans(:, 1) == 0.05 &amp; NodesTrans(:, 2) == 0.086603)</command>
+<command execution_time="255">mainTransHex</command>
+<command execution_time="10">unique(NodesTrans)</command>
+<command execution_time="7">unique(NodesTrans, 'rows')</command>
+<command execution_time="14">size(unique(NodesTrans, 'rows'))</command>
+<command execution_time="7">kk =transQuads(19, :)</command>
+<command execution_time="15">kk =transQuads(19, 1:end-1)</command>
+<command error="true" execution_time="85">kk(NodesTrans)</command>
+<command execution_time="9">NodesTrans(kk)</command>
+<command execution_time="16">NodesTrans(kk, :)</command>
+<command execution_time="13">NodesTrans(transQuads(5, 1:end-1), :)</command>
+<command execution_time="123">drawingMesh2D(NodesTrans, transQuads, 'none', '-', 'k');</command>
+<command execution_time="24">NodesTrans(transQuads(38, 1:end-1), :)</command>
+<command execution_time="375" repeat="2">mainTransHex</command>
+<command execution_time="17">NodesTrans(transQuads(156, 1:end-1), :)</command>
+<command execution_time="16">NodesTrans(transQuads(345, 1:end-1), :)</command>
+<command error="true" execution_time="73">NodesTrans(transQuads(888, 1:end-1), :)</command>
+<command execution_time="16">NodesTrans(transQuads(350, 1:end-1), :)</command>
+<command execution_time="20">NodesTrans(transQuads(56, 1:end-1), :)</command>
+<command execution_time="18">size(transNodes)</command>
+<command execution_time="16">size(NodesTrans)</command>
+<command execution_time="18">size(unique(NodesTrans))</command>
+<command error="true" execution_time="15">max(max((transQuads))</command>
+<command execution_time="16">max(max((transQuads)))</command>
+<command execution_time="13">size(unique(NodesTrans, 'rows'))</command>
+</session>
+<session>
+<command time_stamp="1845b8041de">%-- 09.11.2022 09:27:23 --%</command>
+<command execution_time="201" repeat="3">mainTransHex</command>
+<command error="true" execution_time="268">NodesTrans(transQuads(56, 1:end-1), :)</command>
+<command execution_time="13">NodesTrans(transQuads(23, 1:end-1), :)</command>
+<command execution_time="7">NodesTrans(transQuads(12, 1:end-1), :)</command>
+<command execution_time="16">NodesTrans(transQuads(45, 1:end-1), :)</command>
+<command error="true" execution_time="95" repeat="2">mainTransHex</command>
+<command execution_time="407" repeat="2">ttt</command>
+<command execution_time="19">initialNodes(initialQuads(12, 1:end-1), :)</command>
+<command execution_time="931" repeat="8">mainTransHex</command>
+</session>
+<session>
+<command time_stamp="1845d0c118f">%-- 09.11.2022 16:39:43 --%</command>
+<command execution_time="3702" repeat="9">mainTransHexTest</command>
+<command execution_time="682">plot(AvgDuw)</command>
+<command error="true" execution_time="31">plot(10*log10(AvgDuw)))</command>
+<command execution_time="76">plot(10*log10(AvgDuw))</command>
+<command execution_time="3007">startcomsol</command>
+<command execution_time="3825" repeat="6">mainTransHexComsol</command>
+<command execution_time="187">plot(InitialNodes(:,1), InitialNodes(:, 2))</command>
+<command execution_time="83">plot(InitialNodes(:,1), InitialNodes(:, 2), '.')</command>
+<command error="true" execution_time="140">axes equal</command>
+<command execution_time="55">axis equal</command>
+<command batch="71" execution_time="4151" repeat="3">mainTransHexComsol</command>
+</session>
+<session>
+<command time_stamp="1845d92ae57">%-- 09.11.2022 19:06:45 --%</command>
+<command error="true" execution_time="329">mainTransHexComsol</command>
+<command execution_time="2492">startcomsol</command>
+<command execution_time="5293" repeat="2">mainTransHexComsol</command>
+</session>
+<session>
+<command time_stamp="18460619812">%-- 10.11.2022 08:12:00 --%</command>
+<command execution_time="81" repeat="6">mainTransHex</command>
+<command execution_time="36">plot(10*log10(AvgDuw))</command>
+<command execution_time="8">clc</command>
+<command execution_time="430" repeat="2">axis equal</command>
+<command execution_time="11">axis off</command>
+<command execution_time="7">axis on</command>
+<command execution_time="3390">legend</command>
+<command execution_time="15">colormap</command>
+<command execution_time="89">colormap('jet')</command>
+<command execution_time="57">legend off</command>
+<command execution_time="851">SetColorbar</command>
+<command execution_time="11">axis off</command>
+</session>
+<session>
+<command time_stamp="18461a2e12e">%-- 10.11.2022 14:02:55 --%</command>
+<command execution_time="68">mainTransHex</command>
+<command execution_time="1305">plot(initialNodes(:, 1), initialNodes(:, 2))</command>
+<command execution_time="52">plot(initialNodes(:, 1), initialNodes(:, 2), '.')</command>
+<command execution_time="1224" repeat="2">mainTransHex</command>
+<command error="true" execution_time="154">plot(initialNodes(:, 1), initialNodes(:, 2), '.')</command>
+<command execution_time="512">mainTransHex</command>
+<command execution_time="135">plot(initialNodes(:, 1), initialNodes(:, 2), '.')</command>
+<command execution_time="420" repeat="2">mainTransHex</command>
+<command execution_time="25">mfilename</command>
+<command execution_time="20">mfilename('fullpath')</command>
+<command execution_time="19">dbstatus</command>
+<command execution_time="16">mfilename('fullpath');</command>
+<command execution_time="17">mfilename('fullpath')</command>
+<command execution_time="169335" repeat="12">mainTransHex</command>
+<command execution_time="18">ylim = lenY</command>
+<command execution_time="15">ax = gca;</command>
+<command execution_time="67">ax</command>
+<command execution_time="368">ax.YLim = [0, lenY]</command>
+<command execution_time="12">ax.XLim = [-4*a, 8*a];</command>
+<command execution_time="1924">plot(10*log10(AvgDuw))</command>
+<command execution_time="717" repeat="2">mainHex</command>
+<command execution_time="107128">mainTransHex</command>
+<command execution_time="77">figure</command>
+<command execution_time="56">plot(log10(AvgDuw)*10)</command>
+<command execution_time="844">mainTransHex</command>
+<command execution_time="129">plot(initialNodes(:, 1), initialNodes(:, 2))</command>
+<command execution_time="29">plot(initialNodes(:, 1), initialNodes(:, 2), '.')</command>
+<command execution_time="30">plot(updateNodes(:, 1), updateNodes(:, 2), '.')</command>
+<command execution_time="39">plot(updateTransNodes(:, 1), updateTransNodes(:, 2), '.')</command>
+<command execution_time="21">size(updateTransNodes)</command>
+<command execution_time="35">size(unique(updateTransNodes))</command>
+<command error="true" execution_time="142">size(unique(updateTransNodes), 'rows')</command>
+<command execution_time="31">size(unique(updateTransNodes, 'rows'))</command>
+<command execution_time="32">plot(transNodes(:, 1), transNodes(:, 2))</command>
+<command error="true" execution_time="102">plot(transNodes(:, 1), transNodes(:, 2), ',')</command>
+<command execution_time="29">plot(transNodes(:, 1), transNodes(:, 2), '.')</command>
+<command execution_time="23">size(transNodes)</command>
+<command execution_time="25">size(unique(transNodes, 'rows'))</command>
+<command execution_time="87">plot(initialNodesArray(:, 1), initialNodesArray(:, 2))</command>
+<command execution_time="26">plot(initialNodesArray(:, 1), initialNodesArray(:, 2), '.')</command>
+<command execution_time="470">mainTransHex</command>
+<command execution_time="81">plot(initialNodesArray(:, 1), initialNodesArray(:, 2), '.')</command>
+<command execution_time="417" repeat="2">mainTransHex</command>
+<command execution_time="73">plot(initialNodesArray(:, 1), initialNodesArray(:, 2), '.')</command>
+<command execution_time="1153">mainTransHex</command>
+<command execution_time="128">plot(initialNodesArray(:, 1), initialNodesArray(:, 2), '.')</command>
+<command execution_time="18">AvgDuwDb = 10*log10(AvgDuw);</command>
+<command execution_time="96">plot(AvgDuwDb)</command>
+<command execution_time="4095" repeat="2">mainTransHex</command>
+<command execution_time="299">drawingMesh2D(initialNodesArray, initialQuadsBound, 'none', '-', 'k')</command>
+<command execution_time="36">initialNodesArray(initialQuadsBound(:, 1:end-1))</command>
+<command execution_time="12">initialQuadsBound(256, 1:end-1)</command>
+<command execution_time="12">initialNodesArray(initialQuadsBound(256, 1:end-1))</command>
+<command execution_time="15">initialNodesArray(initialQuadsBound(256, 1:end-1), :)</command>
+<command execution_time="1225">mainTransHex</command>
+<command execution_time="266">drawingMesh2D(initialNodesArray, initialQuadsBound, 'none', '-', 'k')</command>
+<command execution_time="20">initialNodesArray(initialQuadsBound(256, 1:end-1), :)</command>
+<command execution_time="78">figure</command>
+<command execution_time="45">plot(AvgDuwDb)</command>
+</session>
+<session>
+<command time_stamp="18465ed8d20">%-- 11.11.2022 10:02:58 --%</command>
+<command execution_time="6708">mainTransHex</command>
+<command execution_time="34">initialNodesArray(initialQuadsBound(256, 1:end-1), :)</command>
+<command execution_time="21">NodesTrans(transQuads(8008, :), :)</command>
+<command execution_time="17">NodesTrans(transQuads(7500, :), :)</command>
+<command execution_time="15">NodesTrans(transQuads(7800, :), :)</command>
+<command execution_time="16">NodesTrans(transQuads(7900, :), :)</command>
+<command execution_time="13">NodesTrans(transQuads(7000, :), :)</command>
+<command execution_time="17">NodesTrans(transQuads(8000, :), :)</command>
+<command execution_time="15">NodesTrans(transQuads(7800, :), :)</command>
+<command execution_time="13">NodesTrans(transQuads(7700, :), :)</command>
+<command execution_time="15">NodesTrans(transQuads(7600, :), :)</command>
+<command execution_time="11">NodesTrans(transQuads(7000, :), :)</command>
+<command execution_time="12">NodesTrans(transQuads(7200, :), :)</command>
+<command execution_time="5303">mainTransHex</command>
+<command execution_time="30">NodesTrans(transQuads(7200, :), :)</command>
+<command error="true" execution_time="346">drawingMesh2D(initialNodesArray, initialQuadsBound, 'none', 'k')</command>
+<command execution_time="286">drawingMesh2D(initialNodesArray, initialQuadsBound, 'none', '-', 'k' )</command>
+<command execution_time="26">NodesTrans(transQuads(7200, :), :)</command>
+<command execution_time="13">initialNodesArray(initialQuadsBound(24, :), :)</command>
+<command execution_time="12">initialNodesArray(initialQuadsBound(100, :), :)</command>
+<command execution_time="14">initialNodesArray(initialQuadsBound(70, :), :)</command>
+<command execution_time="14">initialNodesArray(initialQuadsBound(300, :), :)</command>
+<command execution_time="5662" repeat="2">mainTransHex</command>
+<command execution_time="21">NodesTrans(transQuads(7200, :), :)</command>
+<command execution_time="9">NodesTrans(transQuads(8000, :), :)</command>
+<command execution_time="15">NodesTrans(transQuads(10000, :), :)</command>
+<command execution_time="10">NodesTrans(transQuads(11000, :), :)</command>
+<command execution_time="15">NodesTrans(transQuads(11200, :), :)</command>
+<command execution_time="10">NodesTrans(transQuads(10000, :), :)</command>
+<command error="true" execution_time="159">NodesTrans(transQuads(12000, :), :)</command>
+<command execution_time="16">NodesTrans(transQuads(11200, :), :)</command>
+<command execution_time="7">NodesTrans(transQuads(10200, :), :)</command>
+<command execution_time="14">NodesTrans(transQuads(9000, :), :)</command>
+<command execution_time="132">plot(AvgDuwDb)</command>
+<command execution_time="14">size(NodesTrans)</command>
+<command execution_time="26">size(unique(NodesTrans, 'rows'))</command>
+<command execution_time="12">size(transQuads)</command>
+<command execution_time="13">size(unique(transQuads, 'rows'))</command>
+<command error="true" execution_time="183" repeat="2">drawingMesh2D(updateNumNodes, updateTransQuads, 'none', '-', 'k')</command>
+<command execution_time="3016">drawingMesh2D(updateTransNodes, updateTransQuads, 'none', '-', 'k')</command>
+<command execution_time="17">size(updateTransNodes)</command>
+<command execution_time="32">size(unique(transNodes, 'rows'))</command>
+<command error="true" execution_time="240">size(unique(updatetransNodes, 'rows'))</command>
+<command execution_time="23">size(unique(updateTransNodes, 'rows'))</command>
+<command execution_time="15">size(updateTransQuads)</command>
+<command execution_time="22">size(unique(updateTransQuads, 'rows'))</command>
+<command execution_time="985">drawingMesh2D(initialNodesArray, initialQuadsBound, 'none', '-','k')</command>
+<command execution_time="1136" repeat="2">mainTransHex</command>
+<command execution_time="18">tt = initialNodesArray(:, 1) &gt; 0;</command>
+<command execution_time="1144" repeat="8">mainTransHex</command>
+<command execution_time="15">tt = any(initialNodesArray(:, 1)&gt;0);</command>
+<command execution_time="1110">mainTransHex</command>
+<command execution_time="21">tt = any(initialNodesArray(:, 1)&gt;0);</command>
+<command execution_time="55">initialNodesArray(:, 1)</command>
+<command execution_time="20">tt = any(initialNodesArray(:, 1)&gt;0);</command>
+<command execution_time="13">tt = any(initialNodesArray(:, 1)&gt;0, 2);</command>
+<command execution_time="1046" repeat="7">mainTransHex</command>
+<command execution_time="237">drawingMesh2D(initialNodesArray, initialQuadsBound, 'none', '-', 'k')</command>
+<command execution_time="27">initialNodesArray(initialQuadsBound(70, :), :)</command>
+<command error="true" execution_time="191">NodesTrans(transQuads(31000, :), :)</command>
+<command execution_time="11">NodesTrans(transQuads(7500, :), :)</command>
+<command execution_time="5531" repeat="2">mainTransHex</command>
+<command execution_time="18">NodesTrans(transQuads(7500, :), :)</command>
+<command execution_time="272">figure</command>
+<command execution_time="49">plot(AvgDuwDb)</command>
+<command execution_time="4254">mainTransHex</command>
+<command execution_time="1464">plot(AvgDuwDb)</command>
+<command execution_time="82">figure</command>
+<command execution_time="44">plot(AvgDuwDb)</command>
+<command execution_time="54">plot(AvgDuwDb, 1:251)</command>
+<command execution_time="32">grid on</command>
+<command execution_time="89">plot(AvgDuwDb, 1:251)</command>
+<command execution_time="1117">mainTransHex</command>
+<command execution_time="720">plot(AvgDuwDb, 1:251)</command>
+<command execution_time="15">omegTVec(200)</command>
+<command execution_time="24">omegTVec(200)/(2*pi)</command>
+<command execution_time="7385" repeat="12">mainHex</command>
+<command execution_time="26">maxf = ceil(real(max(max(fBand))/10))*10;</command>
+<command execution_time="389" repeat="7">mainTransHex</command>
+<command execution_time="2593">drawingMesh2D(transNodes, transQuads, 'none', '-', 'k')</command>
+<command execution_time="3936">mainTransHex</command>
+<command execution_time="75">tt = figure;</command>
+<command execution_time="54">aa = axes(tt)</command>
+<command execution_time="32">tt</command>
+<command execution_time="6">aa</command>
+<command execution_time="22">tt = NodesTrans(:,1:2);</command>
+<command execution_time="22">min(tt(:, 1))</command>
+<command execution_time="20">max(tt(:, 1))</command>
+<command execution_time="17">max(tt(:, 2))</command>
+<command execution_time="11">min(tt(:, 2))</command>
+<command execution_time="978">get(transDispAx)</command>
+<command execution_time="169">plot(AvgDuwDb)</command>
+<command execution_time="34">mainTransHex</command>
+</session>
+<session>
+<command time_stamp="184679fc97d">%-- 11.11.2022 17:57:16 --%</command>
+<command execution_time="85794" repeat="2">mainTransHex</command>
+<command execution_time="699">plot(AvgDuwDb, 1:251)</command>
+<command execution_time="73303">mainTransHex</command>
+<command execution_time="668">plot(AvgDuwDb, 1:251)</command>
+<command execution_time="8321">mainHex</command>
+<command execution_time="82900">mainTransHex</command>
+<command execution_time="7">omegTVec(20)</command>
+<command execution_time="7">aa =gca;</command>
+<command execution_time="66">aa</command>
+<command execution_time="26">aa.Title</command>
+<command execution_time="178">aa.Title.String = 'Title'</command>
+<command execution_time="8">aa.YLabel.String</command>
+<command execution_time="8">clc</command>
+<command execution_time="125">plot(AvgDuwDb, 1:251)</command>
+<command execution_time="22">plotDispl = 1</command>
+<command execution_time="29">cumtrapz(AvgDuwDb)</command>
+<command error="true" execution_time="186">Int = trapz(X, -1./AvgDuwDb)</command>
+<command execution_time="19">Int = trapz(1:251, -1./AvgDuwDb)</command>
+<command execution_time="17">Int = trapz(1:251, AvgDuwDb)</command>
+<command execution_time="21">Int = trapz(AvgDuwDb)</command>
+</session>
+<session>
+<command time_stamp="1846adf8def">%-- 12.11.2022 09:05:47 --%</command>
+<command execution_time="84772" repeat="2">mainTransHex</command>
+<command execution_time="15">f = linspace(0, maxf, idxTMax-1);</command>
+<command execution_time="11">f = linspace(0, maxf, idxTMax);</command>
+<command execution_time="22">omegTVec(30)</command>
+<command execution_time="147">plot(f, AvgDuwDB)</command>
+<command execution_time="49">plot(AvgDuwDB, f)</command>
+<command execution_time="2295">load('allVars.mat')</command>
+<command execution_time="8483">mainHex</command>
+<command execution_time="20">maxf = ceil(real(max(max(fBand))/10))*10;</command>
+<command batch="72">OmegT = maxf*2*pi;</command>
+<command batch="72" execution_time="15">dOmegT = 100*2*pi;</command>
+<command execution_time="10">idxTMax=ceil(OmegT/dOmegT)+1;</command>
+<command execution_time="13">omegTVec=dOmegT*(0:idxTMax-1)+0.1;</command>
+<command error="true" execution_time="9523">mainHex</command>
+<command error="true" execution_time="3660">mainTransHex</command>
+<command execution_time="92409">mainHex</command>
+<command execution_time="152" repeat="15">plotDispTrans</command>
+<command execution_time="51">plot(kxy0, fBand, 'k');</command>
+<command execution_time="134" repeat="2">plotDispTrans</command>
+<command execution_time="22">max(AvgDuwDB)</command>
+<command execution_time="11">ceil(max(AvgDuwDB))</command>
+<command execution_time="11">ceil(max(AvgDuwDB)/10)</command>
+<command execution_time="12">ceil(max(AvgDuwDB)/10)*10</command>
+<command execution_time="9">ceil(min(AvgDuwDB)/10)*10</command>
+<command execution_time="12">floor(min(AvgDuwDB)/10)*10</command>
+<command execution_time="111" repeat="7">plotDispTrans</command>
+<command execution_time="42">axTrans</command>
+<command execution_time="149" repeat="2">plotDispTrans</command>
+<command execution_time="46">axTrans</command>
+<command execution_time="138" repeat="10">plotDispTrans</command>
+<command execution_time="137099">mainHex</command>
+<command execution_time="141">plotDispTrans</command>
+<command execution_time="2691">Plot2LaTeX(gcf, 'tttplot')</command>
+<command execution_time="166" repeat="8">plotDispTrans</command>
+<command execution_time="36">axDisp.YRuler.Exponent</command>
+<command execution_time="37">axDisp</command>
+<command execution_time="34">axDisp.YAxis</command>
+<command execution_time="148" repeat="2">plotDispTrans</command>
+<command execution_time="13">ceil(max(AvgDuwDB)/10)*10</command>
+<command execution_time="13">floor(max(AvgDuwDB)/10)*10</command>
+<command execution_time="144" repeat="4">plotDispTrans</command>
+<command execution_time="1708">Plot2LaTeX(gcf, 'tttplot')</command>
+<command execution_time="156" repeat="7">plotDispTrans</command>
+<command execution_time="35">axDisp.XTickLabelRotation</command>
+<command execution_time="159" repeat="4">plotDispTrans</command>
+<command execution_time="1701">Plot2LaTeX(gcf, 'tttplot')</command>
+<command execution_time="195">plotDispTrans</command>
+<command execution_time="1715">Plot2LaTeX(gcf, 'tttplot')</command>
+<command execution_time="145" repeat="2">plotDispTrans</command>
+<command execution_time="29">axDisp.Layer</command>
+<command execution_time="140" repeat="2">plotDispTrans</command>
+<command execution_time="33">axDisp.YLabel.String</command>
+<command execution_time="29">axDisp</command>
+<command execution_time="40">find(f, 55787)</command>
+<command execution_time="21">find(f == 55787)</command>
+<command execution_time="37">find(round(f, 0) == 55787)</command>
+<command execution_time="31">find(round(f, 0) == 5787)</command>
+<command execution_time="33">find(round(f, 0) == 5788)</command>
+<command execution_time="37">max(max(abs(fBand)))</command>
+<command execution_time="35">max(f)</command>
+<command error="true" execution_time="321">plotDispTrans(fBand, kxy0, kSteps, AvgDuwDB)</command>
+<command execution_time="162" repeat="2">plotDispTrans(fBand, kxy0, kSteps, AvgDuwDB, f)</command>
+<command execution_time="544" repeat="7">mainHex</command>
+<command execution_time="33">pi/(sqrt(3)*2)</command>
+</session>
+<session>
+<command time_stamp="184723dd176">%-- 13.11.2022 19:26:05 --%</command>
+<command error="true" execution_time="26" repeat="14">mainHex</command>
+</session>
+<session>
+<command time_stamp="184758bb555">%-- 14.11.2022 10:50:01 --%</command>
+<command execution_time="29742" repeat="14">mainHex</command>
+<command execution_time="29">geomInclusion == "circ"</command>
+<command execution_time="21">geomInclusion == 'circ'</command>
+<command execution_time="21">geomInclusion == "hex"</command>
+<command error="true" execution_time="259">geomInclusion == 'hex'</command>
+<command batch="73">if geomInclusion == "hex" % hex</command>
+<command batch="73">if coating &gt; 0</command>
+<command batch="73">nameMesh = 'hexTransSingleLocRes';</command>
+<command batch="73">else</command>
+<command batch="73">nameMesh = 'hexTransSingle';</command>
+<command batch="73">end</command>
+<command batch="73">else % circ</command>
+<command batch="73">if coating &gt; 0</command>
+<command batch="73">nameMesh = 'hexTransSingleCircLocRes';</command>
+<command batch="73">else</command>
+<command batch="73">nameMesh = 'hexTransSingleCirc';</command>
+<command batch="73">end</command>
+<command batch="73" execution_time="20">end</command>
+<command execution_time="20">nameMesh</command>
+<command batch="74" error="true">if geomInclusion == 'hex' % hex</command>
+<command batch="74" error="true">if coating &gt; 0</command>
+<command batch="74" error="true">nameMesh = 'hexTransSingleLocRes';</command>
+<command batch="74" error="true">else</command>
+<command batch="74" error="true">nameMesh = 'hexTransSingle';</command>
+<command batch="74" error="true">end</command>
+<command batch="74" error="true">else % circ</command>
+<command batch="74" error="true">if coating &gt; 0</command>
+<command batch="74" error="true">nameMesh = 'hexTransSingleCircLocRes';</command>
+<command batch="74" error="true">else</command>
+<command batch="74" error="true">nameMesh = 'hexTransSingleCirc';</command>
+<command batch="74" error="true">end</command>
+<command batch="74" error="true" execution_time="137">end</command>
+<command batch="75">if geomInclusion == "hex" % hex</command>
+<command batch="75">if coating &gt; 0</command>
+<command batch="75">nameMesh = 'hexTransSingleLocRes';</command>
+<command batch="75">else</command>
+<command batch="75">nameMesh = 'hexTransSingle';</command>
+<command batch="75">end</command>
+<command batch="75">else % circ</command>
+<command batch="75">if coating &gt; 0</command>
+<command batch="75">nameMesh = 'hexTransSingleCircLocRes';</command>
+<command batch="75">else</command>
+<command batch="75">nameMesh = 'hexTransSingleCirc';</command>
+<command batch="75">end</command>
+<command batch="75" execution_time="9">end</command>
+<command execution_time="16">nameMesh</command>
+<command error="true" execution_time="135">geomInclusion == 'hex'</command>
+<command execution_time="13">geomInclusion == "hex"</command>
+<command execution_time="20">geomInclusion = "hex"</command>
+<command execution_time="10">geomInclusion = 'hex'</command>
+<command error="true" execution_time="29337">mainHex</command>
+<command execution_time="20">geomInclusion == "hex"</command>
+<command execution_time="14">geomInclusion == "circ"</command>
+<command execution_time="32436">mainHex</command>
+</session>
+<session>
+<command time_stamp="18476c2fae2">%-- 14.11.2022 16:30:01 --%</command>
+<command execution_time="117968" repeat="7">mainHex</command>
+<command error="true" execution_time="85">plotDispTrans(fBand, kxy0, kSteps, AvgDuwDB, f)</command>
+<command batch="76" error="true">kx0 = [</command>
+<command batch="76" error="true">linspace(0, 1, kSteps)'; % GM</command>
+<command batch="76" error="true">linspace(1, 4/3, kSteps)'; % MK</command>
+<command batch="76" error="true">linspace(4/3, 0, kSteps+1)']*pi; % KG</command>
+<command batch="76" error="true">ky0 = [</command>
+<command batch="76" error="true">linspace(0, -1/sqrt(3), kSteps)';</command>
+<command batch="76" error="true">linspace(-1/sqrt(3), 0, kSteps)';</command>
+<command batch="76" error="true">linspace(0, 0, kSteps+1)']*pi;</command>
+<command batch="76" error="true" execution_time="94">kxy0 = 1:1:size(kx0, 1);</command>
+<command execution_time="11">kSteps = 50;</command>
+<command batch="77">kx0 = [</command>
+<command batch="77">linspace(0, 1, kSteps)'; % GM</command>
+<command batch="77">linspace(1, 4/3, kSteps)'; % MK</command>
+<command batch="77">linspace(4/3, 0, kSteps+1)']*pi; % KG</command>
+<command batch="77">ky0 = [</command>
+<command batch="77">linspace(0, -1/sqrt(3), kSteps)';</command>
+<command batch="77">linspace(-1/sqrt(3), 0, kSteps)';</command>
+<command batch="77">linspace(0, 0, kSteps+1)']*pi;</command>
+<command batch="77" execution_time="12">kxy0 = 1:1:size(kx0, 1);</command>
+<command error="true" execution_time="179">plotDispTrans(fBand, kxy0, kSteps, AvgDuwDB, f)</command>
+<command execution_time="16">plot(AvgDuwDB)</command>
+</session>
+<session>
+<command time_stamp="1847a56a62d">%-- 15.11.2022 09:10:10 --%</command>
+<command execution_time="2590">load('allVars.mat')</command>
+</session>
+<session>
+<command time_stamp="1847a7126b8">%-- 15.11.2022 09:39:07 --%</command>
+<command execution_time="440" repeat="2">mainHex</command>
+<command execution_time="33">testMESH</command>
+<command execution_time="1274">plot(msh.POS(:, 1), msh.POS(:, 2))</command>
+<command execution_time="71">plot(msh.POS(:, 1), msh.POS(:, 2), '.')</command>
+<command execution_time="71">testMESH</command>
+<command execution_time="71" repeat="2">plot(msh.POS(:, 1), msh.POS(:, 2), '.')</command>
+<command batch="78">initNodesBound = round(msh.POS, 6);</command>
+<command batch="78">initQuadsBound = msh.QUADS9;</command>
+<command batch="78">initNumNodesBound = msh.nbNod;</command>
+<command batch="78" execution_time="14">initNumElBound = size(initQuadsBound, 1);</command>
+<command error="true" execution_time="25">find(initNodesBound(:, 1) =&lt; 0)</command>
+<command execution_time="31">find(initNodesBound(:, 1) &lt;= 0)</command>
+<command execution_time="5">idxDel = find(initNodesBound(:, 1) &lt;= 0);</command>
+<command execution_time="64">plot(initNodesBound(idxDel, 1), initNodesBound(idxDel, 2))</command>
+<command error="true" execution_time="203" repeat="2">plot(initNodesBound(idxDel, 1), initNodesBound(idxDel, 2), '.')</command>
+<command execution_time="82">plot(initNodesBound(:, 1), initNodesBound(:, 2), '.')</command>
+<command error="true" execution_time="94" repeat="2">drawingMesh2D(initNodesBound, initQuadsBound2, 'none', '-', 'k')</command>
+<command execution_time="150" repeat="2">plot(initNodesBoundNew(:, 1), initNodesBoundNew(:, 2), '.')</command>
+<command execution_time="7">min(min(initQuadsBound2))</command>
+<command execution_time="17">max(max(initQuadsBound2))</command>
+<command execution_time="286">drawingMesh2D(initNodesBound, initQuadsBound2, 'none', '-', 'k')</command>
+<command error="true" execution_time="93">drawingMesh2D(initNodesBoundNew, initQuadsBound2, 'none', '-', 'k')</command>
+<command execution_time="16">tt = initQuadsBound2(any(initQuadsBound2, 2), :);</command>
+<command execution_time="16">ii = find(initQuadsBound2(:,:) == 0);</command>
+<command execution_time="17">out = initQuadsBound2(all(initQuadsBound2,2),:);</command>
+<command execution_time="19">min(min(out))</command>
+<command execution_time="17">max(max(out))</command>
+<command error="true" execution_time="85">drawingMesh2D(initNodesBound, initQuadsBound2, 'none', '-', 'k')</command>
+<command execution_time="226">drawingMesh2D(initNodesBound, initQuadsBound, 'none', '-', 'k')</command>
+<command execution_time="17">clc</command>
+<command error="true" execution_time="2283" repeat="2">mainTransHex</command>
+<command error="true" execution_time="24">ii = repmat(numNodes2, 1, nodPEleT;</command>
+<command execution_time="18">ii = repmat(numNodes2, 1, nodPEleT);</command>
+<command execution_time="20">ii = [repmat(numNodes2, 1, nodPEleT), 0];</command>
+<command execution_time="17">clc</command>
+<command execution_time="3807" repeat="4">mainTransHex</command>
+<command execution_time="511">mainHex</command>
+<command execution_time="3710">mainTransHex</command>
+<command execution_time="15">clc</command>
+<command execution_time="21106">mainTransHex</command>
+<command execution_time="421">mainHex</command>
+<command execution_time="11952">mainTransHex</command>
+<command execution_time="488">mainHex</command>
+<command execution_time="4047">mainTransHex</command>
+<command execution_time="376">mainHex</command>
+<command execution_time="5980">mainTransHex</command>
+</session>
+<session>
+<command time_stamp="1847bc8ab77">%-- 15.11.2022 15:54:20 --%</command>
+<command execution_time="80835" repeat="2">mainHex</command>
+<command execution_time="12">floor(min(AvgDuwDB)/10)*10-20</command>
+<command execution_time="8">floor(max(AvgDuwDB)/10)*10;</command>
+<command execution_time="5">floor(max(AvgDuwDB)/10)*10</command>
+<command execution_time="8">floor(max(AvgDuwDB)/10)</command>
+<command execution_time="8">maxXAxTrans = ceil(max(AvgDuwDB)/10)*10;</command>
+<command execution_time="9">maxXAxTrans = ceil(max(AvgDuwDB)/10)*10</command>
+<command execution_time="6">max(AvgDuwDB)</command>
+<command execution_time="7">ceil(ans)</command>
+<command batch="79">mainHex</command>
+</session>
+<session>
+<command time_stamp="1847bdb9663">%-- 15.11.2022 16:14:59 --%</command>
+<command execution_time="28107" repeat="2">mainHex</command>
+<command execution_time="13">1+1</command>
+<command batch="80" error="true">idxTrans = 380;</command>
+<command batch="80" error="true">fi = f(idxTrans);</command>
+<command batch="80" error="true">ATrans=DiTrans(:,idxTrans);</command>
+<command batch="80" error="true">ATrans=[ATrans(1:dof:end,1) ATrans(2:dof:end,1)*(dof-1)];</command>
+<command batch="80" error="true">totalDispTrans1=(ATrans(:,1).^2+(dof-1)*ATrans(:,2).^2).^(0.5);</command>
+<command batch="80" error="true">PlotElements = transQuads(:,[1, 5, 2, 6, 3, 7, 4, 8, 1]);</command>
+<command batch="80" error="true" execution_time="209">Plot2DTransmission(NodesTrans(:,1:2),transQuads ,PlotElements,1,zeros(size(ATrans)),totalDispTrans1,'CMUSerif',10,'jet', 0, fi);</command>
+<command execution_time="11">size(f)</command>
+<command execution_time="7">linspace(0, maxf, idxTMax);</command>
+<command execution_time="8">idxTMax=ceil(OmegT/dOmegT)+1</command>
+<command batch="81">mainHex</command>
+</session>
+<session>
+<command time_stamp="1847bf1f69c">%-- 15.11.2022 16:39:26 --%</command>
+<command execution_time="338337">mainHex</command>
+<command execution_time="13">find(f==380)</command>
+<command execution_time="8728">exportgraphics(gcf, 'test.png')</command>
+<command batch="82">mainHex</command>
+</session>
+<session>
+<command time_stamp="1847f795102">%-- 16.11.2022 09:06:08 --%</command>
+<command error="true" execution_time="10880" repeat="2">mainHex</command>
+<command batch="83" error="true">cl</command>
+<command batch="83" error="true" execution_time="10772">clc</command>
+<command execution_time="9">clc</command>
+<command execution_time="18073" repeat="4">mainHex</command>
+<command execution_time="12943">mainTransHex</command>
+<command execution_time="6">numCellX</command>
+<command execution_time="48">mainHex</command>
+<command execution_time="23">mainDispHex</command>
+<command execution_time="38252" repeat="3">mainHex</command>
+</session>
+<session>
+<command time_stamp="1847fce3e4a">%-- 16.11.2022 10:38:54 --%</command>
+<command execution_time="327" repeat="3">mainHex</command>
+<command execution_time="13">i</command>
+<command execution_time="362">mainHex</command>
+<command execution_time="13">msh.QUADS9(194, 1:end-1)</command>
+<command execution_time="5">msh.POS(ans, :)</command>
+<command execution_time="5">nodes= msh.POS(msh.QUADS9(194, 1:end-1), :);</command>
+<command error="true" execution_time="214">[x1, x2, x3, x4] = nodes(1:4, 1:2);</command>
+<command error="true" execution_time="67">[x1, x2, x3, x4] = nodes(1:4,1);</command>
+<command error="true" execution_time="9">[x1, x2, x3, x4]' = nodes(1:4,1);</command>
+<command execution_time="8">nodes(1:4, 1)</command>
+<command error="true" execution_time="72">[x1, x2, x3, x4] = nodes(1:4,1)';</command>
+<command execution_time="7">nodes(1:4, 1)'</command>
+<command error="true" execution_time="159">x1, x2, x3, x4 = nodes(1:4, 1);</command>
+<command error="true" execution_time="38">{x1 x2 x3 x4} = nodes(1:4, 1);</command>
+<command error="true" execution_time="16">(x1 x2 x3 x4) = nodes(1:4, 1);</command>
+<command execution_time="12">x1 = nodes(1, 1); x2 = nodes(2,1); x3 = nodes(3, 1); x4 =nodes(4, 1);</command>
+<command execution_time="40">y1 = nodes(1, 2); x2= nodes(2, 2); x3 = nodes(3, 2); x4 = nodes(4, 2);</command>
+<command error="true" execution_time="174">jacMarius  =InvJacobiTQuad(0.3, 0.2, x1, x2, x3, x4, y1, y2, y3, y4);</command>
+<command execution_time="9">y1 = nodes(1, 2); y2= nodes(2, 2); y3 = nodes(3, 2); y4 = nodes(4, 2);</command>
+<command execution_time="25">x1 = nodes(1, 1); x2 = nodes(2,1); x3 = nodes(3, 1); x4 =nodes(4, 1);</command>
+<command execution_time="27">jacMarius  =InvJacobiTQuad(0.3, 0.2, x1, x2, x3, x4, y1, y2, y3, y4);</command>
+<command execution_time="12">[~,jacCN] = JacobianQuad(0.3, 0.2, nodes(:, 1:2))</command>
+<command execution_time="18">jacMarius  =InvJacobiTQuad(0.3, 0.2, x1, x2, x4, x3, y1, y2, y4, y3);</command>
+<command execution_time="12">nodes(:, 1)</command>
+<command execution_time="10">nodes(:, 2)</command>
+<command execution_time="13">jacMarius  =InvJacobiTQuad(0.3, 0.2, x1, x2, x3, x4, y1, y2, y3, y4);</command>
+<command execution_time="13">jacMarius  =InvJacobiTQuad(0.3, 0.2, x1, x2, x4, x3, y1, y2, y4, y3);</command>
+<command execution_time="11">0.555555555555556 * 0.555555555555556</command>
+<command execution_time="8">0.555555555555556 * 0.888888888888889</command>
+<command execution_time="13">1-0.07716049382716049382716049382716049382716049382716049382716049382716049382716049382716049382716049382716049382716049382716049</command>
+<command execution_time="35">matProp = [1, 1, 1, 1];</command>
+<command execution_time="412">[kMM, mMM] = ElementMatrices2D(nodes, 2, matProp, 'PlaneStrain');</command>
+<command execution_time="38">[kCN, mCN] = Element2D(nodes, 2, matProp, 'q9', 'strain');</command>
+<command error="true" execution_time="83">nodesMM = [x1;x2;x3;x4,y1;y2;y3;y4]</command>
+<command execution_time="16">nodesMM = [x1, y1; x2, y2; x3, y3; x4, y4]</command>
+<command execution_time="15">[kMM, mMM] = ElementMatrices2D(nodesMM, 2, matProp, 'PlaneStrain');</command>
+<command execution_time="16">nodesMM = [x1, y1; x2, y2; x4, y4; x3, y3]</command>
+<command execution_time="15">[kMM, mMM] = ElementMatrices2D(nodesMM, 2, matProp, 'PlaneStrain');</command>
+<command execution_time="18">kCN == kMM</command>
+<command execution_time="13">kCN = round(kCN, 3);</command>
+<command execution_time="13">kMM = round(kMM, 3);</command>
+<command execution_time="14">tt = kCN == kMM;</command>
+<command execution_time="16">mmNumbering = [1, 5, 2, 8, 9, 6, 4, 7, 3];</command>
+<command execution_time="13">nodes</command>
+<command error="true" execution_time="277">nodesMM = nodes(:, mmNumbering');</command>
+<command execution_time="13">nodesMM = nodes(mmNumbering', :);</command>
+<command execution_time="14">nodesMM</command>
+<command execution_time="26">[kMM, mMM] = ElementMatrices2D(nodesMM, 2, matProp, 'PlaneStrain');</command>
+<command execution_time="15">tt = kCN == kMM;</command>
+<command execution_time="13">matProp = [1, 0.2, 1, 1];</command>
+<command execution_time="16">[kMM, mMM] = ElementMatrices2D(nodes, 2, matProp, 'PlaneStrain');</command>
+<command execution_time="15">[kCN, mCN] = Element2D(nodes, 2, matProp, 'q9', 'strain');</command>
+<command execution_time="18">[kMM, mMM] = ElementMatrices2D(nodes, 2, matProp, 'PlaneStrain');</command>
+<command execution_time="12">[kCN, mCN] = Element2D(nodes, 2, matProp, 'q9', 'strain');</command>
+<command execution_time="932">mainTransHex</command>
+<command execution_time="16">PMLNodes = NodesTrans(1, :) &lt;= -2*a;</command>
+<command execution_time="21">qq = transQuads(PMLNodesLeftIdx);</command>
+<command execution_time="23">nn = NodesTrans(PMLNodesLeftIdx);</command>
+<command execution_time="6">nn = NodesTrans(PMLNodesLeftIdx, :);</command>
+<command error="true" execution_time="101">qq = transQuads(PMLNodesLeftIdx, :);</command>
+<command error="true" execution_time="16">qq = find transQuads(PMLNodesLeftIdx);</command>
+<command execution_time="36">min(min(PMLCornerNodes))</command>
+<command execution_time="34">max(max(PMLCornerNodes))</command>
+<command execution_time="32">size(PMLNodes)</command>
+</session>
+<session>
+<command time_stamp="18485db356e">%-- 17.11.2022 14:50:47 --%</command>
+<command error="true" execution_time="12155">mainHex</command>
+<command execution_time="461859" repeat="2">mainTransHex</command>
+<command error="true" execution_time="149483">mainHex</command>
+<command execution_time="8">InitialElemements = transQuads;</command>
+<command error="true" execution_time="123">tt = repmat(101*ones(size(InitialElements(:,nodPEle+1))),nRows*ndPML,1);</command>
+<command execution_time="7">InitialElements = transQuads;</command>
+<command error="true" execution_time="68">tt = repmat(101*ones(size(InitialElements(:,nodPEle+1))),nRows*ndPML,1);</command>
+<command execution_time="9">tt(:,10) = 1;</command>
+<command execution_time="6">clear tt</command>
+<command execution_time="7">InitialElements(:, 10)= 1;</command>
+<command error="true" execution_time="103">tt = repmat(101*ones(size(InitialElements(:,nodPEle+1))),nRows*ndPML,1);</command>
+<command execution_time="19">nRows = 3;</command>
+<command execution_time="20" repeat="2">tt = repmat(101*ones(size(InitialElements(:,nodPEle+1))),nRows*ndPML,1);</command>
+<command error="true" execution_time="12">max(abs(BasisVec(:,1)</command>
+<command execution_time="12">max(abs(BasisVec(:,1)))</command>
+<command execution_time="9">unique(min(NodesTrans(:,1)))</command>
+<command execution_time="13">LPML</command>
+<command execution_time="729" repeat="2">mainTransHex</command>
+<command execution_time="10">ApplyPML = "Yes";</command>
+<command execution_time="733">mainTransHex</command>
+<command execution_time="10">qq = find(transNodes(:, 1) &gt;= -2*a);</command>
+<command execution_time="3227">drawingMesh2D(transNodes, transQuads, 'none', '-', 'k')</command>
+<command execution_time="7">17*25</command>
+<command execution_time="8">size(transQuads)</command>
+<command execution_time="9">size(transNodes)</command>
+<command execution_time="3233">drawingMesh2D(transNodes, transQuads, 'none', '-', 'k')</command>
+<command execution_time="7">max(idxLE)</command>
+<command execution_time="15">ff = find(transNodes(:, 1) &lt;= -2*a);</command>
+<command execution_time="6">ff = find(transNodes(:, 1) &lt; -2*a);</command>
+<command execution_time="765">mainTransHex</command>
+<command execution_time="3123">drawingMesh2D(transNodesLE, transQuadsLE, 'none', '-', 'k')</command>
+<command execution_time="9">matIdxTLE = matIdxT(1:numElLE);</command>
+<command execution_time="9">transNodesLE(transQuadsLE(3000, 1:end-1), :)</command>
+<command execution_time="3127">drawingMesh2D(transNodesLE, transQuadsLE, 'none', '-', 'k')</command>
+<command execution_time="15">transNodesLE(transQuadsLE(3100, 1:end-1), :)</command>
+<command error="true" execution_time="8803" repeat="14">mainHex</command>
+<command execution_time="15">size(idxLE)</command>
+<command error="true" execution_time="75">size(NodesTrans)</command>
+<command execution_time="7">size(transNodes)</command>
+<command execution_time="3235">drawingMesh2D(transNodes, transQuads, 'none', '-', 'k')</command>
+<command execution_time="9478">mainHex</command>
+<command execution_time="7">ee = ElementsTransPnC{numElemTransLE+1};</command>
+<command execution_time="7">ismember(idxPnCTrans,[1:fnPML:idxTMax])</command>
+<command execution_time="9">ee.K</command>
+<command error="true" execution_time="87">ee.DOF</command>
+<command execution_time="5">ee.DOFs</command>
+<command execution_time="9">size(ee.DOFs)</command>
+<command execution_time="7">eee = ElementsTransPnC{1};</command>
+<command execution_time="7">eee.DOFs</command>
+<command execution_time="9220">mainHex</command>
+<command execution_time="7">ee = ElementsTransPnC{numElemTransLE+1}</command>
+<command execution_time="6">ee.DOFs</command>
+<command error="true" execution_time="8534" repeat="2">mainHex</command>
+<command execution_time="4">size(ElementsTransPnC)</command>
+<command execution_time="7">size(transNodesLE)</command>
+<command execution_time="7">numElemTransLE</command>
+<command execution_time="7">numElemTransPML</command>
+<command execution_time="6">numElLE</command>
+<command execution_time="9">numEl</command>
+<command execution_time="6">numElemTransLE</command>
+<command execution_time="11">numElemTransLE + numElemTransPML</command>
+<command error="true" execution_time="10287">mainHex</command>
+<command execution_time="8">size(KdynTransred)</command>
+<command execution_time="8">size(RHSTrans)</command>
+<command execution_time="8">size(idxPnCTrans)</command>
+<command execution_time="764">kk = KdynTransred\RHSTrans;;</command>
+<command execution_time="7">size(DiTrans0)</command>
+<command execution_time="7">idxPnCTrans</command>
+<command execution_time="7">size(kk)</command>
+<command execution_time="7">numElemTransPML</command>
+<command error="true" execution_time="293">ans*ans</command>
+<command execution_time="7">192*192</command>
+<command execution_time="14">size(KDynTrans)</command>
+<command execution_time="8">size(KdynTransred)</command>
+</session>
+<session>
+<command time_stamp="184899dc6e1">%-- 18.11.2022 08:22:10 --%</command>
+<command error="true" execution_time="16820">mainHex</command>
+<command execution_time="12">size(NodesTransRed)</command>
+<command error="true" execution_time="186">size(NodesTrans)</command>
+<command execution_time="7">size(transNodes)</command>
+<command execution_time="6">size(DiTrans0)</command>
+<command execution_time="7">dd = DiTrans0(:,idxPnCTrans);</command>
+<command execution_time="4">size(dd)</command>
+<command execution_time="790">kk =KdynTransred\RHSTrans;</command>
+<command execution_time="7">size(kk)</command>
+<command execution_time="9">size(dd) - size(kk)</command>
+<command execution_time="14">size(transNodes)</command>
+<command execution_time="8">size(transNodes, 1)*2</command>
+<command execution_time="14">size(NodesTransRed, 1)*2</command>
+<command execution_time="7">size(PMLQuqds)</command>
+<command error="true" execution_time="10366" repeat="2">mainHex</command>
+<command execution_time="8">size(NodesTransRed,1)*dof</command>
+<command execution_time="756">kk =KdynTransred\RHSTrans;</command>
+<command execution_time="6">size(kk)</command>
+<command execution_time="11">size(DiTrans0, 1)</command>
+<command execution_time="7">72-24</command>
+<command execution_time="7">size(NodesTransRed)</command>
+<command execution_time="6">size(transNodes)</command>
+<command execution_time="7">size(PMLQuads)</command>
+<command execution_time="12">size(transQuads)</command>
+<command execution_time="7">size(transQuadsLE)</command>
+<command execution_time="5">size(NodesTransRed,1)</command>
+<command execution_time="5">size(NodesTransRed,1)*2</command>
+<command error="true" execution_time="27516">mainHex</command>
+<command execution_time="7">size(DiTrans0, 1)</command>
+<command execution_time="8">size(transNodesPML)</command>
+<command execution_time="8">size(transNodesLE)</command>
+<command execution_time="6">size(KTrans0)</command>
+<command execution_time="7">size(KTrans0) - size(KTrans)</command>
+<command execution_time="1051" repeat="6">mainHex</command>
+<command execution_time="91">max(transNodes, 1)</command>
+<command execution_time="4">max(transNodes(:,1))</command>
+<command execution_time="4">a</command>
+<command execution_time="7">min(transNodes(:, 1))</command>
+<command execution_time="17">find(transNodes(:, 1) &lt;= -2*a)</command>
+<command execution_time="30">transNodes(:, 1) &gt;= (lenYLE + 2*a)</command>
+<command error="true" execution_time="87">find(transNodes(:, 1) &gt;= (lenXLE + 2*a))</command>
+<command execution_time="15">find(transNodes(:, 1) &gt;= (lenYLE + 2*a))</command>
+<command error="true" execution_time="16841" repeat="3">mainHex</command>
+<command error="true" execution_time="142">fmax</command>
+<command error="true" execution_time="69">~fmax</command>
+<command execution_time="17">exist('fmax')</command>
+<command error="true" execution_time="90">exist(idxPML)</command>
+<command execution_time="10">exist('idxPML')</command>
+<command execution_time="1553" repeat="3">mainHex</command>
+<command execution_time="11">max(transQuadsPMLUnsorted)</command>
+<command execution_time="3">min(transQuadsPMLUnsorted)</command>
+<command execution_time="13">size(transQuadsPMLUnsorted)</command>
+<command execution_time="6">size(QuadsNodes)</command>
+<command execution_time="1559">mainHex</command>
+<command execution_time="10">size(transQuads)</command>
+<command execution_time="8">7128*9</command>
+<command execution_time="10">ttt = 1:size(QuadsNodes);</command>
+<command execution_time="6">fff = ttt(transQuadsPMLUnsorted1);</command>
+<command execution_time="7">fff = ttt(transQuadsPMLUnsorted1)';</command>
+<command execution_time="10">tt = reshape(fff, 9, [])';</command>
+<command execution_time="6">25*17</command>
+<command execution_time="11">transQuadsPMLUnsorted1('true')</command>
+<command execution_time="17">unique(fff)</command>
+<command execution_time="9">1800/9</command>
+<command error="true" execution_time="147" repeat="2">aa = ismemeber(transQuads, fff);</command>
+<command execution_time="25">aa = ismember(transQuads, fff);</command>
+<command execution_time="12">size(transQuads)</command>
+<command execution_time="12">fff2 = QuadsNodes(fff);</command>
+<command error="true" execution_time="87">fff2 = QuadsNodes(transQuadsPMLUnsorted);</command>
+<command execution_time="17">transQuadsPMLUnsorted1(fff) = fff;</command>
+<command execution_time="19">transQuadsPMLUnsorted1(fff)</command>
+<command execution_time="11">transQuadsPMLUnsorted1(1)</command>
+<command execution_time="33">[transQuadsPMLUnsorted2, transQuadsPMLUnsorted3] = ismember(round(transNodesPML, 6), round(QuadsNodes, 6), 'rows');</command>
+<command execution_time="16">850/9</command>
+<command execution_time="17171">mainHex</command>
+<command execution_time="12">transQuadsPMLaaa = transQuadsPML + repmat(numElemTransLE, 1, 9);</command>
+<command execution_time="210">drawingMesh2D(transNodes, transQuadsPMLaaa, 'none', '-', 'k')</command>
+<command execution_time="193">help locb</command>
+<command execution_time="21">transQuadsPMLUnsorted1(transQuadsPMLUnsorted1 ~=0)</command>
+<command execution_time="6">transNodes(transQuads(345, end-1), :)</command>
+<command execution_time="9">transQuads(455, end-1)</command>
+<command execution_time="11">transNodes(transQuads(345, 1:end-1), :)</command>
+<command execution_time="7">transNodes(transQuads(3459, 1:end-1), :)</command>
+<command error="true" execution_time="16515">mainHex</command>
+<command execution_time="43" repeat="2">mainTransHexPML</command>
+<command execution_time="14">min(transQuadsLE)</command>
+<command execution_time="5">max(transQuadsLE)</command>
+<command execution_time="10">max(max(transQuadsLE))</command>
+<command execution_time="9">size(transNodesLE)</command>
+<command execution_time="2832">drawingMesh2D(transNodesLE, transQuadsLE, 'none', '-', 'k')</command>
+<command execution_time="15">max(max(qq))</command>
+<command execution_time="11">size(transQuads)</command>
+<command execution_time="8">size(transQuadsLE)</command>
+<command execution_time="11">size(transQuadsLE, 1) + 192</command>
+<command execution_time="13">min(min(qq))</command>
+<command error="true" execution_time="16">max(max(qq)</command>
+<command execution_time="10">max(max(qq))</command>
+</session>
+<session>
+<command time_stamp="1848f02715e">%-- 19.11.2022 09:30:13 --%</command>
+<command execution_time="4652">mainHex</command>
+<command execution_time="14">size(QuadsNodes)</command>
+<command execution_time="6">size(transNodes)</command>
+<command execution_time="7">size(QuadsNodes, 1)/9</command>
+<command error="true" execution_time="33">aa = QuadsNodes(&lt;=-2*a);</command>
+<command execution_time="18">xxx = QuadsNodes(:, 1) &lt;= -2*a;</command>
+<command execution_time="11">aaa = 1:size(QuadsNodes, 1);</command>
+<command execution_time="12">aaa(xxx)</command>
+<command execution_time="10">zzz = aaa(xxx);</command>
+<command execution_time="6">zzz = aaa(xxx)';</command>
+<command execution_time="5">clear zzz</command>
+<command error="true" execution_time="468">cl</command>
+<command execution_time="10">clc</command>
+<command execution_time="10">size(QuadsNodes)</command>
+<command execution_time="11">size(QuadsNodes, 1)/9</command>
+<command execution_time="6">xxxresh = reshape(xxx, 9, [])';</command>
+<command execution_time="7">6145-6240</command>
+<command execution_time="5">zzz = transQuads(xxxresh);</command>
+<command execution_time="7">size(transQuads)</command>
+<command execution_time="6">size(xxxresh)</command>
+<command execution_time="10">zzz = transQuads(xxxresh);</command>
+<command execution_time="5">zzz(:, :) = transQuads(xxxresh);</command>
+<command error="true" execution_time="69">zzz(:, 1:9) = transQuads(xxxresh);</command>
+<command execution_time="6">yyy = find(zzz);</command>
+<command error="true" execution_time="97">yyy = find(zzzresh);</command>
+<command execution_time="8">yyy = find(xxxresh);</command>
+<command execution_time="8">zzz = transQuads(yyy);</command>
+<command execution_time="7">zzz = xxxresh.*transQuads;</command>
+<command execution_time="7">transQuadsPMLLeft = zzz(all(zzz,2));</command>
+<command execution_time="7">transQuadsPMLLeft = zzz(all(zzz,2), :);</command>
+<command error="true" execution_time="78">drawingMesh2D(NodesTrans, transQuadsPMLLeft, 'none', '-', 'k')</command>
+<command execution_time="1594">drawingMesh2D(transNodes, transQuadsPMLLeft, 'none', '-', 'k')</command>
+<command execution_time="14">xxx = QuadsNodes(:, 1) &lt;= -2*a;</command>
+<command execution_time="10">QuadsNodesXPMLLeft = QuadsNodes(:, 1) &lt;= -2*a;</command>
+<command execution_time="27">lenXLE + 2*a</command>
+<command execution_time="16">zzz = ismember(transQuads, QuadsPML, 'rows');</command>
+<command execution_time="6">size(transQuads);</command>
+<command execution_time="6">size(transQuads)</command>
+<command execution_time="203">drawingMesh2D(transNodes, QuadsPML, 'none', '-', 'k')</command>
+<command execution_time="6">size(transQuadsLE, 1) + size(QuadsPML, 1)</command>
+<command execution_time="3052">drawingMesh2D(transNodes, transQuadsLE, 'none', '-', 'k')</command>
+<command error="true" execution_time="5584">mainHex</command>
+<command execution_time="10">size(transQuadsLE)</command>
+<command execution_time="5">size(matIdxTLE)</command>
+<command error="true" execution_time="943696" repeat="7">mainHex</command>
+<command execution_time="7">DiTrans00=zeros(size(NodesTransRed,1),idxTMax);</command>
+<command execution_time="6">size(transNodes)</command>
+<command execution_time="7">size(NodesTransRed)</command>
+<command execution_time="9">DiTrans00=zeros(size(NodesTransRed,1)*dof,idxTMax);</command>
+<command execution_time="6">72-24</command>
+<command execution_time="7">size(NodesTransRed)*2</command>
+<command error="true" execution_time="71">size(NodesTrans)*2</command>
+<command execution_time="8">size(transNodes)*2</command>
+<command error="true" execution_time="76">size(transNodes, 1) = sise(NodesTransRed, 1)</command>
+<command error="true" execution_time="57">size(transNodes, 1) = size(NodesTransRed, 1)</command>
+<command execution_time="7">size(transNodes, 1) - size(NodesTransRed, 1)</command>
+<command execution_time="16">size(DiTrans)</command>
+<command execution_time="7">size(EvalTransDofs)</command>
+<command error="true" execution_time="60">DiTrans(EvalTransDofs(1:dof:end),:);</command>
+<command execution_time="7">aa = EvalTransDofs(1:dof:end);</command>
+<command execution_time="7">max(aa)</command>
+<command execution_time="82">plot(f, AvgDuwDB)</command>
+<command execution_time="6">max(AvgDuwDB)</command>
+<command execution_time="66">plot(f, AvgDuwDB)</command>
+<command execution_time="21">plot(AvgDuwDB, f)</command>
+<command execution_time="18">fff = round(f, 0);</command>
+<command error="true" execution_time="63606" repeat="4">mainHex</command>
+<command execution_time="7">ttt = ismember(idxPnCTrans,[1:fnPML:idxTMax]);</command>
+<command execution_time="4">kk = [1:fnPML:idxTMax];</command>
+<command execution_time="7">idxTMax</command>
+<command error="true" execution_time="75">maxf = ceil(real(max(max(fBand))/10))*10;</command>
+<command error="true" execution_time="375233" repeat="3">mainHex</command>
+<command execution_time="7">kk =[1:fnPML:idxTMax];</command>
+<command execution_time="7">idxTMax</command>
+<command execution_time="7">OmegT/dOmegT</command>
+<command execution_time="14">ceil(ans)</command>
+<command execution_time="7">OmegT/999</command>
+<command execution_time="6">idxTMax</command>
+<command execution_time="7">nTransFreq = 999;</command>
+<command execution_time="12" repeat="2">idxTMax</command>
+<command execution_time="7">nTransFreq = 999,5;</command>
+<command execution_time="6">nTransFreq = 999.5;</command>
+<command execution_time="4">idxTMax</command>
+<command execution_time="8" repeat="2">kk = [1:fnPML:idxTMax];</command>
+<command execution_time="6">tic</command>
+<command execution_time="3">ttt =toc;</command>
+<command execution_time="7">disp(ttt)</command>
+<command execution_time="957466">mainHex</command>
+<command execution_time="9">max(f)</command>
+<command execution_time="7">maxf</command>
+<command error="true" execution_time="75">fmax</command>
+<command batch="84">[~,idxTransBC,DBCPrescTrans, ~]=ApplyDirichletBC3D(KTrans,dof,PrescLineT,PrescPointT,NodesTransRed,minNodeDist);</command>
+<command batch="84" execution_time="40265">DiTrans=ReassembleDirichletBC2D(DiTrans0,idxTransBC,DBCPrescTrans');</command>
+<command batch="85">EvalTransDofs = find(transNodes(:, 1) &gt;= lenXLE &amp; transNodes(:, 1) &lt;= lenXLE + a);</command>
+<command batch="85">EvalTransDofs=unique(reshape(EvalTransDofs,[],1));</command>
+<command batch="85" execution_time="7">EvalTransDofs=sort(reshape(repmat(EvalTransDofs,1,dof)*dof-repmat([dof-1:-1:0],size(EvalTransDofs,1),1),[],1));</command>
+<command error="true" execution_time="56">EvalDu=DiTrans(EvalTransDofs(1:dof:end),:);</command>
+<command execution_time="8">size(transNodes, 2)</command>
+<command execution_time="8">size(transNodes, 1)*2</command>
+<command execution_time="14">size(f)</command>
+<command execution_time="6">max(f)</command>
+<command execution_time="6">size(ElementsTransPnC)</command>
+<command execution_time="7">size(transQuads)</command>
+<command execution_time="154052" repeat="4">mainHex</command>
+<command execution_time="259">load PMLdata.mat</command>
+<command execution_time="155774" repeat="2">mainHex</command>
+<command execution_time="2202">load PMLdata.mat</command>
+</session>
+<session>
+<command time_stamp="1849618c1ee">%-- 20.11.2022 18:31:56 --%</command>
+<command error="true" execution_time="56268">mainHex</command>
+<command execution_time="12">maxf</command>
+<command execution_time="7844">mainHex</command>
+<command execution_time="11">ismember(idxPnCTrans,1:fnPML:idxTMax)</command>
+<command execution_time="9">ismember(2,1:fnPML:idxTMax)</command>
+<command execution_time="13">ismember(3,1:fnPML:idxTMax)</command>
+<command execution_time="7">ismember(11,1:fnPML:idxTMax)</command>
+<command execution_time="12">ismember(21,1:fnPML:idxTMax)</command>
+<command execution_time="54">plot(NodesRel(:, 1), NodesRel(:, 2))</command>
+<command execution_time="14">plot(NodesRel(:, 1), NodesRel(:, 2), '.')</command>
+<command execution_time="14">NodesRel</command>
+<command execution_time="7955">mainHex</command>
+<command execution_time="11">NodesRel</command>
+<command execution_time="16">plot(NodesRel(:, 1), NodesRel(:, 2))</command>
+<command execution_time="15">plot(NodesRel(:, 1), NodesRel(:, 2), '.')</command>
+<command execution_time="22">axis equal</command>
+<command execution_time="7681">mainHex</command>
+<command execution_time="8">NodesRel</command>
+<command execution_time="24">plot(NodesRel(:, 1), NodesRel(:, 2), '.')</command>
+<command execution_time="7421">mainHex</command>
+<command execution_time="15">plot(NodesRel(:, 1), NodesRel(:, 2), '.')</command>
+<command execution_time="11">NodesRel</command>
+<command execution_time="293">drawingMesh2D(transNodes, transQuadsPML, 'none', '-', 'k')</command>
+<command execution_time="11">transNodes(transQuadsPML(149, 1:end-1), :)</command>
+<command execution_time="9">transNodes(transQuadsPML(14, 1:end-1), :)</command>
+<command execution_time="25829">mainHex</command>
+<command execution_time="26">plot(NodesRel(:, 1), NodesRel(:, 2), '.')</command>
+<command execution_time="11">NodesRel</command>
+<command execution_time="7766">mainHex</command>
+<command execution_time="20">NodesRel</command>
+<command execution_time="12">plot(NodesRel(:, 1), NodesRel(:, 2), '.')</command>
+<command error="true" execution_time="223">NodesRel(:, [1, 4, 3, 2, 8, 7, 6, 5, 9]')</command>
+<command execution_time="13">NodesRel([1, 4, 3, 2, 8, 7, 6, 5, 9]', :)</command>
+<command execution_time="157" repeat="2">plot(NodesRel(:, 1), NodesRel(:, 2), '.')</command>
+<command error="true" execution_time="1745">mainTransHex</command>
+<command execution_time="1006701" repeat="2">mainHex</command>
+</session>
+<session>
+<command time_stamp="184997ac454">%-- 21.11.2022 10:17:51 --%</command>
+<command execution_time="13491">mainHex</command>
+<command execution_time="10">Nodes</command>
+<command execution_time="7">NodesRel</command>
+<command execution_time="43">plot(Nodes(:, 1:2))</command>
+<command execution_time="82" repeat="2">plot(Nodes(:, 1), Nodes(:, 2), '.')</command>
+<command execution_time="8671" repeat="2">mainHex</command>
+<command execution_time="7">72-24</command>
+<command execution_time="8857">mainHex</command>
+<command error="true" execution_time="2701">mainTransHex</command>
+<command execution_time="1155614">mainHex</command>
+<command execution_time="5">numElemTransLE + numElemTransPML</command>
+<command execution_time="32734" repeat="9">mainHex</command>
+<command execution_time="10">size(transNodes, 1)*2</command>
+<command execution_time="8">transQuads(end, 1:end-1)</command>
+<command execution_time="5">transQuads(end, 1:end-1)'</command>
+<command execution_time="12">transQuads(end, 1:end)'</command>
+<command execution_time="9">transQuads(end, 1:end)'.*2</command>
+<command execution_time="9">transQuads(end, 1:end)'.*2-1</command>
+<command execution_time="8">DiTrans(transQuads(end, 1:end)'.*2-1)</command>
+<command execution_time="7">DiTrans(transQuads(end, 1:end)'.*2-1, 1)</command>
+<command execution_time="8">DiTrans(transQuads(end, 1:end)'.*2-1, 2)</command>
+<command execution_time="24">plot(ans)</command>
+<command execution_time="9">DiTrans(transQuads(end-190, 1:end)'.*2-1, 2)</command>
+<command execution_time="9">DiTrans(transQuads(end-150, 1:end)'.*2-1, 2)</command>
+<command execution_time="11">xxx = DiTrans(transQuads(end-150, 1:end)'.*2-1, 2);</command>
+<command execution_time="7">yyy = DiTrans(transQuads(end-150, 1:end)'.*2, 2)</command>
+<command error="true" execution_time="77">sqrt(xxx^2 + yyy^2)</command>
+<command execution_time="10">sqrt(xxx.^2 + yyy.^2)</command>
+<command execution_time="14">size(QuadsNodes)</command>
+<command execution_time="7">size(transNodes)</command>
+<command execution_time="8">max(totalDispTrans1)</command>
+<command execution_time="7">min(totalDispTrans1)</command>
+</session>
+<session>
+<command time_stamp="1849b7acb75">%-- 21.11.2022 19:37:07 --%</command>
+<command execution_time="38907" repeat="2">mainHex</command>
+<command execution_time="9">nn = round(transNodes, 3);</command>
+<command error="true" execution_time="17">find(nn(:, :) == [-0.25, 0.346, 0]</command>
+<command execution_time="83">find(nn(:, :) == [-0.25, 0.346, 0])</command>
+<command execution_time="8">find(nn(:, 1) == -0.25 &amp; nn(:, 2) == 0.346)</command>
+<command execution_time="8">nn(24981)</command>
+<command error="true" execution_time="232">find(nn(:, 1) == -0.25 &amp; nn(:, 2) == 0.346, 'rows')</command>
+<command execution_time="7">[aa, bb]= find(nn(:, 1) == -0.25 &amp; nn(:, 2) == 0.346)</command>
+<command execution_time="6">nn(24981, :)</command>
+<command execution_time="7">ppp = nn(24981, :);</command>
+<command execution_time="8">find(transQuadsPML == 24981)</command>
+<command execution_time="7">transQuadsPML(25, :)</command>
+<command execution_time="7">transNodes(transQuadsPML(25, :), :)</command>
+<command error="true" execution_time="64">transNodes(transQuadsPML(194, :), :)</command>
+<command execution_time="8">transNodes(transQuadsPML(2, :), :)</command>
+<command execution_time="7">transQuadsPML(2, :)</command>
+<command execution_time="7">ppp = transQuadsPML(2, :)</command>
+<command batch="86">ddd = reshape(repmat(ppp, ...</command>
+<command batch="86" execution_time="7">dof, 1) * dof - repmat((dof - 1:-1:0)', 1, nodPEleT),[],1)'</command>
+<command execution_time="7">DiTrans(ddd)</command>
+<command execution_time="7">DiTrans(ddd', 6)</command>
+<command execution_time="6">size(totalDispTrans1)</command>
+<command execution_time="6">totalDispTrans1(ppp)</command>
+</session>
+<session>
+<command time_stamp="184a08ac88e">%-- 22.11.2022 19:12:41 --%</command>
+<command execution_time="99634" repeat="13">mainHex</command>
+</session>
+<session>
+<command time_stamp="184a39c8122">%-- 23.11.2022 09:30:54 --%</command>
+<command execution_time="59903" repeat="6">mainHex</command>
+<command error="true" execution_time="13">10*log(8.ee-13)</command>
+<command execution_time="12">10*log(8.5e-13)</command>
+<command execution_time="14">10*log(8.5e-10)</command>
+<command execution_time="11">10*log10(8.5e-10)</command>
+<command execution_time="9">10*log10(8.5e-13)</command>
+<command execution_time="59903" repeat="2">mainHex</command>
+<command execution_time="6">size(transNodes)</command>
+<command execution_time="8">[xx, yy] = find(transNodes(:, 1) == -0.7 &amp; transNodes(:, 2) == 0.216506)</command>
+<command execution_time="8">totalDispTrans1(25067)</command>
+<command execution_time="6">clear xx yy</command>
+<command execution_time="7">xx = find(transNodes(:, 1) == -0.7);</command>
+<command execution_time="10">size(xx)</command>
+<command execution_time="8">totalDispTrans1(xx)</command>
+<command execution_time="58975" repeat="12">mainHex</command>
+<command execution_time="12">xx = find(transNodes(:, 1) == -0.7);</command>
+<command execution_time="20">totalDispTrans1(xx)</command>
+<command execution_time="12">xx = find(transNodes(:, 1) == -0.6);</command>
+<command execution_time="87">totalDispTrans1(xx)</command>
+<command execution_time="17">xx</command>
+<command execution_time="13">xx = find(transNodes(:, 1) == -0.695192);</command>
+<command execution_time="18">totalDispTrans1(xx)</command>
+<command execution_time="3562" repeat="3">mainHex</command>
+<command execution_time="37">Lamb1^(-1)*B0(1,:)</command>
+<command execution_time="15">issymmetric(round(ElementQuadMat2DKpml, 2))</command>
+<command execution_time="15">issymmetric(round(ElementQuadMat2DKpml, 1))</command>
+<command execution_time="13">issymmetric(round(ElementQuadMat2DKpml, 0))</command>
+<command execution_time="61828" repeat="10">mainHex</command>
+</session>
+<session>
+<command time_stamp="184a8784cd6">%-- 24.11.2022 08:09:27 --%</command>
+<command error="true" execution_time="11233">mainHex</command>
+<command execution_time="36">issymmetric(round(KTrans, 0))</command>
+<command execution_time="13">ElementsTransPnC{4}.K</command>
+<command execution_time="6">issymmetric(round(ElementsTransPnC{4}.K, 0))</command>
+<command execution_time="6">issymmetric(round(ElementsTransPnC{5687}.K, 0))</command>
+<command error="true" execution_time="100">issymmetric(round(ElementsTransPnC{9803}.K, 0))</command>
+<command execution_time="7">issymmetric(round(ElementsTransPnC{4503}.K, 0))</command>
+<command execution_time="4">issymmetric(round(ElementsTransPnC{1234}.K, 0))</command>
+<command execution_time="58490" repeat="2">mainHex</command>
+</session>
+<session>
+<command time_stamp="184a9bd8893">%-- 24.11.2022 14:04:42 --%</command>
+<command execution_time="37366" repeat="8">mainHex</command>
+</session>
+<session>
+<command time_stamp="184adc76200">%-- 25.11.2022 08:53:56 --%</command>
+<command execution_time="31994" repeat="5">mainHex</command>
+</session>
 </history>
