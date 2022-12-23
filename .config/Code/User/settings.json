@@ -18,7 +18,7 @@
   "workbench.settings.useSplitJSON": true,
   "workbench.settings.openDefaultSettings": true,
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.colorTheme": "Gruvbox Dark Hard",
+  "workbench.colorTheme": "Gruvbox Light Medium",
   "workbench.iconTheme": "material-icon-theme",
 
   "explorer.sortOrder": "type",
@@ -103,20 +103,19 @@
   ],
   "latex-workshop.latex.autoBuild.run": "never",
   "latex-workshop.hover.preview.scale": 2,
-  "latex-workshop.chktex.run": "onType",
-  "latex-workshop.view.pdf.viewer": "browser",
-  // "latex-workshop.view.pdf.viewer": "external",
-  // "latex-workshop.view.pdf.external.viewer.command": "zathura",
-  // "latex-workshop.view.pdf.external.viewer.args": [
-  //     "--synctex-editor-command",
-  //     "code -g %{input}:%{line}",
-  //     "%PDF%"
-  // ],
-  // "latex-workshop.view.pdf.external.synctex.command": "zathura",
-  // "latex-workshop.view.pdf.external.synctex.args": [
-  //     "--synctex-forward=%LINE%:0:%TEX%",
-  //     "%PDF%"
-  // ],
+  "latex-workshop.linting.run": "onSvae",
+  "latex-workshop.view.pdf.viewer": "external",
+  "latex-workshop.view.pdf.external.viewer.command": "zathura",
+  "latex-workshop.view.pdf.external.viewer.args": [
+	"--synctex-editor-command",
+	"code --no-sandbox -r -g %{input}:%{line}",
+	"%PDF%"
+   		],
+  "latex-workshop.view.pdf.external.synctex.command": "zathura",
+  "latex-workshop.view.pdf.external.synctex.args": [
+	"--synctex-forward=%LINE%:0:%TEX%",
+	"%PDF%"
+	],
   "latex-workshop.latex.tools": [
     {
       "name": "latexmk",
@@ -127,6 +126,7 @@
         "-file-line-error",
         "-pdf",
         "-outdir=%OUTDIR%",
+		"-shell-escape",
         "%DOC%"
       ],
       "env": {}
@@ -498,10 +498,10 @@
   "hediet.vscode-drawio.codeLinkActivated": false,
   "rewrap.wholeComment": true,
   "rewrap.wrappingColumn": 80, 
-  "comment-divider.mainHeaderAlign": "left",
+  "comment-divider.mainHeaderAlign": "center",
   "comment-divider.mainHeaderFiller": "=",
   "comment-divider.shouldLengthIncludeIndent": true,
   "comment-divider.length": 80,
-  "comment-divider.subheaderAlign": "left",
+  "comment-divider.subheaderAlign": "center",
 
 }

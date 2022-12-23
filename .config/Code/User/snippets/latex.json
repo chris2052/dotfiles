@@ -26,75 +26,75 @@
 	"description": "Insert new table"
 	},
 
-"insert pdf_tex": {
-	"prefix": "svg",
-	"body": [
-		"% \\def\\svgwidth{$1\\textwidth}",
-		"\\input{$2}"
-	],
-	"description": "Insert pdf_tex"
-	},
+// "insert pdf_tex": {
+// 	"prefix": "svg",
+// 	"body": [
+// 		"% \\def\\svgwidth{$1\\textwidth}",
+// 		"\\input{$2}"
+// 	],
+// 	"description": "Insert pdf_tex"
+// 	},
 
-	"Insert Unit": {
+"Insert Unit": {
 	"prefix": "unit",
 	"body": [
 		"\\qty{$1}{$2}"
 	],
 	"description": "Insert unit"
-	},
+},
 
-	"Insert number": {
+"Insert number": {
 	"prefix": "number",
 	"body": [
 		"\\num{$1}"
 	],
 	"description": "Insert number"
-	},
+},
 
-	"Insert fraction": {
+"Insert fraction": {
 	"prefix": "fraction",
 	"body": [
 		"\\frac{$1}{$2}"
 	],
 	"description": "Insert fraction"
-	},
+},
 
-	"Insert Figure Reference": {
+"Insert Figure Reference": {
 	"prefix": "Abbildung",
 	"body": [
 		"Abbildung~\\ref{fig:$1}"
 	],
 	"description": "Insert Figure Reference"
-	},
+},
 
-	"Insert Table Reference": {
+"Insert Table Reference": {
 	"prefix": "Tabelle",
 	"body": [
 		"Tabelle~\\ref{tab:$1}"
 	],
 	"description": "Insert Table Reference"
-	},
+},
 
-	"Insert Equation Reference": {
+"Insert Equation Reference": {
 	"prefix": "Gleichung",
 	"body": [
 		"Gleichung~\\eqref{eq:$1}"
 	],
 	"description": "Insert Equation Reference"
-	},
+},
 
-	"Insert Color": {
+"Insert Color": {
 	"prefix": "color",
 	"body": [
 		"\\textcolor{$1}{$2}"
 	],
 	"description": "Insert Color"
-	},
+},
 
-	"Begin Equation": {
+"Begin Equation": {
 	"prefix": "BEQ",
 	"body": [
 		"\\begin{equation}\n\t\\label{eq:${1:<eqlabel>}}\n\t$0\n\\end{equation}"
 	]
-	}
+}
 }
