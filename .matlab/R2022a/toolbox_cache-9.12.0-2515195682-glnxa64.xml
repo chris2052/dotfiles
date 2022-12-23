@@ -1,4 +1,4 @@
-<MathWorks type="Path Cache File" version="2.0" date="Sun Nov 27 11:36:02 2022">
+<MathWorks type="Path Cache File" version="2.0" date="Wed Dec 14 20:46:06 2022">
  <D name="toolbox/matlab/helptools">
   <D name="toolbox/matlab/helptools/+matlab">
    <D name="toolbox/matlab/helptools/+matlab/+internal">
@@ -32,21 +32,21 @@
      <D name="toolbox/matlab/helptools/+matlab/+internal/+web/@SystemBrowserLauncher">
       <C name="SystemBrowserLauncher.m"/>
      </D>
-     <U name="AbstractSystemBrowserLauncher.m"/>
+     <C name="AbstractSystemBrowserLauncher.m"/>
      <U name="Browser.m"/>
      <C name="FileLocation.m"/>
      <U name="htmlrenderer.m"/>
      <N name="isMatlabOnlineEnv.m"/>
      <U name="isUsingSystemBrowser.m"/>
      <U name="JavaScriptCallback.m"/>
-     <U name="MacBrowserHandler.m"/>
-     <U name="MatlabOnlineBrowserHandler.m"/>
+     <C name="MacBrowserHandler.m"/>
+     <C name="MatlabOnlineBrowserHandler.m"/>
      <N name="resolveLocation.m"/>
      <U name="setUseSystemBrowser.m"/>
-     <U name="SystemBrowserHandler.m"/>
-     <U name="UnixBrowserHandler.m"/>
+     <C name="SystemBrowserHandler.m"/>
+     <C name="UnixBrowserHandler.m"/>
      <C name="WebCommandBrowserLauncher.m"/>
-     <U name="WindowsBrowserHandler.m"/>
+     <C name="WindowsBrowserHandler.m"/>
     </D>
     <D name="toolbox/matlab/helptools/+matlab/+internal/+language">
      <D name="toolbox/matlab/helptools/+matlab/+internal/+language/+introspective">
@@ -303,11 +303,11 @@
       <U name="demoFileHandlerFactory.m"/>
       <U name="demoFilePatcher.m"/>
       <N name="getCustomToolbox.m"/>
-      <U name="getCustomToolboxDocRoots.m"/>
+      <N name="getCustomToolboxDocRoots.m"/>
       <N name="getCustomToolboxes.m"/>
       <U name="getDemoFuncNameFromCallback.m"/>
       <N name="getDocPageCustomToolbox.m"/>
-      <U name="getDocRoots.m"/>
+      <N name="getDocRoots.m"/>
       <N name="getFiles.m"/>
       <U name="getProjectDocContentJSON.m"/>
       <U name="getProjectDocListJSON.m"/>
@@ -2422,7 +2422,7 @@
      <U name="preventMultiFigureAppsInWebAppServer.m"/>
      <U name="setMultipleFigureFlag.m"/>
      <U name="uifigureImpl.m"/>
-     <U name="URLUtils.m"/>
+     <C name="URLUtils.m"/>
      <U name="WebButtonGroupController.m"/>
      <U name="WebContextMenuController.m"/>
      <U name="WebPanelController.m"/>
@@ -3070,7 +3070,7 @@
   <N name="lt.m"/>
   <N name="minus.m"/>
   <U name="mldivide.m"/>
-  <U name="mrdivide.m"/>
+  <N name="mrdivide.m"/>
   <N name="mtimes.m"/>
   <N name="ne.m"/>
   <N name="not.m"/>
@@ -3083,7 +3083,7 @@
   <U name="pagetranspose.m"/>
   <U name="paren.m"/>
   <N name="plus.m"/>
-  <U name="power.m"/>
+  <N name="power.m"/>
   <U name="punct.m"/>
   <N name="rdivide.m"/>
   <N name="setdiff.m"/>
@@ -3092,7 +3092,7 @@
   <U name="subsindex.m"/>
   <N name="subsref.m"/>
   <U name="tensorprod.m"/>
-  <U name="times.m"/>
+  <N name="times.m"/>
   <N name="transpose.m"/>
   <N name="uminus.m"/>
   <N name="union.m"/>
@@ -12134,7 +12134,7 @@
    <U name="pasteContextMenuCallback.m"/>
    <U name="pasteLinked.m"/>
    <U name="pasteUnlinked.m"/>
-   <U name="postEdit.m"/>
+   <N name="postEdit.m"/>
    <N name="renameArrayEditorVariable.m"/>
    <U name="replacedlg.m"/>
    <N name="rmArrayEditorVariable.m"/>
@@ -13885,7 +13885,7 @@
      <D name="toolbox/matlab/io/archive/+matlab/+io/+internal/+archive">
       <U name="checkDuplicateEntries.m"/>
       <U name="checkEmptyEntries.m"/>
-      <U name="cleanupWindowsPathname.m"/>
+      <N name="cleanupWindowsPathname.m"/>
       <U name="filterOutArchiveFile.m"/>
      </D>
     </D>
@@ -13909,7 +13909,7 @@
   <U name="gzip.m"/>
   <U name="tar.m"/>
   <U name="untar.m"/>
-  <U name="unzip.m"/>
+  <N name="unzip.m"/>
   <N name="zip.m"/>
  </D>
  <D name="toolbox/matlab/iofun">
@@ -13947,10 +13947,10 @@
      <N name="mfile.m"/>
     </D>
     <N name="getCode.m"/>
-    <U name="readFromFileUrl.m"/>
-    <U name="readFromFtpUrl.m"/>
-    <U name="writeFromFileUrl.m"/>
-    <U name="writeFromFtpUrl.m"/>
+    <N name="readFromFileUrl.m"/>
+    <N name="readFromFtpUrl.m"/>
+    <N name="writeFromFileUrl.m"/>
+    <N name="writeFromFtpUrl.m"/>
    </D>
    <D name="toolbox/matlab/iofun/+matlab/+ui">
     <D name="toolbox/matlab/iofun/+matlab/+ui/+internal">
@@ -14058,7 +14058,7 @@
   <N name="fullfile.m"/>
   <N name="fwrite.m"/>
   <U name="home.m"/>
-  <U name="importdata.m"/>
+  <N name="importdata.m"/>
   <U name="info.xsl"/>
   <U name="matfile.m"/>
   <U name="matfinfo.m"/>
@@ -14082,8 +14082,8 @@
   <N name="timercb.m"/>
   <U name="timerfind.m"/>
   <N name="timerfindall.m"/>
-  <U name="urlread.m"/>
-  <U name="urlwrite.m"/>
+  <N name="urlread.m"/>
+  <N name="urlwrite.m"/>
   <U name="writecell.m"/>
   <U name="writelines.m"/>
   <U name="writematrix.m"/>
@@ -14091,7 +14091,7 @@
   <U name="writetable.m"/>
   <U name="writetimetable.m"/>
   <N name="xlsfinfo.m"/>
-  <U name="xlsread.m"/>
+  <N name="xlsread.m"/>
   <U name="xlswrite.m"/>
   <N name="xmlread.m"/>
   <U name="xmlwrite.m"/>
@@ -15319,7 +15319,7 @@
    <U name="functionSignatures.json"/>
   </D>
   <C name="weboptions.m"/>
-  <U name="webread.m"/>
+  <N name="webread.m"/>
   <N name="websave.m"/>
   <N name="webwrite.m"/>
  </D>
@@ -16526,7 +16526,7 @@
   <U name="bounds.m"/>
   <U name="Contents.m"/>
   <U name="conv.m"/>
-  <U name="conv2.m"/>
+  <N name="conv2.m"/>
   <U name="convn.m"/>
   <U name="corrcoef.m"/>
   <N name="cov.m"/>
@@ -16783,7 +16783,7 @@
        <U name="CategoricalHistogramPropertyView.m"/>
        <U name="CategoricalRulerPropertyView.m"/>
        <C name="ChartLinePropertyView.m"/>
-       <U name="ColorBarPropertyView.m"/>
+       <C name="ColorBarPropertyView.m"/>
        <C name="CommonPropertyViews.m"/>
        <U name="ComponentContainerView.m"/>
        <C name="DataspaceMixin.m"/>
@@ -18270,7 +18270,7 @@
        <C name="FileSystemChooser.m"/>
       </D>
       <C name="DialogUtils.m"/>
-      <U name="ExportDialog.m"/>
+      <C name="ExportDialog.m"/>
       <U name="FolderChooserMO.m"/>
       <C name="FontChooser.m"/>
       <U name="MATLABBlocker.m"/>
@@ -18416,14 +18416,14 @@
   <U name="btnresize.m"/>
   <U name="btnstate.m"/>
   <U name="btnup.m"/>
-  <U name="clipboard.m"/>
+  <N name="clipboard.m"/>
   <U name="Contents.m"/>
   <U name="cshelp.m"/>
   <N name="desktopmenufcn.m"/>
   <N name="dialog.m"/>
   <U name="dialogicons.mat"/>
   <U name="dragrect.m"/>
-  <U name="editmenufcn.m"/>
+  <N name="editmenufcn.m"/>
   <N name="errordlg.m"/>
   <N name="export2wsdlg.m"/>
   <U name="figflag.m"/>
@@ -18436,13 +18436,13 @@
   <U name="getstatus.m"/>
   <N name="getuimode.m"/>
   <U name="ginput.m"/>
-  <U name="guidata.m"/>
-  <U name="guihandles.m"/>
+  <N name="guidata.m"/>
+  <N name="guihandles.m"/>
   <N name="hasuimode.m"/>
   <N name="helpdlg.m"/>
   <U name="helpmenufcn.m"/>
   <U name="icondisp.m"/>
-  <U name="inputdlg.m"/>
+  <N name="inputdlg.m"/>
   <N name="insertmenufcn.m"/>
   <N name="inspect.m"/>
   <N name="isactiveuimode.m"/>
@@ -18465,7 +18465,7 @@
   <U name="scribeiconcdata.mat"/>
   <U name="selectmoveresize.m"/>
   <U name="setpixelposition.m"/>
-  <U name="setpref.m"/>
+  <N name="setpref.m"/>
   <N name="setptr.m"/>
   <U name="setstatus.m"/>
   <U name="tabdlg.m"/>
@@ -18476,7 +18476,7 @@
   <U name="uiclearmode.m"/>
   <U name="uicontainer.m"/>
   <U name="uiflowcontainer.m"/>
-  <U name="uigetdir.m"/>
+  <N name="uigetdir.m"/>
   <N name="uigetfile.m"/>
   <N name="uigetmodemanager.m"/>
   <N name="uigetpref.m"/>
@@ -18490,7 +18490,7 @@
   <N name="uipushtool.m"/>
   <N name="uiputfile.m"/>
   <U name="uirestore.m"/>
-  <U name="uiresume.m"/>
+  <N name="uiresume.m"/>
   <U name="uisave.m"/>
   <N name="uisetcolor.m"/>
   <N name="uisetfont.m"/>
@@ -19950,78 +19950,6 @@
  </D>
  <D name="toolbox/matlab/iot">
  </D>
- <D name="toolbox/curvefit/splines">
-  <U name="aptknt.m"/>
-  <U name="augknt.m"/>
-  <U name="aveknt.m"/>
-  <U name="bkbrk.m"/>
-  <U name="brk2knt.m"/>
-  <U name="bspline.m"/>
-  <U name="chbpnt.m"/>
-  <U name="chckxywp.m"/>
-  <U name="Contents.m"/>
-  <U name="csape.m"/>
-  <U name="csapi.m"/>
-  <U name="csaps.m"/>
-  <U name="cscvn.m"/>
-  <U name="fn2fm.m"/>
-  <U name="fnbrk.m"/>
-  <U name="fnchg.m"/>
-  <U name="fncmb.m"/>
-  <U name="fnder.m"/>
-  <U name="fndir.m"/>
-  <U name="fnint.m"/>
-  <U name="fnjmp.m"/>
-  <U name="fnmin.m"/>
-  <U name="fnplt.m"/>
-  <U name="fnrfn.m"/>
-  <U name="fntlr.m"/>
-  <U name="fnval.m"/>
-  <U name="fnxtr.m"/>
-  <U name="fnzeros.m"/>
-  <U name="franke.m"/>
-  <U name="getcurve.m"/>
-  <U name="knt2brk.m"/>
-  <U name="knt2mlt.m"/>
-  <U name="newknt.m"/>
-  <U name="optknt.m"/>
-  <U name="pp2sp.m"/>
-  <U name="ppbrk.m"/>
-  <U name="ppmak.m"/>
-  <U name="pprfn.m"/>
-  <U name="ppual.m"/>
-  <U name="rpbrk.m"/>
-  <U name="rpmak.m"/>
-  <U name="rsbrk.m"/>
-  <U name="rscvn.m"/>
-  <U name="rsmak.m"/>
-  <U name="rsval.m"/>
-  <U name="slvblk.m"/>
-  <U name="sorted.m"/>
-  <U name="sp2bb.m"/>
-  <U name="sp2pp.m"/>
-  <U name="spap2.m"/>
-  <U name="spapi.m"/>
-  <U name="spaps.m"/>
-  <U name="spbrk.m"/>
-  <U name="spcol.m"/>
-  <U name="spcrv.m"/>
-  <U name="splinetool.m"/>
-  <U name="splinetool.mat"/>
-  <U name="splpp.m"/>
-  <U name="spmak.m"/>
-  <U name="sprfn.m"/>
-  <U name="sprpp.m"/>
-  <U name="spterms.m"/>
-  <U name="spval.m"/>
-  <U name="stbrk.m"/>
-  <U name="stcol.m"/>
-  <U name="stmak.m"/>
-  <U name="stval.m"/>
-  <U name="subplus.m"/>
-  <U name="titanium.m"/>
-  <U name="tpaps.m"/>
- </D>
  <D name="toolbox/optim/optim">
   <D name="toolbox/optim/optim/private">
    <U name="acceptanceTest.p"/>
@@ -20133,6 +20061,78 @@
   <U name="slbiClient.p"/>
   <U name="sllsbox.m"/>
   <U name="sqpLineSearch.p"/>
+ </D>
+ <D name="toolbox/curvefit/splines">
+  <U name="aptknt.m"/>
+  <U name="augknt.m"/>
+  <U name="aveknt.m"/>
+  <U name="bkbrk.m"/>
+  <U name="brk2knt.m"/>
+  <U name="bspline.m"/>
+  <U name="chbpnt.m"/>
+  <U name="chckxywp.m"/>
+  <U name="Contents.m"/>
+  <U name="csape.m"/>
+  <U name="csapi.m"/>
+  <U name="csaps.m"/>
+  <U name="cscvn.m"/>
+  <U name="fn2fm.m"/>
+  <U name="fnbrk.m"/>
+  <U name="fnchg.m"/>
+  <U name="fncmb.m"/>
+  <U name="fnder.m"/>
+  <U name="fndir.m"/>
+  <U name="fnint.m"/>
+  <U name="fnjmp.m"/>
+  <U name="fnmin.m"/>
+  <U name="fnplt.m"/>
+  <U name="fnrfn.m"/>
+  <U name="fntlr.m"/>
+  <U name="fnval.m"/>
+  <U name="fnxtr.m"/>
+  <U name="fnzeros.m"/>
+  <U name="franke.m"/>
+  <U name="getcurve.m"/>
+  <U name="knt2brk.m"/>
+  <U name="knt2mlt.m"/>
+  <U name="newknt.m"/>
+  <U name="optknt.m"/>
+  <U name="pp2sp.m"/>
+  <U name="ppbrk.m"/>
+  <U name="ppmak.m"/>
+  <U name="pprfn.m"/>
+  <U name="ppual.m"/>
+  <U name="rpbrk.m"/>
+  <U name="rpmak.m"/>
+  <U name="rsbrk.m"/>
+  <U name="rscvn.m"/>
+  <U name="rsmak.m"/>
+  <U name="rsval.m"/>
+  <U name="slvblk.m"/>
+  <U name="sorted.m"/>
+  <U name="sp2bb.m"/>
+  <U name="sp2pp.m"/>
+  <U name="spap2.m"/>
+  <U name="spapi.m"/>
+  <U name="spaps.m"/>
+  <U name="spbrk.m"/>
+  <U name="spcol.m"/>
+  <U name="spcrv.m"/>
+  <U name="splinetool.m"/>
+  <U name="splinetool.mat"/>
+  <U name="splpp.m"/>
+  <U name="spmak.m"/>
+  <U name="sprfn.m"/>
+  <U name="sprpp.m"/>
+  <U name="spterms.m"/>
+  <U name="spval.m"/>
+  <U name="stbrk.m"/>
+  <U name="stcol.m"/>
+  <U name="stmak.m"/>
+  <U name="stval.m"/>
+  <U name="subplus.m"/>
+  <U name="titanium.m"/>
+  <U name="tpaps.m"/>
  </D>
  <D name="toolbox/matlab/io/datastore/array">
   <D name="toolbox/matlab/io/datastore/array/+matlab">
@@ -20266,28 +20266,28 @@
   <D name="toolbox/matlab/graphics/color/resources">
    <U name="functionSignatures.json"/>
   </D>
-  <U name="autumn.m"/>
-  <U name="bone.m"/>
+  <N name="autumn.m"/>
+  <N name="bone.m"/>
   <N name="colorcube.m"/>
   <U name="colororder.m"/>
-  <U name="cool.m"/>
-  <U name="copper.m"/>
-  <U name="flag.m"/>
-  <U name="gray.m"/>
-  <U name="hot.m"/>
-  <U name="hsv.m"/>
+  <N name="cool.m"/>
+  <N name="copper.m"/>
+  <N name="flag.m"/>
+  <N name="gray.m"/>
+  <N name="hot.m"/>
+  <N name="hsv.m"/>
   <N name="jet.m"/>
-  <U name="lines.m"/>
+  <N name="lines.m"/>
   <N name="parula.m"/>
-  <U name="pink.m"/>
-  <U name="prism.m"/>
-  <U name="spring.m"/>
-  <U name="summer.m"/>
-  <U name="turbo.m"/>
+  <N name="pink.m"/>
+  <N name="prism.m"/>
+  <N name="spring.m"/>
+  <N name="summer.m"/>
+  <N name="turbo.m"/>
   <N name="validatecolor.m"/>
   <U name="vga.m"/>
-  <U name="white.m"/>
-  <U name="winter.m"/>
+  <N name="white.m"/>
+  <N name="winter.m"/>
  </D>
  <D name="toolbox/matlab/dependency/matlab">
   <D name="toolbox/matlab/dependency/matlab/+dependencies">
@@ -22168,7 +22168,7 @@
       </D>
       <D name="toolbox/shared/virtualfileio/+matlab/+io/+internal/+vfs/+stream">
        <N name="createStream.m"/>
-       <U name="LocalToRemote.m"/>
+       <C name="LocalToRemote.m"/>
        <C name="RemoteToLocal.m"/>
       </D>
       <D name="toolbox/shared/virtualfileio/+matlab/+io/+internal/+vfs/+validators">
@@ -22176,7 +22176,7 @@
        <U name="IRIFilename.m"/>
        <U name="isFile.m"/>
        <N name="isIRI.m"/>
-       <U name="validateCloudEnvVariables.m"/>
+       <N name="validateCloudEnvVariables.m"/>
        <U name="validatePaths.m"/>
       </D>
      </D>
@@ -28155,7 +28155,7 @@
   <N name="isvarname.m"/>
   <N name="javachk.m"/>
   <U name="keyboard.m"/>
-  <U name="lasterr.m"/>
+  <N name="lasterr.m"/>
   <N name="lasterror.m"/>
   <N name="lastwarn.m"/>
   <U name="lists.m"/>
@@ -28166,7 +28166,7 @@
   <N name="mislocked.m"/>
   <N name="mlock.m"/>
   <N name="munlock.m"/>
-  <U name="nargchk.m"/>
+  <N name="nargchk.m"/>
   <N name="nargin.m"/>
   <N name="narginchk.m"/>
   <N name="nargout.m"/>
@@ -33659,6 +33659,16 @@
   </D>
   <U name="parquetDatastore.m"/>
  </D>
+ <D name="toolbox/shared/template_core">
+  <D name="toolbox/shared/template_core/+template_core">
+   <D name="toolbox/shared/template_core/+template_core/+internal">
+    <D name="toolbox/shared/template_core/+template_core/+internal/+request">
+     <U name="identifyProducts.p"/>
+     <U name="openAddonExplorerFor.p"/>
+    </D>
+   </D>
+  </D>
+ </D>
  <D name="toolbox/shared/io/general">
   <D name="toolbox/shared/io/general/+matlab">
    <D name="toolbox/shared/io/general/+matlab/+io">
@@ -33804,16 +33814,6 @@
   </D>
   <N name="detectImportOptions.m"/>
   <U name="readlines.m"/>
- </D>
- <D name="toolbox/shared/template_core">
-  <D name="toolbox/shared/template_core/+template_core">
-   <D name="toolbox/shared/template_core/+template_core/+internal">
-    <D name="toolbox/shared/template_core/+template_core/+internal/+request">
-     <U name="identifyProducts.p"/>
-     <U name="openAddonExplorerFor.p"/>
-    </D>
-   </D>
-  </D>
  </D>
  <D name="toolbox/shared/rptgen">
   <D name="toolbox/shared/rptgen/+rptgen">
@@ -37165,16 +37165,16 @@
    </D>
   </D>
  </D>
- <D name="toolbox/matlab/rtc_addons/rtclanguagesupport/rtc_java_language_support/matlab">
-  <D name="toolbox/matlab/rtc_addons/rtclanguagesupport/rtc_java_language_support/matlab/resources">
-   <U name="EditorLanguageSupportSpecification.json"/>
-  </D>
- </D>
  <D name="toolbox/matlab/graphics/legacy">
   <D name="toolbox/matlab/graphics/legacy/private">
    <U name="colorbarpostdeserialize.m"/>
    <U name="createScribeUIMenuEntry.m"/>
    <U name="legendpostdeserialize.m"/>
+  </D>
+ </D>
+ <D name="toolbox/matlab/rtc_addons/rtclanguagesupport/rtc_java_language_support/matlab">
+  <D name="toolbox/matlab/rtc_addons/rtclanguagesupport/rtc_java_language_support/matlab/resources">
+   <U name="EditorLanguageSupportSpecification.json"/>
   </D>
  </D>
  <D name="toolbox/matlab/uicomponents/uicomponents/uicontrol">
@@ -38087,6 +38087,14 @@
    </D>
   </D>
  </D>
+ <D name="toolbox/shared/hotpluglib">
+  <D name="toolbox/shared/hotpluglib/+internal">
+   <D name="toolbox/shared/hotpluglib/+internal/+hotplug">
+    <C name="EventData.m"/>
+    <C name="EventSource.m"/>
+   </D>
+  </D>
+ </D>
  <D name="toolbox/diagram/editor/web/m">
   <D name="toolbox/diagram/editor/web/m/+diagram">
    <D name="toolbox/diagram/editor/web/m/+diagram/+editor">
@@ -38103,14 +38111,6 @@
     <D name="toolbox/diagram/editor/web/m/+diagram/+editor/+helpers">
      <U name="createEntityFromStruct.m"/>
     </D>
-   </D>
-  </D>
- </D>
- <D name="toolbox/shared/hotpluglib">
-  <D name="toolbox/shared/hotpluglib/+internal">
-   <D name="toolbox/shared/hotpluglib/+internal/+hotplug">
-    <C name="EventData.m"/>
-    <C name="EventSource.m"/>
    </D>
   </D>
  </D>
@@ -38202,7 +38202,7 @@
      <N name="autoSwitchToPaintersForPrint.m"/>
      <C name="ClipboardFlavorEnhancer.m"/>
      <N name="contrastcolors.m"/>
-     <U name="copyFigureHelper.m"/>
+     <N name="copyFigureHelper.m"/>
      <U name="createPrintPreviewCData.m"/>
      <U name="createPrintPreviewFigure.m"/>
      <U name="getPrintPreferences.m"/>
@@ -39058,14 +39058,14 @@
    </D>
   </D>
  </D>
+ <D name="toolbox/nnet/nnet/nninitnetwork">
+  <U name="Contents.m"/>
+  <U name="initlay.m"/>
+ </D>
  <D name="toolbox/matlab/addressbar_plugins/browse_for_folder_button/matlab">
   <D name="toolbox/matlab/addressbar_plugins/browse_for_folder_button/matlab/resources">
    <U name="addressButtonModuleDef.json"/>
   </D>
- </D>
- <D name="toolbox/nnet/nnet/nninitnetwork">
-  <U name="Contents.m"/>
-  <U name="initlay.m"/>
  </D>
  <D name="examples/shared_sdi/data">
   <U name="AircraftExample.mldatx"/>
@@ -39294,7 +39294,7 @@
   <U name="sampev.m"/>
   <U name="unregisterallevents.m"/>
   <U name="unregisterevent.m"/>
-  <U name="winopen.m"/>
+  <N name="winopen.m"/>
   <U name="winqueryreg.m"/>
   <U name="winqueryreg.mexa64"/>
   <U name="writeactxlicense.m"/>
@@ -39673,7 +39673,7 @@
   <U name="connector.p"/>
  </D>
  <D name="toolbox/matlab/helptools_js/matlab_colon_docservice/m">
-  <U name="evalMatlabColon.m"/>
+  <N name="evalMatlabColon.m"/>
  </D>
  <D name="toolbox/matlab/connector2/configuration">
   <D name="toolbox/matlab/connector2/configuration/+connector">
@@ -42996,7 +42996,7 @@
   <U name="peppers.png"/>
   <U name="sd.hdf"/>
   <U name="swath.hdf"/>
-  <U name="Tiff.m"/>
+  <C name="Tiff.m"/>
  </D>
  <D name="toolbox/matlab/io/xml">
   <D name="toolbox/matlab/io/xml/+matlab">
@@ -43712,7 +43712,7 @@
   <U name="audiodevreset.m"/>
   <N name="audioinfo.m"/>
   <U name="audioplayer.m"/>
-  <U name="audioread.m"/>
+  <N name="audioread.m"/>
   <U name="audiorecorder.m"/>
   <U name="audiouniquename.m"/>
   <U name="audiowrite.m"/>
@@ -46202,7 +46202,7 @@
   </D>
   <U name="cmap2gray.m"/>
   <U name="getrangefromclass.m"/>
-  <U name="hsv2rgb.m"/>
+  <N name="hsv2rgb.m"/>
   <N name="im2double.m"/>
   <U name="im2gray.m"/>
   <N name="imresize.m"/>
@@ -51611,7 +51611,7 @@
   <U name="parseparams.m"/>
   <U name="polarbubblechart.m"/>
   <U name="polarscatter.m"/>
-  <U name="refresh.m"/>
+  <N name="refresh.m"/>
   <U name="refreshdata.m"/>
   <U name="regionpicker.m"/>
   <U name="regionZoomInteraction.m"/>

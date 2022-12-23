@@ -40,6 +40,7 @@ cpupower
 cronie
 cryptsetup
 cura
+cura-resources-materials
 dbus-x11
 device-mapper
 dhclient
@@ -55,6 +56,7 @@ docker
 docker-compose
 dosfstools
 downgrade
+doxygen
 e2fsprogs
 ecryptfs-utils
 efibootmgr
@@ -271,6 +273,7 @@ patch
 pavucontrol
 pciutils
 pcmanfm-gtk3
+pdf2svg
 pdfpc
 pdftk
 peek
@@ -288,6 +291,7 @@ pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
 python-pympress
+python2
 qt5-styleplugins
 qtfm
 ranger
@@ -427,6 +431,7 @@ xfdesktop
 xfsprogs
 xfwm4
 xiccd
+xmlto
 xorg-mkfontscale
 xorg-server
 xorg-twm

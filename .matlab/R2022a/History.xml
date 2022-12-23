@@ -4265,4 +4265,145 @@
 <command error="true" execution_time="190">hop</command>
 <command execution_time="27620">mainHex</command>
 </session>
+<session>
+<command time_stamp="1850aee66f4">%-- 13.12.2022 11:01:14 --%</command>
+<command execution_time="7013" repeat="10">mainHex</command>
+<command execution_time="37266" repeat="10">mainHexParameterStudy</command>
+<command execution_time="186">plotBandgaps(bandgaps, 'ff', modifier)</command>
+<command execution_time="294234">mainHexParameterStudy</command>
+<command execution_time="151">plotBandgaps(bandgaps, 'ff', modifier)</command>
+<command execution_time="17">plotTickDelta(gca, 'x', 5, 1)</command>
+<command execution_time="148">plotBandgaps(bandgaps, 'ff', modifier)</command>
+<command error="true" execution_time="125">plotTickDelta(gca, 'x', 5, -1)</command>
+<command error="true" execution_time="97">plotTickDelta(gca, 'x', 5, 0)</command>
+<command execution_time="14">plotTickDelta(gca, 'x', 5, 5)</command>
+<command execution_time="127">plotBandgaps(bandgaps, 'ff', modifier)</command>
+<command execution_time="16">plotTickDelta(gca, 'x', 10, 5)</command>
+<command execution_time="49">plotDimensions(gca, gcf, 10, 10, 0.8, 0)</command>
+<command execution_time="21">plotDimensions(gca, gcf, 10, 10, 0.7, 0)</command>
+<command execution_time="21">gca</command>
+<command execution_time="140">help plotDimensions</command>
+<command execution_time="31">fig = gcf;</command>
+<command execution_time="28">ax = gca;</command>
+<command execution_time="26">fig.PaperPositionMode = 'auto'</command>
+<command execution_time="19">ax.Position = [0, 0, 1, 1];</command>
+<command execution_time="180">plotBandgaps(bandgaps, 'ff', modifier)</command>
+<command execution_time="25">fig = gcf;</command>
+<command execution_time="11">ax = gca;</command>
+<command execution_time="22">fig.PaperUnits = 'centimeters'</command>
+<command execution_time="14">fig.Units = 'centimeters';</command>
+<command execution_time="15">fig.PaperSize = [10, 8];</command>
+<command execution_time="14">fig.PaperPosition = [0, 0, 10, 8];</command>
+<command execution_time="18">fig.Position = [10, 10, 10, 8];</command>
+<command execution_time="15">fig.Position = [10, 10, 7, 5];</command>
+<command execution_time="34">plotTickDelta(gca, 'x', 10, 5)</command>
+<command execution_time="163">plotBandgaps(bandgaps, 'ff', modifier)</command>
+<command error="true" execution_time="95">plotDimensions(gcf, gca, 7, 5, .8, 0)</command>
+<command execution_time="32">clear fig ax</command>
+<command execution_time="164">plotBandgaps(bandgaps, 'ff', modifier)</command>
+<command error="true" execution_time="146">plotDimensions(gcf, gca, 7, 5, .8, 0)</command>
+<command execution_time="158">plotBandgaps(bandgaps, 'ff', modifier)</command>
+<command execution_time="41">plotDimensions(gca, gcf, 7, 5, .8, 0)</command>
+<command execution_time="45">plotDimensions(gca, gcf, 7, 5, .7, 0)</command>
+<command execution_time="42">plotTickDelta(gca, 'x', 10, 5)</command>
+<command error="true" execution_time="97">plotTickDelta(gca, 'x', 2, 0)</command>
+<command execution_time="2017">Plot2LaTeX(gcf, 'ttttest')</command>
+<command execution_time="38">ax = gca;</command>
+<command error="true" execution_time="99">gca.XAxis</command>
+<command execution_time="30">ax.XAxis.Exponent = 0</command>
+<command execution_time="17">ax.YAxis.Exponent = 0</command>
+<command execution_time="1379">Plot2LaTeX(gcf, 'ttttest')</command>
+</session>
+<session>
+<command time_stamp="1850ccfa825">%-- 13.12.2022 19:46:54 --%</command>
+<command execution_time="5648" repeat="2">mainHex</command>
+<command execution_time="18">plotDimensions(gca, gcf, 7, 5, .7, 0)</command>
+<command execution_time="10">plotDimensions(gca, gcf, 7, 7, .7, 0)</command>
+<command execution_time="2081">Plot2LaTeX(gcf, 'disp')</command>
+<command execution_time="21">plotDimensions(gca, gcf, 7, 6, .7, 0)</command>
+<command execution_time="1361">Plot2LaTeX(gcf, 'omegaOfK')</command>
+<command execution_time="4897">mainHex</command>
+<command execution_time="27">plotDimensions(gca, gcf, 6, 5, .7, 0)</command>
+<command execution_time="1542">Plot2LaTeX(gcf, '073ff')</command>
+<command error="true" execution_time="3776" repeat="8">mainHex</command>
+<command execution_time="8">ttt = [kx0 ky0];</command>
+<command execution_time="8472" repeat="9">mainHex</command>
+<command execution_time="16">plotDimensions(gca, gcf, 7, 7, 1, 0)</command>
+<command execution_time="18">plotDimensions(gca, gcf, 7, 7, .8, 0)</command>
+<command execution_time="9">plotDimensions(gca, gcf, 7, 7, .7, 0)</command>
+<command execution_time="28">plotDimensions(gca, gcf, 7, 7, .6, 0)</command>
+<command execution_time="12">plotDimensions(gca, gcf, 12, 12, .5, 0)</command>
+<command execution_time="9">plotDimensions(gca, gcf, 7, 7, .5, 0)</command>
+<command execution_time="9">plotDimensions(gca, gcf, 7, 7, 1, 0)</command>
+<command execution_time="8">plotDimensions(gca, gcf, 7, 7, .5, 0)</command>
+<command execution_time="24">fig = gcf;</command>
+<command execution_time="30">fig</command>
+<command error="true" execution_time="136">get(fig, 'title')</command>
+<command error="true" execution_time="84">get(fig, title)</command>
+<command error="true" execution_time="93">get(fig, 'title')</command>
+<command error="true" execution_time="76">get(fig, 'Title')</command>
+<command error="true" execution_time="94">get(ax, title)</command>
+<command error="true" execution_time="80">ax</command>
+<command execution_time="12">fig</command>
+<command execution_time="9">ax = gca;</command>
+<command execution_time="38">get(ax, 'title')</command>
+<command execution_time="18">ax.Title.String = '2. eigenmode, $f$ = 4033.9 [Hz], Point M';</command>
+<command execution_time="20">plotDimensions(gca, gcf, 7, 7, .5, 0)</command>
+<command error="true" execution_time="4087">export_fig test.pdf</command>
+<command execution_time="3201">export_fig('-update')</command>
+<command execution_time="12">warning off export_fig:exportgraphics</command>
+<command execution_time="1145">export_fig test.png</command>
+</session>
+<session>
+<command time_stamp="1850feef3af">%-- 14.12.2022 10:19:56 --%</command>
+<command execution_time="29">0.05e9</command>
+<command execution_time="6729">Plot2LaTeX(gcf, 'svgtest')</command>
+<command execution_time="3989">export_fig -m3 test.png</command>
+<command execution_time="1085" repeat="2">export_fig -m3 test.png -transparent</command>
+<command execution_time="27">5</command>
+<command execution_time="1266">export_fig -m5 test.png -transparent</command>
+<command execution_time="24949" repeat="6">mainHex</command>
+<command execution_time="31" repeat="2">plotDimensions(gca, gcf, 7, 7, .5, 0)</command>
+<command execution_time="12">plotDimensions(gca, gcf, 6, 5, .7, 0)</command>
+<command execution_time="131">cd figs/</command>
+<command execution_time="1474" repeat="2">Plot2LaTeX(gcf, '073ff-lc')</command>
+<command execution_time="8727">uigetfile('*')</command>
+<command execution_time="16">mfilename</command>
+<command execution_time="3525">[baseFileName,folder]=uigetfile('*')</command>
+<command execution_time="13">fileparts(baseFileName)</command>
+<command execution_time="10">[folder,baseFileName]</command>
+<command execution_time="13">fileparts([folder,baseFileName])</command>
+<command execution_time="15">[p,n,e] = fileparts([folder,baseFileName])</command>
+<command execution_time="4907" repeat="9">mainHex</command>
+<command execution_time="19998">drawingMesh2D(transNodes, transQuads, 'none', '-', 'k')</command>
+<command execution_time="1328">drawingMesh2D(initialNodesT, initialQuadsT, 'none', '-', 'k')</command>
+<command execution_time="4086">mainHex</command>
+<command execution_time="410">drawingMesh2D(initialNodesT, initialQuadsT, 'none', '-', 'k')</command>
+<command execution_time="297205">mainHex</command>
+<command execution_time="5805">drawingMesh2D(transNodes, transQuads, 'none', '-', 'k')</command>
+<command execution_time="4">plotDisplFieleld = "Yes"</command>
+<command execution_time="377816" repeat="2">mainHex</command>
+<command execution_time="11">fig = gcf;</command>
+<command execution_time="35">fig.Position = [10, 10, 10, 10]</command>
+<command execution_time="23">fig.Position = [10, 10, 7, 5]</command>
+<command execution_time="19">fig.Position = [10, 10, 8, 5]</command>
+<command execution_time="10">fig.Position = [10, 10, 8, 5];</command>
+<command execution_time="12">fig.Position = [10, 10, 9, 5];</command>
+</session>
+<session>
+<command time_stamp="18511d92259">%-- 14.12.2022 19:15:21 --%</command>
+<command execution_time="50963">mainHex</command>
+<command execution_time="4">plotDisplFieleld = "Yes"</command>
+<command execution_time="11">fig = gcf;</command>
+<command execution_time="13">fig.Position = [10, 10, 10, 6];</command>
+<command error="true" execution_time="37">fig = gcf;\</command>
+<command execution_time="20">fig = gcf;</command>
+<command execution_time="29">fig.Position = [10, 10, 10, 6];</command>
+<command execution_time="21">fig.Units = 'centimeters'</command>
+<command execution_time="39">fig.Position = [10, 10, 10, 6];</command>
+<command execution_time="4">fig.Position = [10, 10, 12, 6];</command>
+<command execution_time="18">fig = gcf;</command>
+<command execution_time="23">fig.Units = 'centimeters'</command>
+<command execution_time="4">fig.Position = [10, 10, 12, 6];</command>
+</session>
 </history>

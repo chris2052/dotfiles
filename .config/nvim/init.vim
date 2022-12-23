@@ -9,7 +9,8 @@ set shiftwidth=4
 set expandtab
 set smartindent
 set nu
-set nowrap
+set wrap
+set linebreak
 set smartcase
 set nobackup
 set undodir=~/.vim/undodir
@@ -24,7 +25,7 @@ set signcolumn=yes
 set cmdheight=2
 set updatetime=50
 set shortmess+=c
-set textwidth=90
+set textwidth=100
 
 " enable syntax-highlighting
 syntax enable
@@ -50,11 +51,11 @@ let g:vimtex_view_general_options = '--unique file:@pdf\#src:@line@tex'
 " want another compiler backend, you can change it as follows. The list of
 " supported backends and further explanation is provided in the documentation,
 " see ':help vimtex-compiler'.
-let g:vimtex_compiler_method = 'latexrun'
+" let g:vimtex_compiler_method = 'latexrun'
 
 " Most VimTeX mappings rely on localleader and this can be changed with the
 " following line. The default is usually fine and is the symbol '\'.
-let maplocalleader = ","
+let maplocalleader = " "
 
 " <leader> to <space>
 let mapleader = "\<Space>"
@@ -100,7 +101,7 @@ noremap <Leader>Y "*y
 noremap <Leader>P "*p
 
 " nnoremap <leader>/ :noh
-nnoremap <leader>q :wq<CR>
+nnoremap <leader>q :q<CR>
 nnoremap <leader>w :w<CR>
 
 call plug#begin('~/.vim/plugged')

@@ -53,8 +53,9 @@ map <C-6> toggle_page_mode
 
 # others
 
-map <C-h> feedkeys ":set recolor-keephue <Return>"
-map <C-i> 
+# map <C-h> feedkeys ":set recolor-keephue <Return>"
+unmap <C-i>
+map <C-i> feedkeys ":set recolor-keephue <Return> <Esc>"
 map <C-r> reload
 map i recolor
 map p print

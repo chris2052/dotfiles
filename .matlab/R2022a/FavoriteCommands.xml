@@ -45,15 +45,17 @@ clear currentEditor originalselection</callback>
       <callback>% create *.pdf_tex (Inkscape)
 
 dt = datestr(now,'yyyy-mm-dd_HHMMSS');
+[baseFileName,folder]=uigetfile('*');
+[filepath,name,ext] = fileparts([folder,baseFileName]);
 
 prompt = {'Enter filename:'};
 dlgtitle = 'Saving figure as *.pdf_tex (Inkscape)';
 dims = [1 80];
-definput = {dt};
+definput = {name};
 answer = inputdlg(prompt,dlgtitle,dims,definput);
 
 % save as *png to check quality and backup (or including in epub document, ...)
-export_fig(gcf, '-transparent', '-nocrop', answer{1})
+export_fig(gcf, '-transparent', '-nocrop', '-m5', answer{1})
 % save as *pdf_tex for LaTeX (and *.svg for manual manipulations)
 Plot2LaTeX(gcf, answer{1})
 

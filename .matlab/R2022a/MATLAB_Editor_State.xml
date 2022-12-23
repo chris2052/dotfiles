@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Editor version="1.0">
-   <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1669545238056" name="mainHex.m">
+   <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1671041905694" name="mainHex.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1671030391459" name="getBandgaps.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1671024382484" name="plotDispTrans.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1670962005111" name="mainDispHex.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1670957377455" name="plotDispersionHex.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1670943721031" name="mainHexParameterStudy.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1670942510093" name="mainHexPrameterStudy.m">
       <CodeFolds version="1.0"/>
    </File>
    <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1669544785646" name="mainTransHex.m">
@@ -27,9 +45,6 @@
    <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1668790534764" name="remNodes.m">
       <CodeFolds version="1.0"/>
    </File>
-   <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1668778145495" name="mainDispHex.m">
-      <CodeFolds version="1.0"/>
-   </File>
    <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1668697893114" name="PMLs.m">
       <CodeFolds version="1.0"/>
    </File>
@@ -42,9 +57,6 @@
    <File absPath="/home/chris/sciebo/hexUnitCell/trans" lastWrittenTime="1668586999402" name="copyCellsHex.m">
       <CodeFolds version="1.0"/>
    </File>
-   <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1668525140979" name="plotDispTrans.m">
-      <CodeFolds version="1.0"/>
-   </File>
    <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1668519462467" name="createHexMesh.m">
       <CodeFolds version="1.0"/>
    </File>
@@ -52,9 +64,6 @@
       <CodeFolds version="1.0"/>
    </File>
    <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1668364985401" name="calcCompl.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/sciebo/hexUnitCell" lastWrittenTime="1668248680339" name="plotDispersionHex.m">
       <CodeFolds version="1.0"/>
    </File>
    <File absPath="/home/chris/sciebo/hexUnitCell/trans" lastWrittenTime="1668242439889" name="mainTransHex.m">
@@ -139,15 +148,6 @@
       <CodeFolds version="1.0"/>
    </File>
    <File absPath="/home/chris/sciebo/hexUnitCell/tests" lastWrittenTime="1664358084806" name="ApplyBlochBC2Dnew.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/sciebo/hexUnitCell/tests" lastWrittenTime="1664357426144" name="ApplyBlochBC2DQuadsTEST.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/sciebo/hexUnitCell/tests" lastWrittenTime="1664347395626" name="ApplyBlochBC2DHexTEST.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/home/chris/sciebo/hexUnitCell/tests" lastWrittenTime="1664269092459" name="ApplyBlochBC2DHex.m">
       <CodeFolds version="1.0"/>
    </File>
 </Editor>
