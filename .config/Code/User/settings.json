@@ -71,6 +71,7 @@
         ]
   },
   "ltex.checkFrequency": "manual",
+  "ltex.latex.commands": {"\\includesvg[]{}": "ignore"},
 
   "latex-workshop.latex.clean.subfolder.enabled": true,
   "latex-workshop.latex.clean.fileTypes": [
@@ -486,8 +487,9 @@
 // git
 // ---
   "git.suggestSmartCommit": false,
-  "gitlens.hovers.currentLine.over": "line",
   "git.confirmSync": false,
+  "git.autofetch": "all",
+  "gitlens.hovers.currentLine.over": "line",
   "gitlens.codeLens.enabled": false,
   "gitlens.currentLine.enabled": false,
   "gitlens.hovers.enabled": false,
@@ -503,5 +505,4 @@
   "comment-divider.shouldLengthIncludeIndent": true,
   "comment-divider.length": 80,
   "comment-divider.subheaderAlign": "center",
-
 }

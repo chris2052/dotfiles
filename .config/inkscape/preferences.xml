@@ -33,7 +33,7 @@
        state="1" />
     <group
        id="scrollbars"
-       state="1" />
+       state="0" />
   </group>
   <group
      id="fullscreen">
@@ -125,13 +125,14 @@
          id="rect"
          style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.99999874;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
          usecurrent="0"
-         width="454"
-         height="178.022033691406"
+         width="548.031496062991"
+         height="245.669291338583"
          ry="0" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
-         usecurrent="1">
+         usecurrent="1"
+         persp="perspective2089">
         <side
            id="XYfront"
            style="fill:#8686bf;stroke:none;stroke-linejoin:round;"
@@ -163,14 +164,16 @@
          end="0"
          start="0"
          usecurrent="0"
-         rx="3.10068583488464"
-         ry="3.10068583488464"
+         rx="7.55905511811022"
+         ry="7.55905511811022"
          arc_type="0" />
       <eventcontext
          id="star"
-         magnitude="5"
+         magnitude="6"
          style="fill:yellow;"
-         usecurrent="1" />
+         usecurrent="1"
+         proportion="0.5"
+         isflatsided="1" />
       <eventcontext
          id="spiral"
          style="fill:none;stroke:black"
@@ -193,7 +196,8 @@
          mode="drag"
          selcue="1"
          style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.99999874;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
-         usecurrent="0" />
+         usecurrent="0"
+         freehand-mode="4" />
     </group>
     <eventcontext
        id="calligraphic"
@@ -324,9 +328,9 @@
        font_sample="AaBbCcIiPpQq12369$€¢?.;/()"
        show_sample_in_list="1"
        use_svg2="1"
-       style="font-size:14.66666667px;line-height:1.25;font-family:arial;text-decoration-color:#000000;fill:#000000;stroke-width:0.99999899;-inkscape-stroke:none;stop-color:#000000;-inkscape-font-specification:arial;text-anchor:middle;text-align:center"
+       style="font-size:14.66666667px;line-height:1.25;font-family:arial;text-decoration-color:#000000;fill:#000000;stroke-width:0.99999899;-inkscape-stroke:none;stop-color:#000000;-inkscape-font-specification:arial"
        selcue="1"
-       align_mode="1" />
+       align_mode="0" />
     <eventcontext
        id="nodes"
        selcue="1"
@@ -342,8 +346,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="122.8343"
-       y="24.6188"
+       x="512.592538779543"
+       y="143.824791916764"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -544,19 +548,21 @@
        panel_border="0" />
   </group>
   <group
-     id="dialogs">
+     id="dialogs"
+     traceliveUpdate="1">
     <group
        id="toolbox" />
     <group
        id="fillstroke"
-       page="1" />
+       page="2" />
     <group
        id="filtereffects" />
     <group
        id="textandfont" />
     <group
        id="transformation"
-       applyseparately="0" />
+       applyseparately="0"
+       rotateCounterClockwise="0" />
     <group
        id="align" />
     <group
@@ -605,7 +611,7 @@
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/home/chris/Documents"
+       path="/home/chris/sciebo/bm1-ws2022_klausur"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -620,7 +626,7 @@
     <group
        id="import"
        enable_preview="1"
-       path="/home/chris/sciebo/masterThesis/"
+       path="/home/chris/sciebo/hexUnitCell/figs/0xx_circ_varff-10a-0c_EpoxySteel/"
        ask="1"
        ask_svg="0"
        link="embed"
@@ -686,7 +692,7 @@
      onimport="0"
      dpifixbackup="1"
      dpiupdatemethod="0"
-     displaymode="2">
+     displaymode="0">
     <group
        id="renderingcache"
        size="512" />
@@ -972,7 +978,10 @@
        snap-bbox="1"
        snap-grid="1"
        snap-object-midpoint="1"
-       snap-bbox-center="1" />
+       snap-bbox-center="1"
+       snap-path-intersection="1"
+       snap-bbox-edge-midpoint="1"
+       snap-rotation-center="1" />
   </group>
   <group
      id="extensions"
@@ -992,7 +1001,7 @@
      org.inkscape.template.dvd_cover.spine="14" />
   <group
      id="desktop"
-     style="font-size:13.33333333px;fill:#000000;-inkscape-font-specification:SansSerif;font-family:SansSerif;fill-rule:evenodd;stroke-dasharray:1.88976378, 1.88976378;stroke-linejoin:round;stroke-linecap:round;stroke-width:1.0015748;text-anchor:middle;text-align:center">
+     style="font-size:26.66666667px;fill:#999999;-inkscape-font-specification:Arial;font-family:Arial;stroke-linejoin:round;stroke-linecap:round;stroke-width:0.94488189;stroke:#000000;stroke-dasharray:7.55905512,3.77952756">
     <group
        width="1920"
        height="1059"

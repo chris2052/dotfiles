@@ -1,15 +1,16 @@
 // Place your key bindings in this file to override the defaults
 [
-    {
-        "key": "alt+j",
-        "command": "selectNextSuggestion",
-        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
-        },
-        {
-        "key": "alt+k",
-        "command": "selectPrevSuggestion",
-        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
-        }, 
+		// FEATURE ALREADY IMPLEMENTED WITH `Ctrl+j` WHEN VIM IS ENABLED!
+    	// {
+        // "key": "alt+j",
+        // "command": "selectNextSuggestion",
+        // "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+        // },
+        // {
+        // "key": "alt+k",
+        // "command": "selectPrevSuggestion",
+        // "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+        // }, 
         {
         "key": "ctrl+shift+v",
         "command": "toggleVim"

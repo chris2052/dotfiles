@@ -1,4 +1,4 @@
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# EnablE Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
@@ -122,8 +122,9 @@ export cjdfunction
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # exa instead of classic ls command
-alias la='exa -al --color=always --group-directories-first'
+alias la='exa -al --color=always --group-directories-first --icons'
 alias ls='exa'
+alias ll='exa -lagh@ --all --icons --git --color=always --group-directories-first'
 
 # jonny-decimal
 alias cjd='cjdfunction' # Or any other alias you prefer.

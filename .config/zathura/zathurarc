@@ -23,6 +23,7 @@ set synctex-editor-command "code -g %{input}:%{line}"
 include zathura-gruvbox-light
 # include zathura-gruvbox-dark
 set recolor true
+set recolor-keephue
 
 set default-bg "#000000"
 # set default-fg "#fbf1c7"

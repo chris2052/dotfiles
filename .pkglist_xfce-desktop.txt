@@ -1,6 +1,7 @@
 accountsservice
 acpi
 acpid
+activitywatch-bin
 adobe-source-han-sans-cn-fonts
 adobe-source-han-sans-jp-fonts
 adobe-source-han-sans-kr-fonts
@@ -32,6 +33,8 @@ bwidget
 bzip2
 calibre
 catfish
+chatgpt-cli-git
+chatgpt-desktop-bin
 cmatrix
 conky
 conky-manager
@@ -41,7 +44,7 @@ cronie
 cryptsetup
 cura
 cura-resources-materials
-dbus-x11
+dbus
 device-mapper
 dhclient
 dhcpcd
@@ -56,7 +59,7 @@ docker
 docker-compose
 dosfstools
 downgrade
-doxygen
+dragon-drop
 e2fsprogs
 ecryptfs-utils
 efibootmgr
@@ -75,6 +78,7 @@ findutils
 firefox
 flameshot
 flex
+foxitreader
 freecad
 freetype2
 frescobaldi
@@ -127,6 +131,7 @@ gzip
 hashcat
 haveged
 highlight-gui
+homebank
 htop
 ibus-typing-booster
 inetutils
@@ -209,16 +214,18 @@ manjaro-settings-manager-notifier
 manjaro-system
 manjaro-wallpapers-18.0
 manjaro-xfce-settings
-masterpdfeditor
 matcha-gtk-theme
 matlab-support
+maxima-git
 mdadm
 mediainfo-gui
+meld
 memtest86+
 menulibre
 mesa-demos
 mesa-git
 meta-group-texlive-most
+metis
 mhwd
 mhwd-db
 microsoft-edge-beta-bin
@@ -235,8 +242,6 @@ nano
 nemo
 neofetch
 neovim
-nerd-fonts-cascadia-code
-nerd-fonts-roboto-mono
 network-manager-applet
 networkmanager
 networkmanager-openconnect
@@ -246,6 +251,7 @@ networkmanager-vpnc
 neuron-zettelkasten-bin
 nfs-utils
 nitrogen
+normcap
 notepadqq
 noto-fonts
 noto-fonts-emoji-apple
@@ -262,7 +268,9 @@ opencascade
 opencl-amd
 openlibm-casio
 openresolv
+openshot
 openssh
+openssl-1.0
 opentabletdriver
 os-prober
 owncloud-client
@@ -283,6 +291,7 @@ pkgconf
 plank
 poppler-data
 poppler-glib
+portfolio-performance-bin
 powertop
 processing
 procps-ng
@@ -291,7 +300,9 @@ pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
 python-pympress
+python-trimesh
 python2
+qalculate-gtk
 qt5-styleplugins
 qtfm
 ranger
@@ -303,10 +314,13 @@ rofimoji
 rsync
 s-nail
 samba
+scotch
 screenfetch
 screenkey
+scribus
 sed
 shadow
+shotcut
 signal-desktop
 smath
 snapd
@@ -321,6 +335,7 @@ sysfsutils
 systemd-fsck-silent
 systemd-sysvcompat
 tar
+tenacity-git
 terminus-font
 tesseract-data-deu
 tesseract-data-eng
@@ -376,6 +391,7 @@ wine
 winetricks
 wmctrl
 wpa_supplicant
+wxmaxima
 xautomation
 xbindkeys
 xbindkeys_config-gtk2
@@ -431,7 +447,6 @@ xfdesktop
 xfsprogs
 xfwm4
 xiccd
-xmlto
 xorg-mkfontscale
 xorg-server
 xorg-twm

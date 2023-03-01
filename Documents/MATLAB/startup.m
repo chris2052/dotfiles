@@ -5,5 +5,5 @@ rmpath(genpath('/home/chris/Documents/MATLAB/unitcell/'));
 rmpath(genpath('/home/chris/Documents/MATLAB/ferreira_matlab/'));
 rmpath(genpath('/home/chris/Documents/MATLAB/femlab/'));
 
-cd ~/Documents/MATLAB/hexUnitCell
+cd ~/Documents/MATLAB
 clear fullpath

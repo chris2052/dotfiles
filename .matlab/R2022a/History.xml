@@ -4406,4 +4406,712 @@
 <command execution_time="23">fig.Units = 'centimeters'</command>
 <command execution_time="4">fig.Position = [10, 10, 12, 6];</command>
 </session>
+<session>
+<command time_stamp="18562a413b6">%-- 30.12.2022 11:46:38 --%</command>
+<command execution_time="67" repeat="5">meshgridTest</command>
+<command execution_time="11">grid off</command>
+<command error="true" execution_time="235">mesh off</command>
+<command execution_time="28">meshgrid off</command>
+<command execution_time="128" repeat="18">meshgridTest</command>
+</session>
+<session>
+<command time_stamp="1857c94f088">%-- 04.01.2023 12:40:14 --%</command>
+<command execution_time="5793">mainHex</command>
+<command execution_time="39">plotDimensions(gca, gcf, 7, 7, .7)</command>
+<command execution_time="37" repeat="2">plotDimensions(gca, gcf, 7, 7, .8)</command>
+<command execution_time="2011">Plot2LaTeX(gcf, 'test')</command>
+<command execution_time="1634" repeat="2">mainHex</command>
+<command execution_time="142">help plotDimensions</command>
+<command execution_time="135">open plotDimensions.m</command>
+<command execution_time="148">open plotDispersion.m</command>
+<command execution_time="1594">mainHex</command>
+<command error="true" execution_time="220">open plotDispersionHex.m.m</command>
+<command execution_time="70">open plotDispersionHex.m</command>
+<command execution_time="1443" repeat="3">mainHex</command>
+<command execution_time="78">open plotDispersion.m</command>
+<command error="true" execution_time="61">plotDimensions(gcf, 'ttest')</command>
+<command execution_time="1306">Plot2LaTeX(gcf, 'ttets')</command>
+<command execution_time="30">plotDimensions(gca, gcf, 10, 10, .7)</command>
+<command execution_time="13">plotDimensions(gca, gcf, 10, 10, .6)</command>
+<command error="true" execution_time="65">plotDimensions(gcf, 'ttest')</command>
+<command execution_time="1332">Plot2LaTeX(gcf, 'ttets')</command>
+<command execution_time="79">open plotDispersionHex.m</command>
+<command execution_time="1641">mainHex</command>
+<command execution_time="14">plotDimensions(gca, gcf, 10, 10, .6)</command>
+<command execution_time="1178">Plot2LaTeX(gcf, 'ttets')</command>
+<command execution_time="1337" repeat="11">mainHex</command>
+<command execution_time="35">plot(validationComsol(:,1), validationComsol(:,2))</command>
+<command error="true" execution_time="103">plot(validationComsol(:,1), validationComsol(:,2), '.', 'k')</command>
+<command execution_time="21">plot(validationComsol(:,1), validationComsol(:,2), 'k')</command>
+<command execution_time="77">plot(validationComsol(:,1), validationComsol(:,2), '-')</command>
+<command execution_time="15">plot(validationComsol(:,1), validationComsol(:,2), '.')</command>
+<command error="true" execution_time="60">plot(validationComsol(:,1), validationComsol(:,2), '.', 'r')</command>
+<command execution_time="67" repeat="2">plot(validationComsol(:,1), validationComsol(:,2), 'r.')</command>
+<command execution_time="9">ax = gca;</command>
+<command execution_time="16">ax.YAxis.Exponent = 0;</command>
+<command execution_time="18">plotDimensions(gca, gcf, 10, 10, .6)</command>
+<command error="true" execution_time="15">Plot2LaTeX(gcf, 'validationComsol'</command>
+<command error="true" execution_time="676">Plot2LaTeX(gcf, 'validationComsol')</command>
+<command execution_time="8">fig = gcf;</command>
+<command execution_time="22">ax.YAxis.TickLabelFormat = '%.0f'</command>
+<command execution_time="25">fig</command>
+<command error="true" execution_time="83">as</command>
+<command execution_time="13">ax</command>
+<command execution_time="36">ChangeInterpreter(fig, 'latex')</command>
+<command error="true" execution_time="502">Plot2LaTeX(fig, 'validationComsol')</command>
+<command execution_time="57">plot(validationComsol(:,1), validationComsol(:,2), 'r.')</command>
+<command execution_time="6">ax = gca;</command>
+<command execution_time="7">ax.YAxis.Exponent = 0;</command>
+<command error="true" execution_time="550">Plot2LaTeX(gcf, 'test')</command>
+<command error="true" execution_time="63">ax.YAxis.Label = 'test'</command>
+<command execution_time="17">ax.YAxis.Label.String = 'test'</command>
+<command execution_time="21">ax.XAxis.Label.String = 'test'</command>
+<command execution_time="1492">Plot2LaTeX(gcf, 'validationComsol')</command>
+<command execution_time="17">plotDimensions(gca, gcf, 10, 10, .6)</command>
+<command execution_time="1228">Plot2LaTeX(gcf, 'validationComsol')</command>
+<command execution_time="1366">mainHex</command>
+<command execution_time="7">plotDimensions(gca, gcf, 10, 10, .6)</command>
+<command execution_time="1184">Plot2LaTeX(gcf, 'validierungMatlab')</command>
+</session>
+<session>
+<command time_stamp="18580e94b3e">%-- 05.01.2023 08:50:51 --%</command>
+<command execution_time="6083">mainHex</command>
+<command error="true" execution_time="207">cd fig</command>
+<command execution_time="150">cd figs/</command>
+<command error="true" execution_time="1286">Plot2LaTeX(gcf, 'mesh')</command>
+<command execution_time="11">ax = gca;</command>
+<command execution_time="6">ax.XAxis.Label.String = 'test';</command>
+<command execution_time="13">ax.YAxis.Label.String = 'test';</command>
+<command error="true" execution_time="14">ax.axis 'on'</command>
+<command execution_time="8">axis on</command>
+<command execution_time="14">grid on</command>
+<command execution_time="7">grid off</command>
+<command error="true" execution_time="76">axes on</command>
+<command execution_time="23">axis on</command>
+<command execution_time="2447">Plot2LaTeX(gcf, 'validierungMatlab')</command>
+<command execution_time="18854">mainHex</command>
+<command execution_time="19">plotDimensions(gca, gcf, 10, 10, .6);</command>
+<command execution_time="1686">mainHex</command>
+<command execution_time="14">clc</command>
+<command execution_time="142019">mainHexParameterStudy</command>
+<command execution_time="183">open getBandgaps.m</command>
+<command execution_time="21">pi/(2*sqrt(3))</command>
+<command execution_time="136200" repeat="6">mainHexParameterStudy</command>
+<command execution_time="190">plotBandgaps(bandgaps, 'Fu\"llfaktor $\gamma$', counter)</command>
+<command execution_time="134">plotBandgaps(bandgaps, 'F\"ullfaktor $\gamma$', modifier)</command>
+<command execution_time="19">plotDimensions(gca, gcf, 10, 10, .6)</command>
+<command execution_time="38">cd figs/</command>
+<command execution_time="10">plotTickDelta(gca, 'x', 10, 1)</command>
+<command execution_time="9">plotTickDelta(gca, 'x', 10, 5)</command>
+<command execution_time="11">plotTickDelta(gca, 'x', 20, 5)</command>
+<command execution_time="8">plotTickDelta(gca, 'x', 20, 10)</command>
+<command execution_time="94">open plotBandgaps.m</command>
+<command execution_time="157" repeat="4">plotxy(fMid,'test', modifier)</command>
+<command execution_time="44">figure</command>
+<command error="true" execution_time="87">plot(fmid(:,2),modifier)</command>
+<command execution_time="30">plot(fMid(:,2),modifier)</command>
+<command execution_time="22">plot(modifier, fMid(:,2))</command>
+<command execution_time="12">hold on</command>
+<command execution_time="11">plot(modifier, fMid(:,3))</command>
+<command execution_time="10">plot(modifier, fMid(:,1))</command>
+<command execution_time="14">yyy = fMid;</command>
+<command execution_time="8">yyy(yyy==0) = nan;</command>
+<command execution_time="44">figure</command>
+<command execution_time="23">plot(modifier, yyy(:,1))</command>
+<command execution_time="8">hold on</command>
+<command execution_time="8">plot(modifier, yyy(:,2))</command>
+<command execution_time="7">plot(modifier, yyy(:,3))</command>
+<command execution_time="245">plotxy(fMid, 'test', modifier)</command>
+<command execution_time="17">size(yyy,1)</command>
+<command execution_time="81" repeat="2">plotxy(fMid, 'test', modifier)</command>
+<command execution_time="19">plotDimensions(gca, gcf, 10, 10, .6)</command>
+<command execution_time="13">plotTickDelta(gca, 'x', 20, 10)</command>
+<command execution_time="9">ax = gca;</command>
+<command execution_time="274">legend(ax, "on")</command>
+<command execution_time="228" repeat="5">plotxy(fMid, 'test', modifier)</command>
+<command execution_time="20">plotDimensions(gca, gcf, 10, 10, .6)</command>
+<command execution_time="14">plotTickDelta(gca, 'x', 20, 10)</command>
+<command execution_time="158523" repeat="2">mainHexParameterStudy</command>
+<command execution_time="97">plotBandgaps(bandgaps, 'F\"ullfaktor $\gamma$', modifier)</command>
+<command execution_time="141">plotxy(fMid, 'test', modifier)</command>
+<command execution_time="162" repeat="2">plotxy(fWidth, 'test', modifier)</command>
+<command execution_time="133822" repeat="8">mainHexParameterStudy</command>
+<command execution_time="49">plotOverlapFigures(1,2)</command>
+<command execution_time="15" repeat="3">plotTickDelta(gca, 'x', 20, 10)</command>
+<command execution_time="24">ax = gca;</command>
+<command execution_time="13">hh = findobj(ax, 'Type', 'line');</command>
+<command error="true" execution_time="126">xx = h.XData;</command>
+<command execution_time="10">hh</command>
+<command error="true" execution_time="94">xx = h(1).XData;</command>
+<command execution_time="9">xx = hh(1).XData;</command>
+<command error="true" execution_time="74">yy = hh(1).YDa</command>
+<command execution_time="8">yy = hh(1).YData;</command>
+<command execution_time="14">size(hh)</command>
+<command execution_time="11">xx = plotGetLineYData(gca);</command>
+<command execution_time="107709" repeat="2">mainHexParameterStudy</command>
+<command execution_time="6473" repeat="9">mainHex</command>
+<command execution_time="656357">mainHexParameterStudy</command>
+<command execution_time="8" repeat="2">plotTickDelta(gca, 'x', 10, 20)</command>
+<command execution_time="44" repeat="3">plotTickDelta(gca, 'x', 20, 10)</command>
+</session>
+<session>
+<command time_stamp="18586547c6d">%-- 06.01.2023 10:06:02 --%</command>
+<command execution_time="15">yyy = plotGetLineYData(gca);</command>
+<command execution_time="47">plot(yyy)</command>
+<command execution_time="68">plot(1:90, yyy)</command>
+<command error="true" execution_time="10250">mainHexParameterStudy</command>
+<command execution_time="14">fMid = plotGetLineYData(gca)</command>
+<command execution_time="7">clc</command>
+<command execution_time="6">fMid = fMid';</command>
+<command execution_time="167667" repeat="4">mainHexParameterStudy</command>
+<command execution_time="145">plotxy(bgMidFreq, 'test', modifier)</command>
+<command execution_time="36">plot(bgMidFreq, modifier)</command>
+<command execution_time="44">figure</command>
+<command execution_time="33">plot(modifier, bgMidFreq)</command>
+<command execution_time="17">set(gca, 'YDir', 'reverse')</command>
+<command execution_time="47">figure</command>
+<command error="true" execution_time="67">plot(modifier, bgMidFreq(1, :))</command>
+<command execution_time="22">plot(modifier, bgMidFreq(:,1))</command>
+<command execution_time="15">set(gca, 'YDir', 'reverse')</command>
+<command execution_time="31773" repeat="3">mainHex</command>
+<command execution_time="127681">mainHexParameterStudy</command>
+<command execution_time="49">figure</command>
+<command execution_time="18">plot(modifier, bgMidFreq(:,1))</command>
+<command execution_time="14">set(gca, 'YDir', 'reverse')</command>
+<command execution_time="8">(5174+23919)/2</command>
+<command execution_time="130">open plotDispTrans.m</command>
+<command execution_time="80">open plotDispersion.m</command>
+<command execution_time="75">open plotDispersionHex.m</command>
+<command execution_time="167181" repeat="2">mainHexParameterStudy</command>
+<command execution_time="20">find(fMid(8,:))</command>
+<command error="true" execution_time="65">ismember(fMid(8,:))</command>
+<command execution_time="8">[~,~,aa]=find(fMid(8,:))</command>
+<command execution_time="16">aa*2*pi</command>
+<command execution_time="9501">mainHex</command>
+<command error="true" execution_time="8361">mainTransHex</command>
+<command execution_time="3664">mainHex</command>
+<command execution_time="1303752">mainHexParameterStudy</command>
+<command execution_time="42">figure</command>
+<command execution_time="21">plot(modifier, bgMidFreq(:,1))</command>
+<command execution_time="9">set(gca, 'YDir', 'reverse')</command>
+<command execution_time="364">drawingMesh2D(initNodesBound, initQuadsBound, 'none', '-', 'k')</command>
+<command execution_time="8584">drawingMesh2D(transNodes, transQuads, 'none', '-', 'k')</command>
+<command execution_time="7">cc = zeros(3);</command>
+<command error="true" execution_time="106">cc(1,:) = [2, 2];</command>
+<command error="true" execution_time="6069" repeat="3">mainHexParameterStudy</command>
+<command execution_time="6">size(AvgDuw)</command>
+<command execution_time="6">size(AvgDuw,2)</command>
+<command error="true" execution_time="5691">mainHexParameterStudy</command>
+<command execution_time="7">nan(2)</command>
+<command execution_time="5576" repeat="2">mainHexParameterStudy</command>
+<command execution_time="9">size(AvgDuw)</command>
+<command execution_time="9117">mainHexParameterStudy</command>
+<command execution_time="12">isempty(counter)</command>
+<command execution_time="5793">mainHexParameterStudy</command>
+<command execution_time="7">size(AvgDuw)</command>
+<command execution_time="9">bgMidFreq(counter, size(AvgDuwDB, 2))</command>
+<command execution_time="7">size(AvgDuwDB)</command>
+<command execution_time="7">counter</command>
+<command execution_time="7">bgMidFreq(counter, size(AvgDuwDB, 2))</command>
+<command execution_time="4">bgMidFreq(counter, 1:size(AvgDuwDB, 2))</command>
+<command execution_time="61242">mainHexParameterStudy</command>
+<command execution_time="45">figure</command>
+<command execution_time="38">plot(modifier, bgMidFreq)</command>
+<command execution_time="11">set(gca, 'YDir', 'reverse')</command>
+<command execution_time="183">open plotGetLineYData.m</command>
+<command execution_time="74">open plotxy.m</command>
+<command execution_time="140" repeat="2">plotxy(bgMidFreq, 'test', modifier)</command>
+<command execution_time="10">max(bgMidFreq)</command>
+<command execution_time="88" repeat="2">plotxy(bgMidFreq, 'test', modifier)</command>
+<command execution_time="9">~isnan(max(col))</command>
+<command error="true" execution_time="159">axis(0, -inf, 0, -inf)</command>
+<command error="true" execution_time="74">axis(gca, [0, -inf, 0, -inf])</command>
+<command error="true" execution_time="67">axis(gca, [0, inf, 0, -inf])</command>
+<command execution_time="10">axis(gca, [0, inf, -inf, 0])</command>
+<command execution_time="607551">mainHexParameterStudy</command>
+<command execution_time="3717">drawingMesh2D(transNodes, transQuads, 'none', '-', 'k')</command>
+<command execution_time="28" repeat="4">plotTickDelta(gca, 'x', 20, 10)</command>
+<command execution_time="1022807">mainHexParameterStudy</command>
+<command execution_time="10" repeat="4">plotTickDelta(gca, 'x', 20, 10)</command>
+<command execution_time="980934">mainHexParameterStudy</command>
+<command execution_time="16" repeat="4">plotTickDelta(gca, 'x', 20, 10)</command>
+<command execution_time="610837">mainHexParameterStudy</command>
+<command execution_time="19" repeat="4">plotTickDelta(gca, 'x', 20, 10)</command>
+<command execution_time="24">plotOverlapFigures(4,3)</command>
+<command execution_time="22165">mainHex</command>
+<command execution_time="274">drawingMesh2D(initialNodes, quads, 'none', '-', 'k');</command>
+<command execution_time="141">open Plot2LaTeX.m</command>
+<command execution_time="374285">mainHex</command>
+<command error="true" execution_time="672961">mainHexParameterStudy</command>
+<command error="true" execution_time="158">drawingMesh2D(initialNodes, quads, 'none', '-', 'k');</command>
+<command execution_time="62543">mainHexParameterStudy</command>
+<command execution_time="91253" repeat="4">mainHex</command>
+<command execution_time="8858">drawingMesh2D(transNodes, transQuads, 'none', '-', 'k')</command>
+<command execution_time="76629" repeat="2">mainHex</command>
+<command execution_time="8643">drawingMesh2D(transNodes, transQuads, 'none', '-', 'k')</command>
+<command execution_time="84079">mainHex</command>
+<command execution_time="8792">drawingMesh2D(transNodes, transQuads, 'none', '-', 'k')</command>
+<command batch="87" execution_time="155291" repeat="2">mainHex</command>
+</session>
+<session>
+<command time_stamp="185887814b9">%-- 06.01.2023 20:04:09 --%</command>
+<command execution_time="262622">mainHex</command>
+<command execution_time="19537">drawingMesh2D(transNodes, transQuads, 'none', '-', 'k')</command>
+<command execution_time="246474">mainHex</command>
+<command execution_time="20221">drawingMesh2D(transNodes, transQuads, 'none', '-', 'k')</command>
+<command execution_time="9">maxf</command>
+<command execution_time="136575" repeat="2">mainHex</command>
+</session>
+<session>
+<command time_stamp="1858bdd4223">%-- 07.01.2023 11:53:32 --%</command>
+<command execution_time="2493" repeat="6">mainHex</command>
+<command execution_time="166">drawingMesh2D(initialNodes, quads, 'none', '-', 'k');</command>
+<command execution_time="142" repeat="2">mainHex</command>
+<command execution_time="52">system(['gmsh ', 'hex', '.geo', ' -2 -o ', 'hex', 'MESH.m'])</command>
+</session>
+<session>
+<command time_stamp="1858c182826">%-- 07.01.2023 12:57:52 --%</command>
+<command error="true" execution_time="2264">mainHex</command>
+<command error="true" execution_time="158">system(['gmsh ', filename, '.geo', ' -2 -o ', filename, 'MESH.m'])</command>
+<command execution_time="55">system(['gmsh ', 'hex', '.geo', ' -2 -o ', 'hex', 'MESH.m'])</command>
+</session>
+<session>
+<command time_stamp="1858c1b82ec">%-- 07.01.2023 13:01:31 --%</command>
+<command execution_time="714">system(['gmsh ', 'hex', '.geo', ' -2 -o ', 'hex', 'MESH.m'])</command>
+<command execution_time="192980" repeat="2">mainHex</command>
+<command execution_time="16404">drawingMesh2D(transNodes, transQuads, 'none', '-', 'k')</command>
+<command execution_time="92248" repeat="5">mainHex</command>
+<command execution_time="5745">drawingMesh2D(transNodes, transQuads, 'none', '-', 'k')</command>
+<command execution_time="118694">mainHex</command>
+<command execution_time="11383">drawingMesh2D(transNodes, transQuads, 'none', '-', 'k')</command>
+<command batch="88" error="true">set(findall(dispTransFig,'type','text'),'fontSize',11)</command>
+<command batch="88" error="true" execution_time="278">set(findall(gcf,'type','axes'),'fontsize',11)</command>
+<command execution_time="11" repeat="2">set(findall(gcf,'type','axes'),'fontsize',11)</command>
+<command execution_time="11">set(findall(gcf,'type','text'),'fontsize',11)</command>
+<command execution_time="448831" repeat="5">mainHex</command>
+<command execution_time="18">['test', 'test', 'test']</command>
+<command execution_time="9">fillFactor*100</command>
+<command execution_time="7">coating</command>
+<command execution_time="6">coating*1000</command>
+<command execution_time="7">a</command>
+<command execution_time="13">matNames</command>
+<command execution_time="7">matNames{1}</command>
+<command execution_time="7">matNames{1:3}</command>
+<command execution_time="10">strjoin(matNames)</command>
+<command execution_time="11">string(strjoin(matNames))</command>
+<command error="true" execution_time="14">type(ans=</command>
+<command error="true" execution_time="124">type(ans)</command>
+<command execution_time="8">class(ans)</command>
+<command execution_time="8">strjoin(matNames)</command>
+<command execution_time="7">class(ans)</command>
+<command execution_time="7">fprintf('%0fa', 100*a)</command>
+<command execution_time="5">fprintf('%0fa\n', 100*a)</command>
+<command execution_time="7">fprintf('%0.0fa\n', 100*a)</command>
+<command execution_time="7">fprintf('%da\n', 100*a)</command>
+<command error="true" execution_time="74">fprintf('%d%da\n', geomInclusion, 100*a)</command>
+<command execution_time="7">fprintf('%s%da\n', geomInclusion, 100*a)</command>
+<command execution_time="5">fprintf('%s_0%dff-%da\n', geomInclusion, 1000*fillFactor, 100*a)</command>
+<command execution_time="11">fprintf('%s_0%dff-%da-%dc\n', geomInclusion, 100*fillFactor, 100*a, 1000*coating)</command>
+<command execution_time="10">strjoin(matNames)</command>
+<command execution_time="8">ttt = strjoin(matNames);</command>
+<command execution_time="7">strtrim(ttt)</command>
+<command error="true" execution_time="15">rrr = ttt(find(~isspace(ttt))</command>
+<command execution_time="4">rrr = ttt(find(~isspace(ttt)))</command>
+<command error="true" execution_time="132">printf('%s_0%dff-%da-%dc_%s\n', geomInclusion, 100*fillFactor, 100*a, 1000*coating, matString)</command>
+<command batch="89" execution_time="375781" repeat="3">mainHex</command>
+</session>
+<session>
+<command time_stamp="1858d236795">%-- 07.01.2023 17:49:46 --%</command>
+<command batch="90" execution_time="16803" repeat="9">mainHex</command>
+</session>
+<session>
+<command time_stamp="1858d43d21c">%-- 07.01.2023 18:25:10 --%</command>
+<command execution_time="11194" repeat="9">mainHex</command>
+<command execution_time="1787513">mainHexParameterStudy</command>
+</session>
+<session>
+<command time_stamp="1859286c433">%-- 08.01.2023 18:56:24 --%</command>
+<command batch="91">cd ...</command>
+<command execution_time="92" repeat="2">cd ..</command>
+<command execution_time="135">cd Documents/GitHub/Doing-Physics-With-Matlab/</command>
+<command execution_time="154">cd mpScripts/</command>
+<command execution_time="146">osc_string_driven</command>
+<command error="true" execution_time="13111">50</command>
+<command execution_time="67">osc_string_driven</command>
+<command error="true" execution_time="16798">50000</command>
+<command error="true" execution_time="282">oscC00N</command>
+</session>
+<session>
+<command time_stamp="18592920ad4">%-- 08.01.2023 19:08:43 --%</command>
+<command execution_time="2264">oscC00N</command>
+<command error="true" execution_time="28665" repeat="3">oscC00NDE</command>
+<command execution_time="847">oscC00ND</command>
+<command execution_time="41711">oscC00NE</command>
+<command execution_time="42498">oscC00NE1</command>
+<command execution_time="30497">oscC001</command>
+<command execution_time="1699" repeat="2">osc_bungee</command>
+<command execution_time="285">osc_harmonic01</command>
+<command execution_time="16">5</command>
+<command execution_time="25" repeat="3">1</command>
+<command execution_time="45">osc_harmonic01</command>
+<command execution_time="9">5</command>
+<command execution_time="7" repeat="2">1</command>
+<command execution_time="546">10</command>
+<command execution_time="774">osc_harmonic02</command>
+<command execution_time="722">osc_shm_01</command>
+<command execution_time="11358">osc_shm_01A</command>
+<command execution_time="283">osc_string_driven</command>
+<command execution_time="17015">5000</command>
+<command execution_time="59207">oscAliasing</command>
+<command execution_time="56398">oscAliasingAG</command>
+<command execution_time="37342">oscAliasingAG2</command>
+<command execution_time="243">oscC00N</command>
+<command execution_time="30086">oscC00NA</command>
+<command execution_time="438">oscC00NB</command>
+<command execution_time="3351">oscC00NC</command>
+<command execution_time="30645">oscC00NA</command>
+<command execution_time="29729">oscC001</command>
+<command execution_time="303">oscC001A</command>
+<command execution_time="33306">oscC002</command>
+<command execution_time="10923" repeat="2">oscCMSHM</command>
+<command execution_time="45741">oscC00NDE</command>
+<command error="true" execution_time="3700">oscC00NE</command>
+<command execution_time="196">oscC00N</command>
+<command error="true" execution_time="12143">oscC00NA</command>
+<command execution_time="3349">oscC00NC</command>
+<command execution_time="256">oscC00NB</command>
+<command execution_time="64">ChangeInterpreter(gcf, 'latex')</command>
+<command execution_time="76">ChangeInterpreter(gcf, 'tex')</command>
+<command execution_time="76">ChangeInterpreter(gcf, 'latex')</command>
+<command execution_time="10">fig = gcf;</command>
+<command execution_time="11">fig.Position</command>
+<command execution_time="13">fig.Units</command>
+<command execution_time="28">fig.Units = 'centimeters'</command>
+<command execution_time="15">fig.PaperUnits = 'centimeters'</command>
+<command execution_time="20">fig.Position = [10, 10, 10, 10]</command>
+<command execution_time="28">fig.Position = [10, 10, 10, 8]</command>
+<command execution_time="18">fig.Position = [10, 10, 10, 10]</command>
+<command execution_time="59">cd ..</command>
+<command execution_time="2560">Plot2LaTeX(fig, 'dispersionMonoatomic')</command>
+<command execution_time="475">oscC00ND</command>
+<command error="true" execution_time="9372">oscC00NDE</command>
+<command error="true" execution_time="6205">oscC00NE</command>
+<command execution_time="164">cd ~</command>
+<command error="true" execution_time="950">twoD_wave_interference</command>
+<command execution_time="310">diffraction_1slit</command>
+<command execution_time="287">diffraction_2slit</command>
+<command execution_time="1513" repeat="2">diffraction_particle</command>
+<command error="true" execution_time="7268">interference</command>
+<command execution_time="13232">interference1</command>
+<command execution_time="54">cd ..</command>
+<command execution_time="1894">export_fig -m5 test.png -transparent</command>
+<command error="true" execution_time="4021">interference</command>
+</session>
+<session>
+<command time_stamp="185962e0dc9">%-- 09.01.2023 11:57:59 --%</command>
+<command error="true" execution_time="11142">interference</command>
+<command execution_time="13130">interference1</command>
+<command execution_time="108">cd ..</command>
+<command batch="92">Plot2LaTeX(gcf, 'ttest')</command>
+</session>
+<session>
+<command time_stamp="185963ac969">%-- 09.01.2023 12:11:53 --%</command>
+<command error="true" execution_time="958" repeat="3">interference1</command>
+<command execution_time="215">surf(xx,yy,real(psi))</command>
+<command execution_time="612">plot3(xx, yy, real(psi))</command>
+<command execution_time="163">surf(xx,yy,real(psi))</command>
+<command execution_time="347">s = surf(xx,yy,real(psi))</command>
+<command execution_time="246">s.EdgeColor = 'none'</command>
+<command execution_time="138">ax = axis;</command>
+<command error="true" execution_time="96">s= surf(ax, xx, yy, real(psi))</command>
+<command execution_time="342">s= surf(xx, yy, real(psi))</command>
+<command execution_time="249">s.EdgeColor = 'none'</command>
+<command execution_time="72">ax = gca;</command>
+<command execution_time="60">ax.ZLim = [-1, 1];</command>
+<command execution_time="37">ax.ZLim = [-10, 10];</command>
+<command execution_time="48">ax.ZLim = [-100, 100];</command>
+<command execution_time="743">plot3(xx, yy, real(psi));</command>
+<command execution_time="40">ax = gca;</command>
+<command execution_time="15">ax.ZLim = [-100, 100];</command>
+<command execution_time="23">ax.ZLim = [-1000, 1000];</command>
+<command execution_time="467">s= surf(xx, yy, real(psi))</command>
+<command execution_time="248">s.EdgeColor = 'none'</command>
+<command execution_time="17">ax = gca;</command>
+<command execution_time="17">ax.ZLim = [-1000, 1000];</command>
+<command execution_time="83">colorbar</command>
+<command execution_time="24">caxis([-1000, 1000])</command>
+<command execution_time="19">caxis([-100, 100])</command>
+<command execution_time="18">caxis([-10, 10])</command>
+<command execution_time="15">caxis([-100, 100])</command>
+<command execution_time="25">axis off</command>
+<command execution_time="26514">export_fig -m5 -transparent 'interferenz.png'</command>
+<command execution_time="5409">export_fig -m2 -transparent 'interferenz.png'</command>
+<command execution_time="1588">diffraction_particle</command>
+<command execution_time="122">diffraction_1slit</command>
+<command error="true" execution_time="4028" repeat="3">oscC00NE</command>
+<command error="true" execution_time="13152">interference1</command>
+<command execution_time="485">plot3(xx, yy, real(psi));</command>
+<command execution_time="98">surf(xx,yy,real(psi))</command>
+<command execution_time="333">s = surf(xx,yy,real(psi))</command>
+<command execution_time="243">s.EdgeColor = 'none'</command>
+<command execution_time="22">grid off</command>
+<command execution_time="21">axis off</command>
+<command execution_time="75">cd ..</command>
+<command execution_time="924">export_fig -m2 -transparent 'interferenz2.png'</command>
+</session>
+<session>
+<command time_stamp="1859707865c">%-- 09.01.2023 15:55:31 --%</command>
+<command execution_time="54">clc</command>
+<command execution_time="80">cd ..</command>
+<command execution_time="95" repeat="7">test</command>
+</session>
+<session>
+<command time_stamp="1859aaa682e">%-- 10.01.2023 08:52:17 --%</command>
+<command execution_time="2983">oscC00ND</command>
+<command error="true" execution_time="5843">oscC00NDE</command>
+<command error="true" execution_time="3044">oscC00NE</command>
+<command error="true" execution_time="3051">oscC00NE1</command>
+<command error="true" execution_time="3209">oscC001</command>
+<command execution_time="269">oscC001A</command>
+<command error="true" execution_time="3157">oscC002</command>
+<command error="true" execution_time="2793">oscC002A</command>
+<command execution_time="10877">oscCMSHM</command>
+<command execution_time="357">oscC00NB</command>
+<command execution_time="11">fig = gcf;</command>
+<command execution_time="33">fig.Units = 'centimeters'</command>
+<command execution_time="18">fig.PaperUnits = 'centimeters'</command>
+<command error="true" execution_time="278">fig.posi</command>
+<command execution_time="10">fig.Position = [10, 10, 10,7];</command>
+<command execution_time="11">fig.Position = [10, 10, 12,7];</command>
+<command execution_time="21">fig.Position = [10, 10, 14,7];</command>
+<command execution_time="103">cd ..</command>
+<command execution_time="2555">Plot2LaTeX(fig, 'setOfDisplacements')</command>
+<command error="true" execution_time="176">mv</command>
+<command execution_time="15">cd</command>
+<command execution_time="16" repeat="2">test</command>
+<command error="true" execution_time="206">plot(kk, omega1)</command>
+<command execution_time="122">plot(kk, omega_1)</command>
+<command execution_time="33">hold on</command>
+<command execution_time="16">plot(kk, omega_2)</command>
+<command execution_time="131" repeat="14">test</command>
+<command execution_time="26">grid on</command>
+<command execution_time="147">test</command>
+<command execution_time="41">grid on</command>
+<command execution_time="60" repeat="2">ChangeInterpreter(gcf, 'latex')</command>
+<command execution_time="42">fig  =gcf;</command>
+<command execution_time="17">fig.Units = 'centimeters';</command>
+<command execution_time="22">fig.PaperUnits = 'centimeters';</command>
+<command execution_time="23">fig.Position = [10, 10, 8, 7];</command>
+<command execution_time="1702">Plot2LaTeX(fig, 'dispersionDiAtom')</command>
+</session>
+<session>
+<command time_stamp="185a09e8d9c">%-- 11.01.2023 12:37:04 --%</command>
+<command error="true" execution_time="15283">interference1</command>
+<command error="true" execution_time="141">surf(xx, yy, psi)</command>
+<command execution_time="193">surf(xx, yy, real(psi))</command>
+<command execution_time="77">close all</command>
+<command execution_time="386">s = surf(xx,yy,real(psi))</command>
+<command execution_time="224">s.EdgeColor = 'none'</command>
+<command execution_time="9">grid off</command>
+<command execution_time="9">axis off</command>
+<command batch="93" execution_time="1041" repeat="2">interference1</command>
+<command batch="93" execution_time="13159">s = surf(xx,yy,real(psi))</command>
+<command execution_time="225">s.EdgeColor = 'none'</command>
+<command error="true" execution_time="883" repeat="2">interference1</command>
+<command execution_time="13">s.EdgeColor = 'none'</command>
+<command execution_time="319">s = surf(xx,yy,real(psi))</command>
+<command execution_time="218">s.EdgeColor = 'none'</command>
+<command error="true" execution_time="906" repeat="2">interference1</command>
+</session>
+<session>
+<command time_stamp="185a64b56cd">%-- 12.01.2023 15:03:53 --%</command>
+<command error="true" execution_time="13561">interference1</command>
+<command execution_time="174">s = surf(xx,yy,real(psi));</command>
+<command execution_time="260">s.EdgeColor = 'none'</command>
+<command execution_time="22">axis off</command>
+<command execution_time="1078">export_fig -m2 -transparent 'interferenz.png'</command>
+</session>
+<session>
+<command time_stamp="185aa3f7354">%-- 13.01.2023 09:29:23 --%</command>
+<command execution_time="18879" repeat="2">mainHex</command>
+<command execution_time="9">1511-312</command>
+<command execution_time="6">199-1489</command>
+<command batch="94" execution_time="376236" repeat="2">mainHex</command>
+</session>
+<session>
+<command time_stamp="185aa4f8620">%-- 13.01.2023 09:46:57 --%</command>
+<command execution_time="372948" repeat="4">mainHex</command>
+<command execution_time="97867">Plot2LaTeX(gcf, 'ttt')</command>
+<command execution_time="2924003" repeat="3">mainHexParameterStudy</command>
+<command execution_time="39" repeat="4">plotTickDelta(gca, 'x', 20, 10)</command>
+</session>
+<session>
+<command time_stamp="185b0034b7b">%-- 14.01.2023 12:21:24 --%</command>
+<command execution_time="120970">mainHexParameterStudy</command>
+<command error="true" execution_time="52142" repeat="4">mainHex</command>
+<command execution_time="2197297" repeat="2">mainHexParameterStudy</command>
+<command execution_time="12">plotTickDelta(gca, 'x', 20, 10)</command>
+<command execution_time="17" repeat="4">plotTickDelta(gca, 'x', 10, 10)</command>
+<command error="true" execution_time="3044" repeat="2">mainHex</command>
+<command execution_time="2570486">mainHexParameterStudy</command>
+<command execution_time="18" repeat="4">plotTickDelta(gca, 'x', 10, 10)</command>
+<command error="true" execution_time="9772" repeat="2">mainHex</command>
+<command execution_time="3937917">mainHexParameterStudy</command>
+</session>
+<session>
+<command time_stamp="185b99579cc">%-- 16.01.2023 08:57:39 --%</command>
+<command execution_time="8697" repeat="3">mainHex</command>
+<command execution_time="467">open Plot2LaTeX.m</command>
+<command execution_time="1432">Plot2LaTeX(gcf, 'disp_hex_076ff-10a-0c_EpoxySteel')</command>
+<command execution_time="157">open plotDispersion</command>
+<command error="true" execution_time="130">mainHex</command>
+<command execution_time="18">clc</command>
+</session>
+<session>
+<command time_stamp="185ba448e91">%-- 16.01.2023 12:08:53 --%</command>
+<command execution_time="7653" repeat="2">mainHex</command>
+<command execution_time="1912543">mainHexParameterStudy</command>
+<command error="true" execution_time="239">plotTickDelta(gcf, 'x', 20, 10)</command>
+<command execution_time="42" repeat="4">plotTickDelta(gca, 'x', 20, 10)</command>
+<command error="true" execution_time="105">plotGetLineYData('y')</command>
+<command execution_time="21">plotGetLineYData(gca)</command>
+<command execution_time="17">yyy = plotGetLineYData(gca)</command>
+<command execution_time="10">aaa = sum(yyy);</command>
+<command execution_time="11">yyy(yyy==nan) = 0;</command>
+<command execution_time="11">yyy(yyy==NaN) = 0;</command>
+<command error="true" execution_time="158">yyy(yyy==Na) = 0;</command>
+<command execution_time="12">yyy(isnan(yyy)) = 0;</command>
+<command execution_time="30">aaa = sum(yyy);</command>
+<command execution_time="17">[mm, ii] = max(aaa)</command>
+<command execution_time="26">mm/38000</command>
+<command execution_time="23">clc</command>
+<command execution_time="59">yyy = plotGetLineYData(gca)</command>
+<command execution_time="25">yyy(isnan(yyy)) = 0;</command>
+<command execution_time="27">aaa = sum(yyy);</command>
+<command execution_time="27">[m,i] = max(aaa)</command>
+<command execution_time="58">m/37865</command>
+<command execution_time="8499" repeat="2">mainHex</command>
+<command execution_time="170">plotOverlapFigures(1,2)</command>
+<command execution_time="38">plotTickDelta(gca, 'x', 10, 20)</command>
+<command execution_time="33">plotTickDelta(gca, 'x', 20, 10)</command>
+<command execution_time="43">plotOverlapFigures(1, 2)</command>
+<command execution_time="72">plotOverlapFigures(1, 3)</command>
+<command execution_time="27">plotTickDelta(gca, 'x', 20, 10)</command>
+<command execution_time="140">plotOverlapFigures(1, 4)</command>
+<command execution_time="86">plotOverlapFigures(1, 3)</command>
+</session>
+<session>
+<command time_stamp="185bea882ba">%-- 17.01.2023 08:36:33 --%</command>
+<command execution_time="265077" repeat="6">mainHex</command>
+<command execution_time="308">open plotDispersionHex.m</command>
+<command execution_time="134">open plotDispTrans.m</command>
+<command error="true" execution_time="4043">mainHex</command>
+<command execution_time="2812648">mainHexParameterStudy</command>
+</session>
+<session>
+<command time_stamp="185c5177111">%-- 18.01.2023 14:35:26 --%</command>
+<command execution_time="290233" repeat="5">mainHex</command>
+</session>
+<session>
+<command time_stamp="185ca2c05fd">%-- 19.01.2023 14:16:01 --%</command>
+<command execution_time="2645" repeat="3">untitled</command>
+<command execution_time="54">plot(D(:,1), f, 'b-');</command>
+<command execution_time="17">plot(D(:,2), f, 'r-');</command>
+<command error="true" execution_time="68" repeat="2">untitled</command>
+<command execution_time="14">length(k)</command>
+<command execution_time="26">plotTickDelta(gca, 'x', 20, 10)</command>
+<command execution_time="11">ax = gca;</command>
+<command execution_time="16">ax.YLim = [-70, 10];</command>
+<command execution_time="13">ax.YLim = [-70, 20];</command>
+<command execution_time="10">ax.YLim = [-60, 20];</command>
+<command execution_time="406718" repeat="4">mainHex</command>
+<command error="true" execution_time="485">parfor_progress</command>
+<command execution_time="184">open waitbarParfor.m</command>
+<command execution_time="65" repeat="2">plotOverlapFigures(5,6)</command>
+<command execution_time="73">plotOverlapFigures(5,7)</command>
+<command execution_time="303961" repeat="3">mainHex</command>
+</session>
+<session>
+<command time_stamp="185ce1314b9">%-- 20.01.2023 08:27:15 --%</command>
+<command batch="95" execution_time="459281" repeat="2">mainHex</command>
+</session>
+<session>
+<command time_stamp="185ce6ae0ec">%-- 20.01.2023 10:03:09 --%</command>
+<command execution_time="204326" repeat="5">mainHex</command>
+<command execution_time="13059">drawingMesh2D(transNodes, transQuads, 'none', '-', 'k')</command>
+</session>
+<session>
+<command time_stamp="185d471209d">%-- 21.01.2023 14:07:42 --%</command>
+<command execution_time="207703" repeat="4">mainHex</command>
+</session>
+<session>
+<command time_stamp="185d8fe73f6">%-- 22.01.2023 11:20:33 --%</command>
+<command batch="96" execution_time="374338" repeat="13">mainHex</command>
+</session>
+<session>
+<command time_stamp="185d9c5b59a">%-- 22.01.2023 14:58:11 --%</command>
+<command execution_time="474187">mainHex</command>
+</session>
+<session>
+<command time_stamp="185df09b3f7">%-- 23.01.2023 15:30:33 --%</command>
+<command execution_time="14748" repeat="3">mainHex</command>
+<command execution_time="17">ax = gca;</command>
+<command execution_time="15">ax.XLabel.String = 'test1';</command>
+<command execution_time="15">ax.YLabel.String = 'test';</command>
+<command execution_time="4914">Plot2LaTeX(gcf, 'mesh')</command>
+</session>
+<session>
+<command time_stamp="186316ae5de">%-- 08.02.2023 15:25:35 --%</command>
+<command execution_time="371">open startup</command>
+<command execution_time="213">cd ..</command>
+<command execution_time="64">cd ~</command>
+<command execution_time="66">cd Documents/MATLAB/</command>
+<command error="true" execution_time="238">la</command>
+<command execution_time="389">ls</command>
+<command execution_time="81">cd ..</command>
+<command execution_time="152">cd GitHub/Doing-Physics-With-Matlab/</command>
+<command error="true" execution_time="15028" repeat="5">p001</command>
+<command execution_time="121">open interference</command>
+<command execution_time="34343">interference</command>
+<command error="true" execution_time="889" repeat="2">interference1</command>
+<command execution_time="33144">interference</command>
+<command execution_time="395">plot3(xx, yy, real(psi))</command>
+<command execution_time="8">grid off</command>
+<command execution_time="177">surf(xx, yy, real(psi))</command>
+<command execution_time="38">s = surf(xx, yy, real(psi));</command>
+<command execution_time="5">s.EdgeColor = 'none';</command>
+<command execution_time="25">pcolor(xx,yy,real(psi));</command>
+<command error="true" execution_time="11305">interference1</command>
+<command execution_time="101">open pcolor</command>
+<command execution_time="63">createfigure1(xx,yy,real(psi));</command>
+<command error="true" execution_time="194">open pcolor3</command>
+<command execution_time="11935">interference1</command>
+<command execution_time="39">surf(xx, yy, real(psi));</command>
+<command execution_time="9">shading interp;</command>
+<command execution_time="9">caxis([-100, +100]);</command>
+<command execution_time="11">axis equal;</command>
+<command execution_time="11202" repeat="2">interference1</command>
+<command execution_time="7">view(gca,[51.9753425796619 80.9946904064156]);</command>
+<command execution_time="11822" repeat="5">interference1</command>
+<command error="true" execution_time="21941">oscC00NA</command>
+<command execution_time="275">oscC00N</command>
+<command execution_time="359">oscC00NB</command>
+<command execution_time="3248">oscC00NC</command>
+<command execution_time="9058">oscC00NCA</command>
+<command execution_time="884">oscC00ND</command>
+<command error="true" execution_time="18609">oscC00NDE</command>
+<command error="true" execution_time="8801">oscC00NE</command>
+<command error="true" execution_time="3511">oscC00NE1</command>
+<command error="true" execution_time="8693">oscC001</command>
+<command execution_time="275">oscC001A</command>
+<command error="true" execution_time="3072">oscC002</command>
+<command error="true" execution_time="2450">oscC002A</command>
+<command error="true" execution_time="8524">oscCMSHM</command>
+<command error="true" execution_time="12808">p001</command>
+<command error="true" execution_time="7199">p001D</command>
+<command error="true" execution_time="2493">p002</command>
+<command error="true" execution_time="6108">p002A</command>
+<command execution_time="27112">p001</command>
+<command error="true" execution_time="3470" repeat="3">p001D</command>
+</session>
 </history>

@@ -66,7 +66,7 @@ clear dt prompt dlgtitle dims definput answer</callback>
    <tool id="2f89edf7-cbaa-48c9-8a84-9879dc31a93f" label="save figure" toolset_id="user_favorite_commands_toolset">
       <callback>% save *.png of current figure
 dt = datestr(now,'yyyy-mm-dd_HHMMSS');
-export_fig([dt, '.png'], '-nocrop')
+export_fig([dt, '.png'], '-nocrop', '-transparent')
 clear dt</callback>
       <icon name="favorite_command_F"/>
       <parent_tool id="default_category" toolset_id="favorite_commands_toolset"/>
@@ -85,7 +85,8 @@ dbclear all
    </tool>
    <tool id="fa382569-f9b5-4125-9e69-d91807e550d6" label="FontSize" toolset_id="user_favorite_commands_toolset">
       <callback>% set all fonts to size 11
-set(findall(gcf,'type','axes'),'fontSize', 11)</callback>
+set(findall(gcf,'type','axes'),'fontSize', 11)
+set(findall(gcf,'type','text'),'fontSize', 11)</callback>
       <icon name="favorite_command_S"/>
       <parent_tool id="default_category" toolset_id="favorite_commands_toolset"/>
    </tool>
