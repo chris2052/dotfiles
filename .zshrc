@@ -83,8 +83,7 @@ export VISUAL=/usr/bin/nvim
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting vi-mode)
 
-# autosuggestions keybinding
-bindkey ';' autosuggest-accept
+# **bindkeys** are at the end of the file!
 
 source $ZSH/oh-my-zsh.sh
 
@@ -178,5 +177,9 @@ else
         export PATH="$PATH:/home/chris/miniconda3/bin"
     fi
 fi
+
 unset __conda_setup
 # <<< conda initialize <<<
+
+# autosuggestions keybinding
+bindkey ';' autosuggest-accept
