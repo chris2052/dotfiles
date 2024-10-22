@@ -71,6 +71,9 @@ nnoremap K 5gk
 nnoremap L $
 nnoremap H ^
 
+vnoremap J 5gh
+vnoremap K 5gk
+
 nnoremap <leader>j J
 nnoremap <leader>k K
 
