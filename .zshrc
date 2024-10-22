@@ -5,6 +5,8 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+eval "$(zoxide init zsh)"
+
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -81,20 +83,17 @@ export VISUAL=/usr/bin/nvim
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting vi-mode)
+plugins=(git
+    zsh-autosuggestions
+    zsh-syntax-highlighting
+    vi-mode
+)
 
 # **bindkeys** are at the end of the file!
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-
-# https://johnnydecimal.com
-cjdfunction() {
-	pushd ~/sciebo/*/*/${1}* # ~/Dropbox is my root folder, change to suit yours.
-}
-
-export cjdfunction
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -121,36 +120,16 @@ export cjdfunction
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # exa instead of classic ls command
-alias la='exa -al --color=always --group-directories-first --icons'
-alias ls='exa'
-alias ll='exa -lagh@ --all --icons --git --color=always --group-directories-first'
+alias la='eza -al --color=always --group-directories-first --icons'
+alias ls='eza'
+alias ll='eza -lagh@ --all --icons --git --color=always --group-directories-first'
 
-# jonny-decimal
-alias cjd='cjdfunction' # Or any other alias you prefer.
-
-# neovim instead of vim 
 alias vim='nvim'
-
-# launch ranger
 alias rr='ranger'
 
-# git bare repo to store dotfiles
-alias dotfiles='/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME'
-alias dots='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
-
-# git shortcuts (c) Derek Tyler, DT
-alias addup='git add -u'
-alias addall='git add .'
-alias branch='git branch'
-alias checkout='git checkout'
-alias clone='git clone'
-alias commit='git commit -m'
-alias fetch='git fetch'
-alias pull='git pull origin'
-alias push='git push origin'
-alias stat='git status'  # 'status' is protected name so using 'stat' instead
-alias tag='git tag'
-alias newtag='git tag -a'
+# yt-dlp
+alias yt-hd='yt-dlp -f "best[height=720]/bestvideo[height=720][vcodec=h264]+bestaudio"'
+alias yt-fhd='yt-dlp -f "best[height=1080]/bestvideo[height=1080]+bestaudio"'
 
 # inkscape to LaTeX
 alias inktex='inkscape --export-area-page --export-type="pdf" --export-latex'
@@ -160,26 +139,22 @@ alias iinktex='inkscape --export-area-drawing --export-type="pdf" --export-latex
 # alias uniup='nmcli connection up uni'
 # alias unidown='nmcli connection down uni'
 
+#get fastest mirrors in your neighborhood
+alias mirror="sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist"
+alias mirrord="sudo reflector --latest 30 --number 10 --sort delay --save /etc/pacman.d/mirrorlist"
+alias mirrors="sudo reflector --latest 30 --number 10 --sort score --save /etc/pacman.d/mirrorlist"
+alias mirrora="sudo reflector --latest 30 --number 10 --sort age --save /etc/pacman.d/mirrorlist"
+#our experimental - best option for the moment
+alias mirrorx="sudo reflector --age 6 --latest 20  --fastest 20 --threads 5 --sort rate --protocol https --save /etc/pacman.d/mirrorlist"
+alias mirrorxx="sudo reflector --age 6 --latest 20  --fastest 20 --threads 20 --sort rate --protocol https --save /etc/pacman.d/mirrorlist"
+alias ram='rate-mirrors --allow-root --disable-comments arch | sudo tee /etc/pacman.d/mirrorlist'
+alias rams='rate-mirrors --allow-root --disable-comments --protocol https arch  | sudo tee /etc/pacman.d/mirrorlist'
+
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-neofetch #--kitty --source ~/Pictures/dt-wallpapers --image_size 300px
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/chris/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/chris/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/chris/miniconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="$PATH:/home/chris/miniconda3/bin"
-    fi
-fi
-
-unset __conda_setup
-# <<< conda initialize <<<
+neofetch
 
 # autosuggestions keybinding
 bindkey ';' autosuggest-accept
