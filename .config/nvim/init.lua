@@ -106,6 +106,9 @@ local plugins = {
 
 local opts = {}
 
+-- Setup lazy.nvim
+require("lazy").setup(plugins, opts)
+
 -- Telescope
 local builtin = require('telescope.builtin')
 vim.keymap.set('n', '<leader>ff', builtin.find_files, { desc = 'Telescope find files' })
@@ -114,16 +117,13 @@ vim.keymap.set('n', '<leader>fg', builtin.live_grep, { desc = 'Telescope live gr
 -- Tree-sitter
 local config = require("nvim-treesitter.configs")
 config.setup({ 
-    ensure_installed = {"lua", "javascript", "python", "latex"},
+    ensure_installed = {"lua", "javascript", "python"},
     highlight = { enable = true }, 
     indent = { enable = true }, 
 })
 
 -- neo-tree
 vim.keymap.set('n', '<C-n>', ':Neotree filesystem toggle left<CR>')
-
--- Setup lazy.nvim
-require("lazy").setup(plugins, opts)
 
 -- Colorscheme with default options
 require("gruvbox").setup()
