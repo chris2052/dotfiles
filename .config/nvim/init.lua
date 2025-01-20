@@ -39,7 +39,7 @@ vim.opt.termguicolors = true
 vim.opt.scrolloff = 8
 vim.opt.showmode = false
 vim.opt.completeopt = { "menuone", "noinsert", "noselect" }
-vim.opt.colorcolumn = "100"
+vim.opt.colorcolumn = "90"
 vim.opt.signcolumn = "yes"
 vim.opt.cmdheight = 2
 vim.opt.updatetime = 50
@@ -126,5 +126,10 @@ config.setup({
 vim.keymap.set('n', '<C-n>', ':Neotree filesystem toggle left<CR>')
 
 -- Colorscheme with default options
-require("gruvbox").setup()
+require("gruvbox").setup({
+    italic = {
+        strings = false,
+    },
+})
+
 vim.cmd("colorscheme gruvbox")
